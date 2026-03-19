@@ -64,13 +64,10 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 10px;
-      overflow-x: auto;
-      cursor: grab;
-      -webkit-overflow-scrolling: touch;
+      overflow-x: hidden;
     }
 
     .tree-wrap {
-      min-width: 700px;
       text-align: center;
     }
 
@@ -99,6 +96,29 @@
     .back-link {
       display: inline-block;
       margin-top: 24px;
+    }
+
+    /* ✅ MOBILE OPTIMIZATION */
+    @media (max-width: 600px) {
+
+      .tree-row {
+        gap: 16px;
+      }
+
+      .tree-box {
+        min-width: auto;
+        padding: 10px 12px;
+        font-size: 14px;
+      }
+
+      .tree-line {
+        font-size: 20px;
+      }
+
+      .tree {
+        padding: 12px;
+      }
+
     }
   </style>
 </head>
@@ -130,7 +150,7 @@
 
   <h2>Genetic Tree</h2>
 
-  <div class="tree" id="genetic-tree">
+  <div class="tree">
     <div class="tree-wrap">
 
       <div class="tree-row">
@@ -204,26 +224,6 @@
   </div>
 
   <a class="back-link" href="../../">← Back to homepage</a>
-
-  <script>
-    function centerGeneticTree() {
-      const tree = document.getElementById("genetic-tree");
-      if (!tree) return;
-
-      const maxScroll = tree.scrollWidth - tree.clientWidth;
-      if (maxScroll > 0) {
-        tree.scrollLeft = maxScroll / 2;
-      }
-    }
-
-    window.addEventListener("load", function () {
-      centerGeneticTree();
-      setTimeout(centerGeneticTree, 100);
-      setTimeout(centerGeneticTree, 500);
-    });
-
-    window.addEventListener("resize", centerGeneticTree);
-  </script>
 
 </body>
 </html>
