@@ -65,6 +65,7 @@
       border: 1px solid #ccc;
       border-radius: 10px;
       overflow-x: auto;
+      cursor: grab;
     }
 
     .tree-wrap {
@@ -105,7 +106,7 @@
 
   <h1>Rosella x Orange Hat (F2)</h1>
 
-  <!-- Grow section (easy for all users) -->
+  <!-- Grow section -->
   <div class="banner">
     <strong>Growing a Jakemato?</strong><br>
 
@@ -134,13 +135,13 @@
 
       <div class="tree-row">
         <div class="tree-box">
-          <a href="https://www.rareseeds.com/tomato-rosella?srsltid=AfmBOoq-7LHvrHJBCbmOHmD6ZqTzMiRS0USSvkksC59OwuJuzrLQ65ID" target="_blank">
+          <a href="https://www.rareseeds.com/tomato-rosella" target="_blank">
             Rosella Cherry
           </a>
         </div>
 
         <div class="tree-box">
-          <a href="https://www.rareseeds.com/tomato-orange-hat?srsltid=AfmBOor81QKpkL1bHm-5Nd1EyOVpkxqjQntVK99f1XCEBVjTEhT8mDJt" target="_blank">
+          <a href="https://www.rareseeds.com/tomato-orange-hat" target="_blank">
             Orange Hat
           </a>
         </div>
@@ -183,7 +184,7 @@
       <h3>Rosella Cherry</h3>
       <p>One of the two parent tomatoes used in this cross.</p>
       <p>
-        <a href="https://www.rareseeds.com/tomato-rosella?srsltid=AfmBOoq-7LHvrHJBCbmOHmD6ZqTzMiRS0USSvkksC59OwuJuzrLQ65ID" target="_blank">
+        <a href="https://www.rareseeds.com/tomato-rosella" target="_blank">
           View Rosella Cherry parent page
         </a>
       </p>
@@ -194,7 +195,7 @@
       <h3>Orange Hat</h3>
       <p>One of the two parent tomatoes used in this cross.</p>
       <p>
-        <a href="https://www.rareseeds.com/tomato-orange-hat?srsltid=AfmBOor81QKpkL1bHm-5Nd1EyOVpkxqjQntVK99f1XCEBVjTEhT8mDJt" target="_blank">
+        <a href="https://www.rareseeds.com/tomato-orange-hat" target="_blank">
           View Orange Hat parent page
         </a>
       </p>
@@ -203,6 +204,16 @@
   </div>
 
   <a class="back-link" href="../../">← Back to homepage</a>
+
+  <!-- ✅ AUTO-CENTER SCRIPT -->
+  <script>
+    window.addEventListener("load", function () {
+      const tree = document.querySelector(".tree");
+      if (tree) {
+        tree.scrollLeft = (tree.scrollWidth - tree.clientWidth) / 2;
+      }
+    });
+  </script>
 
 </body>
 </html>
