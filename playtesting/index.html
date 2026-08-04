@@ -8,17 +8,18 @@
 
   <style>
     :root {
-      --bg: #f7f7f3;
-      --ink: #111111;
-      --muted: #666666;
-      --line: #d8d8d2;
+      --bg: #f2f3f4;
+      --ink: #17191c;
+      --muted: #61656b;
+      --line: #cfd2d6;
       --card: #ffffff;
-      --site-accent: #4f7c5b;
-      --form-accent: #d97706;
-      --form-accent-dark: #92400e;
-      --response: #fff7d6;
-      --success: #e7f4ea;
-      --error: #fff0f0;
+      --site-accent: #8f3037;
+      --form-accent: #a9363d;
+      --form-accent-dark: #762329;
+      --section-dark: #3f444c;
+      --response: #f1f2f4;
+      --success: #e8f1eb;
+      --error: #faeeee;
     }
 
     * { box-sizing: border-box; }
@@ -56,7 +57,7 @@
 
     header {
       padding: 32px;
-      background: #1f2937;
+      background: #343840;
       color: #ffffff;
       border-radius: 18px;
       box-shadow: 0 10px 30px rgba(17, 24, 39, 0.09);
@@ -64,7 +65,7 @@
 
     .eyebrow {
       margin: 0 0 10px;
-      color: #fbbf24;
+      color: #d9dde2;
       font-size: 0.83rem;
       font-weight: 700;
       letter-spacing: 0.14em;
@@ -106,12 +107,12 @@
     }
 
     .button-primary {
-      background: #f59e0b;
-      color: #111111;
+      background: var(--form-accent);
+      color: #ffffff;
     }
 
     .button-primary:hover,
-    .button-primary:focus { background: #fbbf24; }
+    .button-primary:focus { background: var(--form-accent-dark); }
 
     .button-secondary {
       background: transparent;
@@ -126,8 +127,8 @@
       margin: 22px 0;
       padding: 16px 18px;
       color: #374151;
-      background: #e5e7eb;
-      border: 1px solid #d1d5db;
+      background: #e6e8eb;
+      border: 1px solid #cfd2d6;
       border-radius: 12px;
     }
 
@@ -158,7 +159,7 @@
     .progress-track {
       height: 8px;
       overflow: hidden;
-      background: #e5e7eb;
+      background: #d8dbe0;
       border-radius: 999px;
     }
 
@@ -188,8 +189,8 @@
       margin: 0;
       padding: 12px 18px;
       color: #ffffff;
-      background: var(--form-accent);
-      border-bottom: 1px solid var(--form-accent-dark);
+      background: var(--section-dark);
+      border-bottom: 3px solid var(--form-accent);
       font-weight: 700;
       font-size: 1.05rem;
     }
@@ -220,7 +221,7 @@
     input[type="date"],
     textarea {
       width: 100%;
-      border: 1px solid #c8c8c2;
+      border: 1px solid #c4c8cd;
       border-radius: 9px;
       background: #ffffff;
       color: var(--ink);
@@ -245,7 +246,7 @@
     input:focus,
     textarea:focus {
       border-color: var(--form-accent);
-      box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.16);
+      box-shadow: 0 0 0 3px rgba(169, 54, 61, 0.16);
     }
 
     .question-row {
@@ -275,7 +276,7 @@
       height: 27px;
       margin-top: -2px;
       color: #ffffff;
-      background: #374151;
+      background: #5a6069;
       border-radius: 999px;
       font-size: 0.78rem;
     }
