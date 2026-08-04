@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOOMDELVE Playtesting | Jakemato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Play DOOMDELVE and submit structured playtest feedback directly to the developer.">
+
+  <style>
+    :root {
+      --bg: #f7f7f3;
+      --ink: #111111;
+      --muted: #666666;
+      --line: #d8d8d2;
+      --card: #ffffff;
+      --site-accent: #4f7c5b;
+      --form-accent: #d97706;
+      --form-accent-dark: #92400e;
+      --response: #fff7d6;
+      --success: #e7f4ea;
+      --error: #fff0f0;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    button,
+    input,
+    textarea { font: inherit; }
+
+    .shell {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 36px 22px 64px;
+    }
+
+    .top-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      color: var(--site-accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .top-link:hover,
+    .top-link:focus { text-decoration: underline; }
+
+    header {
+      padding: 32px;
+      background: #1f2937;
+      color: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(17, 24, 39, 0.09);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #fbbf24;
+      font-size: 0.83rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 4.8rem);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: #e5e7eb;
+      font-size: 1.05rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 11px 18px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .button-primary {
+      background: #f59e0b;
+      color: #111111;
+    }
+
+    .button-primary:hover,
+    .button-primary:focus { background: #fbbf24; }
+
+    .button-secondary {
+      background: transparent;
+      color: #ffffff;
+      border-color: #9ca3af;
+    }
+
+    .button-secondary:hover,
+    .button-secondary:focus { border-color: #ffffff; }
+
+    .notice {
+      margin: 22px 0;
+      padding: 16px 18px;
+      color: #374151;
+      background: #e5e7eb;
+      border: 1px solid #d1d5db;
+      border-radius: 12px;
+    }
+
+    .notice p { margin: 0; }
+
+    .progress-panel {
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+      margin: 22px 0;
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(17, 24, 39, 0.07);
+      backdrop-filter: blur(8px);
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .progress-track {
+      height: 8px;
+      overflow: hidden;
+      background: #e5e7eb;
+      border-radius: 999px;
+    }
+
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background: var(--form-accent);
+      border-radius: inherit;
+      transition: width 160ms ease;
+    }
+
+    form { margin-top: 24px; }
+
+    fieldset {
+      min-width: 0;
+      margin: 0 0 22px;
+      padding: 0;
+      overflow: hidden;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    legend {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 12px 18px;
+      color: #ffffff;
+      background: var(--form-accent);
+      border-bottom: 1px solid var(--form-accent-dark);
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    legend + * { clear: both; }
+
+    .identity-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 18px;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+
+    .field small {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea {
+      width: 100%;
+      border: 1px solid #c8c8c2;
+      border-radius: 9px;
+      background: #ffffff;
+      color: var(--ink);
+      outline: none;
+      transition: border-color 120ms ease, box-shadow 120ms ease;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+      min-height: 44px;
+      padding: 9px 11px;
+    }
+
+    textarea {
+      min-height: 74px;
+      padding: 10px 12px;
+      resize: vertical;
+      background: var(--response);
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: var(--form-accent);
+      box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.16);
+    }
+
+    .question-row {
+      display: grid;
+      grid-template-columns: minmax(240px, 0.9fr) minmax(320px, 1.1fr);
+      gap: 16px;
+      align-items: start;
+      padding: 15px 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .question-row:first-of-type { border-top: 0; }
+
+    .question-row > label {
+      display: flex;
+      gap: 10px;
+      padding-top: 8px;
+      font-weight: 700;
+    }
+
+    .question-number {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 27px;
+      height: 27px;
+      margin-top: -2px;
+      color: #ffffff;
+      background: #374151;
+      border-radius: 999px;
+      font-size: 0.78rem;
+    }
+
+    .submit-panel {
+      padding: 22px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    .submit-panel p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    .submit-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .submit-button {
+      border: 0;
+      background: var(--form-accent);
+      color: #ffffff;
+    }
+
+    .submit-button:hover,
+    .submit-button:focus { background: var(--form-accent-dark); }
+
+    .submit-button:disabled {
+      opacity: 0.65;
+      cursor: wait;
+    }
+
+    .clear-button {
+      color: var(--ink);
+      background: #ffffff;
+      border-color: var(--line);
+    }
+
+    .clear-button:hover,
+    .clear-button:focus { border-color: var(--ink); }
+
+    .status {
+      margin-top: 16px;
+      padding: 13px 15px;
+      border-radius: 10px;
+    }
+
+    .status:empty { display: none; }
+    .status.error { color: #991b1b; background: var(--error); border: 1px solid #fecaca; }
+    .status.info { color: #374151; background: #f3f4f6; border: 1px solid #d1d5db; }
+
+    .success-card {
+      margin-top: 24px;
+      padding: 28px;
+      background: var(--success);
+      border: 1px solid #a7d7b0;
+      border-radius: 14px;
+    }
+
+    .success-card h2 { margin: 0 0 8px; }
+    .success-card p { margin: 0 0 18px; }
+
+    .honeypot {
+      position: absolute !important;
+      left: -10000px !important;
+      width: 1px !important;
+      height: 1px !important;
+      overflow: hidden !important;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 22px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 760px) {
+      .shell { padding: 24px 14px 48px; }
+      header { padding: 24px 20px; }
+      .identity-grid { grid-template-columns: 1fr; }
+      .question-row { grid-template-columns: 1fr; gap: 8px; }
+      .question-row > label { padding-top: 0; }
+      textarea { min-height: 92px; }
+      .progress-panel { top: 6px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <a class="top-link" href="/">← Back to Jakemato</a>
+
+    <header>
+      <p class="eyebrow">Jakemato playtesting</p>
+      <h1>DOOMDELVE</h1>
+      <p class="intro">
+        Play a run, then use this questionnaire to tell me what worked, what was confusing, and what should change first. Honest criticism is useful.
+      </p>
+      <div class="actions">
+        <a class="button button-primary" href="https://jbullon.itch.io/doomdelve" target="_blank" rel="noopener noreferrer">Play DOOMDELVE on itch.io</a>
+        <a class="button button-secondary" href="#feedback-form">Jump to questionnaire</a>
+      </div>
+    </header>
+
+    <div class="notice">
+      <p><strong>Before submitting:</strong> Please play at least one run. Your name and email are optional, and your answers are saved only in this browser until you submit or clear the draft.</p>
+    </div>
+
+    <div class="progress-panel" aria-label="Questionnaire progress">
+      <div class="progress-label">
+        <span>Questionnaire progress</span>
+        <strong id="progress-text">0 of 47 answered</strong>
+      </div>
+      <div class="progress-track" aria-hidden="true">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+    </div>
+
+    <form id="feedback-form" action="https://formspree.io/f/xyegggja" method="POST">
+      <input type="hidden" name="_subject" value="New DOOMDELVE playtest response">
+      <input type="hidden" name="Form" value="DOOMDELVE Playtesting">
+      <input type="hidden" id="submitted-at" name="Submitted at">
+      <input type="hidden" name="Submission page" value="https://jakemato.com/playtesting/">
+
+      <div class="honeypot" aria-hidden="true">
+        <label for="website">Leave this field empty</label>
+        <input id="website" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+      </div>
+
+      <fieldset>
+        <legend>About this playtest</legend>
+        <div class="identity-grid">
+          <div class="field">
+            <label for="tester-name">Name or alias <span aria-hidden="true">(optional)</span></label>
+            <input id="tester-name" type="text" name="Tester name or alias" autocomplete="name">
+          </div>
+
+          <div class="field">
+            <label for="tester-email">Email <span aria-hidden="true">(optional)</span></label>
+            <input id="tester-email" type="email" name="email" autocomplete="email">
+            <small>Only needed if you are comfortable with a follow-up question.</small>
+          </div>
+
+          <div class="field">
+            <label for="played-date">Date played</label>
+            <input id="played-date" type="date" name="Date played">
+          </div>
+
+          <div class="field">
+            <label for="environment">Browser / device <span aria-hidden="true">(optional)</span></label>
+            <input id="environment" type="text" name="Browser or device" placeholder="Example: Chrome on Windows 11">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset id="first-impression">
+        <legend>First impression</legend>
+          <div class="question-row">
+            <label for="q01"><span class="question-number">1</span>What did you think the goal of the game was within the first minute?</label>
+            <textarea class="response-field" id="q01" name="01. First impression — What did you think the goal of the game was within the first minute?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q02"><span class="question-number">2</span>Did the hub make sense as a starting area?</label>
+            <textarea class="response-field" id="q02" name="02. First impression — Did the hub make sense as a starting area?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q03"><span class="question-number">3</span>Did you understand that time is both health/pressure and currency?</label>
+            <textarea class="response-field" id="q03" name="03. First impression — Did you understand that time is both health/pressure and currency?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q04"><span class="question-number">4</span>Was anything immediately confusing before entering the dungeon?</label>
+            <textarea class="response-field" id="q04" name="04. First impression — Was anything immediately confusing before entering the dungeon?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="controls--interaction">
+        <legend>Controls / interaction</legend>
+          <div class="question-row">
+            <label for="q05"><span class="question-number">5</span>Did the weapon selection on pedestals make sense?</label>
+            <textarea class="response-field" id="q05" name="05. Controls / interaction — Did the weapon selection on pedestals make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q06"><span class="question-number">6</span>Did you notice the “Press E” prompts when expected?</label>
+            <textarea class="response-field" id="q06" name="06. Controls / interaction — Did you notice the “Press E” prompts when expected?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q07"><span class="question-number">7</span>Were there moments where you tried to interact with something and nothing happened?</label>
+            <textarea class="response-field" id="q07" name="07. Controls / interaction — Were there moments where you tried to interact with something and nothing happened?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q08"><span class="question-number">8</span>Did the toolbar make sense?</label>
+            <textarea class="response-field" id="q08" name="08. Controls / interaction — Did the toolbar make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q09"><span class="question-number">9</span>Were fish, mushrooms, and potions understandable as usable items?</label>
+            <textarea class="response-field" id="q09" name="09. Controls / interaction — Were fish, mushrooms, and potions understandable as usable items?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="combat">
+        <legend>Combat</legend>
+          <div class="question-row">
+            <label for="q10"><span class="question-number">10</span>Which starter weapon did you pick, and why?</label>
+            <textarea class="response-field" id="q10" name="10. Combat — Which starter weapon did you pick, and why?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q11"><span class="question-number">11</span>Did that weapon feel good?</label>
+            <textarea class="response-field" id="q11" name="11. Combat — Did that weapon feel good?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q12"><span class="question-number">12</span>Did enemies feel too easy, too hard, or about right?</label>
+            <textarea class="response-field" id="q12" name="12. Combat — Did enemies feel too easy, too hard, or about right?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q13"><span class="question-number">13</span>Were damage numbers helpful?</label>
+            <textarea class="response-field" id="q13" name="13. Combat — Were damage numbers helpful?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q14"><span class="question-number">14</span>Did the hammer charge make sense?</label>
+            <textarea class="response-field" id="q14" name="14. Combat — Did the hammer charge make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q15"><span class="question-number">15</span>Did throwing knives feel fair/useful?</label>
+            <textarea class="response-field" id="q15" name="15. Combat — Did throwing knives feel fair/useful?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q16"><span class="question-number">16</span>Did any weapon feel clearly worse than the others?</label>
+            <textarea class="response-field" id="q16" name="16. Combat — Did any weapon feel clearly worse than the others?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="dungeon-pacing">
+        <legend>Dungeon pacing</legend>
+          <div class="question-row">
+            <label for="q17"><span class="question-number">17</span>Did the countdown create pressure in a good way, or did it feel annoying?</label>
+            <textarea class="response-field" id="q17" name="17. Dungeon pacing — Did the countdown create pressure in a good way, or did it feel annoying?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q18"><span class="question-number">18</span>Did you understand how to gain time?</label>
+            <textarea class="response-field" id="q18" name="18. Dungeon pacing — Did you understand how to gain time?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q19"><span class="question-number">19</span>Did shop prices feel fair?</label>
+            <textarea class="response-field" id="q19" name="19. Dungeon pacing — Did shop prices feel fair?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q20"><span class="question-number">20</span>Did you ever feel lost about what to do next?</label>
+            <textarea class="response-field" id="q20" name="20. Dungeon pacing — Did you ever feel lost about what to do next?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q21"><span class="question-number">21</span>Were rooms too repetitive, too short, too long, or fine?</label>
+            <textarea class="response-field" id="q21" name="21. Dungeon pacing — Were rooms too repetitive, too short, too long, or fine?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="shop--crafting">
+        <legend>Shop / crafting</legend>
+          <div class="question-row">
+            <label for="q22"><span class="question-number">22</span>Did the shopkeeper make sense?</label>
+            <textarea class="response-field" id="q22" name="22. Shop / crafting — Did the shopkeeper make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q23"><span class="question-number">23</span>Did buying items feel useful?</label>
+            <textarea class="response-field" id="q23" name="23. Shop / crafting — Did buying items feel useful?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q24"><span class="question-number">24</span>Did you understand what armor did?</label>
+            <textarea class="response-field" id="q24" name="24. Shop / crafting — Did you understand what armor did?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q25"><span class="question-number">25</span>Did the crafting stations make sense?</label>
+            <textarea class="response-field" id="q25" name="25. Shop / crafting — Did the crafting stations make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q26"><span class="question-number">26</span>Did the Potion Station recipe make sense?</label>
+            <textarea class="response-field" id="q26" name="26. Shop / crafting — Did the Potion Station recipe make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q27"><span class="question-number">27</span>Did any item seem useless or confusing?</label>
+            <textarea class="response-field" id="q27" name="27. Shop / crafting — Did any item seem useless or confusing?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="yellow-potion">
+        <legend>Yellow potion</legend>
+          <div class="question-row">
+            <label for="q28"><span class="question-number">28</span>Did the random potion effects feel fun, confusing, or unfair?</label>
+            <textarea class="response-field" id="q28" name="28. Yellow potion — Did the random potion effects feel fun, confusing, or unfair?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q29"><span class="question-number">29</span>Were the potion effect messages readable?</label>
+            <textarea class="response-field" id="q29" name="29. Yellow potion — Were the potion effect messages readable?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q30"><span class="question-number">30</span>Was the bad potion effect funny, frustrating, or both?</label>
+            <textarea class="response-field" id="q30" name="30. Yellow potion — Was the bad potion effect funny, frustrating, or both?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q31"><span class="question-number">31</span>Would you use yellow potions again?</label>
+            <textarea class="response-field" id="q31" name="31. Yellow potion — Would you use yellow potions again?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="boss--special-content">
+        <legend>Boss / special content</legend>
+          <div class="question-row">
+            <label for="q32"><span class="question-number">32</span>Did King Rat’s protection make sense?</label>
+            <textarea class="response-field" id="q32" name="32. Boss / special content — Did King Rat’s protection make sense?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q33"><span class="question-number">33</span>Was Gary readable as a boss?</label>
+            <textarea class="response-field" id="q33" name="33. Boss / special content — Was Gary readable as a boss?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q34"><span class="question-number">34</span>Were Gary’s attacks understandable?</label>
+            <textarea class="response-field" id="q34" name="34. Boss / special content — Were Gary’s attacks understandable?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q35"><span class="question-number">35</span>Did the bats feel fair?</label>
+            <textarea class="response-field" id="q35" name="35. Boss / special content — Did the bats feel fair?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q36"><span class="question-number">36</span>Did the Room of Disappointment feel funny, annoying, or worth including?</label>
+            <textarea class="response-field" id="q36" name="36. Boss / special content — Did the Room of Disappointment feel funny, annoying, or worth including?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="bugs--friction">
+        <legend>Bugs / friction</legend>
+          <div class="question-row">
+            <label for="q37"><span class="question-number">37</span>Did anything break?</label>
+            <textarea class="response-field" id="q37" name="37. Bugs / friction — Did anything break?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q38"><span class="question-number">38</span>Did you get stuck anywhere?</label>
+            <textarea class="response-field" id="q38" name="38. Bugs / friction — Did you get stuck anywhere?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q39"><span class="question-number">39</span>Did any UI remain on screen when it should have disappeared?</label>
+            <textarea class="response-field" id="q39" name="39. Bugs / friction — Did any UI remain on screen when it should have disappeared?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q40"><span class="question-number">40</span>Did any enemies hit you when it felt unfair?</label>
+            <textarea class="response-field" id="q40" name="40. Bugs / friction — Did any enemies hit you when it felt unfair?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q41"><span class="question-number">41</span>Did any weapon/item fail to work?</label>
+            <textarea class="response-field" id="q41" name="41. Bugs / friction — Did any weapon/item fail to work?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q42"><span class="question-number">42</span>Did performance feel okay in browser?</label>
+            <textarea class="response-field" id="q42" name="42. Bugs / friction — Did performance feel okay in browser?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <fieldset id="final-reaction">
+        <legend>Final reaction</legend>
+          <div class="question-row">
+            <label for="q43"><span class="question-number">43</span>What was the most fun part?</label>
+            <textarea class="response-field" id="q43" name="43. Final reaction — What was the most fun part?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q44"><span class="question-number">44</span>What was the most confusing part?</label>
+            <textarea class="response-field" id="q44" name="44. Final reaction — What was the most confusing part?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q45"><span class="question-number">45</span>What is the one thing you would fix first?</label>
+            <textarea class="response-field" id="q45" name="45. Final reaction — What is the one thing you would fix first?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q46"><span class="question-number">46</span>Would you play another run?</label>
+            <textarea class="response-field" id="q46" name="46. Final reaction — Would you play another run?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+          <div class="question-row">
+            <label for="q47"><span class="question-number">47</span>Did it feel like a real game, a prototype, or somewhere in between?</label>
+            <textarea class="response-field" id="q47" name="47. Final reaction — Did it feel like a real game, a prototype, or somewhere in between?" rows="2" placeholder="Your answer"></textarea>
+          </div>
+      </fieldset>
+
+      <div class="submit-panel">
+        <p>You do not have to write an essay for every question. Brief, blunt answers are welcome.</p>
+        <div class="submit-actions">
+          <button class="button submit-button" id="submit-button" type="submit">Submit playtest feedback</button>
+          <button class="button clear-button" id="clear-draft" type="button">Clear saved draft</button>
+        </div>
+        <div class="status" id="form-status" role="status" aria-live="polite"></div>
+      </div>
+    </form>
+
+    <section class="success-card" id="success-card" hidden tabindex="-1">
+      <h2>Feedback sent. Thank you.</h2>
+      <p>Your response has been delivered through Formspree and the saved browser draft has been cleared.</p>
+      <div class="submit-actions">
+        <a class="button button-primary" href="https://jbullon.itch.io/doomdelve" target="_blank" rel="noopener noreferrer">Play another run</a>
+        <a class="button clear-button" href="/">Return to Jakemato</a>
+      </div>
+    </section>
+
+    <footer>jakemato.com</footer>
+  </main>
+
+  <script>
+    (() => {
+      const form = document.getElementById('feedback-form');
+      const fields = Array.from(form.querySelectorAll('.response-field'));
+      const progressText = document.getElementById('progress-text');
+      const progressBar = document.getElementById('progress-bar');
+      const status = document.getElementById('form-status');
+      const submitButton = document.getElementById('submit-button');
+      const clearButton = document.getElementById('clear-draft');
+      const successCard = document.getElementById('success-card');
+      const submittedAt = document.getElementById('submitted-at');
+      const playedDate = document.getElementById('played-date');
+      const storageKey = 'doomdelve-playtest-draft-v1';
+      let saveTimer;
+
+      const setToday = () => {
+        if (!playedDate.value) {
+          const now = new Date();
+          const localDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
+            .toISOString()
+            .slice(0, 10);
+          playedDate.value = localDate;
+        }
+      };
+
+      const autoSize = (textarea) => {
+        textarea.style.height = 'auto';
+        textarea.style.height = Math.max(74, textarea.scrollHeight) + 'px';
+      };
+
+      const updateProgress = () => {
+        const answered = fields.filter((field) => field.value.trim().length > 0).length;
+        const percent = Math.round((answered / fields.length) * 100);
+        progressText.textContent = `${answered} of ${fields.length} answered`;
+        progressBar.style.width = `${percent}%`;
+      };
+
+      const saveDraft = () => {
+        const draft = {};
+        Array.from(form.elements).forEach((element) => {
+          if (!element.name || element.type === 'hidden' || element.name === '_gotcha' || element.type === 'submit' || element.type === 'button') return;
+          draft[element.name] = element.value;
+        });
+        localStorage.setItem(storageKey, JSON.stringify(draft));
+      };
+
+      const scheduleSave = () => {
+        window.clearTimeout(saveTimer);
+        saveTimer = window.setTimeout(saveDraft, 250);
+      };
+
+      const restoreDraft = () => {
+        try {
+          const draft = JSON.parse(localStorage.getItem(storageKey));
+          if (!draft) return;
+          Array.from(form.elements).forEach((element) => {
+            if (element.name && Object.prototype.hasOwnProperty.call(draft, element.name)) {
+              element.value = draft[element.name];
+            }
+          });
+        } catch (error) {
+          localStorage.removeItem(storageKey);
+        }
+      };
+
+      form.addEventListener('input', (event) => {
+        if (event.target.matches('textarea')) autoSize(event.target);
+        updateProgress();
+        scheduleSave();
+      });
+
+      form.addEventListener('change', () => {
+        updateProgress();
+        scheduleSave();
+      });
+
+      clearButton.addEventListener('click', () => {
+        const shouldClear = window.confirm('Clear every answer saved in this browser?');
+        if (!shouldClear) return;
+        localStorage.removeItem(storageKey);
+        form.reset();
+        setToday();
+        fields.forEach(autoSize);
+        updateProgress();
+        status.className = 'status info';
+        status.textContent = 'Saved draft cleared.';
+      });
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        submittedAt.value = new Date().toLocaleString();
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending feedback…';
+        status.className = 'status info';
+        status.textContent = 'Sending your response…';
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (!response.ok) {
+            let message = 'Formspree could not accept the response. Please try again.';
+            try {
+              const data = await response.json();
+              if (Array.isArray(data.errors) && data.errors.length) {
+                message = data.errors.map((error) => error.message).join(' ');
+              }
+            } catch (parseError) {
+              // Keep the general error message if the response was not JSON.
+            }
+            throw new Error(message);
+          }
+
+          localStorage.removeItem(storageKey);
+          form.hidden = true;
+          successCard.hidden = false;
+          successCard.focus();
+          successCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } catch (error) {
+          status.className = 'status error';
+          status.textContent = error.message || 'Something went wrong. Your draft is still saved in this browser.';
+          submitButton.disabled = false;
+          submitButton.textContent = 'Submit playtest feedback';
+        }
+      });
+
+      restoreDraft();
+      setToday();
+      fields.forEach(autoSize);
+      updateProgress();
+    })();
+  </script>
+</body>
+</html>
