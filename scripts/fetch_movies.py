@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 
 BASE_URL = "https://api.themoviedb.org/3"
 REGION = "US"
-DAYS_BACK = 7
+DAYS_BACK = 180
 DAYS_FORWARD = 90
 OUTPUT = Path("tools/movies/data/movies.json")
 TOKEN = os.environ.get("TMDB_API_TOKEN", "").strip()
