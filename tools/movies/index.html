@@ -14,7 +14,6 @@
       --line: #d8d8d2;
       --card: #ffffff;
       --accent: #4f7c5b;
-      --accent-soft: #eaf0eb;
       --theater: #2d6a3f;
       --limited: #8a641c;
       --digital: #59616b;
@@ -88,7 +87,7 @@
 
     .filter-grid {
       display: grid;
-      grid-template-columns: minmax(180px, 2fr) repeat(3, minmax(130px, 1fr));
+      grid-template-columns: minmax(180px, 2fr) repeat(4, minmax(120px, 1fr));
       gap: 12px;
     }
 
@@ -215,13 +214,6 @@
 
     .movie-main { min-width: 0; padding: 2px 2px 2px 0; }
 
-    .movie-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 12px;
-    }
-
     .movie-title {
       margin: 0;
       font-size: 1.12rem;
@@ -263,7 +255,6 @@
 
     .links {
       display: flex;
-      flex-wrap: wrap;
       gap: 12px;
       margin-top: 13px;
       font-size: 0.88rem;
@@ -302,7 +293,7 @@
 
     footer p { margin: 5px 0; }
 
-    @media (max-width: 760px) {
+    @media (max-width: 900px) {
       .filter-grid { grid-template-columns: 1fr 1fr; }
     }
 
@@ -311,7 +302,6 @@
       .filter-grid { grid-template-columns: 1fr; }
       .movie-card { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 10px; }
       .poster, .poster-placeholder { width: 76px; height: 114px; }
-      .movie-top { display: block; }
       .movie-title { font-size: 1.02rem; }
     }
   </style>
@@ -333,6 +323,15 @@
         <div>
           <label for="searchInput">Title</label>
           <input id="searchInput" type="search" placeholder="Search movies…" autocomplete="off">
+        </div>
+        <div>
+          <label for="dateFilter">Release date</label>
+          <select id="dateFilter">
+            <option value="7" selected>Last 7 days</option>
+            <option value="30">Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="180">Last 180 days</option>
+          </select>
         </div>
         <div>
           <label for="releaseFilter">Release</label>
@@ -381,7 +380,6 @@
   <script>
     const DATA_URL = "./data/movies.json";
     const POSTER_BASE = "https://image.tmdb.org/t/p/w342";
-
     const TYPE_NAMES = {
       1: "Premiere",
       2: "Limited theatrical",
@@ -392,6 +390,7 @@
     };
 
     const searchInput = document.getElementById("searchInput");
+    const dateFilter = document.getElementById("dateFilter");
     const releaseFilter = document.getElementById("releaseFilter");
     const genreFilter = document.getElementById("genreFilter");
     const ratingFilter = document.getElementById("ratingFilter");
@@ -408,6 +407,13 @@
       const m = String(date.getMonth() + 1).padStart(2, "0");
       const d = String(date.getDate()).padStart(2, "0");
       return `${y}-${m}-${d}`;
+    }
+
+    function cutoffIso(days) {
+      const date = new Date();
+      date.setHours(12, 0, 0, 0);
+      date.setDate(date.getDate() - days);
+      return localIsoDate(date);
     }
 
     function prettyDate(isoDate) {
@@ -482,6 +488,9 @@
       const release = releaseFilter.value;
       const genre = genreFilter.value;
       const rating = ratingFilter.value;
+      const historyDays = Number(dateFilter.value);
+      const earliestPastDate = cutoffIso(historyDays);
+      const today = localIsoDate();
       const showPosterless = posterlessToggle.checked;
       const entries = [];
 
@@ -491,6 +500,7 @@
         if (genre !== "all" && !(movie.genres || []).includes(genre)) continue;
 
         for (const event of movie.events || []) {
+          if (event.date < today && event.date < earliestPastDate) continue;
           if (!eventMatchesRelease(event, release)) continue;
           const eventRating = event.certification || "NR";
           if (rating !== "all" && eventRating !== rating) continue;
@@ -515,6 +525,7 @@
         : `<div class="poster-placeholder" aria-label="No poster available">No poster</div>`;
 
       const badges = (event.types || [])
+        .slice()
         .sort((a, b) => a - b)
         .map(type => `<span class="badge ${badgeClass(type)}">${escapeHtml(TYPE_NAMES[type] || `Type ${type}`)}</span>`)
         .join("");
@@ -527,9 +538,7 @@
         <article class="movie-card">
           ${poster}
           <div class="movie-main">
-            <div class="movie-top">
-              <h3 class="movie-title">${escapeHtml(movie.title)}</h3>
-            </div>
+            <h3 class="movie-title">${escapeHtml(movie.title)}</h3>
             <p class="meta">${escapeHtml(meta || "Release information available")}</p>
             <div class="badges">${badges}</div>
             ${imdb ? `<div class="links">${imdb}</div>` : ""}
@@ -563,6 +572,7 @@
 
     function render() {
       const today = localIsoDate();
+      const historyDays = Number(dateFilter.value);
       const entries = buildEntries();
       const pastCount = entries.filter(entry => entry.event.date < today).length;
       const currentAndFutureCount = entries.length - pastCount;
@@ -573,7 +583,7 @@
       const futureHtml = dateSections(entries, today, "future");
 
       movieContent.innerHTML = `
-        ${pastCount ? `<details class="past"><summary>Previous 7 days (${pastCount})</summary><div class="past-inner">${pastHtml}</div></details>` : ""}
+        ${pastCount ? `<details class="past"><summary>Previous ${historyDays} days (${pastCount})</summary><div class="past-inner">${pastHtml}</div></details>` : ""}
         ${currentAndFutureCount ? futureHtml : `<div class="status-message">No matching releases from today forward.</div>`}
       `;
     }
@@ -605,7 +615,7 @@
       }
     }
 
-    [searchInput, releaseFilter, genreFilter, ratingFilter, posterlessToggle].forEach(control => {
+    [searchInput, dateFilter, releaseFilter, genreFilter, ratingFilter, posterlessToggle].forEach(control => {
       control.addEventListener(control === searchInput ? "input" : "change", render);
     });
 
