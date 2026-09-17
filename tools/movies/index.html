@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Selector | Jakemato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recent and upcoming US movie releases, organized by date with theatrical status, genre, rating, and IMDb links.">
+
+  <style>
+    :root {
+      --bg: #f7f7f3;
+      --ink: #111111;
+      --muted: #666666;
+      --line: #d8d8d2;
+      --card: #ffffff;
+      --accent: #4f7c5b;
+      --accent-soft: #eaf0eb;
+      --theater: #2d6a3f;
+      --limited: #8a641c;
+      --digital: #59616b;
+      --error: #9b2c2c;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+
+    .shell {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 48px 22px 70px;
+    }
+
+    a { color: var(--ink); }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 32px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .back-link:hover { color: var(--ink); text-decoration: underline; }
+
+    header {
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 4.4rem);
+      line-height: 0.96;
+      letter-spacing: -0.06em;
+    }
+
+    .intro {
+      max-width: 720px;
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .filters {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      margin: 22px 0 12px;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: minmax(180px, 2fr) repeat(3, minmax(130px, 1fr));
+      gap: 12px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    input[type="search"], select {
+      width: 100%;
+      min-height: 43px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+    }
+
+    input[type="search"]:focus, select:focus {
+      border-color: var(--ink);
+      outline: none;
+    }
+
+    .filter-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .checkbox {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--ink);
+      font-size: 0.92rem;
+      cursor: pointer;
+    }
+
+    .checkbox input { margin: 0; }
+
+    .result-count, .data-age {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .data-age { margin: 0 0 26px; }
+
+    .status-message {
+      padding: 18px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      color: var(--muted);
+    }
+
+    .status-message.error { color: var(--error); font-weight: 700; }
+
+    .date-section { margin: 34px 0; }
+
+    .date-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .date-heading h2 {
+      margin: 0;
+      font-size: 1.25rem;
+      letter-spacing: -0.03em;
+    }
+
+    .today-label {
+      color: var(--accent);
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .movie-list { display: grid; gap: 10px; }
+
+    .movie-card {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+
+    .poster {
+      width: 92px;
+      height: 138px;
+      object-fit: cover;
+      border-radius: 9px;
+      background: #ecece7;
+      display: block;
+    }
+
+    .poster-placeholder {
+      width: 92px;
+      height: 138px;
+      border-radius: 9px;
+      background: #ecece7;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 8px;
+      font-size: 0.76rem;
+    }
+
+    .movie-main { min-width: 0; padding: 2px 2px 2px 0; }
+
+    .movie-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .movie-title {
+      margin: 0;
+      font-size: 1.12rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 11px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #efefeb;
+      color: #4f4f4b;
+      font-size: 0.72rem;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .badge.theatrical { background: #e5f0e8; color: var(--theater); }
+    .badge.limited { background: #f6eedb; color: var(--limited); }
+    .badge.non-theatrical { background: #eceef1; color: var(--digital); }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 13px;
+      font-size: 0.88rem;
+    }
+
+    .links a { font-weight: 700; text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+
+    details.past {
+      margin: 24px 0 38px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    details.past > summary {
+      cursor: pointer;
+      padding: 16px 2px;
+      font-weight: 700;
+    }
+
+    details.past > .past-inner { padding-bottom: 4px; }
+
+    .empty-day {
+      color: var(--muted);
+      font-size: 0.92rem;
+      padding: 10px 0;
+    }
+
+    footer {
+      margin-top: 58px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    footer p { margin: 5px 0; }
+
+    @media (max-width: 760px) {
+      .filter-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 520px) {
+      .shell { padding-top: 30px; }
+      .filter-grid { grid-template-columns: 1fr; }
+      .movie-card { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 10px; }
+      .poster, .poster-placeholder { width: 76px; height: 114px; }
+      .movie-top { display: block; }
+      .movie-title { font-size: 1.02rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <a class="back-link" href="../../">← Back to Jakemato</a>
+
+    <header>
+      <p class="eyebrow">Jakemato Tools</p>
+      <h1>Movie Selector.</h1>
+      <p class="intro">
+        Recent and upcoming US movie releases by date. Mainstream, indie, documentary, foreign, limited, digital, and obscure releases are all included when TMDB has a documented US release.
+      </p>
+    </header>
+
+    <section class="filters" aria-label="Movie filters">
+      <div class="filter-grid">
+        <div>
+          <label for="searchInput">Title</label>
+          <input id="searchInput" type="search" placeholder="Search movies…" autocomplete="off">
+        </div>
+        <div>
+          <label for="releaseFilter">Release</label>
+          <select id="releaseFilter">
+            <option value="all">All releases</option>
+            <option value="theaters">In theaters</option>
+            <option value="wide">Theatrical</option>
+            <option value="limited">Limited theaters</option>
+            <option value="non-theatrical">Non-theatrical</option>
+            <option value="digital">Digital</option>
+            <option value="premiere">Premiere</option>
+            <option value="physical">Physical</option>
+            <option value="tv">TV</option>
+          </select>
+        </div>
+        <div>
+          <label for="genreFilter">Genre</label>
+          <select id="genreFilter"><option value="all">All genres</option></select>
+        </div>
+        <div>
+          <label for="ratingFilter">Rating</label>
+          <select id="ratingFilter"><option value="all">All ratings</option></select>
+        </div>
+      </div>
+
+      <div class="filter-bottom">
+        <label class="checkbox" for="posterlessToggle">
+          <input id="posterlessToggle" type="checkbox">
+          Show movies without posters
+        </label>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+    </section>
+
+    <p class="data-age" id="dataAge"></p>
+
+    <div id="status" class="status-message">Loading movie releases…</div>
+    <div id="movieContent" hidden></div>
+
+    <footer>
+      <p>Release data and images provided by TMDB.</p>
+      <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+    </footer>
+  </main>
+
+  <script>
+    const DATA_URL = "./data/movies.json";
+    const POSTER_BASE = "https://image.tmdb.org/t/p/w342";
+
+    const TYPE_NAMES = {
+      1: "Premiere",
+      2: "Limited theatrical",
+      3: "Theatrical",
+      4: "Digital",
+      5: "Physical",
+      6: "TV"
+    };
+
+    const searchInput = document.getElementById("searchInput");
+    const releaseFilter = document.getElementById("releaseFilter");
+    const genreFilter = document.getElementById("genreFilter");
+    const ratingFilter = document.getElementById("ratingFilter");
+    const posterlessToggle = document.getElementById("posterlessToggle");
+    const resultCount = document.getElementById("resultCount");
+    const dataAge = document.getElementById("dataAge");
+    const statusBox = document.getElementById("status");
+    const movieContent = document.getElementById("movieContent");
+
+    let movies = [];
+
+    function localIsoDate(date = new Date()) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    function prettyDate(isoDate) {
+      const [year, month, day] = isoDate.split("-").map(Number);
+      const date = new Date(year, month - 1, day);
+      return new Intl.DateTimeFormat(undefined, {
+        weekday: "long",
+        month: "long",
+        day: "numeric"
+      }).format(date);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function eventMatchesRelease(event, filter) {
+      const types = event.types || [];
+      if (filter === "all") return true;
+      if (filter === "theaters") return types.includes(2) || types.includes(3);
+      if (filter === "wide") return types.includes(3);
+      if (filter === "limited") return types.includes(2);
+      if (filter === "non-theatrical") return !types.includes(2) && !types.includes(3);
+      if (filter === "premiere") return types.includes(1);
+      if (filter === "digital") return types.includes(4);
+      if (filter === "physical") return types.includes(5);
+      if (filter === "tv") return types.includes(6);
+      return true;
+    }
+
+    function badgeClass(type) {
+      if (type === 3) return "theatrical";
+      if (type === 2) return "limited";
+      return "non-theatrical";
+    }
+
+    function formatRuntime(minutes) {
+      if (!minutes) return "";
+      const hours = Math.floor(minutes / 60);
+      const mins = minutes % 60;
+      if (!hours) return `${mins}m`;
+      return mins ? `${hours}h ${mins}m` : `${hours}h`;
+    }
+
+    function populateFilters() {
+      const genres = [...new Set(movies.flatMap(movie => movie.genres || []))].sort((a, b) => a.localeCompare(b));
+      for (const genre of genres) {
+        const option = document.createElement("option");
+        option.value = genre;
+        option.textContent = genre;
+        genreFilter.appendChild(option);
+      }
+
+      const preferred = ["G", "PG", "PG-13", "R", "NC-17", "NR"];
+      const found = new Set(movies.flatMap(movie => (movie.events || []).map(event => event.certification || "NR")));
+      const ratings = [...preferred.filter(rating => found.has(rating)), ...[...found].filter(rating => !preferred.includes(rating)).sort()];
+      for (const rating of ratings) {
+        const option = document.createElement("option");
+        option.value = rating;
+        option.textContent = rating;
+        ratingFilter.appendChild(option);
+      }
+    }
+
+    function buildEntries() {
+      const term = searchInput.value.trim().toLowerCase();
+      const release = releaseFilter.value;
+      const genre = genreFilter.value;
+      const rating = ratingFilter.value;
+      const showPosterless = posterlessToggle.checked;
+      const entries = [];
+
+      for (const movie of movies) {
+        if (!showPosterless && !movie.poster_path) continue;
+        if (term && !movie.title.toLowerCase().includes(term) && !(movie.original_title || "").toLowerCase().includes(term)) continue;
+        if (genre !== "all" && !(movie.genres || []).includes(genre)) continue;
+
+        for (const event of movie.events || []) {
+          if (!eventMatchesRelease(event, release)) continue;
+          const eventRating = event.certification || "NR";
+          if (rating !== "all" && eventRating !== rating) continue;
+          entries.push({ movie, event });
+        }
+      }
+
+      entries.sort((a, b) => a.event.date.localeCompare(b.event.date) || a.movie.title.localeCompare(b.movie.title));
+      return entries;
+    }
+
+    function movieCard(entry) {
+      const { movie, event } = entry;
+      const genres = (movie.genres || []).slice(0, 3);
+      const runtime = formatRuntime(movie.runtime);
+      const certification = event.certification || "NR";
+      const score = movie.vote_count > 0 ? `${Number(movie.vote_average).toFixed(1)}/10` : "";
+      const meta = [...genres, certification, runtime, score].filter(Boolean).join(" · ");
+
+      const poster = movie.poster_path
+        ? `<img class="poster" src="${POSTER_BASE}${escapeHtml(movie.poster_path)}" alt="Poster for ${escapeHtml(movie.title)}" loading="lazy">`
+        : `<div class="poster-placeholder" aria-label="No poster available">No poster</div>`;
+
+      const badges = (event.types || [])
+        .sort((a, b) => a - b)
+        .map(type => `<span class="badge ${badgeClass(type)}">${escapeHtml(TYPE_NAMES[type] || `Type ${type}`)}</span>`)
+        .join("");
+
+      const imdb = movie.imdb_id
+        ? `<a href="https://www.imdb.com/title/${encodeURIComponent(movie.imdb_id)}/" target="_blank" rel="noopener noreferrer">IMDb ↗</a>`
+        : "";
+
+      return `
+        <article class="movie-card">
+          ${poster}
+          <div class="movie-main">
+            <div class="movie-top">
+              <h3 class="movie-title">${escapeHtml(movie.title)}</h3>
+            </div>
+            <p class="meta">${escapeHtml(meta || "Release information available")}</p>
+            <div class="badges">${badges}</div>
+            ${imdb ? `<div class="links">${imdb}</div>` : ""}
+          </div>
+        </article>`;
+    }
+
+    function dateSections(entries, today, mode) {
+      const grouped = new Map();
+      for (const entry of entries) {
+        const isPast = entry.event.date < today;
+        if ((mode === "past") !== isPast) continue;
+        if (!grouped.has(entry.event.date)) grouped.set(entry.event.date, []);
+        grouped.get(entry.event.date).push(entry);
+      }
+
+      if (!grouped.size) return `<p class="empty-day">No matching releases.</p>`;
+
+      return [...grouped.entries()].map(([date, dayEntries]) => {
+        const todayTag = date === today ? `<span class="today-label">Today</span>` : "";
+        return `
+          <section class="date-section" data-date="${date}">
+            <div class="date-heading">
+              <h2>${escapeHtml(prettyDate(date))}</h2>
+              ${todayTag}
+            </div>
+            <div class="movie-list">${dayEntries.map(movieCard).join("")}</div>
+          </section>`;
+      }).join("");
+    }
+
+    function render() {
+      const today = localIsoDate();
+      const entries = buildEntries();
+      const pastCount = entries.filter(entry => entry.event.date < today).length;
+      const currentAndFutureCount = entries.length - pastCount;
+
+      resultCount.textContent = `${entries.length.toLocaleString()} release${entries.length === 1 ? "" : "s"}`;
+
+      const pastHtml = dateSections(entries, today, "past");
+      const futureHtml = dateSections(entries, today, "future");
+
+      movieContent.innerHTML = `
+        ${pastCount ? `<details class="past"><summary>Previous 7 days (${pastCount})</summary><div class="past-inner">${pastHtml}</div></details>` : ""}
+        ${currentAndFutureCount ? futureHtml : `<div class="status-message">No matching releases from today forward.</div>`}
+      `;
+    }
+
+    async function loadMovies() {
+      try {
+        const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`Movie data returned HTTP ${response.status}`);
+        const data = await response.json();
+        movies = Array.isArray(data.movies) ? data.movies : [];
+
+        if (!movies.length) {
+          statusBox.textContent = "The movie catalog is installed, but it has not been populated yet. Run the movie-data GitHub Action after adding the TMDB token secret.";
+          statusBox.classList.add("error");
+          return;
+        }
+
+        populateFilters();
+        if (data.generated_at) {
+          const generated = new Date(data.generated_at);
+          dataAge.textContent = `Movie data updated ${generated.toLocaleString()}.`;
+        }
+        statusBox.hidden = true;
+        movieContent.hidden = false;
+        render();
+      } catch (error) {
+        statusBox.textContent = `Could not load movie releases: ${error.message}`;
+        statusBox.classList.add("error");
+      }
+    }
+
+    [searchInput, releaseFilter, genreFilter, ratingFilter, posterlessToggle].forEach(control => {
+      control.addEventListener(control === searchInput ? "input" : "change", render);
+    });
+
+    loadMovies();
+  </script>
+</body>
+</html>
