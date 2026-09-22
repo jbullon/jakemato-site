@@ -4,6 +4,7 @@ import time
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -23,8 +24,15 @@ TYPE_NAMES = {
     6: "TV",
 }
 
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+MAX_RETRIES = 5
+
 if not TOKEN:
     raise SystemExit("TMDB_API_TOKEN is not set.")
+
+
+class TMDBNotFound(Exception):
+    pass
 
 
 def tmdb_get(path, params=None):
@@ -32,16 +40,50 @@ def tmdb_get(path, params=None):
     url = f"{BASE_URL}{path}"
     if params:
         url += "?" + urlencode(params)
-    req = Request(
-        url,
-        headers={
-            "Authorization": f"Bearer {TOKEN}",
-            "accept": "application/json",
-            "User-Agent": "jakemato-movie-selector/1.0",
-        },
-    )
-    with urlopen(req, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        req = Request(
+            url,
+            headers={
+                "Authorization": f"Bearer {TOKEN}",
+                "accept": "application/json",
+                "User-Agent": "jakemato-movie-selector/1.0",
+            },
+        )
+
+        try:
+            with urlopen(req, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            if exc.code == 404:
+                raise TMDBNotFound(path) from exc
+
+            if exc.code not in RETRYABLE_HTTP_CODES or attempt == MAX_RETRIES:
+                raise
+
+            retry_after = exc.headers.get("Retry-After") if exc.headers else None
+            try:
+                delay = float(retry_after) if retry_after else min(2 ** (attempt - 1), 16)
+            except ValueError:
+                delay = min(2 ** (attempt - 1), 16)
+
+            print(
+                f"TMDB returned HTTP {exc.code} for {path}; "
+                f"retrying in {delay:g}s ({attempt}/{MAX_RETRIES})"
+            )
+            time.sleep(delay)
+        except (URLError, TimeoutError, ConnectionResetError) as exc:
+            if attempt == MAX_RETRIES:
+                raise
+
+            delay = min(2 ** (attempt - 1), 16)
+            print(
+                f"TMDB connection error for {path}: {exc}; "
+                f"retrying in {delay}s ({attempt}/{MAX_RETRIES})"
+            )
+            time.sleep(delay)
+
+    raise RuntimeError(f"TMDB request unexpectedly exhausted retries: {path}")
 
 
 def fetch_genres():
@@ -147,12 +189,34 @@ def main():
     candidate_ids = discover_candidates(start_date, end_date)
 
     movies = []
+    skipped_not_found = 0
+    skipped_errors = 0
+
+    print(f"Found {len(candidate_ids)} candidate movies.")
+
     for index, movie_id in enumerate(candidate_ids, start=1):
-        movie = build_movie(movie_id, genre_map, start_date, end_date)
+        try:
+            movie = build_movie(movie_id, genre_map, start_date, end_date)
+        except TMDBNotFound:
+            skipped_not_found += 1
+            print(f"Skipping TMDB movie {movie_id}: details returned 404.")
+            continue
+        except (HTTPError, URLError, TimeoutError, ConnectionResetError) as exc:
+            skipped_errors += 1
+            print(f"Skipping TMDB movie {movie_id} after retries: {exc}")
+            continue
+
         if movie:
             movies.append(movie)
+
         if index % 35 == 0:
             time.sleep(0.25)
+
+        if index % 250 == 0:
+            print(
+                f"Processed {index}/{len(candidate_ids)} candidates; "
+                f"{len(movies)} releases retained."
+            )
 
     movies.sort(key=lambda movie: (movie["events"][0]["date"], movie["title"].lower()))
     payload = {
@@ -165,12 +229,17 @@ def main():
             "end_date": end_date.isoformat(),
         },
         "movie_count": len(movies),
+        "skipped_not_found": skipped_not_found,
+        "skipped_errors": skipped_errors,
         "movies": movies,
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(movies)} movies to {OUTPUT}")
+    print(
+        f"Wrote {len(movies)} movies to {OUTPUT} "
+        f"({skipped_not_found} missing, {skipped_errors} transient failures skipped)."
+    )
 
 
 if __name__ == "__main__":
