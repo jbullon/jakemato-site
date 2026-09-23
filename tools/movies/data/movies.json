@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:05:49.704840+00:00",
+  "generated_at": "2026-09-23T11:50:35.635648+00:00",
   "window": {
     "days_back": 180,
     "days_forward": 90,
@@ -7,7 +7,7 @@
     "start_date": "2026-03-27",
     "end_date": "2026-12-22"
   },
-  "movie_count": 8917,
+  "movie_count": 8859,
   "skipped_not_found": 0,
   "skipped_errors": 0,
   "movies": [
@@ -1007,8 +1007,8 @@
         "Comedy"
       ],
       "runtime": 103,
-      "vote_average": 5.852,
-      "vote_count": 98,
+      "vote_average": 5.859,
+      "vote_count": 99,
       "imdb_id": "tt30691214",
       "events": [
         {
@@ -2566,35 +2566,6 @@
       ]
     },
     {
-      "tmdb_id": 1632141,
-      "title": "She Left me...Again",
-      "original_title": "She Left me...Again",
-      "poster_path": "/xUNuLxwkCp6tbW1Rq7sdOSOAET7.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": 4,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-03-27",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-03-28",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1659064,
       "title": "Smooth Criminal",
       "original_title": "Smooth Criminal",
@@ -3100,7 +3071,7 @@
       ],
       "runtime": 130,
       "vote_average": 6.415,
-      "vote_count": 7911,
+      "vote_count": 7912,
       "imdb_id": "tt0209163",
       "events": [
         {
@@ -4669,6 +4640,13 @@
             1
           ],
           "certification": "NR"
+        },
+        {
+          "date": "2026-10-09",
+          "types": [
+            1
+          ],
+          "certification": "NR"
         }
       ]
     },
@@ -5465,28 +5443,6 @@
         "Drama"
       ],
       "runtime": 17,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-03-28",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1643284,
-      "title": "So Many Different Things",
-      "original_title": "So Many Different Things",
-      "poster_path": "/kbjDzTx1LXECdVvCngtsqHqdpCJ.jpg",
-      "genres": [
-        "Animation"
-      ],
-      "runtime": 3,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -7156,8 +7112,8 @@
         "Thriller"
       ],
       "runtime": 108,
-      "vote_average": 7.599,
-      "vote_count": 454,
+      "vote_average": 7.6,
+      "vote_count": 455,
       "imdb_id": "tt33296751",
       "events": [
         {
@@ -7931,30 +7887,6 @@
       ]
     },
     {
-      "tmdb_id": 1661195,
-      "title": "TV Entreaberta",
-      "original_title": "TV Entreaberta",
-      "poster_path": "/lunzCoocm6PIiNnRqDJymPeFen9.jpg",
-      "genres": [
-        "Animation",
-        "Horror",
-        "Fantasy"
-      ],
-      "runtime": 9,
-      "vote_average": 10.0,
-      "vote_count": 1,
-      "imdb_id": "tt40792134",
-      "events": [
-        {
-          "date": "2026-03-30",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1187129,
       "title": "Unwinding",
       "original_title": "Unwinding",
@@ -8099,8 +8031,8 @@
         "Fantasy"
       ],
       "runtime": 198,
-      "vote_average": 7.6,
-      "vote_count": 4357,
+      "vote_average": 7.643,
+      "vote_count": 4359,
       "imdb_id": "tt1757678",
       "events": [
         {
@@ -8452,8 +8384,8 @@
         "Thriller"
       ],
       "runtime": 150,
-      "vote_average": 7.367,
-      "vote_count": 2208,
+      "vote_average": 7.368,
+      "vote_count": 2209,
       "imdb_id": "tt32916440",
       "events": [
         {
@@ -8559,7 +8491,7 @@
         "Comedy"
       ],
       "runtime": 107,
-      "vote_average": 6.453,
+      "vote_average": 6.5,
       "vote_count": 333,
       "imdb_id": "tt32321317",
       "events": [
@@ -8736,8 +8668,8 @@
         "Crime"
       ],
       "runtime": 114,
-      "vote_average": 6.2,
-      "vote_count": 1290,
+      "vote_average": 6.227,
+      "vote_count": 1291,
       "imdb_id": "tt27047903",
       "events": [
         {
@@ -9386,8 +9318,8 @@
         "Horror"
       ],
       "runtime": 114,
-      "vote_average": 6.391,
-      "vote_count": 6594,
+      "vote_average": 6.39,
+      "vote_count": 6595,
       "imdb_id": "tt0103644",
       "events": [
         {
@@ -9734,7 +9666,7 @@
       ],
       "runtime": 89,
       "vote_average": 7.0,
-      "vote_count": 3,
+      "vote_count": 4,
       "imdb_id": "tt39151344",
       "events": [
         {
@@ -10637,8 +10569,8 @@
         "Thriller"
       ],
       "runtime": 131,
-      "vote_average": 7.257,
-      "vote_count": 3098,
+      "vote_average": 7.258,
+      "vote_count": 3099,
       "imdb_id": "tt27543632",
       "events": [
         {
@@ -10731,29 +10663,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-01",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1614075,
-      "title": "The Sheriffs of Savage Wells",
-      "original_title": "The Sheriffs of Savage Wells",
-      "poster_path": "/sVrVzynNg4KMvnx5uN0inzvshm5.jpg",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "runtime": 90,
-      "vote_average": 8.0,
-      "vote_count": 6,
-      "imdb_id": "tt38630826",
       "events": [
         {
           "date": "2026-04-01",
@@ -11350,7 +11259,7 @@
       ],
       "runtime": 109,
       "vote_average": 8.194,
-      "vote_count": 5678,
+      "vote_count": 5679,
       "imdb_id": "tt37287335",
       "events": [
         {
@@ -11533,7 +11442,7 @@
         "Drama"
       ],
       "runtime": 112,
-      "vote_average": 6.551,
+      "vote_average": 6.6,
       "vote_count": 79,
       "imdb_id": "tt32538648",
       "events": [
@@ -11613,6 +11522,26 @@
           "date": "2026-08-18",
           "types": [
             4
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
+      "tmdb_id": 1776975,
+      "title": "Sissyphus",
+      "original_title": "Sissyphus",
+      "poster_path": null,
+      "genres": [],
+      "runtime": 10,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-04-02",
+          "types": [
+            2
           ],
           "certification": "NR"
         }
@@ -12115,7 +12044,7 @@
       ],
       "runtime": 119,
       "vote_average": 7.158,
-      "vote_count": 4899,
+      "vote_count": 4902,
       "imdb_id": "tt18412256",
       "events": [
         {
@@ -13290,7 +13219,7 @@
       ],
       "runtime": 105,
       "vote_average": 6.904,
-      "vote_count": 1829,
+      "vote_count": 1830,
       "imdb_id": "tt33071426",
       "events": [
         {
@@ -15376,28 +15305,6 @@
       ]
     },
     {
-      "tmdb_id": 1610669,
-      "title": "Like Father, Like Kyle",
-      "original_title": "Like Father, Like Kyle",
-      "poster_path": null,
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-05",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1514813,
       "title": "Lucy Schulman",
       "original_title": "Lucy Schulman",
@@ -16259,8 +16166,8 @@
         "Drama"
       ],
       "runtime": 93,
-      "vote_average": 6.53,
-      "vote_count": 1815,
+      "vote_average": 6.532,
+      "vote_count": 1816,
       "imdb_id": "tt13223398",
       "events": [
         {
@@ -17822,8 +17729,8 @@
         "Romance"
       ],
       "runtime": 88,
-      "vote_average": 6.77,
-      "vote_count": 523,
+      "vote_average": 6.8,
+      "vote_count": 524,
       "imdb_id": "tt39143902",
       "events": [
         {
@@ -18959,29 +18866,6 @@
       ]
     },
     {
-      "tmdb_id": 1655742,
-      "title": "HICKEYS",
-      "original_title": "HICKEYS",
-      "poster_path": "/bmAgOMzQCjC4ruGehqB2qj0eKDu.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 11,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt40700746",
-      "events": [
-        {
-          "date": "2026-04-09",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1754032,
       "title": "Hysteria!",
       "original_title": "Hysteria!",
@@ -19056,8 +18940,8 @@
         "Mystery"
       ],
       "runtime": 133,
-      "vote_average": 7.9,
-      "vote_count": 2689,
+      "vote_average": 7.869,
+      "vote_count": 2690,
       "imdb_id": "tt32612507",
       "events": [
         {
@@ -20116,8 +20000,8 @@
         "Drama"
       ],
       "runtime": 115,
-      "vote_average": 7.516,
-      "vote_count": 192,
+      "vote_average": 7.528,
+      "vote_count": 193,
       "imdb_id": "tt7708226",
       "events": [
         {
@@ -20472,7 +20356,7 @@
         "Drama"
       ],
       "runtime": 134,
-      "vote_average": 7.058,
+      "vote_average": 7.1,
       "vote_count": 232,
       "imdb_id": "tt32323252",
       "events": [
@@ -20683,8 +20567,8 @@
         "Adventure"
       ],
       "runtime": 107,
-      "vote_average": 7.361,
-      "vote_count": 598,
+      "vote_average": 7.372,
+      "vote_count": 602,
       "imdb_id": "tt29516222",
       "events": [
         {
@@ -20985,8 +20869,8 @@
         "Thriller"
       ],
       "runtime": 95,
-      "vote_average": 7.023,
-      "vote_count": 804,
+      "vote_average": 7.0,
+      "vote_count": 803,
       "imdb_id": "tt35222590",
       "events": [
         {
@@ -22042,8 +21926,8 @@
         "Thriller"
       ],
       "runtime": 91,
-      "vote_average": 7.268,
-      "vote_count": 596,
+      "vote_average": 7.273,
+      "vote_count": 598,
       "imdb_id": "tt31195136",
       "events": [
         {
@@ -22391,29 +22275,6 @@
           "date": "2026-04-10",
           "types": [
             1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1666490,
-      "title": "Return to Sender",
-      "original_title": "Return to Sender",
-      "poster_path": "/wQXDCh7BslXaZSYmVympqZAHMkC.jpg",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "runtime": 25,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-10",
-          "types": [
-            2
           ],
           "certification": "NR"
         }
@@ -24641,7 +24502,7 @@
       ],
       "runtime": 108,
       "vote_average": 6.852,
-      "vote_count": 875,
+      "vote_count": 876,
       "imdb_id": "tt35672862",
       "events": [
         {
@@ -27676,30 +27537,6 @@
           "date": "2026-04-12",
           "types": [
             2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1669657,
-      "title": "Low on Fuel",
-      "original_title": "Low on Fuel",
-      "poster_path": "/tKqXGStBxsuGAc3FTvwNf16kWIE.jpg",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "runtime": 14,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt39013710",
-      "events": [
-        {
-          "date": "2026-04-12",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -31240,8 +31077,8 @@
         "Mystery"
       ],
       "runtime": 94,
-      "vote_average": 5.994,
-      "vote_count": 662,
+      "vote_average": 5.989,
+      "vote_count": 663,
       "imdb_id": "tt35892608",
       "events": [
         {
@@ -31341,26 +31178,6 @@
       "genres": [
         "Fantasy"
       ],
-      "runtime": 5,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-14",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1675343,
-      "title": "what does it feel like to live inside of a pomegranate?",
-      "original_title": "what does it feel like to live inside of a pomegranate?",
-      "poster_path": "/2SLHX98ArtJ3nW4rEwCHuvgmCzH.jpg",
-      "genres": [],
       "runtime": 5,
       "vote_average": 0,
       "vote_count": 0,
@@ -34203,7 +34020,7 @@
         "Drama"
       ],
       "runtime": 99,
-      "vote_average": 5.781,
+      "vote_average": 5.8,
       "vote_count": 57,
       "imdb_id": "tt32394984",
       "events": [
@@ -35592,8 +35409,8 @@
         "Thriller"
       ],
       "runtime": 112,
-      "vote_average": 5.67,
-      "vote_count": 197,
+      "vote_average": 5.652,
+      "vote_count": 198,
       "imdb_id": "tt27200708",
       "events": [
         {
@@ -35833,29 +35650,6 @@
       "runtime": 3,
       "vote_average": 0,
       "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-17",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1635192,
-      "title": "Project: Frankenstein",
-      "original_title": "Project: Frankenstein",
-      "poster_path": "/lAi2mbDQ8R3kynDPhZJHOpGTKUa.jpg",
-      "genres": [
-        "Drama",
-        "Science Fiction"
-      ],
-      "runtime": null,
-      "vote_average": 8.0,
-      "vote_count": 1,
       "imdb_id": null,
       "events": [
         {
@@ -36242,8 +36036,8 @@
         "Comedy"
       ],
       "runtime": 70,
-      "vote_average": 5.5,
-      "vote_count": 10,
+      "vote_average": 5.455,
+      "vote_count": 11,
       "imdb_id": "tt10312938",
       "events": [
         {
@@ -37453,39 +37247,6 @@
       ]
     },
     {
-      "tmdb_id": 1364401,
-      "title": "Come with Me",
-      "original_title": "Come with Me",
-      "poster_path": "/oQR5xUZrdVaLscJlk4mFcy8DrXJ.jpg",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "runtime": 109,
-      "vote_average": 6.5,
-      "vote_count": 4,
-      "imdb_id": "tt32500181",
-      "events": [
-        {
-          "date": "2026-04-18",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-09-04",
-          "types": [
-            2,
-            4
-          ],
-          "certification": "R"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1676257,
       "title": "Common Denominator",
       "original_title": "Common Denominator",
@@ -38406,30 +38167,6 @@
       ]
     },
     {
-      "tmdb_id": 1665860,
-      "title": "Murder in the Dark",
-      "original_title": "Murder in the Dark",
-      "poster_path": "/h35opZK913C4eHC2ncpRWp7ZLWj.jpg",
-      "genres": [
-        "Thriller",
-        "Mystery",
-        "TV Movie"
-      ],
-      "runtime": 86,
-      "vote_average": 5.0,
-      "vote_count": 2,
-      "imdb_id": "tt37969354",
-      "events": [
-        {
-          "date": "2026-04-18",
-          "types": [
-            6
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1673687,
       "title": "My 50 Minute Breath-Hold Speedrun Challenge",
       "original_title": "My 50 Minute Breath-Hold Speedrun Challenge",
@@ -38480,7 +38217,7 @@
         "Drama"
       ],
       "runtime": 96,
-      "vote_average": 7.326,
+      "vote_average": 7.3,
       "vote_count": 89,
       "imdb_id": "tt35519445",
       "events": [
@@ -38984,29 +38721,6 @@
             1
           ],
           "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1700777,
-      "title": "Strube Getting Noodles",
-      "original_title": "Strube Getting Noodles",
-      "poster_path": "/50eF0z9FPpHWA4Skppjh6AyKB0G.jpg",
-      "genres": [
-        "Thriller",
-        "Adventure"
-      ],
-      "runtime": 1,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-18",
-          "types": [
-            4
-          ],
-          "certification": "PG-13"
         }
       ]
     },
@@ -41370,8 +41084,8 @@
         "Mystery"
       ],
       "runtime": 109,
-      "vote_average": 7.936,
-      "vote_count": 1703,
+      "vote_average": 7.935,
+      "vote_count": 1704,
       "imdb_id": "tt32565993",
       "events": [
         {
@@ -41401,26 +41115,6 @@
             5
           ],
           "certification": "PG"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1673787,
-      "title": "The Unforgettables",
-      "original_title": "Les inoubliables",
-      "poster_path": null,
-      "genres": [],
-      "runtime": 56,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-19",
-          "types": [
-            1
-          ],
-          "certification": "NR"
         }
       ]
     },
@@ -42104,8 +41798,8 @@
         "Drama"
       ],
       "runtime": 128,
-      "vote_average": 8.631,
-      "vote_count": 4392,
+      "vote_average": 8.632,
+      "vote_count": 4394,
       "imdb_id": "tt11378946",
       "events": [
         {
@@ -42631,28 +42325,6 @@
       ]
     },
     {
-      "tmdb_id": 1695480,
-      "title": "A Collective Descent into Evil: The Lethal Obsession with Jews and the Jewish State",
-      "original_title": "A Collective Descent into Evil: The Lethal Obsession with Jews and the Jewish State",
-      "poster_path": null,
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt42060441",
-      "events": [
-        {
-          "date": "2026-04-21",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 889953,
       "title": "Basic Psych",
       "original_title": "Basic Psych",
@@ -43066,7 +42738,7 @@
         "Romance"
       ],
       "runtime": 103,
-      "vote_average": 6.671,
+      "vote_average": 6.7,
       "vote_count": 4050,
       "imdb_id": "tt15671028",
       "events": [
@@ -43119,8 +42791,8 @@
         "Thriller"
       ],
       "runtime": 89,
-      "vote_average": 6.481,
-      "vote_count": 896,
+      "vote_average": 6.5,
+      "vote_count": 899,
       "imdb_id": "tt33028778",
       "events": [
         {
@@ -43149,8 +42821,8 @@
         "Thriller"
       ],
       "runtime": 90,
-      "vote_average": 8.403,
-      "vote_count": 596,
+      "vote_average": 8.405,
+      "vote_count": 597,
       "imdb_id": "tt34471850",
       "events": [
         {
@@ -43292,8 +42964,8 @@
         "Thriller"
       ],
       "runtime": 107,
-      "vote_average": 7.761,
-      "vote_count": 1893,
+      "vote_average": 7.762,
+      "vote_count": 1896,
       "imdb_id": "tt32357218",
       "events": [
         {
@@ -43577,8 +43249,8 @@
         "Documentary"
       ],
       "runtime": 73,
-      "vote_average": 6.184,
-      "vote_count": 19,
+      "vote_average": 6.175,
+      "vote_count": 20,
       "imdb_id": "tt40224422",
       "events": [
         {
@@ -43784,7 +43456,7 @@
       ],
       "runtime": 139,
       "vote_average": 8.437,
-      "vote_count": 32898,
+      "vote_count": 32899,
       "imdb_id": "tt0137523",
       "events": [
         {
@@ -44122,28 +43794,6 @@
           "date": "2026-04-22",
           "types": [
             6
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1442322,
-      "title": "Lost for Words",
-      "original_title": "Lost for Words",
-      "poster_path": "/zDHpE1mcHCD2MwZTXRR2FF2qWKo.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 93,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt37548819",
-      "events": [
-        {
-          "date": "2026-04-22",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -44969,14 +44619,14 @@
       "tmdb_id": 445466,
       "title": "Idiots",
       "original_title": "Idiots",
-      "poster_path": "/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
+      "poster_path": "/flpCqxH46pGZD1kNOdYgrVsDoTm.jpg",
       "genres": [
         "Comedy",
         "Crime"
       ],
       "runtime": 100,
-      "vote_average": 6.818,
-      "vote_count": 11,
+      "vote_average": 7.0,
+      "vote_count": 12,
       "imdb_id": "tt6628920",
       "events": [
         {
@@ -46202,8 +45852,8 @@
         "Action"
       ],
       "runtime": 127,
-      "vote_average": 6.216,
-      "vote_count": 44,
+      "vote_average": 6.3,
+      "vote_count": 45,
       "imdb_id": "tt13570066",
       "events": [
         {
@@ -46281,29 +45931,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt42363507",
-      "events": [
-        {
-          "date": "2026-04-24",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1682708,
-      "title": "DryApplePie: Streamer on the Rise",
-      "original_title": "DryApplePie: Streamer on the Rise",
-      "poster_path": "/uZvGCqlSz2IWLuNZ1Bf7ZmlCP69.jpg",
-      "genres": [
-        "Documentary",
-        "Comedy"
-      ],
-      "runtime": 6,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt41611922",
       "events": [
         {
           "date": "2026-04-24",
@@ -46554,7 +46181,7 @@
         "Thriller"
       ],
       "runtime": 96,
-      "vote_average": 7.146,
+      "vote_average": 7.144,
       "vote_count": 410,
       "imdb_id": "tt31189814",
       "events": [
@@ -46651,8 +46278,8 @@
         "History"
       ],
       "runtime": 121,
-      "vote_average": 8.253,
-      "vote_count": 578,
+      "vote_average": 8.254,
+      "vote_count": 579,
       "imdb_id": "tt31514146",
       "events": [
         {
@@ -47053,8 +46680,8 @@
         "Drama"
       ],
       "runtime": 83,
-      "vote_average": 6.9,
-      "vote_count": 33,
+      "vote_average": 6.794,
+      "vote_count": 34,
       "imdb_id": "tt29253299",
       "events": [
         {
@@ -47287,8 +46914,8 @@
         "Drama"
       ],
       "runtime": 116,
-      "vote_average": 7.111,
-      "vote_count": 576,
+      "vote_average": 7.106,
+      "vote_count": 577,
       "imdb_id": "tt33088452",
       "events": [
         {
@@ -47741,8 +47368,8 @@
         "Romance"
       ],
       "runtime": 107,
-      "vote_average": 7.254,
-      "vote_count": 608,
+      "vote_average": 7.257,
+      "vote_count": 612,
       "imdb_id": "tt14173636",
       "events": [
         {
@@ -51488,8 +51115,8 @@
         "Fantasy"
       ],
       "runtime": 102,
-      "vote_average": 8.868,
-      "vote_count": 2197,
+      "vote_average": 8.869,
+      "vote_count": 2196,
       "imdb_id": "tt29552248",
       "events": [
         {
@@ -52437,8 +52064,8 @@
         "Adventure"
       ],
       "runtime": 116,
-      "vote_average": 7.8,
-      "vote_count": 2600,
+      "vote_average": 7.808,
+      "vote_count": 2602,
       "imdb_id": "tt17490712",
       "events": [
         {
@@ -52799,28 +52426,6 @@
             1
           ],
           "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1683994,
-      "title": "You Jump, I Jump",
-      "original_title": "You Jump, I Jump",
-      "poster_path": "/AaWOi7RwhCaTTjnMbbnZWWLNRVc.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": 15,
-      "vote_average": 10.0,
-      "vote_count": 1,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-27",
-          "types": [
-            3
-          ],
-          "certification": "R"
         }
       ]
     },
@@ -53401,7 +53006,7 @@
       ],
       "runtime": 104,
       "vote_average": 8.149,
-      "vote_count": 2358,
+      "vote_count": 2360,
       "imdb_id": "tt26443616",
       "events": [
         {
@@ -53605,28 +53210,6 @@
           "date": "2026-04-28",
           "types": [
             5
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1713451,
-      "title": "My Older Brother Bought A Big Titty Anime Figurine And It's Up To Me To Liberate Her For The Sake Of ALL WOMEN?!",
-      "original_title": "My Older Brother Bought A Big Titty Anime Figurine And It's Up To Me To Liberate Her For The Sake Of ALL WOMEN?!",
-      "poster_path": "/srnjAjcwc9d5ovmc9spau0QFMK6.jpg",
-      "genres": [
-        "Animation"
-      ],
-      "runtime": 3,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-28",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
@@ -55196,26 +54779,6 @@
       ]
     },
     {
-      "tmdb_id": 1684526,
-      "title": "Twin Snakes",
-      "original_title": "Twin Snakes",
-      "poster_path": "/gc8niRXPi4hw3mIkd0sE1JzDNp4.jpg",
-      "genres": [],
-      "runtime": 15,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-04-29",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1670123,
       "title": "Warak Areesh",
       "original_title": "Warak Areesh",
@@ -55518,8 +55081,8 @@
         "Fantasy"
       ],
       "runtime": 100,
-      "vote_average": 8.556,
-      "vote_count": 1196,
+      "vote_average": 8.6,
+      "vote_count": 1197,
       "imdb_id": "tt30472557",
       "events": [
         {
@@ -57276,8 +56839,8 @@
         "Drama"
       ],
       "runtime": 113,
-      "vote_average": 7.498,
-      "vote_count": 201,
+      "vote_average": 7.51,
+      "vote_count": 202,
       "imdb_id": "tt38235625",
       "events": [
         {
@@ -68352,8 +67915,8 @@
         "Documentary"
       ],
       "runtime": 114,
-      "vote_average": 8.283,
-      "vote_count": 69,
+      "vote_average": 8.307,
+      "vote_count": 70,
       "imdb_id": "tt39018643",
       "events": [
         {
@@ -69856,29 +69419,6 @@
         "Horror"
       ],
       "runtime": 6,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-05-08",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1666297,
-      "title": "The Doghouse",
-      "original_title": "The Doghouse",
-      "poster_path": null,
-      "genres": [
-        "TV Movie",
-        "Comedy"
-      ],
-      "runtime": 13,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -74515,8 +74055,8 @@
         "Adventure"
       ],
       "runtime": 157,
-      "vote_average": 8.64,
-      "vote_count": 7911,
+      "vote_average": 8.639,
+      "vote_count": 7923,
       "imdb_id": "tt12042730",
       "events": [
         {
@@ -74809,8 +74349,8 @@
         "Adventure"
       ],
       "runtime": 119,
-      "vote_average": 8.936,
-      "vote_count": 141,
+      "vote_average": 8.951,
+      "vote_count": 143,
       "imdb_id": "tt37284198",
       "events": [
         {
@@ -74877,8 +74417,8 @@
         "Crime"
       ],
       "runtime": 51,
-      "vote_average": 8.275,
-      "vote_count": 2245,
+      "vote_average": 8.276,
+      "vote_count": 2247,
       "imdb_id": "tt36042156",
       "events": [
         {
@@ -76381,7 +75921,7 @@
       ],
       "runtime": 110,
       "vote_average": 7.072,
-      "vote_count": 9918,
+      "vote_count": 9920,
       "imdb_id": "tt0092099",
       "events": [
         {
@@ -76403,8 +75943,8 @@
         "Drama"
       ],
       "runtime": 131,
-      "vote_average": 8.157,
-      "vote_count": 11580,
+      "vote_average": 8.158,
+      "vote_count": 11584,
       "imdb_id": "tt1745960",
       "events": [
         {
@@ -77961,8 +77501,8 @@
         "Science Fiction"
       ],
       "runtime": 132,
-      "vote_average": 7.5,
-      "vote_count": 1698,
+      "vote_average": 7.481,
+      "vote_count": 1699,
       "imdb_id": "tt30825738",
       "events": [
         {
@@ -79083,8 +78623,8 @@
         "Thriller"
       ],
       "runtime": 97,
-      "vote_average": 7.573,
-      "vote_count": 1006,
+      "vote_average": 7.6,
+      "vote_count": 1007,
       "imdb_id": "tt27681354",
       "events": [
         {
@@ -79913,7 +79453,7 @@
         "Crime"
       ],
       "runtime": 95,
-      "vote_average": 6.871,
+      "vote_average": 6.866,
       "vote_count": 186,
       "imdb_id": "tt40792117",
       "events": [
@@ -82661,7 +82201,7 @@
       ],
       "runtime": 130,
       "vote_average": 6.828,
-      "vote_count": 5186,
+      "vote_count": 5187,
       "imdb_id": "tt10954984",
       "events": [
         {
@@ -82748,7 +82288,7 @@
       ],
       "runtime": 90,
       "vote_average": 5.1,
-      "vote_count": 50,
+      "vote_count": 51,
       "imdb_id": "tt38128726",
       "events": [
         {
@@ -84456,8 +83996,8 @@
         "Thriller"
       ],
       "runtime": 107,
-      "vote_average": 6.913,
-      "vote_count": 784,
+      "vote_average": 6.916,
+      "vote_count": 786,
       "imdb_id": "tt34378301",
       "events": [
         {
@@ -86130,7 +85670,7 @@
         "Thriller"
       ],
       "runtime": 94,
-      "vote_average": 7.286,
+      "vote_average": 7.3,
       "vote_count": 896,
       "imdb_id": "tt33763941",
       "events": [
@@ -88325,7 +87865,7 @@
         "Drama"
       ],
       "runtime": 76,
-      "vote_average": 1.125,
+      "vote_average": 1.1,
       "vote_count": 4,
       "imdb_id": "tt36758384",
       "events": [
@@ -93761,8 +93301,8 @@
         "Documentary"
       ],
       "runtime": 31,
-      "vote_average": 6.611,
-      "vote_count": 9,
+      "vote_average": 6.688,
+      "vote_count": 8,
       "imdb_id": "tt43122943",
       "events": [
         {
@@ -97433,8 +96973,8 @@
         "Drama"
       ],
       "runtime": 105,
-      "vote_average": 7.304,
-      "vote_count": 310,
+      "vote_average": 7.309,
+      "vote_count": 311,
       "imdb_id": "tt27367464",
       "events": [
         {
@@ -97727,30 +97267,6 @@
             4
           ],
           "certification": "PG-13"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1645655,
-      "title": "WallDale",
-      "original_title": "WallDale",
-      "poster_path": "/jmAGgAuI6KKsHrggSg5CyGeP4qL.jpg",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Mystery"
-      ],
-      "runtime": 135,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt26424426",
-      "events": [
-        {
-          "date": "2026-06-02",
-          "types": [
-            4
-          ],
-          "certification": "NR"
         }
       ]
     },
@@ -100331,7 +99847,7 @@
       "tmdb_id": 1702009,
       "title": "Child of the Rouge",
       "original_title": "Child of the Rouge",
-      "poster_path": null,
+      "poster_path": "/6Z7A9KNRq1sMyMMpDOaYK6GxlUx.jpg",
       "genres": [
         "Drama"
       ],
@@ -100448,35 +99964,6 @@
           "date": "2026-06-05",
           "types": [
             4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1702350,
-      "title": "Fallen Angels",
-      "original_title": "Fallen Angels",
-      "poster_path": "/fVUdqgCL8hgWzEho5mGMTdXPY2o.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": 95,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt42921285",
-      "events": [
-        {
-          "date": "2026-06-05",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-22",
-          "types": [
-            2
           ],
           "certification": "NR"
         }
@@ -100871,8 +100358,8 @@
         "Mystery"
       ],
       "runtime": 99,
-      "vote_average": 5.696,
-      "vote_count": 345,
+      "vote_average": 5.691,
+      "vote_count": 346,
       "imdb_id": "tt32332404",
       "events": [
         {
@@ -101210,8 +100697,8 @@
         "Mystery"
       ],
       "runtime": 106,
-      "vote_average": 5.372,
-      "vote_count": 840,
+      "vote_average": 5.368,
+      "vote_count": 841,
       "imdb_id": "tt22868010",
       "events": [
         {
@@ -101315,8 +100802,8 @@
         "Comedy"
       ],
       "runtime": 96,
-      "vote_average": 6.368,
-      "vote_count": 1934,
+      "vote_average": 6.4,
+      "vote_count": 1936,
       "imdb_id": "tt32093575",
       "events": [
         {
@@ -103566,8 +103053,8 @@
         "Thriller"
       ],
       "runtime": 110,
-      "vote_average": 7.09,
-      "vote_count": 2347,
+      "vote_average": 7.091,
+      "vote_count": 2348,
       "imdb_id": "tt27534307",
       "events": [
         {
@@ -103773,8 +103260,8 @@
         "Thriller"
       ],
       "runtime": 92,
-      "vote_average": 5.875,
-      "vote_count": 289,
+      "vote_average": 5.89,
+      "vote_count": 290,
       "imdb_id": "tt28682323",
       "events": [
         {
@@ -104740,35 +104227,6 @@
       ]
     },
     {
-      "tmdb_id": 1672994,
-      "title": "Miss Representation: Rise Up",
-      "original_title": "Miss Representation: Rise Up",
-      "poster_path": "/8v1qqHTKsILSOy1VeQXDrjMe9yC.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 90,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-06-07",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-22",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1703234,
       "title": "Mon Taxi",
       "original_title": "Mon Taxi",
@@ -105379,28 +104837,6 @@
           "date": "2026-06-07",
           "types": [
             3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1553191,
-      "title": "5:28 AM",
-      "original_title": "5:28 AM",
-      "poster_path": "/20rtNbyuABwcgJw5T5gGYGSVEKo.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 13,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt37280176",
-      "events": [
-        {
-          "date": "2026-06-08",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -106889,8 +106325,8 @@
         "Adventure"
       ],
       "runtime": 102,
-      "vote_average": 8.361,
-      "vote_count": 2241,
+      "vote_average": 8.359,
+      "vote_count": 2246,
       "imdb_id": "tt29355505",
       "events": [
         {
@@ -107562,8 +106998,8 @@
         "Thriller"
       ],
       "runtime": 153,
-      "vote_average": 5.395,
-      "vote_count": 62,
+      "vote_average": 5.373,
+      "vote_count": 63,
       "imdb_id": "tt1333644",
       "events": [
         {
@@ -109883,7 +109319,7 @@
       ],
       "runtime": 146,
       "vote_average": 7.5,
-      "vote_count": 3408,
+      "vote_count": 3410,
       "imdb_id": "tt15047880",
       "events": [
         {
@@ -111387,8 +110823,8 @@
         "Thriller"
       ],
       "runtime": 113,
-      "vote_average": 8.185,
-      "vote_count": 747,
+      "vote_average": 8.187,
+      "vote_count": 750,
       "imdb_id": "tt33311069",
       "events": [
         {
@@ -111640,6 +111076,7 @@
         {
           "date": "2026-06-12",
           "types": [
+            2,
             4
           ],
           "certification": "NR"
@@ -112038,8 +111475,8 @@
         "Thriller"
       ],
       "runtime": 120,
-      "vote_average": 7.2,
-      "vote_count": 3627,
+      "vote_average": 7.189,
+      "vote_count": 3628,
       "imdb_id": "tt20215234",
       "events": [
         {
@@ -112937,8 +112374,8 @@
         "Drama"
       ],
       "runtime": 121,
-      "vote_average": 7.843,
-      "vote_count": 121,
+      "vote_average": 7.795,
+      "vote_count": 122,
       "imdb_id": "tt32104007",
       "events": [
         {
@@ -114189,26 +113626,6 @@
             2
           ],
           "certification": "PG-13"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1714632,
-      "title": "We Year",
-      "original_title": "We Year",
-      "poster_path": "/miX6VGWouZTXWtP6me5f4NRj0yS.jpg",
-      "genres": [],
-      "runtime": 11,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-06-15",
-          "types": [
-            1
-          ],
-          "certification": "NR"
         }
       ]
     },
@@ -116823,7 +116240,7 @@
       ],
       "runtime": 105,
       "vote_average": 6.967,
-      "vote_count": 747,
+      "vote_count": 749,
       "imdb_id": "tt4357198",
       "events": [
         {
@@ -117999,28 +117416,6 @@
       ]
     },
     {
-      "tmdb_id": 1715944,
-      "title": "But I’m Your Brother",
-      "original_title": "But I’m Your Brother",
-      "poster_path": "/96r35uuewIcPAp4fwRI9MhozXRq.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 15,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt35713216",
-      "events": [
-        {
-          "date": "2026-06-20",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1718327,
       "title": "Catsitting",
       "original_title": "Catsitting",
@@ -118998,6 +118393,20 @@
             1
           ],
           "certification": "NR"
+        },
+        {
+          "date": "2026-10-09",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        },
+        {
+          "date": "2026-10-16",
+          "types": [
+            1
+          ],
+          "certification": "NR"
         }
       ]
     },
@@ -119921,8 +119330,8 @@
         "Science Fiction"
       ],
       "runtime": 108,
-      "vote_average": 6.678,
-      "vote_count": 2386,
+      "vote_average": 6.676,
+      "vote_count": 2387,
       "imdb_id": "tt8814476",
       "events": [
         {
@@ -121661,8 +121070,8 @@
         "Comedy"
       ],
       "runtime": 101,
-      "vote_average": 5.5,
-      "vote_count": 1576,
+      "vote_average": 5.537,
+      "vote_count": 1575,
       "imdb_id": "tt4978420",
       "events": [
         {
@@ -122064,7 +121473,7 @@
       "tmdb_id": 1484708,
       "title": "Sugar Beach",
       "original_title": "Sugar Beach",
-      "poster_path": "/gcaCYQZtZeDIA0xpeiuq7h040x1.jpg",
+      "poster_path": "/30rNOv8OlkWTBhTMr9o7dc904BB.jpg",
       "genres": [
         "Drama"
       ],
@@ -123903,28 +123312,6 @@
       ]
     },
     {
-      "tmdb_id": 1715932,
-      "title": "Veil",
-      "original_title": "장막",
-      "poster_path": "/c8hiym65eRdZZkRVOtnavOqBM2i.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 7,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-06-26",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1721701,
       "title": "Visitors of the Unknown",
       "original_title": "Visitors of the Unknown",
@@ -125088,8 +124475,8 @@
         "Comedy"
       ],
       "runtime": 108,
-      "vote_average": 7.437,
-      "vote_count": 1360,
+      "vote_average": 7.439,
+      "vote_count": 1361,
       "imdb_id": "tt0800325",
       "events": [
         {
@@ -126365,29 +125752,6 @@
       ]
     },
     {
-      "tmdb_id": 1585580,
-      "title": "A Super Progressive Movie",
-      "original_title": "A Super Progressive Movie",
-      "poster_path": "/iHqvrXObO2RD27qdY2FrdZdlIGs.jpg",
-      "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "runtime": 86,
-      "vote_average": 4.818,
-      "vote_count": 11,
-      "imdb_id": "tt39045499",
-      "events": [
-        {
-          "date": "2026-06-29",
-          "types": [
-            4
-          ],
-          "certification": "R"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1718871,
       "title": "Austen's Least Romantic",
       "original_title": "Austen's Least Romantic",
@@ -127107,8 +126471,8 @@
         "Horror"
       ],
       "runtime": 110,
-      "vote_average": 7.675,
-      "vote_count": 1567,
+      "vote_average": 7.678,
+      "vote_count": 1571,
       "imdb_id": "tt31170389",
       "events": [
         {
@@ -128173,8 +127537,8 @@
         "Fantasy"
       ],
       "runtime": 90,
-      "vote_average": 7.553,
-      "vote_count": 1157,
+      "vote_average": 7.555,
+      "vote_count": 1158,
       "imdb_id": "tt32890033",
       "events": [
         {
@@ -129460,8 +128824,8 @@
         "Crime"
       ],
       "runtime": 24,
-      "vote_average": 8.058,
-      "vote_count": 78,
+      "vote_average": 8.082,
+      "vote_count": 79,
       "imdb_id": "tt43140642",
       "events": [
         {
@@ -129549,8 +128913,8 @@
         "Action"
       ],
       "runtime": 86,
-      "vote_average": 4.042,
-      "vote_count": 583,
+      "vote_average": 4.1,
+      "vote_count": 584,
       "imdb_id": "tt41605854",
       "events": [
         {
@@ -130524,8 +129888,8 @@
       "poster_path": "/mrONQ5gkWIVSf3hp5n6w7qoK2oN.jpg",
       "genres": [
         "Animation",
-        "Action",
-        "Comedy"
+        "Comedy",
+        "Action"
       ],
       "runtime": 24,
       "vote_average": 6.6,
@@ -130828,7 +130192,7 @@
       ],
       "runtime": 125,
       "vote_average": 7.722,
-      "vote_count": 1624,
+      "vote_count": 1625,
       "imdb_id": "tt14905854",
       "events": [
         {
@@ -131394,8 +130758,8 @@
         "Adventure"
       ],
       "runtime": 115,
-      "vote_average": 7.414,
-      "vote_count": 748,
+      "vote_average": 7.425,
+      "vote_count": 751,
       "imdb_id": "tt27419466",
       "events": [
         {
@@ -131500,7 +130864,7 @@
         "Comedy",
         "Romance"
       ],
-      "runtime": null,
+      "runtime": 88,
       "vote_average": 3.6,
       "vote_count": 5,
       "imdb_id": "tt42669039",
@@ -132743,8 +132107,8 @@
         "Science Fiction"
       ],
       "runtime": 123,
-      "vote_average": 8.082,
-      "vote_count": 859,
+      "vote_average": 8.085,
+      "vote_count": 864,
       "imdb_id": "tt34385135",
       "events": [
         {
@@ -133447,8 +132811,8 @@
         "Crime"
       ],
       "runtime": 109,
-      "vote_average": 6.671,
-      "vote_count": 231,
+      "vote_average": 6.677,
+      "vote_count": 232,
       "imdb_id": "tt33295741",
       "events": [
         {
@@ -133690,7 +133054,7 @@
         "Thriller"
       ],
       "runtime": 106,
-      "vote_average": 7.3,
+      "vote_average": 7.279,
       "vote_count": 4540,
       "imdb_id": "tt15314262",
       "events": [
@@ -133860,8 +133224,8 @@
         "Horror"
       ],
       "runtime": 108,
-      "vote_average": 6.9,
-      "vote_count": 1943,
+      "vote_average": 6.861,
+      "vote_count": 1945,
       "imdb_id": "tt10374610",
       "events": [
         {
@@ -135137,29 +134501,6 @@
           "date": "2026-07-17",
           "types": [
             2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1352624,
-      "title": "The Mastermind",
-      "original_title": "The Mastermind",
-      "poster_path": "/oPaEQ3m4zHOzIAstgXCZZtzcHTL.jpg",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "runtime": 110,
-      "vote_average": 5.743,
-      "vote_count": 226,
-      "imdb_id": "tt33455099",
-      "events": [
-        {
-          "date": "2026-07-12",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -136756,28 +136097,6 @@
           "date": "2026-07-16",
           "types": [
             4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1393083,
-      "title": "My Name",
-      "original_title": "내 이름은",
-      "poster_path": "/es4NOWmGNN5glTImUTVPh357LvH.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 113,
-      "vote_average": 8.3,
-      "vote_count": 3,
-      "imdb_id": "tt39383539",
-      "events": [
-        {
-          "date": "2026-07-16",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -138912,8 +138231,8 @@
         "Thriller"
       ],
       "runtime": 142,
-      "vote_average": 7.2,
-      "vote_count": 23730,
+      "vote_average": 7.223,
+      "vote_count": 23731,
       "imdb_id": "tt1392170",
       "events": [
         {
@@ -138960,8 +138279,8 @@
         "Thriller"
       ],
       "runtime": 123,
-      "vote_average": 6.8,
-      "vote_count": 17017,
+      "vote_average": 6.814,
+      "vote_count": 17018,
       "imdb_id": "tt1951265",
       "events": [
         {
@@ -138984,8 +138303,8 @@
         "Science Fiction"
       ],
       "runtime": 137,
-      "vote_average": 6.9,
-      "vote_count": 13595,
+      "vote_average": 6.897,
+      "vote_count": 13596,
       "imdb_id": "tt1951266",
       "events": [
         {
@@ -140801,8 +140120,8 @@
         "Drama"
       ],
       "runtime": 93,
-      "vote_average": 7.5,
-      "vote_count": 212,
+      "vote_average": 7.549,
+      "vote_count": 213,
       "imdb_id": "tt37042085",
       "events": [
         {
@@ -141297,7 +140616,7 @@
         "Science Fiction"
       ],
       "runtime": 87,
-      "vote_average": 7.167,
+      "vote_average": 7.2,
       "vote_count": 15,
       "imdb_id": "tt38649153",
       "events": [
@@ -141905,8 +141224,8 @@
         "Crime"
       ],
       "runtime": 134,
-      "vote_average": 7.935,
-      "vote_count": 138,
+      "vote_average": 7.906,
+      "vote_count": 139,
       "imdb_id": "tt39749953",
       "events": [
         {
@@ -142128,8 +141447,8 @@
         "Action"
       ],
       "runtime": 99,
-      "vote_average": 9.149,
-      "vote_count": 1181,
+      "vote_average": 9.152,
+      "vote_count": 1182,
       "imdb_id": "tt18259538",
       "events": [
         {
@@ -142166,8 +141485,8 @@
         "Crime"
       ],
       "runtime": 106,
-      "vote_average": 6.406,
-      "vote_count": 80,
+      "vote_average": 6.401,
+      "vote_count": 81,
       "imdb_id": "tt38814447",
       "events": [
         {
@@ -142456,8 +141775,8 @@
         "Drama"
       ],
       "runtime": 95,
-      "vote_average": 7.5,
-      "vote_count": 2,
+      "vote_average": 8.4,
+      "vote_count": 5,
       "imdb_id": "tt41653540",
       "events": [
         {
@@ -145209,8 +144528,8 @@
         "Adventure"
       ],
       "runtime": 145,
-      "vote_average": 7.862,
-      "vote_count": 2826,
+      "vote_average": 7.863,
+      "vote_count": 2827,
       "imdb_id": "tt22084616",
       "events": [
         {
@@ -145439,8 +144758,8 @@
         "Fantasy"
       ],
       "runtime": 156,
-      "vote_average": 8.803,
-      "vote_count": 2165,
+      "vote_average": 8.804,
+      "vote_count": 2167,
       "imdb_id": "tt32820897",
       "events": [
         {
@@ -147791,8 +147110,8 @@
         "Horror"
       ],
       "runtime": 92,
-      "vote_average": 5.957,
-      "vote_count": 138,
+      "vote_average": 5.928,
+      "vote_count": 139,
       "imdb_id": "tt34383465",
       "events": [
         {
@@ -148896,8 +148215,8 @@
         "Horror"
       ],
       "runtime": 84,
-      "vote_average": 6.376,
-      "vote_count": 2095,
+      "vote_average": 6.378,
+      "vote_count": 2096,
       "imdb_id": "tt0099253",
       "events": [
         {
@@ -148918,8 +148237,8 @@
         "Horror"
       ],
       "runtime": 90,
-      "vote_average": 5.906,
-      "vote_count": 1801,
+      "vote_average": 5.908,
+      "vote_count": 1802,
       "imdb_id": "tt0103956",
       "events": [
         {
@@ -149112,29 +148431,6 @@
           "date": "2026-08-20",
           "types": [
             3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1714167,
-      "title": "Disciples of a Craftsman",
-      "original_title": "Disciples of a Craftsman",
-      "poster_path": "/gfOHIcc5g14J7t9xEOFNAtZk2R3.jpg",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "runtime": 120,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt33508212",
-      "events": [
-        {
-          "date": "2026-08-01",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -150010,6 +149306,35 @@
       ]
     },
     {
+      "tmdb_id": 1776914,
+      "title": "The sick mind of edp445",
+      "original_title": "The sick mind of edp445",
+      "poster_path": null,
+      "genres": [
+        "Documentary"
+      ],
+      "runtime": 94,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt43715766",
+      "events": [
+        {
+          "date": "2026-08-01",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        },
+        {
+          "date": "2026-08-25",
+          "types": [
+            5
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1773306,
       "title": "There Is a Me",
       "original_title": "There Is a Me",
@@ -150597,7 +149922,7 @@
       ],
       "runtime": 154,
       "vote_average": 8.48,
-      "vote_count": 30911,
+      "vote_count": 30912,
       "imdb_id": "tt0110912",
       "events": [
         {
@@ -150710,8 +150035,8 @@
         "Comedy"
       ],
       "runtime": 100,
-      "vote_average": 7.483,
-      "vote_count": 4081,
+      "vote_average": 7.484,
+      "vote_count": 4082,
       "imdb_id": "tt0067992",
       "events": [
         {
@@ -150846,8 +150171,8 @@
         "Thriller"
       ],
       "runtime": 86,
-      "vote_average": 4.6,
-      "vote_count": 65,
+      "vote_average": 4.612,
+      "vote_count": 67,
       "imdb_id": "tt36893729",
       "events": [
         {
@@ -150985,8 +150310,8 @@
         "Drama"
       ],
       "runtime": 110,
-      "vote_average": 7.003,
-      "vote_count": 181,
+      "vote_average": 7.014,
+      "vote_count": 182,
       "imdb_id": "tt7775720",
       "events": [
         {
@@ -154166,8 +153491,8 @@
         "Romance"
       ],
       "runtime": 91,
-      "vote_average": 7.1,
-      "vote_count": 19,
+      "vote_average": 7.333,
+      "vote_count": 21,
       "imdb_id": "tt11866682",
       "events": [
         {
@@ -154465,8 +153790,8 @@
         "Mystery"
       ],
       "runtime": 104,
-      "vote_average": 7.0,
-      "vote_count": 22,
+      "vote_average": 6.9,
+      "vote_count": 23,
       "imdb_id": "tt8820258",
       "events": [
         {
@@ -154681,8 +154006,8 @@
         "Thriller"
       ],
       "runtime": 110,
-      "vote_average": 6.857,
-      "vote_count": 1385,
+      "vote_average": 6.856,
+      "vote_count": 1387,
       "imdb_id": "tt32268156",
       "events": [
         {
@@ -154831,7 +154156,7 @@
       ],
       "runtime": 106,
       "vote_average": 7.6,
-      "vote_count": 94,
+      "vote_count": 95,
       "imdb_id": "tt33095251",
       "events": [
         {
@@ -158771,8 +158096,8 @@
         "Drama"
       ],
       "runtime": 109,
-      "vote_average": 6.02,
-      "vote_count": 25,
+      "vote_average": 5.865,
+      "vote_count": 26,
       "imdb_id": "tt43640198",
       "events": [
         {
@@ -160446,7 +159771,7 @@
       ],
       "runtime": 88,
       "vote_average": 7.973,
-      "vote_count": 131,
+      "vote_count": 132,
       "imdb_id": "tt29356163",
       "events": [
         {
@@ -160857,8 +160182,8 @@
         "Thriller"
       ],
       "runtime": 100,
-      "vote_average": 7.013,
-      "vote_count": 1414,
+      "vote_average": 7.012,
+      "vote_count": 1433,
       "imdb_id": "tt27165187",
       "events": [
         {
@@ -161014,7 +160339,7 @@
         "Drama"
       ],
       "runtime": 131,
-      "vote_average": 6.787,
+      "vote_average": 6.8,
       "vote_count": 82,
       "imdb_id": "tt27706593",
       "events": [
@@ -161101,7 +160426,7 @@
       ],
       "runtime": 118,
       "vote_average": 7.748,
-      "vote_count": 8755,
+      "vote_count": 8756,
       "imdb_id": "tt5700672",
       "events": [
         {
@@ -161291,7 +160616,7 @@
       ],
       "runtime": 106,
       "vote_average": 8.487,
-      "vote_count": 13010,
+      "vote_count": 13011,
       "imdb_id": "tt5311514",
       "events": [
         {
@@ -162425,8 +161750,8 @@
         "Romance"
       ],
       "runtime": 129,
-      "vote_average": 7.9,
-      "vote_count": 18500,
+      "vote_average": 7.895,
+      "vote_count": 18501,
       "imdb_id": "tt3783958",
       "events": [
         {
@@ -162465,7 +161790,7 @@
       "tmdb_id": 1747016,
       "title": "Mortal Copy",
       "original_title": "Mortal Copy",
-      "poster_path": null,
+      "poster_path": "/at4KLOp8WBpPojAeRMwsKSj2s1n.jpg",
       "genres": [],
       "runtime": 11,
       "vote_average": 0,
@@ -162839,8 +162164,8 @@
         "Family"
       ],
       "runtime": 103,
-      "vote_average": 7.535,
-      "vote_count": 484,
+      "vote_average": 7.533,
+      "vote_count": 488,
       "imdb_id": "tt1756855",
       "events": [
         {
@@ -163246,7 +162571,7 @@
         "Comedy"
       ],
       "runtime": 110,
-      "vote_average": 7.471,
+      "vote_average": 7.5,
       "vote_count": 17,
       "imdb_id": "tt32622406",
       "events": [
@@ -165278,9 +164603,9 @@
     },
     {
       "tmdb_id": 1685882,
-      "title": "Modha Rathiri",
+      "title": "Modha Rathri",
       "original_title": "மொத ராத்திரி",
-      "poster_path": "/hRWSgz2YbukvpBMUDr9fQ7KxaZh.jpg",
+      "poster_path": "/lZiTSLDLIkW9YS6CWo8uaXZMcO6.jpg",
       "genres": [
         "Romance",
         "Comedy"
@@ -165506,7 +164831,7 @@
         "Fantasy"
       ],
       "runtime": 133,
-      "vote_average": 6.712,
+      "vote_average": 6.7,
       "vote_count": 3976,
       "imdb_id": "tt5040012",
       "events": [
@@ -165753,8 +165078,8 @@
         "Comedy"
       ],
       "runtime": 97,
-      "vote_average": 6.8,
-      "vote_count": 38,
+      "vote_average": 6.808,
+      "vote_count": 39,
       "imdb_id": "tt33305867",
       "events": [
         {
@@ -168146,8 +167471,8 @@
         "Mystery"
       ],
       "runtime": 86,
-      "vote_average": 6.8,
-      "vote_count": 4888,
+      "vote_average": 6.844,
+      "vote_count": 4890,
       "imdb_id": "tt3289956",
       "events": [
         {
@@ -168372,8 +167697,8 @@
         "Adventure"
       ],
       "runtime": 109,
-      "vote_average": 6.671,
-      "vote_count": 4537,
+      "vote_average": 6.672,
+      "vote_count": 4538,
       "imdb_id": "tt16366836",
       "events": [
         {
@@ -169381,8 +168706,8 @@
         "History"
       ],
       "runtime": 105,
-      "vote_average": 7.199,
-      "vote_count": 73,
+      "vote_average": 7.257,
+      "vote_count": 76,
       "imdb_id": "tt43706402",
       "events": [
         {
@@ -169415,28 +168740,6 @@
             2
           ],
           "certification": "PG"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1760289,
-      "title": "BILLIONS / THE WOLF / THE WONDER",
-      "original_title": "BILLIONS / THE WOLF / THE WONDER",
-      "poster_path": "/1BLAmAb2iFOfxoNFUZbhHeyQcPW.jpg",
-      "genres": [
-        "Music"
-      ],
-      "runtime": 11,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-08-28",
-          "types": [
-            4
-          ],
-          "certification": "NR"
         }
       ]
     },
@@ -169575,6 +168878,28 @@
       ]
     },
     {
+      "tmdb_id": 1376929,
+      "title": "Disposable Humanity",
+      "original_title": "Disposable Humanity",
+      "poster_path": "/o5LyN68dyvXzhXGWlcfUrIN7bHJ.jpg",
+      "genres": [
+        "Documentary"
+      ],
+      "runtime": 95,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt7336082",
+      "events": [
+        {
+          "date": "2026-08-28",
+          "types": [
+            3
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1750414,
       "title": "Dress-Up",
       "original_title": "Dress-Up",
@@ -169632,7 +168957,7 @@
         "Comedy"
       ],
       "runtime": 111,
-      "vote_average": 6.771,
+      "vote_average": 6.8,
       "vote_count": 59,
       "imdb_id": "tt32499466",
       "events": [
@@ -170166,8 +169491,8 @@
         "Horror"
       ],
       "runtime": null,
-      "vote_average": 5.0,
-      "vote_count": 21,
+      "vote_average": 5.091,
+      "vote_count": 22,
       "imdb_id": "tt22406048",
       "events": [
         {
@@ -170359,8 +169684,8 @@
         "Mystery"
       ],
       "runtime": 119,
-      "vote_average": 6.396,
-      "vote_count": 120,
+      "vote_average": 6.397,
+      "vote_count": 121,
       "imdb_id": "tt37275992",
       "events": [
         {
@@ -170403,8 +169728,8 @@
         "Thriller"
       ],
       "runtime": 111,
-      "vote_average": 6.859,
-      "vote_count": 776,
+      "vote_average": 6.86,
+      "vote_count": 780,
       "imdb_id": "tt11561116",
       "events": [
         {
@@ -170890,28 +170215,6 @@
       "poster_path": null,
       "genres": [],
       "runtime": 5,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-08-29",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1756021,
-      "title": "DRIVE THEORY",
-      "original_title": "DRIVE THEORY",
-      "poster_path": "/eCwuhcp8hRkWjr7Z9QpJ7GD2rRQ.jpg",
-      "genres": [
-        "Music"
-      ],
-      "runtime": 20,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -172550,26 +171853,6 @@
       ]
     },
     {
-      "tmdb_id": 1738036,
-      "title": "CHAD",
-      "original_title": "CHAD",
-      "poster_path": null,
-      "genres": [],
-      "runtime": 8,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-08-30",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1738277,
       "title": "Chip",
       "original_title": "Chip",
@@ -173743,8 +173026,8 @@
         "Comedy"
       ],
       "runtime": 130,
-      "vote_average": 6.158,
-      "vote_count": 79,
+      "vote_average": 6.175,
+      "vote_count": 80,
       "imdb_id": "tt32588798",
       "events": [
         {
@@ -174213,7 +173496,7 @@
       ],
       "runtime": 105,
       "vote_average": 6.867,
-      "vote_count": 8419,
+      "vote_count": 8420,
       "imdb_id": "tt2381941",
       "events": [
         {
@@ -174695,7 +173978,7 @@
       ],
       "runtime": 131,
       "vote_average": 6.935,
-      "vote_count": 3125,
+      "vote_count": 3126,
       "imdb_id": "tt17351924",
       "events": [
         {
@@ -175386,29 +174669,6 @@
       ]
     },
     {
-      "tmdb_id": 1386315,
-      "title": "The Runner",
-      "original_title": "The Runner",
-      "poster_path": "/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
-      "genres": [
-        "Thriller",
-        "Action"
-      ],
-      "runtime": 86,
-      "vote_average": 6.8,
-      "vote_count": 552,
-      "imdb_id": "tt34564059",
-      "events": [
-        {
-          "date": "2026-09-02",
-          "types": [
-            4
-          ],
-          "certification": "PG-13"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1760828,
       "title": "THE SCRIPT??",
       "original_title": "THE SCRIPT??",
@@ -175457,7 +174717,7 @@
       "tmdb_id": 977942,
       "title": "The Uprising",
       "original_title": "The Uprising",
-      "poster_path": "/jme7VvETwHdPQt90HPs0aL6KMln.jpg",
+      "poster_path": "/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
       "genres": [
         "Action",
         "History",
@@ -175770,8 +175030,8 @@
         "Thriller"
       ],
       "runtime": 117,
-      "vote_average": 6.676,
-      "vote_count": 17,
+      "vote_average": 7.024,
+      "vote_count": 21,
       "imdb_id": "tt33354945",
       "events": [
         {
@@ -175886,8 +175146,8 @@
         "Comedy"
       ],
       "runtime": 111,
-      "vote_average": 8.045,
-      "vote_count": 759,
+      "vote_average": 8.046,
+      "vote_count": 766,
       "imdb_id": "tt28014327",
       "events": [
         {
@@ -176341,8 +175601,8 @@
         "Action"
       ],
       "runtime": 124,
-      "vote_average": 7.9,
-      "vote_count": 5007,
+      "vote_average": 7.94,
+      "vote_count": 5008,
       "imdb_id": "tt0094625",
       "events": [
         {
@@ -176517,8 +175777,8 @@
         "Family"
       ],
       "runtime": 117,
-      "vote_average": 7.054,
-      "vote_count": 15540,
+      "vote_average": 7.055,
+      "vote_count": 15543,
       "imdb_id": "tt0317219",
       "events": [
         {
@@ -176864,77 +176124,6 @@
       ]
     },
     {
-      "tmdb_id": 1599230,
-      "title": "Elsinore",
-      "original_title": "Elsinore",
-      "poster_path": "/sWLwzqjaTDtAjK01erubswLkQwl.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 104,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt37363222",
-      "events": [
-        {
-          "date": "2026-09-04",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-03",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-16",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-18",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-19",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-22",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-24",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-11-20",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1711926,
       "title": "Ephemera",
       "original_title": "Ephemera",
@@ -177015,8 +176204,8 @@
         "Family"
       ],
       "runtime": 109,
-      "vote_average": 7.364,
-      "vote_count": 11,
+      "vote_average": 7.6,
+      "vote_count": 12,
       "imdb_id": "tt36583977",
       "events": [
         {
@@ -177534,7 +176723,7 @@
         "Thriller"
       ],
       "runtime": 92,
-      "vote_average": 5.944,
+      "vote_average": 5.9,
       "vote_count": 27,
       "imdb_id": "tt32268691",
       "events": [
@@ -178488,28 +177677,6 @@
           "date": "2026-09-04",
           "types": [
             3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1744263,
-      "title": "UNCONVENTIONAL",
-      "original_title": "UNCONVENTIONAL",
-      "poster_path": "/c1fYHGUuZJyPtTC43wbjLBNtOQl.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 6,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-09-04",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
@@ -180457,7 +179624,7 @@
           "types": [
             2
           ],
-          "certification": "NR"
+          "certification": "R"
         }
       ]
     },
@@ -181044,7 +180211,7 @@
         "Drama"
       ],
       "runtime": 58,
-      "vote_average": 8.185,
+      "vote_average": 8.2,
       "vote_count": 672,
       "imdb_id": "tt31711040",
       "events": [
@@ -181696,8 +180863,8 @@
         "Drama"
       ],
       "runtime": 117,
-      "vote_average": 6.247,
-      "vote_count": 93,
+      "vote_average": 6.245,
+      "vote_count": 94,
       "imdb_id": "tt38267923",
       "events": [
         {
@@ -181827,28 +180994,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt45936093",
-      "events": [
-        {
-          "date": "2026-09-10",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1768329,
-      "title": "Gracie Abrams - Amazon Music Songline",
-      "original_title": "Gracie Abrams - Amazon Music Songline",
-      "poster_path": "/fkvxDy31AhG15rjcvIkaA5fRfcd.jpg",
-      "genres": [
-        "Music"
-      ],
-      "runtime": 26,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
       "events": [
         {
           "date": "2026-09-10",
@@ -182177,8 +181322,8 @@
         "Drama"
       ],
       "runtime": 127,
-      "vote_average": 7.5,
-      "vote_count": 5348,
+      "vote_average": 7.539,
+      "vote_count": 5349,
       "imdb_id": "tt0335345",
       "events": [
         {
@@ -183066,8 +182211,8 @@
         "Thriller"
       ],
       "runtime": 142,
-      "vote_average": 7.386,
-      "vote_count": 22,
+      "vote_average": 7.5,
+      "vote_count": 23,
       "imdb_id": "tt9601292",
       "events": [
         {
@@ -183663,28 +182808,6 @@
           "date": "2026-09-12",
           "types": [
             4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1768559,
-      "title": "Reel Conversations",
-      "original_title": "Reel Conversations",
-      "poster_path": "/nOzitdE3qnMv1AeDadmRi9y2oad.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 56,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-09-12",
-          "types": [
-            1
           ],
           "certification": "NR"
         }
@@ -184590,36 +183713,6 @@
           "date": "2026-09-14",
           "types": [
             3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1767362,
-      "title": "Tomorrow Protocol",
-      "original_title": "Tomorrow Protocol",
-      "poster_path": "/guX0B1x23V3VEKLP1rNQ7LUrCz1.jpg",
-      "genres": [
-        "Animation",
-        "Action"
-      ],
-      "runtime": 141,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-09-14",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-02",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
@@ -185603,29 +184696,6 @@
       ]
     },
     {
-      "tmdb_id": 1461432,
-      "title": "Adult Supervision",
-      "original_title": "Arkipelag",
-      "poster_path": "/rBR8DmaMqRcxv6Ewgg6rwczV8EY.jpg",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "runtime": 108,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt36462731",
-      "events": [
-        {
-          "date": "2026-09-17",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1773889,
       "title": "Bare Knuckle Brooke",
       "original_title": "Bare Knuckle Brooke",
@@ -185774,6 +184844,13 @@
             1
           ],
           "certification": "NR"
+        },
+        {
+          "date": "2026-09-26",
+          "types": [
+            1
+          ],
+          "certification": "NR"
         }
       ]
     },
@@ -185808,8 +184885,8 @@
         "Drama"
       ],
       "runtime": 108,
-      "vote_average": 5.0,
-      "vote_count": 1,
+      "vote_average": 6.5,
+      "vote_count": 2,
       "imdb_id": "tt37542993",
       "events": [
         {
@@ -186361,7 +185438,10 @@
       "title": "Phreaker",
       "original_title": "Phreaker",
       "poster_path": "/dO2Za3FASEdNiYe3LqfBlvjHwzo.jpg",
-      "genres": [],
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
       "runtime": null,
       "vote_average": 0,
       "vote_count": 0,
@@ -186407,8 +185487,8 @@
         "Adventure"
       ],
       "runtime": 95,
-      "vote_average": 7.298,
-      "vote_count": 339,
+      "vote_average": 7.313,
+      "vote_count": 347,
       "imdb_id": "tt35538033",
       "events": [
         {
@@ -186836,7 +185916,7 @@
       ],
       "runtime": 30,
       "vote_average": 7.8,
-      "vote_count": 4,
+      "vote_count": 5,
       "imdb_id": null,
       "events": [
         {
@@ -186918,29 +185998,6 @@
           "date": "2026-09-18",
           "types": [
             1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1606527,
-      "title": "418",
-      "original_title": "418",
-      "poster_path": "/aNPNi3qUdAzKdtd1fKwMdUdyUcz.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 157,
-      "vote_average": 5.0,
-      "vote_count": 1,
-      "imdb_id": "tt38984184",
-      "events": [
-        {
-          "date": "2026-09-18",
-          "types": [
-            3
           ],
           "certification": "NR"
         }
@@ -188386,7 +187443,7 @@
         "Crime"
       ],
       "runtime": 112,
-      "vote_average": 6.676,
+      "vote_average": 6.7,
       "vote_count": 17,
       "imdb_id": "tt10794054",
       "events": [
@@ -188575,6 +187632,13 @@
           "certification": "NR"
         },
         {
+          "date": "2026-09-25",
+          "types": [
+            3
+          ],
+          "certification": "R"
+        },
+        {
           "date": "2026-10-03",
           "types": [
             1
@@ -188587,13 +187651,6 @@
             1
           ],
           "certification": "NR"
-        },
-        {
-          "date": "2026-11-13",
-          "types": [
-            3
-          ],
-          "certification": "R"
         }
       ]
     },
@@ -188706,29 +187763,6 @@
             3
           ],
           "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1641629,
-      "title": "You+Me - Against the World",
-      "original_title": "Toi+Moi - Seuls contre tous",
-      "poster_path": "/bAbBNVplg7h79sm94OyHeKk8Phz.jpg",
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "runtime": 94,
-      "vote_average": 5.676,
-      "vote_count": 37,
-      "imdb_id": "tt43617372",
-      "events": [
-        {
-          "date": "2026-09-18",
-          "types": [
-            4
-          ],
-          "certification": "R"
         }
       ]
     },
@@ -188958,7 +187992,7 @@
       ],
       "runtime": 126,
       "vote_average": 7.234,
-      "vote_count": 8812,
+      "vote_count": 8813,
       "imdb_id": "tt0096895",
       "events": [
         {
@@ -191496,6 +190530,26 @@
       ]
     },
     {
+      "tmdb_id": 1776944,
+      "title": "2 Carrie 2 Momma",
+      "original_title": "2 Carrie 2 Momma",
+      "poster_path": "/4wDlKeXir4WdXFZKmiXXNKjVxBv.jpg",
+      "genres": [],
+      "runtime": 2,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-09-22",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1775835,
       "title": "A Tell Tail Summer",
       "original_title": "A Tell Tail Summer",
@@ -191875,8 +190929,8 @@
       "poster_path": "/4ogNpslq4tTdVEhU9YPv3ZEZDRp.jpg",
       "genres": [],
       "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 6.0,
+      "vote_count": 1,
       "imdb_id": null,
       "events": [
         {
@@ -191897,9 +190951,9 @@
         "Action",
         "Thriller"
       ],
-      "runtime": 97,
-      "vote_average": 8.1,
-      "vote_count": 9,
+      "runtime": 98,
+      "vote_average": 8.3,
+      "vote_count": 10,
       "imdb_id": "tt37971717",
       "events": [
         {
@@ -192043,6 +191097,46 @@
       ]
     },
     {
+      "tmdb_id": 1776848,
+      "title": "Young Spencer Goes to School",
+      "original_title": "Young Spencer Goes to School",
+      "poster_path": "/8UFdWrnHoiReAWBL5O9kKBdoBt5.jpg",
+      "genres": [],
+      "runtime": 3,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-09-22",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
+      "tmdb_id": 1776812,
+      "title": "Yowza! invalid",
+      "original_title": "Yowza! invalid",
+      "poster_path": "/3sXZ4GStU8Nea6qu8EWqahdoY7w.jpg",
+      "genres": [],
+      "runtime": 6,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-09-22",
+          "types": [
+            2
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1716919,
       "title": "Brotherhood: A Cinematic Musical",
       "original_title": "Brotherhood: A Cinematic Musical",
@@ -192147,8 +191241,8 @@
       "poster_path": "/4ogNpslq4tTdVEhU9YPv3ZEZDRp.jpg",
       "genres": [],
       "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 7.0,
+      "vote_count": 1,
       "imdb_id": null,
       "events": [
         {
@@ -192216,9 +191310,9 @@
         "Romance",
         "Comedy"
       ],
-      "runtime": 110,
+      "runtime": 112,
       "vote_average": 10.0,
-      "vote_count": 5,
+      "vote_count": 6,
       "imdb_id": "tt22526100",
       "events": [
         {
@@ -192393,7 +191487,7 @@
       "genres": [
         "Drama"
       ],
-      "runtime": 32,
+      "runtime": 31,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -192712,8 +191806,8 @@
         "Action"
       ],
       "runtime": 181,
-      "vote_average": 8.2,
-      "vote_count": 28738,
+      "vote_average": 8.244,
+      "vote_count": 28740,
       "imdb_id": "tt4154796",
       "events": [
         {
@@ -193001,12 +192095,11 @@
       "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "genres": [
         "Adventure",
-        "Thriller",
-        "War"
+        "Thriller"
       ],
       "runtime": 101,
       "vote_average": 7.8,
-      "vote_count": 19,
+      "vote_count": 20,
       "imdb_id": "tt7526136",
       "events": [
         {
@@ -193246,6 +192339,30 @@
           "date": "2026-09-25",
           "types": [
             1
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
+      "tmdb_id": 1776894,
+      "title": "My Uncle Ben",
+      "original_title": "My Uncle Ben",
+      "poster_path": "/53EDivhi1Jg2cvxgHLsSyTdImD8.jpg",
+      "genres": [
+        "Documentary",
+        "Drama",
+        "Family"
+      ],
+      "runtime": 7,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-09-25",
+          "types": [
+            4
           ],
           "certification": "NR"
         }
@@ -193882,7 +192999,7 @@
       "tmdb_id": 1510542,
       "title": "A Day in the Life of Jo: Chapter Phaedra",
       "original_title": "Mia mera sti zoi tis Tzo: Kefalaio Faidra",
-      "poster_path": "/6tE1WrMlyQzpV2BzzYRPUQ5QgpT.jpg",
+      "poster_path": "/c8bwi1QIqFCwgbGoIQ7PiVJm2Yo.jpg",
       "genres": [
         "Drama"
       ],
@@ -194193,26 +193310,6 @@
       ]
     },
     {
-      "tmdb_id": 1748890,
-      "title": "Day One",
-      "original_title": "Day One",
-      "poster_path": "/fHWwIGUtYNnCzEROSu4OisTveGI.jpg",
-      "genres": [],
-      "runtime": 16,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-09-26",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1756829,
       "title": "Downstairs Rock",
       "original_title": "Downstairs Rock",
@@ -194363,7 +193460,7 @@
       "tmdb_id": 1616842,
       "title": "Forever…Forever",
       "original_title": "Forever…Forever",
-      "poster_path": "/o7Xuaeb9V4nEhNN3IiwhyIpot2b.jpg",
+      "poster_path": "/7vBmjW2AS0n6djACcC0ZGFTrTRI.jpg",
       "genres": [
         "Documentary"
       ],
@@ -195100,7 +194197,7 @@
         "Animation"
       ],
       "runtime": 134,
-      "vote_average": 8.321,
+      "vote_average": 8.3,
       "vote_count": 9306,
       "imdb_id": "tt0119698",
       "events": [
@@ -195155,26 +194252,6 @@
           "date": "2026-09-26",
           "types": [
             1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1748876,
-      "title": "Rebecca’s Mess",
-      "original_title": "Rebecca’s Mess",
-      "poster_path": "/yQrutzjF9gvymQl83qausQQHJyt.jpg",
-      "genres": [],
-      "runtime": 10,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-09-26",
-          "types": [
-            3
           ],
           "certification": "NR"
         }
@@ -195535,7 +194612,9 @@
       "original_title": "There's Room For Two In Here",
       "poster_path": "/dsvi5vr5Vl2q9OBDdeU4H8Kwl36.jpg",
       "genres": [
-        "Science Fiction"
+        "Science Fiction",
+        "Horror",
+        "Drama"
       ],
       "runtime": 12,
       "vote_average": 0,
@@ -197631,106 +196710,6 @@
           "date": "2026-10-01",
           "types": [
             1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1597242,
-      "title": "Cameron Winter at Carnegie Hall",
-      "original_title": "Cameron Winter at Carnegie Hall",
-      "poster_path": "/sQt2KQWkpGb79UKlCJNJ2BKobjo.jpg",
-      "genres": [
-        "Music",
-        "Documentary"
-      ],
-      "runtime": 75,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt44879019",
-      "events": [
-        {
-          "date": "2026-10-01",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-11-20",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-11-27",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-02",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-04",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-05",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-08",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-10",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-11",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-14",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-17",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-12-19",
-          "types": [
-            2
           ],
           "certification": "NR"
         }
@@ -200121,6 +199100,13 @@
             1
           ],
           "certification": "NR"
+        },
+        {
+          "date": "2026-10-14",
+          "types": [
+            1
+          ],
+          "certification": "NR"
         }
       ]
     },
@@ -201611,6 +200597,28 @@
       ]
     },
     {
+      "tmdb_id": 1634905,
+      "title": "Vampire Carnival",
+      "original_title": "Vampire Carnival",
+      "poster_path": null,
+      "genres": [
+        "Horror"
+      ],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt39649289",
+      "events": [
+        {
+          "date": "2026-10-07",
+          "types": [
+            3
+          ],
+          "certification": "R"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1756138,
       "title": "Who Is Martin Mull?",
       "original_title": "Who Is Martin Mull?",
@@ -202011,28 +201019,6 @@
       ]
     },
     {
-      "tmdb_id": 1773797,
-      "title": "PHINDA",
-      "original_title": "PHINDA",
-      "poster_path": "/eNmj4lQ9gPYOeNKeomDVbEUjIUU.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 67,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-08",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1265831,
       "title": "Red Rocks",
       "original_title": "Les Roches Rouges",
@@ -202089,29 +201075,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt43660912",
-      "events": [
-        {
-          "date": "2026-10-08",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1773821,
-      "title": "Street Angel",
-      "original_title": "Street Angel",
-      "poster_path": "/gSDuGsr8bOPsP246n46F2GdQ2e1.jpg",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "runtime": 83,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt38865731",
       "events": [
         {
           "date": "2026-10-08",
@@ -202182,50 +201145,6 @@
       ]
     },
     {
-      "tmdb_id": 1773808,
-      "title": "The Protectors",
-      "original_title": "The Protectors",
-      "poster_path": "/820TpMgcSIwrNwRkl3tPEvqIpTS.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 121,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-08",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1773851,
-      "title": "Unspoken Bond",
-      "original_title": "Unspoken Bond",
-      "poster_path": "/zn32KnXfYZaqBY1KvvAHXwG1Mca.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 80,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-08",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1537484,
       "title": "Wake",
       "original_title": "Wake",
@@ -202238,28 +201157,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt36234586",
-      "events": [
-        {
-          "date": "2026-10-08",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1773847,
-      "title": "We Are Not Invisible: Doulas and the Work of Survival",
-      "original_title": "We Are Not Invisible: Doulas and the Work of Survival",
-      "poster_path": "/mvi5KlBko15hIrcYqgogcp19Zsk.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 94,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
       "events": [
         {
           "date": "2026-10-08",
@@ -202339,28 +201236,6 @@
           "date": "2026-10-09",
           "types": [
             2
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1557817,
-      "title": "André Leon Talley — Style is Forever",
-      "original_title": "André Leon Talley — Style is Forever",
-      "poster_path": "/tXu0gXfAtTOKFhScTCfsfzb6wFv.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 83,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt39216435",
-      "events": [
-        {
-          "date": "2026-10-09",
-          "types": [
-            3
           ],
           "certification": "NR"
         }
@@ -202458,67 +201333,6 @@
             2
           ],
           "certification": "PG"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1406253,
-      "title": "Devour",
-      "original_title": "Devour",
-      "poster_path": "/duzeXiCKKU9bJUcObIf9zNMZIrC.jpg",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Action"
-      ],
-      "runtime": 113,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt14541160",
-      "events": [
-        {
-          "date": "2026-10-09",
-          "types": [
-            2
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-13",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-11-24",
-          "types": [
-            5
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1443151,
-      "title": "Double Trouble",
-      "original_title": "Double Trouble",
-      "poster_path": "/2ecp59fHPF5Uq6vRQ6CJtyx4iAp.jpg",
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "runtime": 88,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt35995947",
-      "events": [
-        {
-          "date": "2026-10-09",
-          "types": [
-            2
-          ],
-          "certification": "PG-13"
         }
       ]
     },
@@ -202738,7 +201552,7 @@
       "tmdb_id": 1654998,
       "title": "R.L. Stine's Pumpkinhead 2",
       "original_title": "R.L. Stine's Pumpkinhead 2",
-      "poster_path": null,
+      "poster_path": "/xyvmzDNYsE5NB3orTZBsZMp9pEd.jpg",
       "genres": [
         "Fantasy",
         "Horror"
@@ -203166,7 +201980,7 @@
       "tmdb_id": 1768266,
       "title": "This Bright Light",
       "original_title": "This Bright Light",
-      "poster_path": null,
+      "poster_path": "/jZXo1UtbjYykIVB1b6FXOT4KQmz.jpg",
       "genres": [
         "Documentary"
       ],
@@ -203400,7 +202214,7 @@
           "types": [
             4
           ],
-          "certification": "NR"
+          "certification": "R"
         }
       ]
     },
@@ -204420,7 +203234,7 @@
         "Horror",
         "Thriller"
       ],
-      "runtime": 86,
+      "runtime": 80,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt32329539",
@@ -204845,6 +203659,26 @@
       ]
     },
     {
+      "tmdb_id": 1777068,
+      "title": "The Mirror",
+      "original_title": "El Espejo",
+      "poster_path": "/16V4lbhrNW9krVBXPMvGbY1Tndj.jpg",
+      "genres": [],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "events": [
+        {
+          "date": "2026-10-16",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1762979,
       "title": "The Name Game",
       "original_title": "The Name Game",
@@ -204961,8 +203795,10 @@
       "tmdb_id": 1768222,
       "title": "Tiber",
       "original_title": "Tiber",
-      "poster_path": null,
-      "genres": [],
+      "poster_path": "/cJ6nQVqdqAbgE6kLLPi2IOBiZ4T.jpg",
+      "genres": [
+        "Drama"
+      ],
       "runtime": 80,
       "vote_average": 0,
       "vote_count": 0,
@@ -205561,8 +204397,8 @@
         "Thriller"
       ],
       "runtime": 97,
-      "vote_average": 7.003,
-      "vote_count": 2645,
+      "vote_average": 7.004,
+      "vote_count": 2646,
       "imdb_id": "tt26584495",
       "events": [
         {
@@ -206185,28 +205021,6 @@
       ]
     },
     {
-      "tmdb_id": 1705213,
-      "title": "Caught Between Lands",
-      "original_title": "Caught Between Lands",
-      "poster_path": "/wKbSPLLNA5IWaD3Gg7YGRv0oBA5.jpg",
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": 12,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-22",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1747662,
       "title": "Falling White Leaves",
       "original_title": "Caen Hojas Blancas",
@@ -206241,30 +205055,6 @@
       "vote_average": 7.0,
       "vote_count": 2,
       "imdb_id": "tt11826250",
-      "events": [
-        {
-          "date": "2026-10-22",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1715961,
-      "title": "Inhumation",
-      "original_title": "Inhumation",
-      "poster_path": "/qZ36jc340q04IFbbeqexvu9WfD5.jpg",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Science Fiction"
-      ],
-      "runtime": 15,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
       "events": [
         {
           "date": "2026-10-22",
@@ -206404,28 +205194,6 @@
             4
           ],
           "certification": "PG-13"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1727734,
-      "title": "Ali G: Who Iz I?",
-      "original_title": "Ali G: Who Iz I?",
-      "poster_path": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt43655467",
-      "events": [
-        {
-          "date": "2026-10-23",
-          "types": [
-            3
-          ],
-          "certification": "R"
         }
       ]
     },
@@ -207118,8 +205886,8 @@
         "Horror"
       ],
       "runtime": 83,
-      "vote_average": 5.725,
-      "vote_count": 233,
+      "vote_average": 5.709,
+      "vote_count": 234,
       "imdb_id": "tt32639175",
       "events": [
         {
@@ -207268,6 +206036,28 @@
       ]
     },
     {
+      "tmdb_id": 1537004,
+      "title": "OH, DEER",
+      "original_title": "OH, DEER",
+      "poster_path": "/m4CR3B9bEPNxJ7nFzeEbFbOM5VH.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 3,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "imdb_id": "tt37112191",
+      "events": [
+        {
+          "date": "2026-10-24",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ]
+    },
+    {
       "tmdb_id": 1758545,
       "title": "Peter Pan. Syndrome",
       "original_title": "Peter Pan. Syndrome",
@@ -207322,28 +206112,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-24",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1590081,
-      "title": "Something Wild",
-      "original_title": "Valami Vad",
-      "poster_path": "/9SCvB3irE8nwMj63qdzy7BpScNW.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 21,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt35696157",
       "events": [
         {
           "date": "2026-10-24",
@@ -207825,8 +206593,8 @@
         "Crime"
       ],
       "runtime": 93,
-      "vote_average": 8.381,
-      "vote_count": 21,
+      "vote_average": 8.0,
+      "vote_count": 29,
       "imdb_id": "tt37660509",
       "events": [
         {
@@ -207875,51 +206643,6 @@
           "date": "2026-10-29",
           "types": [
             1
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1712087,
-      "title": "Absolution",
-      "original_title": "Absolution",
-      "poster_path": "/uOWiuEdzFG9sYJAWuggi4Xra6ZV.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 44,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1507696,
-      "title": "Apocalypse Z: New World",
-      "original_title": "Apocalipsis Z: Nuevo Mundo",
-      "poster_path": null,
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt37522541",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
@@ -208018,53 +206741,6 @@
       ]
     },
     {
-      "tmdb_id": 1754000,
-      "title": "Exposure",
-      "original_title": "Exposure",
-      "poster_path": "/c35cQ83d5XIRsFTmIN3CS6kewPx.jpg",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "runtime": 32,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt42235090",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1727107,
-      "title": "No More Punk Time",
-      "original_title": "No More Punk Time",
-      "poster_path": "/8mo4eOdMkJR5gcpfArRRgevJLtM.jpg",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "runtime": 105,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": null,
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1772049,
       "title": "Return to the Jaws of Darkness",
       "original_title": "Return to the Jaws of Darkness",
@@ -208084,51 +206760,6 @@
           "date": "2026-10-30",
           "types": [
             4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1756307,
-      "title": "SCTV: The Greatest Show You’ve Never Heard Of",
-      "original_title": "SCTV: The Greatest Show You’ve Never Heard Of",
-      "poster_path": null,
-      "genres": [
-        "Documentary"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt44825373",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1733243,
-      "title": "Sight & Sound Presents: JOSHUA—Live!",
-      "original_title": "Sight & Sound Presents: JOSHUA—Live!",
-      "poster_path": "/tAJJBIUQyXFSFs0JdwHx2VnUikL.jpg",
-      "genres": [
-        "Music",
-        "Family"
-      ],
-      "runtime": 145,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt43622757",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "types": [
-            3
           ],
           "certification": "NR"
         }
@@ -208919,7 +207550,7 @@
         "Science Fiction"
       ],
       "runtime": 132,
-      "vote_average": 7.897,
+      "vote_average": 7.9,
       "vote_count": 15956,
       "imdb_id": "tt0434409",
       "events": [
@@ -208965,7 +207596,7 @@
         "Animation"
       ],
       "runtime": 96,
-      "vote_average": 7.996,
+      "vote_average": 7.997,
       "vote_count": 3219,
       "imdb_id": "tt14205554",
       "events": [
@@ -210748,31 +209379,6 @@
       ]
     },
     {
-      "tmdb_id": 1287520,
-      "title": "November 1963",
-      "original_title": "November 1963",
-      "poster_path": "/nUfvPsCIUfe95aRDEdUT2sgiXqK.jpg",
-      "genres": [
-        "History",
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "runtime": 120,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt9219630",
-      "events": [
-        {
-          "date": "2026-11-20",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
       "tmdb_id": 1773334,
       "title": "Our Holiday Playbook",
       "original_title": "Our Holiday Playbook",
@@ -210789,55 +209395,6 @@
           "date": "2026-11-20",
           "types": [
             6
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1568060,
-      "title": "Perfect Liars",
-      "original_title": "Perfectos mentirosos",
-      "poster_path": "/6bQ0YqBV61wlBHArIyksxs0FoT6.jpg",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt18351090",
-      "events": [
-        {
-          "date": "2026-11-20",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ]
-    },
-    {
-      "tmdb_id": 1595124,
-      "title": "Steps",
-      "original_title": "Steps",
-      "poster_path": "/c7eHnRXLK86sdCuq0rnZgp7GvS5.jpg",
-      "genres": [
-        "Animation",
-        "Fantasy",
-        "Comedy",
-        "Family"
-      ],
-      "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt14413964",
-      "events": [
-        {
-          "date": "2026-11-20",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
