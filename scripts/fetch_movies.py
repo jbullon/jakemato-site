@@ -17,7 +17,7 @@ DAYS_BACK = 180
 DAYS_FORWARD = 90
 OUTPUT = Path("tools/movies/data/movies.json")
 JAKE_PICKS_CONFIG = Path("tools/movies/config/jakes-picks.json")
-AMANDA_PICKS_CONFIG = Path("tools/movies/config/amandas-picks.json")
+MANDY_PICKS_CONFIG = Path("tools/movies/config/mandys-picks.json")
 TOKEN = os.environ.get("TMDB_API_TOKEN", "").strip()
 IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
 
@@ -493,7 +493,7 @@ def previous_imdb_ratings():
     old_rating_movies = (
         list(old.get("movies", []))
         + list(old.get("jakes_picks", []))
-        + list(old.get("amandas_picks", []))
+        + list(old.get("mandys_picks", []))
     )
     for movie in old_rating_movies:
         imdb_id = movie.get("imdb_id")
@@ -647,14 +647,14 @@ def main():
         "Jake's Picks",
         "jakes-picks",
     )
-    amandas_picks = build_profile_picks(
+    mandys_picks = build_profile_picks(
         movies,
         genre_map,
-        AMANDA_PICKS_CONFIG,
-        "Amanda's Picks",
-        "amandas-picks",
+        MANDY_PICKS_CONFIG,
+        "Mandys Picks",
+        "mandys-picks",
     )
-    attach_imdb_ratings(movies, jakes_picks, amandas_picks)
+    attach_imdb_ratings(movies, jakes_picks, mandys_picks)
 
     movies.sort(key=lambda movie: (movie["events"][0]["date"], movie["title"].lower()))
     payload = {
@@ -670,7 +670,7 @@ def main():
         "skipped_not_found": skipped_not_found,
         "skipped_errors": skipped_errors,
         "jakes_picks": jakes_picks,
-        "amandas_picks": amandas_picks,
+        "mandys_picks": mandys_picks,
         "movies": movies,
     }
 
