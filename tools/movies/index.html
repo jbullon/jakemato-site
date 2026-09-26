@@ -77,6 +77,50 @@
       font-size: 1.05rem;
     }
 
+    .stremio-panel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin: 22px 0 12px;
+    }
+
+    .stremio-copy strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .stremio-copy span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .stremio-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .stremio-button {
+      display: inline-block;
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .stremio-button.primary {
+      background: var(--ink);
+      color: #fff;
+    }
+
     .filters {
       background: var(--card);
       border: 1px solid var(--line);
@@ -317,6 +361,17 @@
         Recent and upcoming US movie releases by date. Mainstream, indie, documentary, foreign, limited, digital, and obscure releases are all included when TMDB has a documented US release.
       </p>
     </header>
+
+    <section class="stremio-panel" aria-label="Stremio addon">
+      <div class="stremio-copy">
+        <strong>Use these releases in Stremio</strong>
+        <span>Add Recent Releases, Upcoming Releases, and Upcoming Theatrical as Stremio catalogs.</span>
+      </div>
+      <div class="stremio-actions">
+        <a class="stremio-button primary" href="stremio://jakemato.com/stremio/movies/manifest.json">Install in Stremio</a>
+        <a class="stremio-button" href="/stremio/movies/manifest.json" target="_blank" rel="noopener noreferrer">Manifest</a>
+      </div>
+    </section>
 
     <section class="filters" aria-label="Movie filters">
       <div class="filter-grid">

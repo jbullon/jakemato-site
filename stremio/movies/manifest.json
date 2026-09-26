@@ -1,0 +1,33 @@
+{
+  "id": "com.jakemato.movie-releases",
+  "version": "1.0.0",
+  "name": "Jakemato Movie Releases",
+  "description": "Recent and upcoming US movie releases from Jakemato, organized for Stremio.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "recent",
+      "name": "Jakemato - Recent Releases"
+    },
+    {
+      "type": "movie",
+      "id": "upcoming",
+      "name": "Jakemato - Upcoming Releases"
+    },
+    {
+      "type": "movie",
+      "id": "theatrical",
+      "name": "Jakemato - Upcoming Theatrical"
+    }
+  ],
+  "behaviorHints": {
+    "adult": false,
+    "p2p": false
+  }
+}
