@@ -408,13 +408,11 @@
         <div>
           <label for="releaseFilter">Release type</label>
           <select id="releaseFilter">
-            <option value="all">All recent releases</option>
-            <option value="couch">Couch-friendly (digital)</option>
+            <option value="all">All relevant releases</option>
             <option value="theaters">In theaters</option>
             <option value="wide">Theatrical</option>
             <option value="limited">Limited theaters</option>
             <option value="digital">Digital</option>
-            <option value="premiere">Premiere</option>
           </select>
         </div>
 
@@ -484,10 +482,16 @@
       </div>
 
       <div class="filter-bottom">
-        <label class="checkbox" for="posterlessToggle">
-          <input id="posterlessToggle" type="checkbox">
-          Show movies without posters
-        </label>
+        <div style="display:flex; gap:18px; flex-wrap:wrap;">
+          <label class="checkbox" for="ignoreTheatricalToggle">
+            <input id="ignoreTheatricalToggle" type="checkbox">
+            Ignore theatrical releases
+          </label>
+          <label class="checkbox" for="posterlessToggle">
+            <input id="posterlessToggle" type="checkbox">
+            Show movies without posters
+          </label>
+        </div>
         <span class="result-count" id="resultCount"></span>
       </div>
     </section>
@@ -524,6 +528,7 @@
     const votesFilter = document.getElementById("votesFilter");
     const runtimeFilter = document.getElementById("runtimeFilter");
     const sortFilter = document.getElementById("sortFilter");
+    const ignoreTheatricalToggle = document.getElementById("ignoreTheatricalToggle");
     const posterlessToggle = document.getElementById("posterlessToggle");
     const resultCount = document.getElementById("resultCount");
     const dataAge = document.getElementById("dataAge");
@@ -565,14 +570,21 @@
         .replaceAll("'", "&#039;");
     }
 
+    function relevantReleaseTypes(event) {
+      let types = (event.types || []).filter(type => [2, 3, 4].includes(type));
+      if (ignoreTheatricalToggle.checked) {
+        types = types.filter(type => type === 4);
+      }
+      return types;
+    }
+
     function eventMatchesRelease(event, filter) {
-      const types = event.types || [];
+      const types = relevantReleaseTypes(event);
+      if (!types.length) return false;
       if (filter === "all") return true;
-      if (filter === "couch") return types.includes(4);
       if (filter === "theaters") return types.includes(2) || types.includes(3);
       if (filter === "wide") return types.includes(3);
       if (filter === "limited") return types.includes(2);
-      if (filter === "premiere") return types.includes(1);
       if (filter === "digital") return types.includes(4);
       return true;
     }
@@ -612,7 +624,6 @@
       const release = releaseFilter.value;
 
       const eligible = (movie.events || []).filter(event => {
-        if ((event.types || []).length && (event.types || []).every(type => [5, 6].includes(type))) return false;
         if (!eventMatchesRelease(event, release)) return false;
         if (mpaa !== "all" && (event.certification || "NR") !== mpaa) return false;
 
@@ -683,13 +694,6 @@
       return new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 }).format(value);
     }
 
-    function isCouchFriendly(movie) {
-      const today = localIsoDate();
-      return (movie.events || []).some(event =>
-        event.date <= today && (event.types || []).includes(4)
-      );
-    }
-
     function populateFilters() {
       const genres = [...new Set(movies.flatMap(movie => movie.genres || []))].sort((a, b) => a.localeCompare(b));
       for (const genre of genres) {
@@ -724,15 +728,11 @@
         ? `<img class="poster" src="${POSTER_BASE}${escapeHtml(movie.poster_path)}" alt="Poster for ${escapeHtml(movie.title)}" loading="lazy">`
         : `<div class="poster-placeholder" aria-label="No poster available">No poster</div>`;
 
-      const badges = (event.types || [])
+      const badges = relevantReleaseTypes(event)
         .slice()
         .sort((a, b) => a - b)
         .map(type => `<span class="badge ${badgeClass(type)}">${escapeHtml(TYPE_NAMES[type] || `Type ${type}`)}</span>`)
         .join("");
-
-      const couchBadge = isCouchFriendly(movie)
-        ? `<span class="badge couch">Couch-friendly release exists</span>`
-        : "";
 
       const links = [];
       if (movie.imdb_id) {
@@ -748,7 +748,7 @@
           <div class="movie-main">
             <h3 class="movie-title">${escapeHtml(movie.title)}</h3>
             <p class="meta">${escapeHtml(meta)}</p>
-            <div class="badges">${badges}${couchBadge}</div>
+            <div class="badges">${badges}</div>
             ${links.length ? `<div class="links">${links.join("")}</div>` : ""}
           </div>
         </article>`;
@@ -850,6 +850,7 @@
       votesFilter,
       runtimeFilter,
       sortFilter,
+      ignoreTheatricalToggle,
       posterlessToggle
     ].forEach(control => {
       control.addEventListener(control === searchInput ? "input" : "change", render);
