@@ -179,32 +179,14 @@ def build_movie(movie_id, genre_map, start_date, end_date):
             us_results = region.get("release_dates", [])
             break
 
-    first_date_by_type = {}
-    normalized_releases = []
-
+    by_date = defaultdict(lambda: {"types": set(), "certifications": []})
     for release in us_results:
         release_date = normalize_date(release.get("release_date"))
         release_type = release.get("type")
         if not release_date or release_type not in TYPE_NAMES:
             continue
-
-        normalized_releases.append((release_date, release_type, release))
-        if (
-            release_type not in first_date_by_type
-            or release_date < first_date_by_type[release_type]
-        ):
-            first_date_by_type[release_type] = release_date
-
-    by_date = defaultdict(lambda: {"types": set(), "certifications": []})
-    for release_date, release_type, release in normalized_releases:
-        # For discovery, a release type should count when it first became available
-        # in the US. This prevents later duplicate/re-release metadata from making
-        # an older movie look newly released (for example a second Digital event).
-        if release_date != first_date_by_type.get(release_type):
-            continue
         if release_date < start_date.isoformat() or release_date > end_date.isoformat():
             continue
-
         by_date[release_date]["types"].add(release_type)
         certification = (release.get("certification") or "").strip()
         if certification:
