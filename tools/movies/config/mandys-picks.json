@@ -198,5 +198,13 @@
     "madea",
     "tyler perry's"
   ],
-  "exclude_genres": []
+  "exclude_genres": [],
+  "negative_penalty_multiplier": 1.25,
+  "negative_seeds": [
+    {
+      "title": "The Hot Chick",
+      "year": 2002,
+      "weight": 1.4
+    }
+  ]
 }
