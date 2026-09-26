@@ -36,8 +36,8 @@ MANIFEST = {
         },
         {
             "type": "movie",
-            "id": "amandas-picks",
-            "name": "Jakemato - Amanda's Picks",
+            "id": "mandys-picks",
+            "name": "Jakemato - Mandys Picks",
         },
         {
             "type": "movie",
@@ -189,7 +189,7 @@ def main():
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
     movies = payload.get("movies", [])
     jakes = payload.get("jakes_picks", [])
-    amandas = payload.get("amandas_picks", [])
+    mandys = payload.get("mandys_picks", [])
 
     today = date.today()
     today_iso = today.isoformat()
@@ -215,19 +215,19 @@ def main():
     )
 
     jakes_picks = build_picks_catalog(jakes, "Jake's Picks")
-    amandas_picks = build_picks_catalog(amandas, "Amanda's Picks")
+    mandys_picks = build_picks_catalog(mandys, "Mandys Picks")
 
     write_json(OUTPUT_ROOT / "manifest.json", MANIFEST)
     write_json(OUTPUT_ROOT / "catalog/movie/recent.json", recent)
     write_json(OUTPUT_ROOT / "catalog/movie/jakes-picks.json", jakes_picks)
-    write_json(OUTPUT_ROOT / "catalog/movie/amandas-picks.json", amandas_picks)
+    write_json(OUTPUT_ROOT / "catalog/movie/mandys-picks.json", mandys_picks)
     write_json(OUTPUT_ROOT / "catalog/movie/upcoming-trailers.json", upcoming_trailers)
 
     print(
         "Built Stremio catalogs: "
         f"{len(recent['metas'])} recent, "
         f"{len(jakes_picks['metas'])} Jake's Picks, "
-        f"{len(amandas_picks['metas'])} Amanda's Picks, "
+        f"{len(mandys_picks['metas'])} Mandys Picks, "
         f"{len(upcoming_trailers['metas'])} upcoming with trailers."
     )
 
