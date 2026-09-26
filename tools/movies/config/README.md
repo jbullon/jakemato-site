@@ -46,3 +46,20 @@ Mandy's profile is intentionally stricter than Jake's:
 - Candidates below the configured TMDB rating or vote-count floor are rejected before selection.
 - Preferred genres can receive a score multiplier. Mandy currently favors Comedy, Romance, Drama, Horror, Thriller, and Science Fiction.
 - The Stand (1994) is recorded as a TV taste reference rather than a movie seed. This keeps its apocalyptic/dark-drama influence in the profile notes without feeding TV recommendations into a movie-only Stremio catalog.
+
+
+## Mandys Picks v3 tuning
+
+Mandy's current profile uses 2000 as a soft era floor.
+
+A pre-2000 candidate is allowed only when either:
+- at least two positive Mandy seeds independently recommend it, or
+- it clears the configured acclaim threshold (currently TMDB 7.5+ with 2,500+ votes).
+
+This is intended to keep older movies only when there is meaningful evidence that they fit her taste.
+
+Comedy tuning now uses Mean Girls as a strong positive seed. Happy Gilmore and The Help are no longer positive seeds.
+
+The Hot Chick is both an exact title exclusion and a negative seed. Movies that TMDB considers adjacent to The Hot Chick have their score reduced before selection.
+
+Madea-titled and explicitly Tyler Perry-branded titles are excluded by title pattern. This is a style/franchise preference, not a demographic filter.
