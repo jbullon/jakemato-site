@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Movie Selector | Jakemato</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Recent and upcoming US movie releases, organized by date with theatrical status, genre, rating, and IMDb links.">
+  <meta name="description" content="Recently released US movies with IMDb ratings, runtimes, release types, and filters for finding something to watch.">
 
   <style>
     :root {
@@ -17,6 +17,7 @@
       --theater: #2d6a3f;
       --limited: #8a641c;
       --digital: #59616b;
+      --couch: #315f74;
       --error: #9b2c2c;
     }
 
@@ -31,7 +32,7 @@
     }
 
     .shell {
-      max-width: 1040px;
+      max-width: 1080px;
       margin: 0 auto;
       padding: 48px 22px 70px;
     }
@@ -71,7 +72,7 @@
     }
 
     .intro {
-      max-width: 720px;
+      max-width: 760px;
       margin: 20px 0 0;
       color: var(--muted);
       font-size: 1.05rem;
@@ -90,15 +91,8 @@
       margin: 22px 0 12px;
     }
 
-    .stremio-copy strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .stremio-copy span {
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
+    .stremio-copy strong { display: block; margin-bottom: 3px; }
+    .stremio-copy span { color: var(--muted); font-size: 0.92rem; }
 
     .stremio-actions {
       display: flex;
@@ -131,7 +125,7 @@
 
     .filter-grid {
       display: grid;
-      grid-template-columns: minmax(180px, 2fr) repeat(4, minmax(120px, 1fr));
+      grid-template-columns: repeat(3, minmax(150px, 1fr));
       gap: 12px;
     }
 
@@ -166,6 +160,8 @@
       flex-wrap: wrap;
       gap: 12px;
       margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
     }
 
     .checkbox {
@@ -196,7 +192,22 @@
 
     .status-message.error { color: var(--error); font-weight: 700; }
 
-    .date-section { margin: 34px 0; }
+    .section-kicker {
+      margin: 30px 0 4px;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .section-copy {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .date-section { margin: 30px 0; }
 
     .date-heading {
       display: flex;
@@ -296,9 +307,11 @@
     .badge.theatrical { background: #e5f0e8; color: var(--theater); }
     .badge.limited { background: #f6eedb; color: var(--limited); }
     .badge.non-theatrical { background: #eceef1; color: var(--digital); }
+    .badge.couch { background: #e3edf2; color: var(--couch); }
 
     .links {
       display: flex;
+      flex-wrap: wrap;
       gap: 12px;
       margin-top: 13px;
       font-size: 0.88rem;
@@ -307,19 +320,19 @@
     .links a { font-weight: 700; text-decoration: none; }
     .links a:hover { text-decoration: underline; }
 
-    details.past {
-      margin: 24px 0 38px;
+    details.upcoming {
+      margin: 42px 0 20px;
       border-top: 1px solid var(--line);
       border-bottom: 1px solid var(--line);
     }
 
-    details.past > summary {
+    details.upcoming > summary {
       cursor: pointer;
-      padding: 16px 2px;
+      padding: 18px 2px;
       font-weight: 700;
     }
 
-    details.past > .past-inner { padding-bottom: 4px; }
+    details.upcoming > .upcoming-inner { padding-bottom: 8px; }
 
     .empty-day {
       color: var(--muted);
@@ -337,7 +350,7 @@
 
     footer p { margin: 5px 0; }
 
-    @media (max-width: 900px) {
+    @media (max-width: 820px) {
       .filter-grid { grid-template-columns: 1fr 1fr; }
     }
 
@@ -358,14 +371,14 @@
       <p class="eyebrow">Jakemato Tools</p>
       <h1>Movie Selector.</h1>
       <p class="intro">
-        Recent and upcoming US movie releases by date. Mainstream, indie, documentary, foreign, limited, digital, and obscure releases are all included when TMDB has a documented US release.
+        Find movies that came out recently and might be available to watch from the couch. The list stays broad on purpose: mainstream, indie, documentary, foreign, limited, digital, and obscure US releases are all welcome. Upcoming movies are kept as a footnote below.
       </p>
     </header>
 
     <section class="stremio-panel" aria-label="Stremio addon">
       <div class="stremio-copy">
-        <strong>Use these releases in Stremio</strong>
-        <span>Add Recent Releases, Upcoming Releases, and Upcoming Theatrical as Stremio catalogs.</span>
+        <strong>Use Jakemato in Stremio</strong>
+        <span>Recent Releases, Jake's Picks, and upcoming movies that actually have trailers.</span>
       </div>
       <div class="stremio-actions">
         <a class="stremio-button primary" href="stremio://jakemato-stremio.jbullon54.workers.dev/manifest.json">Install in Stremio</a>
@@ -379,36 +392,96 @@
           <label for="searchInput">Title</label>
           <input id="searchInput" type="search" placeholder="Search movies…" autocomplete="off">
         </div>
+
         <div>
-          <label for="dateFilter">Release date</label>
+          <label for="dateFilter">How recent?</label>
           <select id="dateFilter">
-            <option value="7" selected>Last 7 days</option>
-            <option value="30">Last 30 days</option>
+            <option value="7">Last 7 days</option>
+            <option value="14">Last 14 days</option>
+            <option value="30" selected>Last 30 days</option>
+            <option value="60">Last 60 days</option>
             <option value="90">Last 90 days</option>
             <option value="180">Last 180 days</option>
           </select>
         </div>
+
         <div>
-          <label for="releaseFilter">Release</label>
+          <label for="releaseFilter">Release type</label>
           <select id="releaseFilter">
-            <option value="all">All releases</option>
+            <option value="all">All recent releases</option>
+            <option value="couch">Couch-friendly (digital / physical / TV)</option>
             <option value="theaters">In theaters</option>
             <option value="wide">Theatrical</option>
             <option value="limited">Limited theaters</option>
-            <option value="non-theatrical">Non-theatrical</option>
             <option value="digital">Digital</option>
-            <option value="premiere">Premiere</option>
             <option value="physical">Physical</option>
             <option value="tv">TV</option>
+            <option value="premiere">Premiere</option>
           </select>
         </div>
+
         <div>
           <label for="genreFilter">Genre</label>
           <select id="genreFilter"><option value="all">All genres</option></select>
         </div>
+
         <div>
-          <label for="ratingFilter">Rating</label>
-          <select id="ratingFilter"><option value="all">All ratings</option></select>
+          <label for="mpaaFilter">MPAA</label>
+          <select id="mpaaFilter"><option value="all">All ratings</option></select>
+        </div>
+
+        <div>
+          <label for="imdbFilter">Minimum IMDb rating</label>
+          <select id="imdbFilter">
+            <option value="all">Any / unrated</option>
+            <option value="1">1.0+</option>
+            <option value="2">2.0+</option>
+            <option value="3">3.0+</option>
+            <option value="4">4.0+</option>
+            <option value="5">5.0+</option>
+            <option value="6">6.0+</option>
+            <option value="7">7.0+</option>
+            <option value="8">8.0+</option>
+            <option value="9">9.0+</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="votesFilter">Minimum IMDb votes</label>
+          <select id="votesFilter">
+            <option value="0">Any</option>
+            <option value="10">10+</option>
+            <option value="50">50+</option>
+            <option value="100">100+</option>
+            <option value="500">500+</option>
+            <option value="1000">1,000+</option>
+            <option value="5000">5,000+</option>
+            <option value="10000">10,000+</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="runtimeFilter">Runtime</label>
+          <select id="runtimeFilter">
+            <option value="all">Any length</option>
+            <option value="under60">Under 60 min</option>
+            <option value="60-89">60–89 min</option>
+            <option value="90-119">90–119 min</option>
+            <option value="120-149">120–149 min</option>
+            <option value="150plus">150+ min</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="sortFilter">Sort</label>
+          <select id="sortFilter">
+            <option value="newest">Newest release</option>
+            <option value="imdb-desc">IMDb rating: high to low</option>
+            <option value="imdb-asc">IMDb rating: low to high</option>
+            <option value="runtime-asc">Runtime: shortest first</option>
+            <option value="runtime-desc">Runtime: longest first</option>
+            <option value="title">Title A–Z</option>
+          </select>
         </div>
       </div>
 
@@ -427,8 +500,8 @@
     <div id="movieContent" hidden></div>
 
     <footer>
-      <p>Release data and images provided by TMDB.</p>
-      <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+      <p>Release data and images provided by TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+      <p>IMDb ratings are sourced from IMDb's non-commercial datasets.</p>
     </footer>
   </main>
 
@@ -448,7 +521,11 @@
     const dateFilter = document.getElementById("dateFilter");
     const releaseFilter = document.getElementById("releaseFilter");
     const genreFilter = document.getElementById("genreFilter");
-    const ratingFilter = document.getElementById("ratingFilter");
+    const mpaaFilter = document.getElementById("mpaaFilter");
+    const imdbFilter = document.getElementById("imdbFilter");
+    const votesFilter = document.getElementById("votesFilter");
+    const runtimeFilter = document.getElementById("runtimeFilter");
+    const sortFilter = document.getElementById("sortFilter");
     const posterlessToggle = document.getElementById("posterlessToggle");
     const resultCount = document.getElementById("resultCount");
     const dataAge = document.getElementById("dataAge");
@@ -493,15 +570,100 @@
     function eventMatchesRelease(event, filter) {
       const types = event.types || [];
       if (filter === "all") return true;
+      if (filter === "couch") return types.some(type => [4, 5, 6].includes(type));
       if (filter === "theaters") return types.includes(2) || types.includes(3);
       if (filter === "wide") return types.includes(3);
       if (filter === "limited") return types.includes(2);
-      if (filter === "non-theatrical") return !types.includes(2) && !types.includes(3);
       if (filter === "premiere") return types.includes(1);
       if (filter === "digital") return types.includes(4);
       if (filter === "physical") return types.includes(5);
       if (filter === "tv") return types.includes(6);
       return true;
+    }
+
+    function runtimeMatches(runtime, filter) {
+      if (filter === "all") return true;
+      if (!runtime) return false;
+      if (filter === "under60") return runtime < 60;
+      if (filter === "60-89") return runtime >= 60 && runtime <= 89;
+      if (filter === "90-119") return runtime >= 90 && runtime <= 119;
+      if (filter === "120-149") return runtime >= 120 && runtime <= 149;
+      if (filter === "150plus") return runtime >= 150;
+      return true;
+    }
+
+    function movieMatchesCommonFilters(movie) {
+      const term = searchInput.value.trim().toLowerCase();
+      const genre = genreFilter.value;
+      const minImdb = imdbFilter.value === "all" ? null : Number(imdbFilter.value);
+      const minVotes = Number(votesFilter.value);
+      const showPosterless = posterlessToggle.checked;
+
+      if (!showPosterless && !movie.poster_path) return false;
+      if (term && !movie.title.toLowerCase().includes(term) && !(movie.original_title || "").toLowerCase().includes(term)) return false;
+      if (genre !== "all" && !(movie.genres || []).includes(genre)) return false;
+      if (!runtimeMatches(movie.runtime, runtimeFilter.value)) return false;
+      if (minImdb !== null && (movie.imdb_rating == null || Number(movie.imdb_rating) < minImdb)) return false;
+      if (minVotes > 0 && Number(movie.imdb_votes || 0) < minVotes) return false;
+      return true;
+    }
+
+    function pickEvent(movie, mode) {
+      const today = localIsoDate();
+      const historyDays = Number(dateFilter.value);
+      const earliest = cutoffIso(historyDays);
+      const mpaa = mpaaFilter.value;
+      const release = releaseFilter.value;
+
+      const eligible = (movie.events || []).filter(event => {
+        if (!eventMatchesRelease(event, release)) return false;
+        if (mpaa !== "all" && (event.certification || "NR") !== mpaa) return false;
+
+        if (mode === "recent") {
+          return event.date <= today && event.date >= earliest;
+        }
+
+        return event.date > today;
+      });
+
+      if (!eligible.length) return null;
+      eligible.sort((a, b) => a.date.localeCompare(b.date));
+      return mode === "recent" ? eligible[eligible.length - 1] : eligible[0];
+    }
+
+    function buildRecentEntries() {
+      const entries = [];
+
+      for (const movie of movies) {
+        if (!movieMatchesCommonFilters(movie)) continue;
+        const event = pickEvent(movie, "recent");
+        if (event) entries.push({ movie, event });
+      }
+
+      const sort = sortFilter.value;
+      entries.sort((a, b) => {
+        if (sort === "imdb-desc") return (b.movie.imdb_rating ?? -1) - (a.movie.imdb_rating ?? -1) || b.event.date.localeCompare(a.event.date);
+        if (sort === "imdb-asc") return (a.movie.imdb_rating ?? 99) - (b.movie.imdb_rating ?? 99) || b.event.date.localeCompare(a.event.date);
+        if (sort === "runtime-asc") return (a.movie.runtime ?? 9999) - (b.movie.runtime ?? 9999);
+        if (sort === "runtime-desc") return (b.movie.runtime ?? -1) - (a.movie.runtime ?? -1);
+        if (sort === "title") return a.movie.title.localeCompare(b.movie.title);
+        return b.event.date.localeCompare(a.event.date) || a.movie.title.localeCompare(b.movie.title);
+      });
+
+      return entries;
+    }
+
+    function buildUpcomingEntries() {
+      const entries = [];
+
+      for (const movie of movies) {
+        if (!movieMatchesCommonFilters(movie)) continue;
+        const event = pickEvent(movie, "upcoming");
+        if (event) entries.push({ movie, event });
+      }
+
+      entries.sort((a, b) => a.event.date.localeCompare(b.event.date) || a.movie.title.localeCompare(b.movie.title));
+      return entries;
     }
 
     function badgeClass(type) {
@@ -516,6 +678,19 @@
       const mins = minutes % 60;
       if (!hours) return `${mins}m`;
       return mins ? `${hours}h ${mins}m` : `${hours}h`;
+    }
+
+    function formatVotes(votes) {
+      const value = Number(votes || 0);
+      if (!value) return "";
+      return new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 }).format(value);
+    }
+
+    function isCouchFriendly(movie) {
+      const today = localIsoDate();
+      return (movie.events || []).some(event =>
+        event.date <= today && (event.types || []).some(type => [4, 5, 6].includes(type))
+      );
     }
 
     function populateFilters() {
@@ -534,37 +709,8 @@
         const option = document.createElement("option");
         option.value = rating;
         option.textContent = rating;
-        ratingFilter.appendChild(option);
+        mpaaFilter.appendChild(option);
       }
-    }
-
-    function buildEntries() {
-      const term = searchInput.value.trim().toLowerCase();
-      const release = releaseFilter.value;
-      const genre = genreFilter.value;
-      const rating = ratingFilter.value;
-      const historyDays = Number(dateFilter.value);
-      const earliestPastDate = cutoffIso(historyDays);
-      const today = localIsoDate();
-      const showPosterless = posterlessToggle.checked;
-      const entries = [];
-
-      for (const movie of movies) {
-        if (!showPosterless && !movie.poster_path) continue;
-        if (term && !movie.title.toLowerCase().includes(term) && !(movie.original_title || "").toLowerCase().includes(term)) continue;
-        if (genre !== "all" && !(movie.genres || []).includes(genre)) continue;
-
-        for (const event of movie.events || []) {
-          if (event.date < today && event.date < earliestPastDate) continue;
-          if (!eventMatchesRelease(event, release)) continue;
-          const eventRating = event.certification || "NR";
-          if (rating !== "all" && eventRating !== rating) continue;
-          entries.push({ movie, event });
-        }
-      }
-
-      entries.sort((a, b) => a.event.date.localeCompare(b.event.date) || a.movie.title.localeCompare(b.movie.title));
-      return entries;
     }
 
     function movieCard(entry) {
@@ -572,8 +718,10 @@
       const genres = (movie.genres || []).slice(0, 3);
       const runtime = formatRuntime(movie.runtime);
       const certification = event.certification || "NR";
-      const score = movie.vote_count > 0 ? `${Number(movie.vote_average).toFixed(1)}/10` : "";
-      const meta = [...genres, certification, runtime, score].filter(Boolean).join(" · ");
+      const imdb = movie.imdb_rating != null
+        ? `IMDb ${Number(movie.imdb_rating).toFixed(1)}${movie.imdb_votes ? ` (${formatVotes(movie.imdb_votes)} votes)` : ""}`
+        : "IMDb unrated";
+      const meta = [...genres, certification, runtime, imdb].filter(Boolean).join(" · ");
 
       const poster = movie.poster_path
         ? `<img class="poster" src="${POSTER_BASE}${escapeHtml(movie.poster_path)}" alt="Poster for ${escapeHtml(movie.title)}" loading="lazy">`
@@ -585,35 +733,42 @@
         .map(type => `<span class="badge ${badgeClass(type)}">${escapeHtml(TYPE_NAMES[type] || `Type ${type}`)}</span>`)
         .join("");
 
-      const imdb = movie.imdb_id
-        ? `<a href="https://www.imdb.com/title/${encodeURIComponent(movie.imdb_id)}/" target="_blank" rel="noopener noreferrer">IMDb ↗</a>`
+      const couchBadge = isCouchFriendly(movie)
+        ? `<span class="badge couch">Couch-friendly release exists</span>`
         : "";
+
+      const links = [];
+      if (movie.imdb_id) {
+        links.push(`<a href="https://www.imdb.com/title/${encodeURIComponent(movie.imdb_id)}/" target="_blank" rel="noopener noreferrer">IMDb ↗</a>`);
+      }
+      if (movie.trailer_youtube_key) {
+        links.push(`<a href="https://www.youtube.com/watch?v=${encodeURIComponent(movie.trailer_youtube_key)}" target="_blank" rel="noopener noreferrer">Trailer ↗</a>`);
+      }
 
       return `
         <article class="movie-card">
           ${poster}
           <div class="movie-main">
             <h3 class="movie-title">${escapeHtml(movie.title)}</h3>
-            <p class="meta">${escapeHtml(meta || "Release information available")}</p>
-            <div class="badges">${badges}</div>
-            ${imdb ? `<div class="links">${imdb}</div>` : ""}
+            <p class="meta">${escapeHtml(meta)}</p>
+            <div class="badges">${badges}${couchBadge}</div>
+            ${links.length ? `<div class="links">${links.join("")}</div>` : ""}
           </div>
         </article>`;
     }
 
-    function dateSections(entries, today, mode) {
+    function groupedByDate(entries, reverse = true) {
       const grouped = new Map();
       for (const entry of entries) {
-        const isPast = entry.event.date < today;
-        if ((mode === "past") !== isPast) continue;
         if (!grouped.has(entry.event.date)) grouped.set(entry.event.date, []);
         grouped.get(entry.event.date).push(entry);
       }
 
-      if (!grouped.size) return `<p class="empty-day">No matching releases.</p>`;
+      const groups = [...grouped.entries()];
+      groups.sort((a, b) => reverse ? b[0].localeCompare(a[0]) : a[0].localeCompare(b[0]));
 
-      return [...grouped.entries()].map(([date, dayEntries]) => {
-        const todayTag = date === today ? `<span class="today-label">Today</span>` : "";
+      return groups.map(([date, dayEntries]) => {
+        const todayTag = date === localIsoDate() ? `<span class="today-label">Today</span>` : "";
         return `
           <section class="date-section" data-date="${date}">
             <div class="date-heading">
@@ -626,20 +781,38 @@
     }
 
     function render() {
-      const today = localIsoDate();
+      const recent = buildRecentEntries();
+      const upcoming = buildUpcomingEntries();
       const historyDays = Number(dateFilter.value);
-      const entries = buildEntries();
-      const pastCount = entries.filter(entry => entry.event.date < today).length;
-      const currentAndFutureCount = entries.length - pastCount;
+      const sort = sortFilter.value;
 
-      resultCount.textContent = `${entries.length.toLocaleString()} release${entries.length === 1 ? "" : "s"}`;
+      resultCount.textContent = `${recent.length.toLocaleString()} recent movie${recent.length === 1 ? "" : "s"}`;
 
-      const pastHtml = dateSections(entries, today, "past");
-      const futureHtml = dateSections(entries, today, "future");
+      let recentHtml = "";
+      if (!recent.length) {
+        recentHtml = `<div class="status-message">No recent movies match these filters.</div>`;
+      } else if (sort === "newest") {
+        recentHtml = groupedByDate(recent, true);
+      } else {
+        recentHtml = `<div class="movie-list">${recent.map(movieCard).join("")}</div>`;
+      }
+
+      const upcomingHtml = upcoming.length
+        ? groupedByDate(upcoming, false)
+        : `<p class="empty-day">No upcoming movies match these filters.</p>`;
 
       movieContent.innerHTML = `
-        ${pastCount ? `<details class="past"><summary>Previous ${historyDays} days (${pastCount})</summary><div class="past-inner">${pastHtml}</div></details>` : ""}
-        ${currentAndFutureCount ? futureHtml : `<div class="status-message">No matching releases from today forward.</div>`}
+        <p class="section-kicker">Released recently</p>
+        <p class="section-copy">Showing the previous ${historyDays} days. Each movie appears once using its most recent matching U.S. release event.</p>
+        ${recentHtml}
+
+        <details class="upcoming">
+          <summary>Upcoming releases (${upcoming.length})</summary>
+          <div class="upcoming-inner">
+            <p class="section-copy">Upcoming titles are secondary here, but remain available when you want to look ahead.</p>
+            ${upcomingHtml}
+          </div>
+        </details>
       `;
     }
 
@@ -651,7 +824,7 @@
         movies = Array.isArray(data.movies) ? data.movies : [];
 
         if (!movies.length) {
-          statusBox.textContent = "The movie catalog is installed, but it has not been populated yet. Run the movie-data GitHub Action after adding the TMDB token secret.";
+          statusBox.textContent = "The movie catalog is installed, but it has not been populated yet.";
           statusBox.classList.add("error");
           return;
         }
@@ -670,7 +843,18 @@
       }
     }
 
-    [searchInput, dateFilter, releaseFilter, genreFilter, ratingFilter, posterlessToggle].forEach(control => {
+    [
+      searchInput,
+      dateFilter,
+      releaseFilter,
+      genreFilter,
+      mpaaFilter,
+      imdbFilter,
+      votesFilter,
+      runtimeFilter,
+      sortFilter,
+      posterlessToggle
+    ].forEach(control => {
       control.addEventListener(control === searchInput ? "input" : "change", render);
     });
 
