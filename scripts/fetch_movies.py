@@ -212,6 +212,7 @@ def build_movie(movie_id, genre_map, start_date, end_date):
         "title": details.get("title") or details.get("original_title") or "Untitled",
         "original_title": details.get("original_title") or "",
         "original_language": details.get("original_language") or "",
+        "primary_release_date": details.get("release_date") or "",
         "poster_path": details.get("poster_path"),
         "genres": [genre.get("name") for genre in details.get("genres", []) if genre.get("name")]
         or [genre_map.get(gid) for gid in details.get("genre_ids", []) if genre_map.get(gid)],
@@ -334,6 +335,7 @@ def build_jakes_picks(movies, genre_map, limit=40):
                     "title",
                     "original_title",
                     "original_language",
+                    "primary_release_date",
                     "poster_path",
                     "genres",
                     "runtime",
