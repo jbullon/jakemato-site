@@ -292,6 +292,39 @@ def pick_exclusion_reason(movie, config):
         ]
     ).casefold()
 
+    min_year = config.get("min_year")
+    release_year = None
+    primary_release_date = movie.get("primary_release_date") or ""
+    if len(primary_release_date) >= 4 and primary_release_date[:4].isdigit():
+        release_year = int(primary_release_date[:4])
+
+    if min_year and release_year and release_year < int(min_year):
+        exception = config.get("pre_min_year_exception") or {}
+        min_old_rating = float(exception.get("min_tmdb_rating", 8.0))
+        min_old_votes = int(exception.get("min_tmdb_votes", 1000))
+        if (
+            float(movie.get("vote_average") or 0) < min_old_rating
+            or int(movie.get("vote_count") or 0) < min_old_votes
+        ):
+            return (
+                f"released before {min_year} without meeting classic-film "
+                f"exception ({min_old_rating}+ TMDB, {min_old_votes}+ votes)"
+            )
+
+    min_tmdb_rating = config.get("min_tmdb_rating")
+    if (
+        min_tmdb_rating is not None
+        and float(movie.get("vote_average") or 0) < float(min_tmdb_rating)
+    ):
+        return f"TMDB rating below {min_tmdb_rating}"
+
+    min_tmdb_votes = config.get("min_tmdb_votes")
+    if (
+        min_tmdb_votes is not None
+        and int(movie.get("vote_count") or 0) < int(min_tmdb_votes)
+    ):
+        return f"TMDB vote count below {min_tmdb_votes}"
+
     for phrase in config.get("exclude_title_contains", []):
         phrase = str(phrase).strip().casefold()
         if phrase and phrase in title_text:
@@ -344,6 +377,7 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
     seed_caps = {}
     candidate_scores = defaultdict(float)
     candidate_seed_scores = defaultdict(dict)
+    candidate_genres = defaultdict(set)
 
     for seed_config in config.get("seeds", []):
         seed_title = str(seed_config.get("title") or "").strip()
@@ -392,6 +426,10 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
                 candidate_seed_scores[candidate_id].get(seed_title, 0.0)
                 + contribution
             )
+            for genre_id in recommendation.get("genre_ids", []):
+                genre_name = genre_map.get(genre_id)
+                if genre_name:
+                    candidate_genres[candidate_id].add(genre_name)
 
     for seed_id in seed_ids:
         candidate_scores.pop(seed_id, None)
@@ -402,10 +440,26 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
     )
     weighted_candidates = []
 
+    preferred_genres = {
+        str(name): float(multiplier)
+        for name, multiplier in (config.get("preferred_genres") or {}).items()
+    }
+
     for movie_id, base_score in candidate_scores.items():
         seed_count = len(candidate_seed_scores[movie_id])
         overlap_bonus = 1 + (0.5 * max(0, seed_count - 1))
-        effective_weight = max(0.001, base_score * overlap_bonus)
+
+        genre_multiplier = 1.0
+        for genre_name in candidate_genres.get(movie_id, set()):
+            genre_multiplier = max(
+                genre_multiplier,
+                preferred_genres.get(genre_name, 1.0),
+            )
+
+        effective_weight = max(
+            0.001,
+            base_score * overlap_bonus * genre_multiplier,
+        )
         random_key = rng.random() ** (1.0 / effective_weight)
         weighted_candidates.append((random_key, movie_id))
 
