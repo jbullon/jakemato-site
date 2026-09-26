@@ -1,13 +1,16 @@
 {
   "id": "com.jakemato.movie-releases",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Jakemato Movie Releases",
-  "description": "Recent and upcoming US movie releases from Jakemato, organized for Stremio.",
+  "description": "Recent US movie releases, Jake's Picks, and upcoming movies with trailers.",
   "resources": [
     "catalog"
   ],
   "types": [
     "movie"
+  ],
+  "idPrefixes": [
+    "tt"
   ],
   "catalogs": [
     {
@@ -17,13 +20,13 @@
     },
     {
       "type": "movie",
-      "id": "upcoming",
-      "name": "Jakemato - Upcoming Releases"
+      "id": "jakes-picks",
+      "name": "Jakemato - Jake's Picks"
     },
     {
       "type": "movie",
-      "id": "theatrical",
-      "name": "Jakemato - Upcoming Theatrical"
+      "id": "upcoming-trailers",
+      "name": "Jakemato - Upcoming with Trailers"
     }
   ],
   "behaviorHints": {
