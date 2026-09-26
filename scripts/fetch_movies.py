@@ -384,6 +384,7 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
     candidate_scores = defaultdict(float)
     candidate_seed_scores = defaultdict(dict)
     candidate_genres = defaultdict(set)
+    candidate_penalties = defaultdict(float)
 
     for seed_config in config.get("seeds", []):
         seed_title = str(seed_config.get("title") or "").strip()
@@ -437,7 +438,61 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
                 if genre_name:
                     candidate_genres[candidate_id].add(genre_name)
 
-    for seed_id in seed_ids:
+    negative_seed_ids = set()
+    for negative_config in config.get("negative_seeds", []):
+        negative_title = str(negative_config.get("title") or "").strip()
+        negative_year = negative_config.get("year")
+        negative_weight = max(0.0, float(negative_config.get("weight", 1.0)))
+
+        if not negative_title or not negative_year or negative_weight <= 0:
+            continue
+
+        try:
+            negative_seed = resolve_seed_movie(negative_title, negative_year)
+        except (HTTPError, URLError, TimeoutError, ConnectionResetError) as exc:
+            print(f"{profile_name} negative seed failed: {negative_title}: {exc}")
+            continue
+
+        if not negative_seed:
+            print(
+                f"{profile_name} negative seed not found: "
+                f"{negative_title} ({negative_year})"
+            )
+            continue
+
+        negative_seed_id = negative_seed["id"]
+        negative_seed_ids.add(negative_seed_id)
+
+        try:
+            negative_recs = tmdb_get(
+                f"/movie/{negative_seed_id}/recommendations",
+                {"language": "en-US", "page": 1},
+            ).get("results", [])
+        except (
+            HTTPError,
+            URLError,
+            TimeoutError,
+            ConnectionResetError,
+            TMDBNotFound,
+        ) as exc:
+            print(
+                f"{profile_name} negative recommendations failed for "
+                f"{negative_title}: {exc}"
+            )
+            continue
+
+        for rank, recommendation in enumerate(
+            negative_recs[:recommendations_per_seed],
+            start=1,
+        ):
+            candidate_id = recommendation.get("id")
+            if not candidate_id:
+                continue
+
+            rank_score = max(1, recommendations_per_seed + 4 - rank)
+            candidate_penalties[candidate_id] += rank_score * negative_weight
+
+    for seed_id in seed_ids | negative_seed_ids:
         candidate_scores.pop(seed_id, None)
         candidate_seed_scores.pop(seed_id, None)
 
@@ -451,7 +506,18 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
         for name, multiplier in (config.get("preferred_genres") or {}).items()
     }
 
+    negative_penalty_multiplier = float(
+        config.get("negative_penalty_multiplier", 1.0)
+    )
+    adjusted_scores = {}
+
     for movie_id, base_score in candidate_scores.items():
+        penalty = candidate_penalties.get(movie_id, 0.0) * negative_penalty_multiplier
+        adjusted_score = base_score - penalty
+        if adjusted_score <= 0:
+            continue
+
+        adjusted_scores[movie_id] = adjusted_score
         seed_count = len(candidate_seed_scores[movie_id])
         overlap_bonus = 1 + (0.5 * max(0, seed_count - 1))
 
@@ -464,7 +530,7 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
 
         effective_weight = max(
             0.001,
-            base_score * overlap_bonus * genre_multiplier,
+            adjusted_score * overlap_bonus * genre_multiplier,
         )
         random_key = rng.random() ** (1.0 / effective_weight)
         weighted_candidates.append((random_key, movie_id))
@@ -529,7 +595,10 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
                 reverse=True,
             )
         ]
-        pick["recommendation_score"] = round(candidate_scores[movie_id], 2)
+        pick["recommendation_score"] = round(
+            adjusted_scores.get(movie_id, candidate_scores[movie_id]),
+            2,
+        )
         picks.append(pick)
 
     usage_summary = ", ".join(
