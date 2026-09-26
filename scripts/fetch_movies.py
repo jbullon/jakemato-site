@@ -284,7 +284,7 @@ def fetch_pick_detail(movie_id, genre_map):
     }
 
 
-def pick_exclusion_reason(movie, config):
+def pick_exclusion_reason(movie, config, seed_match_count=1):
     title_text = " ".join(
         [
             movie.get("title") or "",
@@ -302,13 +302,19 @@ def pick_exclusion_reason(movie, config):
         exception = config.get("pre_min_year_exception") or {}
         min_old_rating = float(exception.get("min_tmdb_rating", 8.0))
         min_old_votes = int(exception.get("min_tmdb_votes", 1000))
-        if (
-            float(movie.get("vote_average") or 0) < min_old_rating
-            or int(movie.get("vote_count") or 0) < min_old_votes
-        ):
+        min_seed_matches = int(exception.get("min_seed_matches", 2))
+
+        acclaimed_enough = (
+            float(movie.get("vote_average") or 0) >= min_old_rating
+            and int(movie.get("vote_count") or 0) >= min_old_votes
+        )
+        taste_overlap_enough = seed_match_count >= min_seed_matches
+
+        if not (acclaimed_enough or taste_overlap_enough):
             return (
-                f"released before {min_year} without meeting classic-film "
-                f"exception ({min_old_rating}+ TMDB, {min_old_votes}+ votes)"
+                f"released before {min_year} without enough Mandy-taste confidence "
+                f"({min_seed_matches}+ seed matches or {min_old_rating}+ TMDB "
+                f"with {min_old_votes}+ votes)"
             )
 
     min_tmdb_rating = config.get("min_tmdb_rating")
@@ -497,7 +503,11 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
         if not pick or not pick.get("poster_path") or not (pick.get("imdb_id") or "").startswith("tt"):
             continue
 
-        exclusion_reason = pick_exclusion_reason(pick, config)
+        exclusion_reason = pick_exclusion_reason(
+            pick,
+            config,
+            seed_match_count=len(seed_scores),
+        )
         if exclusion_reason:
             excluded_count += 1
             print(
