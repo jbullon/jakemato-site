@@ -1,4 +1,4 @@
-const ORIGIN = "https://jakemato.com/stremio/movies";
+const ORIGIN = "https://raw.githubusercontent.com/jbullon/jakemato-site/master/stremio/movies";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
