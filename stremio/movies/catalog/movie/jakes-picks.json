@@ -1,29 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt14349032",
+      "id": "tt0491175",
       "type": "movie",
-      "name": "The Good Neighbor",
-      "poster": "https://image.tmdb.org/t/p/w185/mXJ2xI7B0Z9WxDjyv18anPsOxeE.jpg",
+      "name": "Suburbicon",
+      "poster": "https://image.tmdb.org/t/p/w185/yqYwf0kPK2SaCWM80msl4nYK6U7.jpg",
       "posterShape": "poster",
       "genres": [
         "Thriller",
-        "Drama"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.0",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt0111293",
-      "type": "movie",
-      "name": "The Stöned Age",
-      "poster": "https://image.tmdb.org/t/p/w185/d9Edl0tqX7eigcEEoFqKfnpBJHA.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Borat • IMDb 6.2",
-      "imdbRating": "6.2"
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.8",
+      "imdbRating": "5.8"
     },
     {
       "id": "tt0069865",
@@ -40,59 +30,45 @@
       "imdbRating": "7.5"
     },
     {
-      "id": "tt0087800",
+      "id": "tt15744298",
       "type": "movie",
-      "name": "A Nightmare on Elm Street",
-      "poster": "https://image.tmdb.org/t/p/w185/tI0RQFYevX97NSdDSYmn0Z19i3r.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 7.4",
-      "imdbRating": "7.4"
-    },
-    {
-      "id": "tt0491175",
-      "type": "movie",
-      "name": "Suburbicon",
-      "poster": "https://image.tmdb.org/t/p/w185/yqYwf0kPK2SaCWM80msl4nYK6U7.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.8",
-      "imdbRating": "5.8"
-    },
-    {
-      "id": "tt8010064",
-      "type": "movie",
-      "name": "Bunker",
-      "poster": "https://image.tmdb.org/t/p/w185/jOA7chFPVzSyPp2DaRg8hqA1BHr.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "War"
-      ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 4.0",
-      "imdbRating": "4.0"
-    },
-    {
-      "id": "tt7914022",
-      "type": "movie",
-      "name": "Indemnity",
-      "poster": "https://image.tmdb.org/t/p/w185/8y1rfKHot8DF0cQhGvKXtYsMjNx.jpg",
+      "name": "Freelance",
+      "poster": "https://image.tmdb.org/t/p/w185/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
-        "Thriller",
-        "Crime"
+        "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 4.9",
-      "imdbRating": "4.9"
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 5.6",
+      "imdbRating": "5.6"
+    },
+    {
+      "id": "tt0077651",
+      "type": "movie",
+      "name": "Halloween",
+      "poster": "https://image.tmdb.org/t/p/w185/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 7.7",
+      "imdbRating": "7.7"
+    },
+    {
+      "id": "tt8816194",
+      "type": "movie",
+      "name": "Come to Daddy",
+      "poster": "https://image.tmdb.org/t/p/w185/uAfeUHiaINCMi2DGNiGbpKGX7C2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.0",
+      "imdbRating": "6.0"
     },
     {
       "id": "tt0099580",
@@ -124,18 +100,33 @@
       "imdbRating": "8.4"
     },
     {
-      "id": "tt31727397",
+      "id": "tt1877830",
       "type": "movie",
-      "name": "Hostile Takeover",
-      "poster": "https://image.tmdb.org/t/p/w185/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
+      "name": "The Batman",
+      "poster": "https://image.tmdb.org/t/p/w185/74xTEgt7R36Fpooo50r9T25onhq.jpg",
       "posterShape": "poster",
       "genres": [
-        "Action",
-        "Comedy",
+        "Crime",
+        "Mystery",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 4.6",
-      "imdbRating": "4.6"
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 7.8",
+      "imdbRating": "7.8"
+    },
+    {
+      "id": "tt3139086",
+      "type": "movie",
+      "name": "Batman: Assault on Arkham",
+      "poster": "https://image.tmdb.org/t/p/w185/b9KxvIAZkl2f57kjObj8Z9z9LhL.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Animation",
+        "Action",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 7.4",
+      "imdbRating": "7.4"
     },
     {
       "id": "tt11212572",
@@ -153,17 +144,16 @@
       "imdbRating": "5.9"
     },
     {
-      "id": "tt0210070",
+      "id": "tt0329101",
       "type": "movie",
-      "name": "Ginger Snaps",
-      "poster": "https://image.tmdb.org/t/p/w185/ozohDiJd7Oi65NEf8B0ya7lR9Fr.jpg",
+      "name": "Freddy vs. Jason",
+      "poster": "https://image.tmdb.org/t/p/w185/f9ZASRUfl8Jlco7rgRx3ujPR0P7.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Fantasy"
+        "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.8",
-      "imdbRating": "6.8"
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.8",
+      "imdbRating": "5.8"
     },
     {
       "id": "tt7991508",
@@ -180,33 +170,57 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0387808",
+      "id": "tt1237838",
       "type": "movie",
-      "name": "Idiocracy",
-      "poster": "https://image.tmdb.org/t/p/w185/6cTHBq49ApwsJaRr3ojlY1cmiXk.jpg",
+      "name": "Mystery Team",
+      "poster": "https://image.tmdb.org/t/p/w185/AbqRb1hlCb8jPVqFXL5hwrj8hQO.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
-        "Science Fiction",
-        "Adventure",
+        "Crime",
+        "Mystery",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 6.5",
-      "imdbRating": "6.5"
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.6",
+      "imdbRating": "6.6"
     },
     {
-      "id": "tt0266915",
+      "id": "tt0070672",
       "type": "movie",
-      "name": "Rush Hour 2",
-      "poster": "https://image.tmdb.org/t/p/w185/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg",
+      "name": "The Seven-Ups",
+      "poster": "https://image.tmdb.org/t/p/w185/xmpzuTWUEiVPsRz7kKXijNISUNq.jpg",
       "posterShape": "poster",
       "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
+        "Thriller",
+        "Crime",
+        "Mystery"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 6.7",
-      "imdbRating": "6.7"
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 6.8",
+      "imdbRating": "6.8"
+    },
+    {
+      "id": "tt0373883",
+      "type": "movie",
+      "name": "Halloween",
+      "poster": "https://image.tmdb.org/t/p/w185/cD8JrfSEI4j7WVnKM1GdiYzMoUh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.1",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt30088797",
+      "type": "movie",
+      "name": "Ricky Gervais: Armageddon",
+      "poster": "https://image.tmdb.org/t/p/w185/rnT1Aq92RdhlYMIikuwnwNMaOGu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 7.1",
+      "imdbRating": "7.1"
     },
     {
       "id": "tt0092546",
@@ -222,44 +236,18 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt6580050",
+      "id": "tt0070444",
       "type": "movie",
-      "name": "On Halloween",
-      "poster": "https://image.tmdb.org/t/p/w185/5rsEhgcNRUthjo6fqRDqZy5plx.jpg",
+      "name": "Night Watch",
+      "poster": "https://image.tmdb.org/t/p/w185/uuWf1nMHYkKegwJB0iOzbPuiKkO.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 3.1",
-      "imdbRating": "3.1"
-    },
-    {
-      "id": "tt6483422",
-      "type": "movie",
-      "name": "They Reach",
-      "poster": "https://image.tmdb.org/t/p/w185/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Adventure",
+        "Mystery",
+        "Thriller",
         "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 4.5",
-      "imdbRating": "4.5"
-    },
-    {
-      "id": "tt9691136",
-      "type": "movie",
-      "name": "Shadow in the Cloud",
-      "poster": "https://image.tmdb.org/t/p/w185/t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Action",
-        "War"
-      ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 5.0",
-      "imdbRating": "5.0"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.3",
+      "imdbRating": "6.3"
     },
     {
       "id": "tt6237612",
@@ -278,32 +266,16 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt7622584",
+      "id": "tt0111293",
       "type": "movie",
-      "name": "We Go In at Dawn",
-      "poster": "https://image.tmdb.org/t/p/w185/nQqLA58PeF0ofPzq36lNUFRSzCa.jpg",
+      "name": "The Stöned Age",
+      "poster": "https://image.tmdb.org/t/p/w185/d9Edl0tqX7eigcEEoFqKfnpBJHA.jpg",
       "posterShape": "poster",
       "genres": [
-        "History",
-        "War",
-        "Thriller"
+        "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 3.6",
-      "imdbRating": "3.6"
-    },
-    {
-      "id": "tt27116016",
-      "type": "movie",
-      "name": "Die Hart",
-      "poster": "https://image.tmdb.org/t/p/w185/ff9iMXJjtRdm58nRzM88sNr5CTu.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Action",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 5.2",
-      "imdbRating": "5.2"
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 6.2",
+      "imdbRating": "6.2"
     },
     {
       "id": "tt6861784",
@@ -319,18 +291,19 @@
       "imdbRating": "6.6"
     },
     {
-      "id": "tt0372784",
+      "id": "tt0096895",
       "type": "movie",
-      "name": "Batman Begins",
-      "poster": "https://image.tmdb.org/t/p/w185/sPX89Td70IDDjVr85jdSBb4rWGr.jpg",
+      "name": "Batman",
+      "poster": "https://image.tmdb.org/t/p/w185/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Crime",
-        "Action"
+        "Fantasy",
+        "Action",
+        "Crime"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 8.2",
-      "imdbRating": "8.2"
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 7.5",
+      "releaseInfo": "1989",
+      "imdbRating": "7.5"
     },
     {
       "id": "tt27911000",
@@ -345,87 +318,123 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0070444",
+      "id": "tt6483422",
       "type": "movie",
-      "name": "Night Watch",
-      "poster": "https://image.tmdb.org/t/p/w185/uuWf1nMHYkKegwJB0iOzbPuiKkO.jpg",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w185/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
       "posterShape": "poster",
       "genres": [
-        "Mystery",
-        "Thriller",
+        "Adventure",
         "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.3",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 4.5",
+      "imdbRating": "4.5"
     },
     {
-      "id": "tt0095742",
+      "id": "tt3280262",
       "type": "movie",
-      "name": "A Nightmare on Elm Street 4: The Dream Master",
-      "poster": "https://image.tmdb.org/t/p/w185/boStYG7jKdoIZTduiOOsUVknD13.jpg",
+      "name": "Cult of Chucky",
+      "poster": "https://image.tmdb.org/t/p/w185/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.6",
-      "imdbRating": "5.6"
-    },
-    {
-      "id": "tt0048393",
-      "type": "movie",
-      "name": "Mr. Arkadin",
-      "poster": "https://image.tmdb.org/t/p/w185/hoBfh3jmA3XDDx9tGgMwdGd37GE.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 7.1",
-      "imdbRating": "7.1"
-    },
-    {
-      "id": "tt18312380",
-      "type": "movie",
-      "name": "Primitive War",
-      "poster": "https://image.tmdb.org/t/p/w185/noujgznyJIaurEinZhcSVzTmkLo.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Horror",
-        "War",
-        "Science Fiction"
-      ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 5.3",
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.3",
+      "releaseInfo": "2017",
       "imdbRating": "5.3"
     },
     {
-      "id": "tt1106860",
+      "id": "tt0081375",
       "type": "movie",
-      "name": "Ca$h",
-      "poster": "https://image.tmdb.org/t/p/w185/e5B7nG6xREL6lNnS34ZoAvXbB9l.jpg",
+      "name": "Private Benjamin",
+      "poster": "https://image.tmdb.org/t/p/w185/maIiPNXddZXKHQCi0HyULd5kces.jpg",
       "posterShape": "poster",
       "genres": [
-        "Crime",
-        "Thriller",
-        "Comedy",
-        "Mystery"
+        "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.9",
-      "imdbRating": "5.9"
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.2",
+      "imdbRating": "6.2"
     },
     {
-      "id": "tt0454841",
+      "id": "tt0392878",
       "type": "movie",
-      "name": "The Hills Have Eyes",
-      "poster": "https://image.tmdb.org/t/p/w185/2eJL1Ccr1FN3dm9OSDwyd8uaX1b.jpg",
+      "name": "The Onion Movie",
+      "poster": "https://image.tmdb.org/t/p/w185/AikMOGbaKpCzHnupsdBzyacsKC2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 6.2",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt14415204",
+      "type": "movie",
+      "name": "Never Let Go",
+      "poster": "https://image.tmdb.org/t/p/w185/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 5.4",
+      "imdbRating": "5.4"
+    },
+    {
+      "id": "tt0430164",
+      "type": "movie",
+      "name": "The Baby's Room",
+      "poster": "https://image.tmdb.org/t/p/w185/t5BtCJyju9ltoVUV0VmwKUt5N0S.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller",
+        "TV Movie"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.8",
+      "imdbRating": "6.8"
+    },
+    {
+      "id": "tt0372588",
+      "type": "movie",
+      "name": "Team America: World Police",
+      "poster": "https://image.tmdb.org/t/p/w185/m1Q2VFe1DVVbjfu1LDZe7tlp9yb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 7.2",
+      "imdbRating": "7.2"
+    },
+    {
+      "id": "tt0210070",
+      "type": "movie",
+      "name": "Ginger Snaps",
+      "poster": "https://image.tmdb.org/t/p/w185/ozohDiJd7Oi65NEf8B0ya7lR9Fr.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
+        "Fantasy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.8",
+      "imdbRating": "6.8"
+    },
+    {
+      "id": "tt0387808",
+      "type": "movie",
+      "name": "Idiocracy",
+      "poster": "https://image.tmdb.org/t/p/w185/6cTHBq49ApwsJaRr3ojlY1cmiXk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Science Fiction",
+        "Adventure",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.4",
-      "imdbRating": "6.4"
+      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 6.5",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt7959026",
@@ -456,33 +465,60 @@
       "imdbRating": "4.9"
     },
     {
-      "id": "tt3296908",
+      "id": "tt1226774",
       "type": "movie",
-      "name": "The Man with the Iron Heart",
-      "poster": "https://image.tmdb.org/t/p/w185/ZVQfCY2DgCjrm8w2saXvT8Ao3B.jpg",
+      "name": "In the Loop",
+      "poster": "https://image.tmdb.org/t/p/w185/jL6txnziFSeEifQkqnPBtaPaiXU.jpg",
       "posterShape": "poster",
       "genres": [
-        "War",
-        "Action",
-        "History",
-        "Thriller"
+        "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 6.4",
-      "imdbRating": "6.4"
+      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 7.4",
+      "imdbRating": "7.4"
     },
     {
-      "id": "tt30505159",
+      "id": "tt12300742",
       "type": "movie",
-      "name": "South Park (Not Suitable for Children)",
-      "poster": "https://image.tmdb.org/t/p/w185/kN5H9EhUqDWBAsbnbt2XNhS7BFe.jpg",
+      "name": "Bugonia",
+      "poster": "https://image.tmdb.org/t/p/w185/rSdOua3wKMEaFWDcKAYWRjXQWOt.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 7.4",
+      "releaseInfo": "2025",
+      "imdbRating": "7.4"
+    },
+    {
+      "id": "tt29474455",
+      "type": "movie",
+      "name": "South Park: Joining the Panderverse",
+      "poster": "https://image.tmdb.org/t/p/w185/18IsRVfs5MkkTcqTGlUAnka6sCh.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
         "Comedy",
+        "Science Fiction",
         "TV Movie"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 7.2",
-      "imdbRating": "7.2"
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 7.8",
+      "imdbRating": "7.8"
+    },
+    {
+      "id": "tt0072856",
+      "type": "movie",
+      "name": "Death Race 2000",
+      "poster": "https://image.tmdb.org/t/p/w185/kwM8kkNGtv62gfPWVhD6qFxjDzg.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.2",
+      "imdbRating": "6.2"
     },
     {
       "id": "tt1549920",
@@ -499,57 +535,18 @@
       "imdbRating": "6.3"
     },
     {
-      "id": "tt0089034",
+      "id": "tt8179024",
       "type": "movie",
-      "name": "The Doctor and the Devils",
-      "poster": "https://image.tmdb.org/t/p/w185/nC3YFz9NTd2Q4l9tUSKSzBJzXXd.jpg",
+      "name": "Body Cam",
+      "poster": "https://image.tmdb.org/t/p/w185/akmjfKPlxBAdXi4G1TZOirty8Ia.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
-        "History"
+        "Thriller",
+        "Mystery"
       ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 6.2",
-      "imdbRating": "6.2"
-    },
-    {
-      "id": "tt2396671",
-      "type": "movie",
-      "name": "Soldiers of the Damned",
-      "poster": "https://image.tmdb.org/t/p/w185/xKjzk2nhrKQsUvwDKN76hdtJGYM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "War",
-        "Action",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 3.9",
-      "imdbRating": "3.9"
-    },
-    {
-      "id": "tt0100260",
-      "type": "movie",
-      "name": "Nightbreed",
-      "poster": "https://image.tmdb.org/t/p/w185/1ChluYH0BEvJo3gtYoFHnMZI660.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.5",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt31723041",
-      "type": "movie",
-      "name": "Jimmy Carr: Natural Born Killer",
-      "poster": "https://image.tmdb.org/t/p/w185/5ntu2EZsk1HDaV7OjhZJT7OumSt.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.7",
-      "imdbRating": "6.7"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 5.3",
+      "imdbRating": "5.3"
     }
   ]
 }
