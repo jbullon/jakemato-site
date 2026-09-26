@@ -192,7 +192,10 @@ def main():
 
     recent = build_release_catalog(
         movies,
-        lambda movie, event: recent_start <= event.get("date", "") <= today_iso,
+        lambda movie, event: (
+            recent_start <= event.get("date", "") <= today_iso
+            and any(type_id != 5 for type_id in event.get("types", []))
+        ),
         reverse=True,
     )
 
@@ -200,6 +203,7 @@ def main():
         movies,
         lambda movie, event: (
             today_iso < event.get("date", "") <= future_end
+            and any(type_id != 5 for type_id in event.get("types", []))
             and bool(movie.get("trailer_youtube_key"))
         ),
     )
