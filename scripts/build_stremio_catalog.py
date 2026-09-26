@@ -17,9 +17,9 @@ TYPE_NAMES = {
 
 MANIFEST = {
     "id": "com.jakemato.movie-releases",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "name": "Jakemato Movie Releases",
-    "description": "Recent US movie releases, Jake's Picks, and upcoming movies with trailers.",
+    "description": "Recent US movie releases, personalized picks, and upcoming movies with trailers.",
     "resources": ["catalog"],
     "types": ["movie"],
     "idPrefixes": ["tt"],
@@ -33,6 +33,11 @@ MANIFEST = {
             "type": "movie",
             "id": "jakes-picks",
             "name": "Jakemato - Jake's Picks",
+        },
+        {
+            "type": "movie",
+            "id": "mandys-picks",
+            "name": "Jakemato - Mandys Picks",
         },
         {
             "type": "movie",
@@ -117,12 +122,12 @@ def make_release_meta(movie, event):
     return meta
 
 
-def make_pick_meta(movie):
+def make_pick_meta(movie, profile_name):
     seed_matches = movie.get("seed_matches") or []
     seed_text = ", ".join(seed_matches[:3])
     rating = movie.get("imdb_rating")
     rating_text = f" • IMDb {rating:.1f}" if rating is not None else ""
-    description = "Jake's Picks"
+    description = profile_name
     if seed_text:
         description += f" • Adjacent to: {seed_text}"
     description += rating_text
@@ -168,9 +173,9 @@ def build_release_catalog(movies, event_filter, reverse=False):
     return {"metas": metas}
 
 
-def build_picks_catalog(picks):
+def build_picks_catalog(picks, profile_name):
     metas = [
-        make_pick_meta(movie)
+        make_pick_meta(movie, profile_name)
         for movie in picks
         if is_stremio_eligible(movie)
     ]
@@ -183,7 +188,8 @@ def main():
 
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
     movies = payload.get("movies", [])
-    picks = payload.get("jakes_picks", [])
+    jakes = payload.get("jakes_picks", [])
+    mandys = payload.get("mandys_picks", [])
 
     today = date.today()
     today_iso = today.isoformat()
@@ -208,17 +214,20 @@ def main():
         ),
     )
 
-    jakes_picks = build_picks_catalog(picks)
+    jakes_picks = build_picks_catalog(jakes, "Jake's Picks")
+    mandys_picks = build_picks_catalog(mandys, "Mandys Picks")
 
     write_json(OUTPUT_ROOT / "manifest.json", MANIFEST)
     write_json(OUTPUT_ROOT / "catalog/movie/recent.json", recent)
     write_json(OUTPUT_ROOT / "catalog/movie/jakes-picks.json", jakes_picks)
+    write_json(OUTPUT_ROOT / "catalog/movie/mandys-picks.json", mandys_picks)
     write_json(OUTPUT_ROOT / "catalog/movie/upcoming-trailers.json", upcoming_trailers)
 
     print(
         "Built Stremio catalogs: "
         f"{len(recent['metas'])} recent, "
         f"{len(jakes_picks['metas'])} Jake's Picks, "
+        f"{len(mandys_picks['metas'])} Mandys Picks, "
         f"{len(upcoming_trailers['metas'])} upcoming with trailers."
     )
 

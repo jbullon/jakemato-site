@@ -1,6 +1,6 @@
-# Jake's Picks profile
+# Personalized Picks profiles
 
-`jakes-picks.json` controls the automated Stremio **Jake's Picks** catalog.
+`jakes-picks.json` controls **Jake's Picks** and `mandys-picks.json` controls **Mandys Picks**. Both use the same automated recommendation engine.
 
 ## Main controls
 
@@ -28,3 +28,10 @@ A low weight/cap is useful for a movie you love for specific qualities but do no
 - `exclude_genres`: optional exact TMDB genre exclusions.
 
 The current profile suppresses superhero/comic-book material while still allowing The Dark Knight to contribute occasional dark crime/thriller recommendations.
+
+
+## Mandys Picks
+
+Mandy's profile currently uses equal seed weights and a maximum of 3 selected movies per primary seed to keep the catalog mixed across broad comedy, psychological horror/drama, romance, prestige drama, action, and science fiction.
+
+"The Stand" was not included as a seed because the well-known versions are television miniseries and this recommendation engine intentionally stays movie-only.
