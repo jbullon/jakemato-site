@@ -16,6 +16,7 @@ REGION = "US"
 DAYS_BACK = 180
 DAYS_FORWARD = 90
 OUTPUT = Path("tools/movies/data/movies.json")
+JAKE_PICKS_CONFIG = Path("tools/movies/config/jakes-picks.json")
 TOKEN = os.environ.get("TMDB_API_TOKEN", "").strip()
 IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
 
@@ -28,16 +29,6 @@ TYPE_NAMES = {
     6: "TV",
 }
 
-JAKE_PICK_SEEDS = [
-    ("Terrifier", 2016),
-    ("No Country for Old Men", 2007),
-    ("The Dark Knight", 2008),
-    ("The Backrooms", 2022),
-    ("The Coffee Table", 2022),
-    ("Men Behind the Sun", 1988),
-    ("The Dictator", 2012),
-    ("Borat", 2006),
-]
 
 RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
 MAX_RETRIES = 5
@@ -225,6 +216,16 @@ def build_movie(movie_id, genre_map, start_date, end_date):
     }
 
 
+def load_jakes_picks_config():
+    if not JAKE_PICKS_CONFIG.exists():
+        raise RuntimeError(f"Jake's Picks config not found: {JAKE_PICKS_CONFIG}")
+
+    config = json.loads(JAKE_PICKS_CONFIG.read_text(encoding="utf-8"))
+    if not config.get("seeds"):
+        raise RuntimeError("Jake's Picks config has no seeds.")
+    return config
+
+
 def resolve_seed_movie(title, year):
     payload = tmdb_get(
         "/search/movie",
@@ -253,16 +254,20 @@ def resolve_seed_movie(title, year):
 def fetch_pick_detail(movie_id, genre_map):
     details = tmdb_get(
         f"/movie/{movie_id}",
-        {"append_to_response": "external_ids", "language": "en-US"},
+        {"append_to_response": "external_ids,keywords", "language": "en-US"},
     )
     if details.get("adult"):
         return None
+
+    keyword_payload = details.get("keywords", {})
+    keyword_items = keyword_payload.get("keywords", []) or keyword_payload.get("results", [])
 
     return {
         "tmdb_id": details["id"],
         "title": details.get("title") or details.get("original_title") or "Untitled",
         "original_title": details.get("original_title") or "",
         "original_language": details.get("original_language") or "",
+        "primary_release_date": details.get("release_date") or "",
         "poster_path": details.get("poster_path"),
         "genres": [genre.get("name") for genre in details.get("genres", []) if genre.get("name")]
         or [genre_map.get(gid) for gid in details.get("genre_ids", []) if genre_map.get(gid)],
@@ -270,16 +275,84 @@ def fetch_pick_detail(movie_id, genre_map):
         "vote_average": details.get("vote_average") or 0,
         "vote_count": details.get("vote_count") or 0,
         "imdb_id": details.get("external_ids", {}).get("imdb_id") or details.get("imdb_id"),
+        "_keywords": [
+            keyword.get("name", "").strip()
+            for keyword in keyword_items
+            if keyword.get("name")
+        ],
     }
 
 
-def build_jakes_picks(movies, genre_map, limit=40):
-    existing_by_tmdb = {movie["tmdb_id"]: movie for movie in movies}
-    seed_ids = set()
-    candidate_scores = defaultdict(float)
-    candidate_seed_hits = defaultdict(set)
+def jakes_pick_exclusion_reason(movie, config):
+    title_text = " ".join(
+        [
+            movie.get("title") or "",
+            movie.get("original_title") or "",
+        ]
+    ).casefold()
 
-    for seed_title, seed_year in JAKE_PICK_SEEDS:
+    for phrase in config.get("exclude_title_contains", []):
+        phrase = str(phrase).strip().casefold()
+        if phrase and phrase in title_text:
+            return f"title contains '{phrase}'"
+
+    keywords = [keyword.casefold() for keyword in movie.get("_keywords", [])]
+    for phrase in config.get("exclude_keywords", []):
+        phrase = str(phrase).strip().casefold()
+        if phrase and any(phrase in keyword for keyword in keywords):
+            return f"keyword '{phrase}'"
+
+    excluded_genres = {
+        str(genre).strip().casefold()
+        for genre in config.get("exclude_genres", [])
+        if str(genre).strip()
+    }
+    if excluded_genres:
+        movie_genres = {
+            str(genre).strip().casefold()
+            for genre in movie.get("genres", [])
+            if str(genre).strip()
+        }
+        overlap = excluded_genres & movie_genres
+        if overlap:
+            return f"excluded genre '{sorted(overlap)[0]}'"
+
+    return None
+
+
+def jakes_pick_rotation_bucket(config):
+    today = date.today()
+    rotation = str(config.get("rotation", "daily")).strip().casefold()
+
+    if rotation == "weekly":
+        iso_year, iso_week, _ = today.isocalendar()
+        return f"{iso_year}-W{iso_week:02d}"
+    if rotation == "monthly":
+        return today.strftime("%Y-%m")
+    return today.isoformat()
+
+
+def build_jakes_picks(movies, genre_map):
+    config = load_jakes_picks_config()
+    limit = int(config.get("limit", 40))
+    candidate_scan_limit = int(config.get("candidate_scan_limit", max(limit * 4, limit)))
+    recommendations_per_seed = int(config.get("recommendations_per_seed", 20))
+    default_seed_cap = int(config.get("default_max_picks_per_seed", 6))
+
+    seed_ids = set()
+    seed_caps = {}
+    candidate_scores = defaultdict(float)
+    candidate_seed_scores = defaultdict(dict)
+
+    for seed_config in config.get("seeds", []):
+        seed_title = str(seed_config.get("title") or "").strip()
+        seed_year = seed_config.get("year")
+        seed_weight = max(0.0, float(seed_config.get("weight", 1.0)))
+        seed_cap = max(0, int(seed_config.get("max_picks", default_seed_cap)))
+
+        if not seed_title or not seed_year or seed_weight <= 0 or seed_cap <= 0:
+            continue
+
         try:
             seed = resolve_seed_movie(seed_title, seed_year)
         except (HTTPError, URLError, TimeoutError, ConnectionResetError) as exc:
@@ -292,6 +365,7 @@ def build_jakes_picks(movies, genre_map, limit=40):
 
         seed_id = seed["id"]
         seed_ids.add(seed_id)
+        seed_caps[seed_title] = seed_cap
 
         try:
             recs = tmdb_get(
@@ -302,68 +376,108 @@ def build_jakes_picks(movies, genre_map, limit=40):
             print(f"Jake's Picks recommendations failed for {seed_title}: {exc}")
             continue
 
-        for rank, recommendation in enumerate(recs[:20], start=1):
+        for rank, recommendation in enumerate(
+            recs[:recommendations_per_seed],
+            start=1,
+        ):
             candidate_id = recommendation.get("id")
-            if not candidate_id or candidate_id in seed_ids or recommendation.get("adult"):
+            if not candidate_id or recommendation.get("adult"):
                 continue
-            candidate_scores[candidate_id] += max(1, 24 - rank)
-            candidate_seed_hits[candidate_id].add(seed_title)
+
+            rank_score = max(1, recommendations_per_seed + 4 - rank)
+            contribution = rank_score * seed_weight
+            candidate_scores[candidate_id] += contribution
+            candidate_seed_scores[candidate_id][seed_title] = (
+                candidate_seed_scores[candidate_id].get(seed_title, 0.0)
+                + contribution
+            )
 
     for seed_id in seed_ids:
         candidate_scores.pop(seed_id, None)
-        candidate_seed_hits.pop(seed_id, None)
+        candidate_seed_scores.pop(seed_id, None)
 
-    rng = random.Random(f"jakes-picks-{date.today().isoformat()}")
-    weighted = []
+    rng = random.Random(
+        f"jakes-picks-{jakes_pick_rotation_bucket(config)}"
+    )
+    weighted_candidates = []
+
     for movie_id, base_score in candidate_scores.items():
-        hit_bonus = 1 + (0.65 * max(0, len(candidate_seed_hits[movie_id]) - 1))
-        weight = max(1.0, base_score * hit_bonus)
-        random_key = rng.random() ** (1.0 / weight)
-        weighted.append((random_key, movie_id))
+        seed_count = len(candidate_seed_scores[movie_id])
+        overlap_bonus = 1 + (0.5 * max(0, seed_count - 1))
+        effective_weight = max(0.001, base_score * overlap_bonus)
+        random_key = rng.random() ** (1.0 / effective_weight)
+        weighted_candidates.append((random_key, movie_id))
 
-    weighted.sort(reverse=True)
-    selected_ids = [movie_id for _, movie_id in weighted[: max(limit * 2, limit)]]
+    weighted_candidates.sort(reverse=True)
 
     picks = []
-    for movie_id in selected_ids:
-        movie = existing_by_tmdb.get(movie_id)
-        if movie:
-            pick = {
-                key: movie.get(key)
-                for key in (
-                    "tmdb_id",
-                    "title",
-                    "original_title",
-                    "original_language",
-                    "primary_release_date",
-                    "poster_path",
-                    "genres",
-                    "runtime",
-                    "vote_average",
-                    "vote_count",
-                    "imdb_id",
-                )
-            }
-        else:
-            try:
-                pick = fetch_pick_detail(movie_id, genre_map)
-            except (HTTPError, URLError, TimeoutError, ConnectionResetError, TMDBNotFound) as exc:
-                print(f"Skipping Jake's Pick {movie_id}: {exc}")
-                continue
+    seed_usage = defaultdict(int)
+    excluded_count = 0
+    scanned = 0
+
+    for _, movie_id in weighted_candidates:
+        if len(picks) >= limit or scanned >= candidate_scan_limit:
+            break
+
+        scanned += 1
+        seed_scores = candidate_seed_scores[movie_id]
+        eligible_seeds = [
+            seed_title
+            for seed_title, _ in sorted(
+                seed_scores.items(),
+                key=lambda item: item[1],
+                reverse=True,
+            )
+            if seed_usage[seed_title] < seed_caps.get(seed_title, default_seed_cap)
+        ]
+        if not eligible_seeds:
+            continue
+
+        try:
+            pick = fetch_pick_detail(movie_id, genre_map)
+        except (HTTPError, URLError, TimeoutError, ConnectionResetError, TMDBNotFound) as exc:
+            print(f"Skipping Jake's Pick {movie_id}: {exc}")
+            continue
 
         if not pick or not pick.get("poster_path") or not (pick.get("imdb_id") or "").startswith("tt"):
             continue
 
-        pick["seed_matches"] = sorted(candidate_seed_hits[movie_id])
+        exclusion_reason = jakes_pick_exclusion_reason(pick, config)
+        if exclusion_reason:
+            excluded_count += 1
+            print(
+                f"Jake's Picks excluded {pick.get('title')} "
+                f"({movie_id}): {exclusion_reason}."
+            )
+            continue
+
+        primary_seed = eligible_seeds[0]
+        seed_usage[primary_seed] += 1
+
+        pick.pop("_keywords", None)
+        pick["primary_seed"] = primary_seed
+        pick["seed_matches"] = [
+            seed_title
+            for seed_title, _ in sorted(
+                seed_scores.items(),
+                key=lambda item: item[1],
+                reverse=True,
+            )
+        ]
         pick["recommendation_score"] = round(candidate_scores[movie_id], 2)
         picks.append(pick)
 
-        if len(picks) >= limit:
-            break
-
-    print(f"Built {len(picks)} Jake's Picks from {len(seed_ids)} resolved seeds.")
+    usage_summary = ", ".join(
+        f"{seed}: {count}"
+        for seed, count in sorted(seed_usage.items())
+        if count
+    )
+    print(
+        f"Built {len(picks)} Jake's Picks from {len(seed_caps)} resolved seeds; "
+        f"{excluded_count} candidates excluded by taste filters. "
+        f"Seed usage: {usage_summary or 'none'}."
+    )
     return picks
-
 
 def previous_imdb_ratings():
     if not OUTPUT.exists():
