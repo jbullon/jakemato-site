@@ -35,8 +35,26 @@ jobs:
             exit 0
           fi
 
+          START_SHA="$(git rev-parse HEAD)"
+          git fetch origin master
+
+          if [ "$(git rev-parse origin/master)" != "$START_SHA" ]; then
+            echo "::notice::master changed while the movie ETL was running. Discarding stale generated data; a later run will refresh from the new code."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tools/movies/data/movies.json stremio/movies
           git commit -m "Update movie release data"
-          git push
+
+          if ! git push; then
+            git fetch origin master
+            if [ "$(git rev-parse origin/master)" != "$START_SHA" ]; then
+              echo "::notice::master changed immediately before push. Generated data was not published because it was based on an older commit."
+              exit 0
+            fi
+
+            echo "::error::Movie data push failed for a reason other than master changing."
+            exit 1
+          fi
