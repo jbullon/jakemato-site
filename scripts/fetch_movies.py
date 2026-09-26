@@ -17,6 +17,7 @@ DAYS_BACK = 180
 DAYS_FORWARD = 90
 OUTPUT = Path("tools/movies/data/movies.json")
 JAKE_PICKS_CONFIG = Path("tools/movies/config/jakes-picks.json")
+AMANDA_PICKS_CONFIG = Path("tools/movies/config/amandas-picks.json")
 TOKEN = os.environ.get("TMDB_API_TOKEN", "").strip()
 IMDB_RATINGS_URL = "https://datasets.imdbws.com/title.ratings.tsv.gz"
 
@@ -216,13 +217,13 @@ def build_movie(movie_id, genre_map, start_date, end_date):
     }
 
 
-def load_jakes_picks_config():
-    if not JAKE_PICKS_CONFIG.exists():
-        raise RuntimeError(f"Jake's Picks config not found: {JAKE_PICKS_CONFIG}")
+def load_picks_config(config_path, profile_name):
+    if not config_path.exists():
+        raise RuntimeError(f"{profile_name} config not found: {config_path}")
 
-    config = json.loads(JAKE_PICKS_CONFIG.read_text(encoding="utf-8"))
+    config = json.loads(config_path.read_text(encoding="utf-8"))
     if not config.get("seeds"):
-        raise RuntimeError("Jake's Picks config has no seeds.")
+        raise RuntimeError(f"{profile_name} config has no seeds.")
     return config
 
 
@@ -283,7 +284,7 @@ def fetch_pick_detail(movie_id, genre_map):
     }
 
 
-def jakes_pick_exclusion_reason(movie, config):
+def pick_exclusion_reason(movie, config):
     title_text = " ".join(
         [
             movie.get("title") or "",
@@ -320,7 +321,7 @@ def jakes_pick_exclusion_reason(movie, config):
     return None
 
 
-def jakes_pick_rotation_bucket(config):
+def pick_rotation_bucket(config):
     today = date.today()
     rotation = str(config.get("rotation", "daily")).strip().casefold()
 
@@ -332,8 +333,8 @@ def jakes_pick_rotation_bucket(config):
     return today.isoformat()
 
 
-def build_jakes_picks(movies, genre_map):
-    config = load_jakes_picks_config()
+def build_profile_picks(movies, genre_map, config_path, profile_name, random_namespace):
+    config = load_picks_config(config_path, profile_name)
     limit = int(config.get("limit", 40))
     candidate_scan_limit = int(config.get("candidate_scan_limit", max(limit * 4, limit)))
     recommendations_per_seed = int(config.get("recommendations_per_seed", 20))
@@ -356,11 +357,11 @@ def build_jakes_picks(movies, genre_map):
         try:
             seed = resolve_seed_movie(seed_title, seed_year)
         except (HTTPError, URLError, TimeoutError, ConnectionResetError) as exc:
-            print(f"Jake's Picks seed failed: {seed_title}: {exc}")
+            print(f"{profile_name} seed failed: {seed_title}: {exc}")
             continue
 
         if not seed:
-            print(f"Jake's Picks seed not found: {seed_title} ({seed_year})")
+            print(f"{profile_name} seed not found: {seed_title} ({seed_year})")
             continue
 
         seed_id = seed["id"]
@@ -373,7 +374,7 @@ def build_jakes_picks(movies, genre_map):
                 {"language": "en-US", "page": 1},
             ).get("results", [])
         except (HTTPError, URLError, TimeoutError, ConnectionResetError, TMDBNotFound) as exc:
-            print(f"Jake's Picks recommendations failed for {seed_title}: {exc}")
+            print(f"{profile_name} recommendations failed for {seed_title}: {exc}")
             continue
 
         for rank, recommendation in enumerate(
@@ -397,7 +398,7 @@ def build_jakes_picks(movies, genre_map):
         candidate_seed_scores.pop(seed_id, None)
 
     rng = random.Random(
-        f"jakes-picks-{jakes_pick_rotation_bucket(config)}"
+        f"{random_namespace}-{pick_rotation_bucket(config)}"
     )
     weighted_candidates = []
 
@@ -436,17 +437,17 @@ def build_jakes_picks(movies, genre_map):
         try:
             pick = fetch_pick_detail(movie_id, genre_map)
         except (HTTPError, URLError, TimeoutError, ConnectionResetError, TMDBNotFound) as exc:
-            print(f"Skipping Jake's Pick {movie_id}: {exc}")
+            print(f"Skipping {profile_name} candidate {movie_id}: {exc}")
             continue
 
         if not pick or not pick.get("poster_path") or not (pick.get("imdb_id") or "").startswith("tt"):
             continue
 
-        exclusion_reason = jakes_pick_exclusion_reason(pick, config)
+        exclusion_reason = pick_exclusion_reason(pick, config)
         if exclusion_reason:
             excluded_count += 1
             print(
-                f"Jake's Picks excluded {pick.get('title')} "
+                f"{profile_name} excluded {pick.get('title')} "
                 f"({movie_id}): {exclusion_reason}."
             )
             continue
@@ -473,7 +474,7 @@ def build_jakes_picks(movies, genre_map):
         if count
     )
     print(
-        f"Built {len(picks)} Jake's Picks from {len(seed_caps)} resolved seeds; "
+        f"Built {len(picks)} {profile_name} movies from {len(seed_caps)} resolved seeds; "
         f"{excluded_count} candidates excluded by taste filters. "
         f"Seed usage: {usage_summary or 'none'}."
     )
@@ -489,7 +490,12 @@ def previous_imdb_ratings():
         return {}
 
     ratings = {}
-    for movie in list(old.get("movies", [])) + list(old.get("jakes_picks", [])):
+    old_rating_movies = (
+        list(old.get("movies", []))
+        + list(old.get("jakes_picks", []))
+        + list(old.get("amandas_picks", []))
+    )
+    for movie in old_rating_movies:
         imdb_id = movie.get("imdb_id")
         if not imdb_id:
             continue
@@ -551,22 +557,25 @@ def fetch_imdb_ratings(target_ids):
     return {}
 
 
-def attach_imdb_ratings(movies, picks):
+def attach_imdb_ratings(movies, *pick_groups):
+    all_movies = list(movies)
+    for pick_group in pick_groups:
+        all_movies.extend(list(pick_group))
+
     fallback = previous_imdb_ratings()
     target_ids = {
         movie.get("imdb_id")
-        for movie in list(movies) + list(picks)
+        for movie in all_movies
         if (movie.get("imdb_id") or "").startswith("tt")
     }
 
     current = fetch_imdb_ratings(target_ids)
 
-    for movie in list(movies) + list(picks):
+    for movie in all_movies:
         imdb_id = movie.get("imdb_id")
         rating = current.get(imdb_id) or fallback.get(imdb_id)
         movie["imdb_rating"] = rating["rating"] if rating else None
         movie["imdb_votes"] = rating["votes"] if rating else 0
-
 
 def validate_before_publish(movies, candidate_count, skipped_errors):
     if not movies:
@@ -631,8 +640,21 @@ def main():
 
     validate_before_publish(movies, len(candidate_ids), skipped_errors)
 
-    jakes_picks = build_jakes_picks(movies, genre_map)
-    attach_imdb_ratings(movies, jakes_picks)
+    jakes_picks = build_profile_picks(
+        movies,
+        genre_map,
+        JAKE_PICKS_CONFIG,
+        "Jake's Picks",
+        "jakes-picks",
+    )
+    amandas_picks = build_profile_picks(
+        movies,
+        genre_map,
+        AMANDA_PICKS_CONFIG,
+        "Amanda's Picks",
+        "amandas-picks",
+    )
+    attach_imdb_ratings(movies, jakes_picks, amandas_picks)
 
     movies.sort(key=lambda movie: (movie["events"][0]["date"], movie["title"].lower()))
     payload = {
@@ -648,6 +670,7 @@ def main():
         "skipped_not_found": skipped_not_found,
         "skipped_errors": skipped_errors,
         "jakes_picks": jakes_picks,
+        "amandas_picks": amandas_picks,
         "movies": movies,
     }
 
