@@ -103,31 +103,18 @@
       "imdbRating": "6.5"
     },
     {
-      "id": "tt1661382",
+      "id": "tt0787475",
       "type": "movie",
-      "name": "Grudge Match",
-      "poster": "https://image.tmdb.org/t/p/w185/jTq9jYTKKo6EhQPso4xTMpPYYXW.jpg",
+      "name": "Hot Rod",
+      "poster": "https://image.tmdb.org/t/p/w185/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy"
+        "Comedy",
+        "Action"
       ],
-      "description": "Mandys Picks • Adjacent to: Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.4",
-      "releaseInfo": "2013",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt0133093",
-      "type": "movie",
-      "name": "The Matrix",
-      "poster": "https://image.tmdb.org/t/p/w185/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Science Fiction"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Hunger Games • IMDb 8.7",
-      "releaseInfo": "1999",
-      "imdbRating": "8.7"
+      "description": "Mandys Picks • Adjacent to: Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.7",
+      "releaseInfo": "2007",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt7466442",
@@ -146,18 +133,31 @@
       "imdbRating": "7.0"
     },
     {
-      "id": "tt0437405",
+      "id": "tt1661382",
       "type": "movie",
-      "name": "Paper Man",
-      "poster": "https://image.tmdb.org/t/p/w185/wneK8G9E26FUqYo4KjPlsD0TIII.jpg",
+      "name": "Grudge Match",
+      "poster": "https://image.tmdb.org/t/p/w185/jTq9jYTKKo6EhQPso4xTMpPYYXW.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama"
+        "Comedy"
       ],
-      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 6.5",
-      "releaseInfo": "2009",
-      "imdbRating": "6.5"
+      "description": "Mandys Picks • Adjacent to: Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.4",
+      "releaseInfo": "2013",
+      "imdbRating": "6.4"
+    },
+    {
+      "id": "tt2582496",
+      "type": "movie",
+      "name": "Me and Earl and the Dying Girl",
+      "poster": "https://image.tmdb.org/t/p/w185/eLjS2bLMjln2n2I73Xu6TaANPDZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.7",
+      "releaseInfo": "2015",
+      "imdbRating": "7.7"
     },
     {
       "id": "tt0492044",
@@ -216,21 +216,6 @@
       "imdbRating": "8.8"
     },
     {
-      "id": "tt0437086",
-      "type": "movie",
-      "name": "Alita: Battle Angel",
-      "poster": "https://image.tmdb.org/t/p/w185/xRWht48C2V8XNfzvPehyClOvDni.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Hunger Games • IMDb 7.3",
-      "releaseInfo": "2019",
-      "imdbRating": "7.3"
-    },
-    {
       "id": "tt21192142",
       "type": "movie",
       "name": "All of Us Strangers",
@@ -244,6 +229,21 @@
       "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 7.6",
       "releaseInfo": "2023",
       "imdbRating": "7.6"
+    },
+    {
+      "id": "tt3804114",
+      "type": "movie",
+      "name": "Halo: Nightfall",
+      "poster": "https://image.tmdb.org/t/p/w185/liLQ8EFzHN06eFZ9KQMDK6cmGaK.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Hunger Games • IMDb 5.5",
+      "releaseInfo": "2014",
+      "imdbRating": "5.5"
     },
     {
       "id": "tt0870984",
@@ -320,21 +320,6 @@
       "imdbRating": "6.6"
     },
     {
-      "id": "tt2205697",
-      "type": "movie",
-      "name": "Stuck in Love",
-      "poster": "https://image.tmdb.org/t/p/w185/byic4VFVrpPyjDWK54CcsxYWW85.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 7.2",
-      "releaseInfo": "2013",
-      "imdbRating": "7.2"
-    },
-    {
       "id": "tt0119807",
       "type": "movie",
       "name": "Nothing to Lose",
@@ -349,6 +334,21 @@
       "description": "Mandys Picks • Adjacent to: The Other Guys, Dumb and Dumber, Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.7",
       "releaseInfo": "1997",
       "imdbRating": "6.7"
+    },
+    {
+      "id": "tt2205697",
+      "type": "movie",
+      "name": "Stuck in Love",
+      "poster": "https://image.tmdb.org/t/p/w185/byic4VFVrpPyjDWK54CcsxYWW85.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 7.2",
+      "releaseInfo": "2013",
+      "imdbRating": "7.2"
     },
     {
       "id": "tt3063516",
@@ -390,20 +390,6 @@
       "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 6.3",
       "releaseInfo": "2009",
       "imdbRating": "6.3"
-    },
-    {
-      "id": "tt4925292",
-      "type": "movie",
-      "name": "Lady Bird",
-      "poster": "https://image.tmdb.org/t/p/w185/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.4",
-      "releaseInfo": "2017",
-      "imdbRating": "7.4"
     },
     {
       "id": "tt20048582",
@@ -534,6 +520,19 @@
       "imdbRating": "6.6"
     },
     {
+      "id": "tt0378793",
+      "type": "movie",
+      "name": "Speak",
+      "poster": "https://image.tmdb.org/t/p/w185/oRjQJG2PziTl2bUvzUCFS16ncfj.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.2",
+      "releaseInfo": "2004",
+      "imdbRating": "7.2"
+    },
+    {
       "id": "tt26581740",
       "type": "movie",
       "name": "Weapons",
@@ -564,18 +563,19 @@
       "imdbRating": "5.5"
     },
     {
-      "id": "tt1285309",
+      "id": "tt2076822",
       "type": "movie",
-      "name": "The Joneses",
-      "poster": "https://image.tmdb.org/t/p/w185/5YINGouZK9pmPdMPAHv158eQf3o.jpg",
+      "name": "Chaos Walking",
+      "poster": "https://image.tmdb.org/t/p/w185/xAYGdGBGptNkisXRpmhZSry6SPF.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama"
+        "Fantasy",
+        "Science Fiction",
+        "Adventure"
       ],
-      "description": "Mandys Picks • Adjacent to: Parasite • IMDb 6.4",
-      "releaseInfo": "2010",
-      "imdbRating": "6.4"
+      "description": "Mandys Picks • Adjacent to: The Hunger Games, Interstellar • IMDb 5.7",
+      "releaseInfo": "2021",
+      "imdbRating": "5.7"
     }
   ]
 }
