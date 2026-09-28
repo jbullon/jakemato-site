@@ -1,19 +1,137 @@
 {
   "metas": [
     {
-      "id": "tt0072856",
+      "id": "tt0120694",
       "type": "movie",
-      "name": "Death Race 2000",
-      "poster": "https://image.tmdb.org/t/p/w185/kwM8kkNGtv62gfPWVhD6qFxjDzg.jpg",
+      "name": "Halloween H20: 20 Years Later",
+      "poster": "https://image.tmdb.org/t/p/w185/lqLXUm3oK59sGJKRH2Zjj2m3iMg.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.8",
+      "releaseInfo": "1998",
+      "imdbRating": "5.8"
+    },
+    {
+      "id": "tt10103028",
+      "type": "movie",
+      "name": "Blindfire",
+      "poster": "https://image.tmdb.org/t/p/w185/kWOXx85fcVm408Cpg0Tw5NhDA4f.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 4.9",
+      "releaseInfo": "2020",
+      "imdbRating": "4.9"
+    },
+    {
+      "id": "tt0491175",
+      "type": "movie",
+      "name": "Suburbicon",
+      "poster": "https://image.tmdb.org/t/p/w185/yqYwf0kPK2SaCWM80msl4nYK6U7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.8",
+      "releaseInfo": "2017",
+      "imdbRating": "5.8"
+    },
+    {
+      "id": "tt1371117",
+      "type": "movie",
+      "name": "Dear Mr. Gacy",
+      "poster": "https://image.tmdb.org/t/p/w185/zftYdcc60ixcsQu6a5ndWCUJIQ4.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.4",
+      "releaseInfo": "2010",
+      "imdbRating": "6.4"
+    },
+    {
+      "id": "tt7959026",
+      "type": "movie",
+      "name": "The Mule",
+      "poster": "https://image.tmdb.org/t/p/w185/vkOfx5meJvFb4qmAJU7j6v8IIpZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 7.0",
+      "releaseInfo": "2018",
+      "imdbRating": "7.0"
+    },
+    {
+      "id": "tt0100260",
+      "type": "movie",
+      "name": "Nightbreed",
+      "poster": "https://image.tmdb.org/t/p/w185/1ChluYH0BEvJo3gtYoFHnMZI660.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.5",
+      "releaseInfo": "1990",
+      "imdbRating": "6.5"
+    },
+    {
+      "id": "tt14895206",
+      "type": "movie",
+      "name": "Dead for a Dollar",
+      "poster": "https://image.tmdb.org/t/p/w185/rJv7YTJWl3CvgMfYRyIO2M4kEzk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Western",
+        "Thriller",
+        "Action",
+        "Drama"
+      ],
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 5.4",
+      "releaseInfo": "2022",
+      "imdbRating": "5.4"
+    },
+    {
+      "id": "tt0324216",
+      "type": "movie",
+      "name": "The Texas Chainsaw Massacre",
+      "poster": "https://image.tmdb.org/t/p/w185/781px1eOtfVt1RdIsL4Dt1s3x7R.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.2",
+      "releaseInfo": "2003",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt0266915",
+      "type": "movie",
+      "name": "Rush Hour 2",
+      "poster": "https://image.tmdb.org/t/p/w185/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
-        "Science Fiction",
-        "Comedy"
+        "Comedy",
+        "Crime"
       ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.2",
-      "releaseInfo": "1975",
-      "imdbRating": "6.2"
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 6.7",
+      "releaseInfo": "2001",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt0092997",
@@ -33,19 +151,65 @@
       "imdbRating": "6.7"
     },
     {
-      "id": "tt7959026",
+      "id": "tt0116830",
       "type": "movie",
-      "name": "The Mule",
-      "poster": "https://image.tmdb.org/t/p/w185/vkOfx5meJvFb4qmAJU7j6v8IIpZ.jpg",
+      "name": "Last Man Standing",
+      "poster": "https://image.tmdb.org/t/p/w185/2cWqlkXaKKdl32Waep4FwCQnyH0.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Western"
+      ],
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.4",
+      "releaseInfo": "1996",
+      "imdbRating": "6.4"
+    },
+    {
+      "id": "tt0087268",
+      "type": "movie",
+      "name": "Flashpoint",
+      "poster": "https://image.tmdb.org/t/p/w185/xAMzujbmShAG6W13z71ov5wnfTA.jpg",
       "posterShape": "poster",
       "genres": [
         "Crime",
-        "Drama",
-        "Thriller"
+        "Thriller",
+        "Western"
       ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 7.0",
-      "releaseInfo": "2018",
-      "imdbRating": "7.0"
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.4",
+      "releaseInfo": "1984",
+      "imdbRating": "6.4"
+    },
+    {
+      "id": "tt0338188",
+      "type": "movie",
+      "name": "The Missing",
+      "poster": "https://image.tmdb.org/t/p/w185/86s5nw5F1G8lJtEowO0LBB4hoBW.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Western",
+        "Adventure"
+      ],
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.5",
+      "releaseInfo": "2003",
+      "imdbRating": "6.5"
+    },
+    {
+      "id": "tt24850708",
+      "type": "movie",
+      "name": "Gunslingers",
+      "poster": "https://image.tmdb.org/t/p/w185/O7REXWPANWXvX2jhQydHjAq2DV.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Western"
+      ],
+      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 3.7",
+      "releaseInfo": "2025",
+      "imdbRating": "3.7"
     },
     {
       "id": "tt8106534",
@@ -61,6 +225,75 @@
       "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.1",
       "releaseInfo": "2019",
       "imdbRating": "6.1"
+    },
+    {
+      "id": "tt18278698",
+      "type": "movie",
+      "name": "Dave Chappelle: The Dreamer",
+      "poster": "https://image.tmdb.org/t/p/w185/AfRIwykHu9taHgq9DHktdwVLmWC.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 7.0",
+      "releaseInfo": "2023",
+      "imdbRating": "7.0"
+    },
+    {
+      "id": "tt30088797",
+      "type": "movie",
+      "name": "Ricky Gervais: Armageddon",
+      "poster": "https://image.tmdb.org/t/p/w185/i4fbnHXE7qW6AT41xv9XLekvJeZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 7.1",
+      "releaseInfo": "2023",
+      "imdbRating": "7.1"
+    },
+    {
+      "id": "tt0489664",
+      "type": "movie",
+      "name": "Butterfly on a Wheel",
+      "poster": "https://image.tmdb.org/t/p/w185/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
+      "releaseInfo": "2007",
+      "imdbRating": "6.6"
+    },
+    {
+      "id": "tt0111293",
+      "type": "movie",
+      "name": "The Stöned Age",
+      "poster": "https://image.tmdb.org/t/p/w185/d9Edl0tqX7eigcEEoFqKfnpBJHA.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 6.2",
+      "releaseInfo": "1994",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt7991508",
+      "type": "movie",
+      "name": "Finestkind",
+      "poster": "https://image.tmdb.org/t/p/w185/90D6sXfbXKhDpd4S1cHICdAe8VD.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.2",
+      "releaseInfo": "2023",
+      "imdbRating": "6.2"
     },
     {
       "id": "tt0387808",
@@ -79,115 +312,88 @@
       "imdbRating": "6.5"
     },
     {
-      "id": "tt0392878",
+      "id": "tt14946978",
       "type": "movie",
-      "name": "The Onion Movie",
-      "poster": "https://image.tmdb.org/t/p/w185/AikMOGbaKpCzHnupsdBzyacsKC2.jpg",
+      "name": "Raging Grace",
+      "poster": "https://image.tmdb.org/t/p/w185/mu7vmxuZGAUZCJ5jxqpmpk0CPFX.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 6.2",
-      "releaseInfo": "2008",
-      "imdbRating": "6.2"
-    },
-    {
-      "id": "tt0085959",
-      "type": "movie",
-      "name": "Monty Python's The Meaning of Life",
-      "poster": "https://image.tmdb.org/t/p/w185/9yavZ9WgEZIpWi2EbVW8At9RPdo.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Borat • IMDb 7.5",
-      "releaseInfo": "1983",
-      "imdbRating": "7.5"
-    },
-    {
-      "id": "tt0489664",
-      "type": "movie",
-      "name": "Butterfly on a Wheel",
-      "poster": "https://image.tmdb.org/t/p/w185/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
         "Drama",
-        "Thriller"
+        "Thriller",
+        "Horror",
+        "Comedy",
+        "Mystery"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
-      "releaseInfo": "2007",
-      "imdbRating": "6.6"
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.8",
+      "releaseInfo": "2023",
+      "imdbRating": "5.8"
     },
     {
-      "id": "tt0338188",
+      "id": "tt7661376",
       "type": "movie",
-      "name": "The Missing",
-      "poster": "https://image.tmdb.org/t/p/w185/86s5nw5F1G8lJtEowO0LBB4hoBW.jpg",
+      "name": "2 Minutes of Fame",
+      "poster": "https://image.tmdb.org/t/p/w185/qWrPZZL7CC3MqySlOzpXaUWjUrd.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Western",
-        "Adventure"
+        "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.5",
-      "releaseInfo": "2003",
-      "imdbRating": "6.5"
+      "description": "Jake's Picks • Adjacent to: Borat • IMDb 5.4",
+      "releaseInfo": "2020",
+      "imdbRating": "5.4"
     },
     {
-      "id": "tt0087800",
+      "id": "tt0373883",
       "type": "movie",
-      "name": "A Nightmare on Elm Street",
-      "poster": "https://image.tmdb.org/t/p/w185/tI0RQFYevX97NSdDSYmn0Z19i3r.jpg",
+      "name": "Halloween",
+      "poster": "https://image.tmdb.org/t/p/w185/cD8JrfSEI4j7WVnKM1GdiYzMoUh.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 7.4",
-      "releaseInfo": "1984",
-      "imdbRating": "7.4"
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.1",
+      "releaseInfo": "2007",
+      "imdbRating": "6.1"
     },
     {
-      "id": "tt30088797",
+      "id": "tt0083907",
       "type": "movie",
-      "name": "Ricky Gervais: Armageddon",
-      "poster": "https://image.tmdb.org/t/p/w185/i4fbnHXE7qW6AT41xv9XLekvJeZ.jpg",
+      "name": "The Evil Dead",
+      "poster": "https://image.tmdb.org/t/p/w185/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 7.3",
+      "releaseInfo": "1983",
+      "imdbRating": "7.3"
+    },
+    {
+      "id": "tt14060094",
+      "type": "movie",
+      "name": "Blacklight",
+      "poster": "https://image.tmdb.org/t/p/w185/bv9dy8mnwftdY2j6gG39gCfSFpV.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 4.9",
+      "releaseInfo": "2022",
+      "imdbRating": "4.9"
+    },
+    {
+      "id": "tt13143964",
+      "type": "movie",
+      "name": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
+      "poster": "https://image.tmdb.org/t/p/w185/3L1Ml5RWjFVfVq3rQENvgFymT0U.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: Borat • IMDb 7.1",
-      "releaseInfo": "2023",
-      "imdbRating": "7.1"
-    },
-    {
-      "id": "tt0066808",
-      "type": "movie",
-      "name": "Bananas",
-      "poster": "https://image.tmdb.org/t/p/w185/gK11RUXspxqty0Wq6KoV8J0crKO.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.9",
-      "releaseInfo": "1971",
-      "imdbRating": "6.9"
-    },
-    {
-      "id": "tt8816194",
-      "type": "movie",
-      "name": "Come to Daddy",
-      "poster": "https://image.tmdb.org/t/p/w185/uAfeUHiaINCMi2DGNiGbpKGX7C2.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.0",
-      "releaseInfo": "2019",
-      "imdbRating": "6.0"
+      "description": "Jake's Picks • Adjacent to: Borat, The Dictator • IMDb 6.6",
+      "releaseInfo": "2020",
+      "imdbRating": "6.6"
     },
     {
       "id": "tt0070444",
@@ -205,178 +411,18 @@
       "imdbRating": "6.3"
     },
     {
-      "id": "tt6861784",
+      "id": "tt32083311",
       "type": "movie",
-      "name": "The Jester",
-      "poster": "https://image.tmdb.org/t/p/w185/AqBXZ7FrIU51uqtpC8PkS9CPv12.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Mystery",
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.6",
-      "releaseInfo": "2016",
-      "imdbRating": "6.6"
-    },
-    {
-      "id": "tt0110759",
-      "type": "movie",
-      "name": "PCU",
-      "poster": "https://image.tmdb.org/t/p/w185/xTToUzy9Im9nu2W8fz7TPWoDWN5.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Borat • IMDb 6.6",
-      "releaseInfo": "1994",
-      "imdbRating": "6.6"
-    },
-    {
-      "id": "tt10403420",
-      "type": "movie",
-      "name": "Terrifier 2",
-      "poster": "https://image.tmdb.org/t/p/w185/qEAlwXbYk6IHA4ztoS2XFFaa7Xo.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.0",
-      "releaseInfo": "2022",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt2005164",
-      "type": "movie",
-      "name": "Breathless",
-      "poster": "https://image.tmdb.org/t/p/w185/eOo4VUHU1qwrAS7xf8PqaMSHj0x.jpg",
+      "name": "On Becoming a Guinea Fowl",
+      "poster": "https://image.tmdb.org/t/p/w185/6lMOpD8XVLKaB5uCsJXt1Fo7XNh.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
-        "Thriller",
-        "Mystery",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.2",
-      "releaseInfo": "2012",
-      "imdbRating": "5.2"
-    },
-    {
-      "id": "tt6378710",
-      "type": "movie",
-      "name": "Villains",
-      "poster": "https://image.tmdb.org/t/p/w185/Arefq9eI1z94Jtrbbuqzg9p5mf8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.3",
-      "releaseInfo": "2019",
-      "imdbRating": "6.3"
-    },
-    {
-      "id": "tt0100260",
-      "type": "movie",
-      "name": "Nightbreed",
-      "poster": "https://image.tmdb.org/t/p/w185/1ChluYH0BEvJo3gtYoFHnMZI660.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.5",
-      "releaseInfo": "1990",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt14550642",
-      "type": "movie",
-      "name": "The Cellar",
-      "poster": "https://image.tmdb.org/t/p/w185/2DFkiExCtXcmpepQiLgkSQhxZu8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 5.3",
-      "releaseInfo": "2022",
-      "imdbRating": "5.3"
-    },
-    {
-      "id": "tt0052311",
-      "type": "movie",
-      "name": "Touch of Evil",
-      "poster": "https://image.tmdb.org/t/p/w185/1pvRgmfBaoMczIJBOi9gCOZ4FMC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Thriller",
         "Drama"
       ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 7.9",
-      "releaseInfo": "1958",
-      "imdbRating": "7.9"
-    },
-    {
-      "id": "tt0097235",
-      "type": "movie",
-      "name": "The Dream Team",
-      "poster": "https://image.tmdb.org/t/p/w185/lBVjTP8Cb66GBabUBQaBUtV6OqD.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.5",
-      "releaseInfo": "1989",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt0800308",
-      "type": "movie",
-      "name": "Appaloosa",
-      "poster": "https://image.tmdb.org/t/p/w185/kQB0uxR3RDS2tGTZtBuFow9SF1T.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Western",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.7",
-      "releaseInfo": "2008",
-      "imdbRating": "6.7"
-    },
-    {
-      "id": "tt0120694",
-      "type": "movie",
-      "name": "Halloween H20: 20 Years Later",
-      "poster": "https://image.tmdb.org/t/p/w185/lqLXUm3oK59sGJKRH2Zjj2m3iMg.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.8",
-      "releaseInfo": "1998",
-      "imdbRating": "5.8"
-    },
-    {
-      "id": "tt32801387",
-      "type": "movie",
-      "name": "Thieves Highway",
-      "poster": "https://image.tmdb.org/t/p/w185/78B66xBCgmnh88d10B85uFjC88V.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western",
-        "Action"
-      ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 5.1",
-      "releaseInfo": "2025",
-      "imdbRating": "5.1"
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 7.0",
+      "releaseInfo": "2024",
+      "imdbRating": "7.0"
     },
     {
       "id": "tt15791034",
@@ -394,49 +440,88 @@
       "imdbRating": "7.0"
     },
     {
-      "id": "tt1238291",
+      "id": "tt14415204",
       "type": "movie",
-      "name": "Five Minutes of Heaven",
-      "poster": "https://image.tmdb.org/t/p/w185/5TVniqOcXh3nKHVyVys1nUjgrgO.jpg",
+      "name": "Never Let Go",
+      "poster": "https://image.tmdb.org/t/p/w185/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
       "posterShape": "poster",
       "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
+        "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.5",
-      "releaseInfo": "2009",
-      "imdbRating": "6.5"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 5.4",
+      "releaseInfo": "2024",
+      "imdbRating": "5.4"
     },
     {
-      "id": "tt0947802",
+      "id": "tt1179904",
       "type": "movie",
-      "name": "Lakeview Terrace",
-      "poster": "https://image.tmdb.org/t/p/w185/A1kqp2hALf8Gd03vDACnR0EtFWo.jpg",
+      "name": "Paranormal Activity",
+      "poster": "https://image.tmdb.org/t/p/w185/tmclkEpjeo4Zu564gf3KrwIOuKw.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
+        "Horror",
+        "Mystery"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.2",
-      "releaseInfo": "2008",
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.3",
+      "releaseInfo": "2007",
+      "imdbRating": "6.3"
+    },
+    {
+      "id": "tt0072856",
+      "type": "movie",
+      "name": "Death Race 2000",
+      "poster": "https://image.tmdb.org/t/p/w185/kwM8kkNGtv62gfPWVhD6qFxjDzg.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.2",
+      "releaseInfo": "1975",
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0455960",
+      "id": "tt27116016",
       "type": "movie",
-      "name": "The Hitcher",
-      "poster": "https://image.tmdb.org/t/p/w185/uc2lUHNB1bnoT5ejVCEYv6Vm9fS.jpg",
+      "name": "Die Hart",
+      "poster": "https://image.tmdb.org/t/p/w185/ff9iMXJjtRdm58nRzM88sNr5CTu.jpg",
       "posterShape": "poster",
       "genres": [
-        "Crime",
+        "Comedy",
+        "Action",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 5.2",
+      "releaseInfo": "2023",
+      "imdbRating": "5.2"
+    },
+    {
+      "id": "tt9177040",
+      "type": "movie",
+      "name": "Trick",
+      "poster": "https://image.tmdb.org/t/p/w185/vxo4qqrhz61SnAUtlHIbYPzZoBU.jpg",
+      "posterShape": "poster",
+      "genres": [
         "Horror",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 5.6",
-      "releaseInfo": "2007",
-      "imdbRating": "5.6"
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.0",
+      "releaseInfo": "2019",
+      "imdbRating": "5.0"
+    },
+    {
+      "id": "tt3280262",
+      "type": "movie",
+      "name": "Cult of Chucky",
+      "poster": "https://image.tmdb.org/t/p/w185/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.3",
+      "releaseInfo": "2017",
+      "imdbRating": "5.3"
     },
     {
       "id": "tt2396671",
@@ -453,90 +538,6 @@
       "description": "Jake's Picks • Adjacent to: Men Behind the Sun • IMDb 3.9",
       "releaseInfo": "2015",
       "imdbRating": "3.9"
-    },
-    {
-      "id": "tt0088000",
-      "type": "movie",
-      "name": "Revenge of the Nerds",
-      "poster": "https://image.tmdb.org/t/p/w185/v8aETLufi4WIinhQ994oWkehtaC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dictator • IMDb 6.6",
-      "releaseInfo": "1984",
-      "imdbRating": "6.6"
-    },
-    {
-      "id": "tt2126362",
-      "type": "movie",
-      "name": "Stitches",
-      "poster": "https://image.tmdb.org/t/p/w185/lxZ6rfvzKWwt2nu7ElrwYkNHu5o.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.7",
-      "releaseInfo": "2012",
-      "imdbRating": "5.7"
-    },
-    {
-      "id": "tt2908446",
-      "type": "movie",
-      "name": "Insurgent",
-      "poster": "https://image.tmdb.org/t/p/w185/dP5Fb6YRfzmCQtRbHOr2kO7tJW9.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 6.2",
-      "releaseInfo": "2015",
-      "imdbRating": "6.2"
-    },
-    {
-      "id": "tt6535880",
-      "type": "movie",
-      "name": "Haunt",
-      "poster": "https://image.tmdb.org/t/p/w185/haQSrjFlq30I60UVN1VsB6uRwKM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 6.3",
-      "releaseInfo": "2019",
-      "imdbRating": "6.3"
-    },
-    {
-      "id": "tt0095271",
-      "type": "movie",
-      "name": "Halloween 4: The Return of Michael Myers",
-      "poster": "https://image.tmdb.org/t/p/w185/eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Terrifier • IMDb 5.8",
-      "releaseInfo": "1988",
-      "imdbRating": "5.8"
-    },
-    {
-      "id": "tt31727397",
-      "type": "movie",
-      "name": "Hostile Takeover",
-      "poster": "https://image.tmdb.org/t/p/w185/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Dark Knight • IMDb 4.6",
-      "releaseInfo": "2025",
-      "imdbRating": "4.6"
     },
     {
       "id": "tt16431882",
