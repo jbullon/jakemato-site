@@ -1,22 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1053424",
-      "type": "movie",
-      "name": "Repo Men",
-      "poster": "https://image.tmdb.org/t/p/w185/1ZA5kEKuA6HgbyzZXXlyU4piNI.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Thriller",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 6.3",
-      "releaseInfo": "2010",
-      "imdbRating": "6.3"
-    },
-    {
       "id": "tt1407061",
       "type": "movie",
       "name": "Just Wright",
@@ -29,6 +13,22 @@
       "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days • IMDb 6.0",
       "releaseInfo": "2010",
       "imdbRating": "6.0"
+    },
+    {
+      "id": "tt0063442",
+      "type": "movie",
+      "name": "Planet of the Apes",
+      "poster": "https://image.tmdb.org/t/p/w185/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Drama",
+        "Action"
+      ],
+      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 8.0",
+      "releaseInfo": "1968",
+      "imdbRating": "8.0"
     },
     {
       "id": "tt2461520",
@@ -44,37 +44,6 @@
       "description": "Mandys Picks • Adjacent to: Threads • IMDb 6.0",
       "releaseInfo": "2016",
       "imdbRating": "6.0"
-    },
-    {
-      "id": "tt2239822",
-      "type": "movie",
-      "name": "Valerian and the City of a Thousand Planets",
-      "poster": "https://image.tmdb.org/t/p/w185/vlc95gl3PtrjxSEuM8RhTtSm2xU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Adventure",
-        "Science Fiction",
-        "Action"
-      ],
-      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 6.4",
-      "releaseInfo": "2017",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt1226273",
-      "type": "movie",
-      "name": "Edge of Darkness",
-      "poster": "https://image.tmdb.org/t/p/w185/pvHjp1vEFmp5FquSCPQ2O95tIZJ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Life of David Gale • IMDb 6.6",
-      "releaseInfo": "2010",
-      "imdbRating": "6.6"
     },
     {
       "id": "tt1731141",
@@ -104,6 +73,21 @@
       "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days, Because I Said So, He's Just Not That Into You • IMDb 6.1",
       "releaseInfo": "2025",
       "imdbRating": "6.1"
+    },
+    {
+      "id": "tt6998518",
+      "type": "movie",
+      "name": "Mandy",
+      "poster": "https://image.tmdb.org/t/p/w185/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Horror"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Substance, Kill Bill: Vol. 1 • IMDb 6.5",
+      "releaseInfo": "2018",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt5144174",
@@ -136,6 +120,20 @@
       "imdbRating": "7.1"
     },
     {
+      "id": "tt0282698",
+      "type": "movie",
+      "name": "Love Liza",
+      "poster": "https://image.tmdb.org/t/p/w185/5TLlT0Ptv7lsjmwzi2dsgmvYlZs.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 6.9",
+      "releaseInfo": "2002",
+      "imdbRating": "6.9"
+    },
+    {
       "id": "tt4504044",
       "type": "movie",
       "name": "The Prodigy",
@@ -161,21 +159,6 @@
       "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.7",
       "releaseInfo": "2011",
       "imdbRating": "6.7"
-    },
-    {
-      "id": "tt10365998",
-      "type": "movie",
-      "name": "Infinity Pool",
-      "poster": "https://image.tmdb.org/t/p/w185/cQKyNm0Nz6KWiDBQF9w4aZAmOfC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 6.0",
-      "releaseInfo": "2023",
-      "imdbRating": "6.0"
     },
     {
       "id": "tt21192142",
@@ -267,20 +250,19 @@
       "imdbRating": "5.5"
     },
     {
-      "id": "tt0063442",
+      "id": "tt4050552",
       "type": "movie",
-      "name": "Planet of the Apes",
-      "poster": "https://image.tmdb.org/t/p/w185/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
+      "name": "Doctor Who: Last Christmas",
+      "poster": "https://image.tmdb.org/t/p/w185/a5XHo7MQgX3V7nNlEnl5gwZURDL.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
         "Adventure",
-        "Drama",
-        "Action"
+        "Drama"
       ],
-      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 8.0",
-      "releaseInfo": "1968",
-      "imdbRating": "8.0"
+      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 8.1",
+      "releaseInfo": "2014",
+      "imdbRating": "8.1"
     },
     {
       "id": "tt0498399",
@@ -310,20 +292,6 @@
       "description": "Mandys Picks • Adjacent to: Parasite • IMDb 6.2",
       "releaseInfo": "2013",
       "imdbRating": "6.2"
-    },
-    {
-      "id": "tt0373024",
-      "type": "movie",
-      "name": "Imaginary Heroes",
-      "poster": "https://image.tmdb.org/t/p/w185/tHMgJGkovOFpHi2lnQ9xTrIaR7N.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 7.0",
-      "releaseInfo": "2004",
-      "imdbRating": "7.0"
     },
     {
       "id": "tt2908446",
@@ -381,21 +349,6 @@
       "imdbRating": "6.8"
     },
     {
-      "id": "tt0821640",
-      "type": "movie",
-      "name": "Ghosts of Girlfriends Past",
-      "poster": "https://image.tmdb.org/t/p/w185/azzg0lv5vpQRoOrZfNVkJn04f1M.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Comedy",
-        "Fantasy"
-      ],
-      "description": "Mandys Picks • Adjacent to: He's Just Not That Into You • IMDb 5.8",
-      "releaseInfo": "2009",
-      "imdbRating": "5.8"
-    },
-    {
       "id": "tt2580382",
       "type": "movie",
       "name": "The Survivalist",
@@ -427,6 +380,19 @@
       "imdbRating": "6.7"
     },
     {
+      "id": "tt10963926",
+      "type": "movie",
+      "name": "Two Witches",
+      "poster": "https://image.tmdb.org/t/p/w185/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 4.8",
+      "releaseInfo": "2023",
+      "imdbRating": "4.8"
+    },
+    {
       "id": "tt9893250",
       "type": "movie",
       "name": "I Care a Lot",
@@ -456,21 +422,6 @@
       "imdbRating": "6.1"
     },
     {
-      "id": "tt22375054",
-      "type": "movie",
-      "name": "Strange Darling",
-      "poster": "https://image.tmdb.org/t/p/w185/kWNCRgt3ocv19bYO0sk7TRuZuFY.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Horror"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 7.0",
-      "releaseInfo": "2024",
-      "imdbRating": "7.0"
-    },
-    {
       "id": "tt22408160",
       "type": "movie",
       "name": "Kinds of Kindness",
@@ -483,6 +434,21 @@
       "description": "Mandys Picks • Adjacent to: Triangle of Sadness, Parasite • IMDb 6.4",
       "releaseInfo": "2024",
       "imdbRating": "6.4"
+    },
+    {
+      "id": "tt2872718",
+      "type": "movie",
+      "name": "Nightcrawler",
+      "poster": "https://image.tmdb.org/t/p/w185/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Life of David Gale • IMDb 7.8",
+      "releaseInfo": "2014",
+      "imdbRating": "7.8"
     },
     {
       "id": "tt0489327",
@@ -528,6 +494,20 @@
       "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 6.7",
       "releaseInfo": "2007",
       "imdbRating": "6.7"
+    },
+    {
+      "id": "tt21276878",
+      "type": "movie",
+      "name": "You Are So Not Invited to My Bat Mitzvah",
+      "poster": "https://image.tmdb.org/t/p/w185/ukpifWBW2xEmMtJX4bCpoNpWEr2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 5.9",
+      "releaseInfo": "2023",
+      "imdbRating": "5.9"
     },
     {
       "id": "tt11291274",
@@ -587,6 +567,20 @@
       "description": "Mandys Picks • Adjacent to: The Idea of You • IMDb 6.6",
       "releaseInfo": "2022",
       "imdbRating": "6.6"
+    },
+    {
+      "id": "tt2848292",
+      "type": "movie",
+      "name": "Pitch Perfect 2",
+      "poster": "https://image.tmdb.org/t/p/w185/fQaEGzFmvTYu3G641WV0Tg9auAt.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "description": "Mandys Picks • Adjacent to: Anchorman: The Legend of Ron Burgundy • IMDb 6.4",
+      "releaseInfo": "2015",
+      "imdbRating": "6.4"
     }
   ]
 }
