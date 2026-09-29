@@ -395,6 +395,12 @@
       "year": 2008,
       "weight": 0.35,
       "max_picks": 1
+    },
+    {
+      "title": "The Backrooms",
+      "year": 2022,
+      "weight": 1.1,
+      "max_picks": 2
     }
   ],
   "negative_seeds": [
@@ -447,5 +453,8 @@
     "madea",
     "tyler perry's"
   ],
-  "exclude_genres": []
+  "exclude_genres": [
+    "Family",
+    "Romance"
+  ]
 }
