@@ -276,6 +276,12 @@ def fetch_pick_detail(movie_id, genre_map):
         "vote_average": details.get("vote_average") or 0,
         "vote_count": details.get("vote_count") or 0,
         "imdb_id": details.get("external_ids", {}).get("imdb_id") or details.get("imdb_id"),
+        "_collection_id": (
+            (details.get("belongs_to_collection") or {}).get("id")
+        ),
+        "_collection_name": (
+            (details.get("belongs_to_collection") or {}).get("name")
+        ),
         "_keywords": [
             keyword.get("name", "").strip()
             for keyword in keyword_items
@@ -312,17 +318,28 @@ def pick_exclusion_reason(movie, config, seed_match_count=1):
 
         if not (acclaimed_enough or taste_overlap_enough):
             return (
-                f"released before {min_year} without enough Mandy-taste confidence "
+                f"released before {min_year} without enough profile confidence "
                 f"({min_seed_matches}+ seed matches or {min_old_rating}+ TMDB "
                 f"with {min_old_votes}+ votes)"
             )
 
     min_tmdb_rating = config.get("min_tmdb_rating")
+    genre_rating_floors = config.get("genre_min_tmdb_rating") or {}
+    applicable_rating_floors = [
+        float(floor)
+        for genre, floor in genre_rating_floors.items()
+        if genre in (movie.get("genres") or [])
+    ]
+    effective_min_rating = (
+        min([float(min_tmdb_rating)] + applicable_rating_floors)
+        if min_tmdb_rating is not None
+        else (min(applicable_rating_floors) if applicable_rating_floors else None)
+    )
     if (
-        min_tmdb_rating is not None
-        and float(movie.get("vote_average") or 0) < float(min_tmdb_rating)
+        effective_min_rating is not None
+        and float(movie.get("vote_average") or 0) < effective_min_rating
     ):
-        return f"TMDB rating below {min_tmdb_rating}"
+        return f"TMDB rating below {effective_min_rating:g}"
 
     min_tmdb_votes = config.get("min_tmdb_votes")
     if (
@@ -358,6 +375,161 @@ def pick_exclusion_reason(movie, config, seed_match_count=1):
             return f"excluded genre '{sorted(overlap)[0]}'"
 
     return None
+
+
+def pick_preference_multiplier(movie, config):
+    keywords = [keyword.casefold() for keyword in movie.get("_keywords", [])]
+    multiplier = 1.0
+    positive_matches = []
+    negative_matches = []
+
+    for phrase, boost in (config.get("preferred_keywords") or {}).items():
+        normalized = str(phrase).strip().casefold()
+        if normalized and any(normalized in keyword for keyword in keywords):
+            multiplier *= float(boost)
+            positive_matches.append(str(phrase))
+
+    for phrase, penalty in (config.get("penalized_keywords") or {}).items():
+        normalized = str(phrase).strip().casefold()
+        if normalized and any(normalized in keyword for keyword in keywords):
+            multiplier *= float(penalty)
+            negative_matches.append(str(phrase))
+
+    movie_genres = set(movie.get("genres") or [])
+    for genre, penalty in (config.get("penalized_genres") or {}).items():
+        if genre in movie_genres:
+            multiplier *= float(penalty)
+            negative_matches.append(f"genre:{genre}")
+
+    if (
+        movie.get("original_language")
+        and movie.get("original_language") != "en"
+    ):
+        multiplier *= float(config.get("non_english_multiplier", 1.0))
+
+    max_multiplier = float(config.get("max_preference_multiplier", 2.5))
+    multiplier = max(0.01, min(multiplier, max_multiplier))
+    return multiplier, positive_matches, negative_matches
+
+
+def select_ranked_profile_picks(candidates, config, rng, limit):
+    mix = config.get("selection_mix") or {}
+    high_target = int(mix.get("high_confidence", max(0, limit - 5)))
+    adventurous_target = int(mix.get("adventurous", min(5, limit)))
+    wildcard_target = int(mix.get("wildcards", max(0, limit - high_target - adventurous_target)))
+    if high_target + adventurous_target + wildcard_target != limit:
+        high_target = max(0, limit - adventurous_target - wildcard_target)
+
+    high_score = float(config.get("high_confidence_score", 24.0))
+    adventurous_score = float(config.get("adventurous_score", 12.0))
+    franchise_cap = int(config.get("franchise_max_picks", 1))
+    franchise_overlap_exception = int(
+        config.get("franchise_overlap_exception", 2)
+    )
+
+    for candidate in candidates:
+        jitter = rng.uniform(0.92, 1.08)
+        candidate["_daily_rank"] = candidate["final_score"] * jitter
+        if candidate["seed_match_count"] >= 2 or candidate["final_score"] >= high_score:
+            candidate["confidence_tier"] = "high"
+        elif candidate["final_score"] >= adventurous_score:
+            candidate["confidence_tier"] = "adventurous"
+        else:
+            candidate["confidence_tier"] = "wildcard"
+
+    buckets = {
+        "high": sorted(
+            [c for c in candidates if c["confidence_tier"] == "high"],
+            key=lambda item: item["_daily_rank"],
+            reverse=True,
+        ),
+        "adventurous": sorted(
+            [c for c in candidates if c["confidence_tier"] == "adventurous"],
+            key=lambda item: item["_daily_rank"],
+            reverse=True,
+        ),
+        "wildcard": sorted(
+            [c for c in candidates if c["confidence_tier"] == "wildcard"],
+            key=lambda item: item["_daily_rank"],
+            reverse=True,
+        ),
+    }
+
+    selected = []
+    selected_ids = set()
+    seed_usage = defaultdict(int)
+    collection_usage = defaultdict(int)
+    default_seed_cap = int(config.get("default_max_picks_per_seed", 6))
+
+    def try_add(candidate):
+        movie = candidate["movie"]
+        movie_id = movie["tmdb_id"]
+        if movie_id in selected_ids:
+            return False
+
+        eligible_seeds = [
+            seed
+            for seed in candidate["ordered_seeds"]
+            if seed_usage[seed] < candidate["seed_caps"].get(seed, default_seed_cap)
+        ]
+        if not eligible_seeds:
+            return False
+
+        collection_id = movie.get("_collection_id")
+        if (
+            collection_id
+            and collection_usage[collection_id] >= franchise_cap
+            and candidate["seed_match_count"] < franchise_overlap_exception
+        ):
+            return False
+
+        primary_seed = eligible_seeds[0]
+        seed_usage[primary_seed] += 1
+        if collection_id:
+            collection_usage[collection_id] += 1
+
+        movie["primary_seed"] = primary_seed
+        movie["seed_matches"] = candidate["ordered_seeds"]
+        movie["recommendation_score"] = round(candidate["final_score"], 2)
+        movie["confidence_tier"] = candidate["confidence_tier"]
+        movie["taste_keyword_matches"] = candidate["positive_matches"]
+        movie.pop("_keywords", None)
+        movie.pop("_collection_id", None)
+        movie.pop("_collection_name", None)
+
+        selected.append(movie)
+        selected_ids.add(movie_id)
+        return True
+
+    targets = [
+        ("high", high_target),
+        ("adventurous", adventurous_target),
+        ("wildcard", wildcard_target),
+    ]
+    for tier, target in targets:
+        added = 0
+        for candidate in buckets[tier]:
+            if added >= target or len(selected) >= limit:
+                break
+            if try_add(candidate):
+                added += 1
+
+    if len(selected) < limit:
+        leftovers = sorted(
+            [
+                candidate
+                for candidate in candidates
+                if candidate["movie"]["tmdb_id"] not in selected_ids
+            ],
+            key=lambda item: item["_daily_rank"],
+            reverse=True,
+        )
+        for candidate in leftovers:
+            if len(selected) >= limit:
+                break
+            try_add(candidate)
+
+    return selected, seed_usage
 
 
 def pick_rotation_bucket(config):
@@ -537,13 +709,18 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
 
     weighted_candidates.sort(reverse=True)
 
+    post_detail_ranking = bool(config.get("post_detail_ranking", False))
+    ranked_candidates = []
     picks = []
     seed_usage = defaultdict(int)
     excluded_count = 0
     scanned = 0
 
     for _, movie_id in weighted_candidates:
-        if len(picks) >= limit or scanned >= candidate_scan_limit:
+        if (
+            (not post_detail_ranking and len(picks) >= limit)
+            or scanned >= candidate_scan_limit
+        ):
             break
 
         scanned += 1
@@ -582,12 +759,7 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
             )
             continue
 
-        primary_seed = eligible_seeds[0]
-        seed_usage[primary_seed] += 1
-
-        pick.pop("_keywords", None)
-        pick["primary_seed"] = primary_seed
-        pick["seed_matches"] = [
+        ordered_seeds = [
             seed_title
             for seed_title, _ in sorted(
                 seed_scores.items(),
@@ -595,11 +767,48 @@ def build_profile_picks(movies, genre_map, config_path, profile_name, random_nam
                 reverse=True,
             )
         ]
-        pick["recommendation_score"] = round(
-            adjusted_scores.get(movie_id, candidate_scores[movie_id]),
-            2,
+        preference_multiplier, positive_matches, negative_matches = (
+            pick_preference_multiplier(pick, config)
         )
+        base_adjusted_score = adjusted_scores.get(
+            movie_id,
+            candidate_scores[movie_id],
+        )
+        final_score = base_adjusted_score * preference_multiplier
+
+        if post_detail_ranking:
+            ranked_candidates.append(
+                {
+                    "movie": pick,
+                    "final_score": final_score,
+                    "seed_match_count": len(seed_scores),
+                    "ordered_seeds": ordered_seeds,
+                    "positive_matches": positive_matches,
+                    "negative_matches": negative_matches,
+                    "seed_caps": seed_caps,
+                }
+            )
+            continue
+
+        primary_seed = eligible_seeds[0]
+        seed_usage[primary_seed] += 1
+
+        pick.pop("_keywords", None)
+        pick.pop("_collection_id", None)
+        pick.pop("_collection_name", None)
+        pick["primary_seed"] = primary_seed
+        pick["seed_matches"] = ordered_seeds
+        pick["recommendation_score"] = round(final_score, 2)
+        pick["taste_keyword_matches"] = positive_matches
         picks.append(pick)
+
+    if post_detail_ranking:
+        picks, seed_usage = select_ranked_profile_picks(
+            ranked_candidates,
+            config,
+            rng,
+            limit,
+        )
 
     usage_summary = ", ".join(
         f"{seed}: {count}"
