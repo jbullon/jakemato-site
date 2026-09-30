@@ -1,57 +1,428 @@
 {
-  "limit": 40,
-  "candidate_scan_limit": 160,
+  "limit": 25,
+  "candidate_scan_limit": 450,
   "recommendations_per_seed": 20,
-  "default_max_picks_per_seed": 6,
+  "default_max_picks_per_seed": 3,
   "rotation": "daily",
+  "post_detail_ranking": true,
+  "selection_mix": {
+    "high_confidence": 15,
+    "adventurous": 7,
+    "wildcards": 3
+  },
+  "high_confidence_score": 26,
+  "adventurous_score": 14,
+  "franchise_max_picks": 1,
+  "franchise_overlap_exception": 3,
+  "min_year": 1980,
+  "pre_min_year_exception": {
+    "min_tmdb_rating": 7.5,
+    "min_tmdb_votes": 1000,
+    "min_seed_matches": 2
+  },
+  "min_tmdb_rating": 5.8,
+  "genre_min_tmdb_rating": {
+    "Horror": 5,
+    "Comedy": 5.3
+  },
+  "min_tmdb_votes": 10,
+  "preferred_genres": {
+    "Horror": 1.25,
+    "Thriller": 1.15,
+    "Comedy": 1.18,
+    "Drama": 1.05
+  },
+  "preferred_keywords": {
+    "gore": 1.18,
+    "splatter": 1.16,
+    "slasher": 1.14,
+    "body horror": 1.16,
+    "psychological horror": 1.12,
+    "survival": 1.12,
+    "serial killer": 1.12,
+    "psychopath": 1.1,
+    "home invasion": 1.1,
+    "revenge": 1.08,
+    "torture": 1.08,
+    "isolation": 1.08,
+    "dark comedy": 1.14,
+    "black comedy": 1.14,
+    "satire": 1.12,
+    "stoner": 1.14,
+    "absurd": 1.1,
+    "found footage": 1.08
+  },
+  "penalized_keywords": {
+    "sports": 0.45,
+    "sport": 0.55,
+    "religion": 0.55,
+    "christianity": 0.55
+  },
+  "penalized_genres": {
+    "Family": 0.12,
+    "Romance": 0.35
+  },
+  "non_english_multiplier": 0.88,
+  "max_preference_multiplier": 2.25,
+  "negative_penalty_multiplier": 1.15,
   "seeds": [
     {
-      "title": "The Coffee Table",
-      "year": 2022,
+      "title": "The Texas Chain Saw Massacre",
+      "year": 1974,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "The Texas Chainsaw Massacre",
+      "year": 2003,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "The Texas Chainsaw Massacre: The Beginning",
+      "year": 2006,
       "weight": 1.4,
-      "max_picks": 7
+      "max_picks": 3
+    },
+    {
+      "title": "Texas Chainsaw Massacre",
+      "year": 2022,
+      "weight": 1.15,
+      "max_picks": 2
     },
     {
       "title": "No Country for Old Men",
       "year": 2007,
-      "weight": 1.3,
-      "max_picks": 7
+      "weight": 1.5,
+      "max_picks": 3
     },
     {
-      "title": "Men Behind the Sun",
-      "year": 1988,
-      "weight": 1.2,
-      "max_picks": 6
+      "title": "Alien",
+      "year": 1979,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Wolf Creek",
+      "year": 2005,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Wolf Creek 2",
+      "year": 2013,
+      "weight": 1.35,
+      "max_picks": 2
+    },
+    {
+      "title": "The Hills Have Eyes",
+      "year": 2006,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Martyrs",
+      "year": 2008,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Green Room",
+      "year": 2015,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "Bone Tomahawk",
+      "year": 2015,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "The Descent",
+      "year": 2005,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "Saw",
+      "year": 2004,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "Hostel",
+      "year": 2005,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Funny Games",
+      "year": 2007,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Midsommar",
+      "year": 2019,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Eden Lake",
+      "year": 2008,
+      "weight": 1.1,
+      "max_picks": 2
+    },
+    {
+      "title": "The Human Centipede (First Sequence)",
+      "year": 2009,
+      "weight": 1.15,
+      "max_picks": 2
+    },
+    {
+      "title": "Carver",
+      "year": 2008,
+      "weight": 1.1,
+      "max_picks": 2
     },
     {
       "title": "Terrifier",
       "year": 2016,
-      "weight": 1.1,
-      "max_picks": 6
+      "weight": 1.25,
+      "max_picks": 3
     },
     {
-      "title": "The Backrooms",
-      "year": 2022,
-      "weight": 1.0,
-      "max_picks": 5
-    },
-    {
-      "title": "Borat",
+      "title": "Hatchet",
       "year": 2006,
-      "weight": 0.9,
-      "max_picks": 5
+      "weight": 1.25,
+      "max_picks": 3
+    },
+    {
+      "title": "Hatchet II",
+      "year": 2010,
+      "weight": 1.15,
+      "max_picks": 2
+    },
+    {
+      "title": "Hatchet III",
+      "year": 2013,
+      "weight": 1.15,
+      "max_picks": 2
+    },
+    {
+      "title": "Victor Crowley",
+      "year": 2017,
+      "weight": 1.15,
+      "max_picks": 2
+    },
+    {
+      "title": "The Evil Dead",
+      "year": 1981,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Evil Dead",
+      "year": 2013,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Evil Dead Rise",
+      "year": 2023,
+      "weight": 1.3,
+      "max_picks": 2
+    },
+    {
+      "title": "Evil Dead Burn",
+      "year": 2026,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Step Brothers",
+      "year": 2008,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Pineapple Express",
+      "year": 2008,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Superbad",
+      "year": 2007,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "Tropic Thunder",
+      "year": 2008,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "This Is the End",
+      "year": 2013,
+      "weight": 1.4,
+      "max_picks": 3
+    },
+    {
+      "title": "The Interview",
+      "year": 2014,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Airplane!",
+      "year": 1980,
+      "weight": 1.25,
+      "max_picks": 2
+    },
+    {
+      "title": "Office Space",
+      "year": 1999,
+      "weight": 1.25,
+      "max_picks": 2
+    },
+    {
+      "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+      "year": 2006,
+      "weight": 1.2,
+      "max_picks": 2
     },
     {
       "title": "The Dictator",
       "year": 2012,
-      "weight": 0.8,
-      "max_picks": 4
+      "weight": 1.1,
+      "max_picks": 2
+    },
+    {
+      "title": "Tenacious D in The Pick of Destiny",
+      "year": 2006,
+      "weight": 1.2,
+      "max_picks": 2
+    },
+    {
+      "title": "School of Rock",
+      "year": 2003,
+      "weight": 1.1,
+      "max_picks": 2
+    },
+    {
+      "title": "Whiplash",
+      "year": 2014,
+      "weight": 1.5,
+      "max_picks": 3
+    },
+    {
+      "title": "Threads",
+      "year": 1984,
+      "weight": 1.35,
+      "max_picks": 3
+    },
+    {
+      "title": "Come and See",
+      "year": 1985,
+      "weight": 1.25,
+      "max_picks": 2
+    },
+    {
+      "title": "Requiem for a Dream",
+      "year": 2000,
+      "weight": 1.25,
+      "max_picks": 3
+    },
+    {
+      "title": "Little Miss Sunshine",
+      "year": 2006,
+      "weight": 1.2,
+      "max_picks": 2
+    },
+    {
+      "title": "Don't Look Up",
+      "year": 2021,
+      "weight": 1.2,
+      "max_picks": 2
+    },
+    {
+      "title": "The Coffee Table",
+      "year": 2022,
+      "weight": 1.25,
+      "max_picks": 3
+    },
+    {
+      "title": "Men Behind the Sun",
+      "year": 1988,
+      "weight": 1.15,
+      "max_picks": 2
+    },
+    {
+      "title": "Predator",
+      "year": 1987,
+      "weight": 1.3,
+      "max_picks": 2
+    },
+    {
+      "title": "District 9",
+      "year": 2009,
+      "weight": 1.2,
+      "max_picks": 2
+    },
+    {
+      "title": "Rambo",
+      "year": 2008,
+      "weight": 1.2,
+      "max_picks": 2
+    },
+    {
+      "title": "First Blood",
+      "year": 1982,
+      "weight": 1.15,
+      "max_picks": 2
     },
     {
       "title": "The Dark Knight",
       "year": 2008,
       "weight": 0.35,
+      "max_picks": 1
+    },
+    {
+      "title": "The Backrooms",
+      "year": 2022,
+      "weight": 1.1,
       "max_picks": 2
+    }
+  ],
+  "negative_seeds": [
+    {
+      "title": "High School Musical",
+      "year": 2006,
+      "weight": 1.5
+    },
+    {
+      "title": "Steel Magnolias",
+      "year": 1989,
+      "weight": 1.25
+    },
+    {
+      "title": "Gone with the Wind",
+      "year": 1939,
+      "weight": 1
+    },
+    {
+      "title": "Casablanca",
+      "year": 1942,
+      "weight": 0.8
     }
   ],
   "exclude_keywords": [
@@ -62,7 +433,9 @@
     "marvel comics",
     "comic book",
     "based on comic",
-    "costumed hero"
+    "costumed hero",
+    "anime",
+    "musical"
   ],
   "exclude_title_contains": [
     "batman",
@@ -76,7 +449,12 @@
     "guardians of the galaxy",
     "wonder woman",
     "aquaman",
-    "deadpool"
+    "deadpool",
+    "madea",
+    "tyler perry's"
   ],
-  "exclude_genres": []
+  "exclude_genres": [
+    "Family",
+    "Romance"
+  ]
 }
