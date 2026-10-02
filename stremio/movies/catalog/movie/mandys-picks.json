@@ -1,19 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt1764551",
+      "id": "tt0805570",
       "type": "movie",
-      "name": "Psycho Killer",
-      "poster": "https://image.tmdb.org/t/p/w185/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
+      "name": "The Midnight Meat Train",
+      "poster": "https://image.tmdb.org/t/p/w185/x5YbfyUA8huK0shr008xwzNVJ5Y.jpg",
       "posterShape": "poster",
       "genres": [
-        "Crime",
         "Horror",
-        "Mystery"
+        "Mystery",
+        "Fantasy"
       ],
-      "description": "Mandys Picks • Adjacent to: Midsommar • IMDb 4.8",
-      "releaseInfo": "2026",
-      "imdbRating": "4.8"
+      "description": "Mandys Picks • Adjacent to: Midsommar • IMDb 6.0",
+      "releaseInfo": "2008",
+      "imdbRating": "6.0"
     },
     {
       "id": "tt4504044",
@@ -28,6 +28,21 @@
       "description": "Mandys Picks • Adjacent to: Sinister • IMDb 5.9",
       "releaseInfo": "2019",
       "imdbRating": "5.9"
+    },
+    {
+      "id": "tt1764551",
+      "type": "movie",
+      "name": "Psycho Killer",
+      "poster": "https://image.tmdb.org/t/p/w185/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Horror",
+        "Mystery"
+      ],
+      "description": "Mandys Picks • Adjacent to: Midsommar • IMDb 4.8",
+      "releaseInfo": "2026",
+      "imdbRating": "4.8"
     },
     {
       "id": "tt1742336",
@@ -85,17 +100,18 @@
       "imdbRating": "6.4"
     },
     {
-      "id": "tt1282140",
+      "id": "tt6483364",
       "type": "movie",
-      "name": "Easy A",
-      "poster": "https://image.tmdb.org/t/p/w185/v5f1qO6NJnxWgONgkYg21TW39DT.jpg",
+      "name": "Teen Spirit",
+      "poster": "https://image.tmdb.org/t/p/w185/8FF6jFKFbwrWWDEVVkGIZGL5mBU.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy"
+        "Music",
+        "Drama"
       ],
-      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.0",
-      "releaseInfo": "2010",
-      "imdbRating": "7.0"
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 6.1",
+      "releaseInfo": "2019",
+      "imdbRating": "6.1"
     },
     {
       "id": "tt10276470",
@@ -126,19 +142,18 @@
       "imdbRating": "6.4"
     },
     {
-      "id": "tt3741632",
+      "id": "tt0381681",
       "type": "movie",
-      "name": "The Leisure Seeker",
-      "poster": "https://image.tmdb.org/t/p/w185/1IOnJzgbgVj85vDEIf1fPmCQ7KP.jpg",
+      "name": "Before Sunset",
+      "poster": "https://image.tmdb.org/t/p/w185/gycdE1ARByGQcK4fYR2mgpU6OO.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "Romance",
-        "Adventure"
+        "Romance"
       ],
-      "description": "Mandys Picks • Adjacent to: The Notebook • IMDb 6.7",
-      "releaseInfo": "2018",
-      "imdbRating": "6.7"
+      "description": "Mandys Picks • Adjacent to: The Notebook • IMDb 8.1",
+      "releaseInfo": "2004",
+      "imdbRating": "8.1"
     },
     {
       "id": "tt1821426",
@@ -214,6 +229,19 @@
       "imdbRating": "6.3"
     },
     {
+      "id": "tt3640682",
+      "type": "movie",
+      "name": "I Smile Back",
+      "poster": "https://image.tmdb.org/t/p/w185/8ufYyCJsID2ufc493ZkJocdkPCY.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 6.2",
+      "releaseInfo": "2015",
+      "imdbRating": "6.2"
+    },
+    {
       "id": "tt0317198",
       "type": "movie",
       "name": "Bridget Jones: The Edge of Reason",
@@ -286,20 +314,6 @@
       "imdbRating": "6.5"
     },
     {
-      "id": "tt0171433",
-      "type": "movie",
-      "name": "Keeping the Faith",
-      "poster": "https://image.tmdb.org/t/p/w185/9NF199FTvHr9ggqdBTVbPhF1MGk.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days • IMDb 6.4",
-      "releaseInfo": "2000",
-      "imdbRating": "6.4"
-    },
-    {
       "id": "tt0499556",
       "type": "movie",
       "name": "War",
@@ -313,6 +327,20 @@
       "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1, The Interview • IMDb 6.2",
       "releaseInfo": "2007",
       "imdbRating": "6.2"
+    },
+    {
+      "id": "tt0171433",
+      "type": "movie",
+      "name": "Keeping the Faith",
+      "poster": "https://image.tmdb.org/t/p/w185/9NF199FTvHr9ggqdBTVbPhF1MGk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days • IMDb 6.4",
+      "releaseInfo": "2000",
+      "imdbRating": "6.4"
     },
     {
       "id": "tt8145202",
@@ -401,6 +429,21 @@
       "imdbRating": "7.3"
     },
     {
+      "id": "tt3741632",
+      "type": "movie",
+      "name": "The Leisure Seeker",
+      "poster": "https://image.tmdb.org/t/p/w185/1IOnJzgbgVj85vDEIf1fPmCQ7KP.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Adventure"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Notebook • IMDb 6.7",
+      "releaseInfo": "2018",
+      "imdbRating": "6.7"
+    },
+    {
       "id": "tt8452344",
       "type": "movie",
       "name": "Sitting in Bars with Cake",
@@ -474,18 +517,19 @@
       "imdbRating": "6.4"
     },
     {
-      "id": "tt3776288",
+      "id": "tt0493464",
       "type": "movie",
-      "name": "Sniper: Legacy",
-      "poster": "https://image.tmdb.org/t/p/w185/a9L1t3vRaZRU1Fa0kolfQGiTCnQ.jpg",
+      "name": "Wanted",
+      "poster": "https://image.tmdb.org/t/p/w185/njy7Pz7ZHZceO7lNfGIHKphY8Hd.jpg",
       "posterShape": "poster",
       "genres": [
+        "Action",
         "Thriller",
-        "Action"
+        "Crime"
       ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.4",
-      "releaseInfo": "2014",
-      "imdbRating": "5.4"
+      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 6.7",
+      "releaseInfo": "2008",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt9225192",
@@ -530,48 +574,6 @@
       ],
       "description": "Mandys Picks • Adjacent to: Step Brothers • IMDb 6.5",
       "releaseInfo": "2013",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt32093575",
-      "type": "movie",
-      "name": "Scary Movie",
-      "poster": "https://image.tmdb.org/t/p/w185/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Mandys Picks • Adjacent to: Step Brothers • IMDb 4.8",
-      "releaseInfo": "2026",
-      "imdbRating": "4.8"
-    },
-    {
-      "id": "tt26595906",
-      "type": "movie",
-      "name": "The World Will Tremble",
-      "poster": "https://image.tmdb.org/t/p/w185/31CKSlZdsvdY8bysV5WeR2YvTim.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "War",
-        "History"
-      ],
-      "description": "Mandys Picks • Adjacent to: Threads • IMDb 6.8",
-      "releaseInfo": "2025",
-      "imdbRating": "6.8"
-    },
-    {
-      "id": "tt1621045",
-      "type": "movie",
-      "name": "Think Like a Man",
-      "poster": "https://image.tmdb.org/t/p/w185/kfIrKVPDzXJDBzPnFEuoatlaZPW.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days, Because I Said So, He's Just Not That Into You • IMDb 6.5",
-      "releaseInfo": "2012",
       "imdbRating": "6.5"
     }
   ]
