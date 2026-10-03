@@ -134,19 +134,6 @@
       "imdbRating": "6.0"
     },
     {
-      "id": "tt10963926",
-      "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w185/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 4.8",
-      "releaseInfo": "2023",
-      "imdbRating": "4.8"
-    },
-    {
       "id": "tt0202470",
       "type": "movie",
       "name": "Rock Star",
@@ -577,6 +564,21 @@
       "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 7.0",
       "releaseInfo": "2013",
       "imdbRating": "7.0"
+    },
+    {
+      "id": "tt1099212",
+      "type": "movie",
+      "name": "Twilight",
+      "poster": "https://image.tmdb.org/t/p/w185/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Notebook • IMDb 5.4",
+      "releaseInfo": "2008",
+      "imdbRating": "5.4"
     }
   ]
 }
