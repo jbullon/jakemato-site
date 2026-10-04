@@ -1,6 +1,625 @@
 {
   "metas": [
     {
+      "id": "tt39150111",
+      "type": "movie",
+      "name": "Zi",
+      "poster": "https://image.tmdb.org/t/p/w185/9mv0iOsYH0OafmE0PHrjwt9hBvL.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 5.8",
+      "imdbRating": "5.8",
+      "trailers": [
+        {
+          "source": "EvkIypHUjWk",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt15799564",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w185/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 8.1",
+      "imdbRating": "8.1",
+      "trailers": [
+        {
+          "source": "kqxuamKxRTo",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt29611136",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w185/eOYkNDalgt1v6UGjw3AoFR5qo9D.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.4",
+      "imdbRating": "7.4",
+      "trailers": [
+        {
+          "source": "UVAki9SGrlg",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt42407244",
+      "type": "movie",
+      "name": "Torino Shadow",
+      "poster": "https://image.tmdb.org/t/p/w185/5nlKTL1eCntTNDu82aaPtOKRvmg.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 5.4",
+      "imdbRating": "5.4"
+    },
+    {
+      "id": "tt39141722",
+      "type": "movie",
+      "name": "Together Forever",
+      "poster": "https://image.tmdb.org/t/p/w185/dYma902n8DQmufFLRch9lnhl6uI.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.1",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt34874865",
+      "type": "movie",
+      "name": "The Peril at Pincer Point",
+      "poster": "https://image.tmdb.org/t/p/w185/ylUvi5SeLXWQIGfOTJEWiHZNIFa.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.2",
+      "imdbRating": "7.2",
+      "trailers": [
+        {
+          "source": "6WASYdUf6yQ",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt36482679",
+      "type": "movie",
+      "name": "The Only Living Pickpocket in New York",
+      "poster": "https://image.tmdb.org/t/p/w185/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.2",
+      "imdbRating": "7.2",
+      "trailers": [
+        {
+          "source": "iXA7BmrBBxs",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39571626",
+      "type": "movie",
+      "name": "The Meltdown",
+      "poster": "https://image.tmdb.org/t/p/w185/76pVKG0ly7tLeKimKZLcEFp41Qd.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.7",
+      "imdbRating": "6.7",
+      "trailers": [
+        {
+          "source": "o0t7FOjxmtY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt8613988",
+      "type": "movie",
+      "name": "The Liberation",
+      "poster": "https://image.tmdb.org/t/p/w185/cjbHYvJz9j5H3BSBfoaOiGMEHeZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.9",
+      "imdbRating": "7.9"
+    },
+    {
+      "id": "tt38625455",
+      "type": "movie",
+      "name": "That Shadow Fading",
+      "poster": "https://image.tmdb.org/t/p/w185/rmrck0d4EVt5GWq6vBRoN97wj9G.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt34381576",
+      "type": "movie",
+      "name": "Sunshine",
+      "poster": "https://image.tmdb.org/t/p/w185/lx0xsVJHuTpY0hvnLT6Og6KY3PB.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt37044690",
+      "type": "movie",
+      "name": "Something Pointless",
+      "poster": "https://image.tmdb.org/t/p/w185/pDfyA0pt0HHB79xXtPx4MHCCUJD.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 9.5",
+      "imdbRating": "9.5",
+      "trailers": [
+        {
+          "source": "qV_UHyjoL_8",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39311354",
+      "type": "movie",
+      "name": "Sad Girlz",
+      "poster": "https://image.tmdb.org/t/p/w185/daj02QrJmvhLvmVUuoxa1Srq02y.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.0",
+      "imdbRating": "7.0",
+      "trailers": [
+        {
+          "source": "zg4wQcC6nU0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt36125423",
+      "type": "movie",
+      "name": "Ponderosa",
+      "poster": "https://image.tmdb.org/t/p/w185/hGy8hODGfne7Eh41hNVDv1AZw4M.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 5.0",
+      "imdbRating": "5.0"
+    },
+    {
+      "id": "tt34385689",
+      "type": "movie",
+      "name": "Paper Tiger",
+      "poster": "https://image.tmdb.org/t/p/w185/zVYm9mNSyr9EYhUUI72DOGgYRZH.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.9",
+      "imdbRating": "6.9",
+      "trailers": [
+        {
+          "source": "MLwTyQOhBkw",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt44054636",
+      "type": "movie",
+      "name": "One More Time",
+      "poster": "https://image.tmdb.org/t/p/w185/ipfyL4OZHm8Ug7TWdLppG6b6QtJ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "B1MrJRwbb6s",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt0107692",
+      "type": "movie",
+      "name": "Ninja Scroll",
+      "poster": "https://image.tmdb.org/t/p/w185/qzZEnaXwv4wss2QalEo4Uf9BAwh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Action",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Limited theatrical • NR • IMDb 7.8",
+      "imdbRating": "7.8",
+      "trailers": [
+        {
+          "source": "CeYwh-Xz1KU",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39029249",
+      "type": "movie",
+      "name": "Next Year",
+      "poster": "https://image.tmdb.org/t/p/w185/7z3zXzNZdIxyKY490Fs26uGXCf9.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Digital • NR"
+    },
+    {
+      "id": "tt31722480",
+      "type": "movie",
+      "name": "Moonglow",
+      "poster": "https://image.tmdb.org/t/p/w185/mrHkgFmSp9bIQk44YypTrFlvqwL.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.0",
+      "imdbRating": "6.0"
+    },
+    {
+      "id": "tt43744680",
+      "type": "movie",
+      "name": "Masao Adachi Takes a Passport Photo",
+      "poster": "https://image.tmdb.org/t/p/w185/pD9kqBftUlB2LzzyOdV7jgWIvzK.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt34384900",
+      "type": "movie",
+      "name": "Love of Your Life",
+      "poster": "https://image.tmdb.org/t/p/w185/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.2",
+      "imdbRating": "7.2",
+      "trailers": [
+        {
+          "source": "HzGx48E64Xg",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt43626878",
+      "type": "movie",
+      "name": "Lab Rat",
+      "poster": "https://image.tmdb.org/t/p/w185/ui2ju6P8NlNrjPtYt9oryXIr59l.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "FzVuN-Sqtr0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt35511966",
+      "type": "movie",
+      "name": "La bola negra",
+      "poster": "https://image.tmdb.org/t/p/w185/l76qrRUs1e1Th4CNeQIQ10TjHOl.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.9",
+      "imdbRating": "7.9",
+      "trailers": [
+        {
+          "source": "lBVxKt0gKDY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt32321285",
+      "type": "movie",
+      "name": "Josephine",
+      "poster": "https://image.tmdb.org/t/p/w185/eqMWdviWwaRahQ7QkHLpXCpqIfu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 8.0",
+      "imdbRating": "8.0"
+    },
+    {
+      "id": "tt35712020",
+      "type": "movie",
+      "name": "Indian in a Box",
+      "poster": "https://image.tmdb.org/t/p/w185/oicJhDNssofilYlOHNRNytvDcct.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.7",
+      "imdbRating": "7.7"
+    },
+    {
+      "id": "tt39315967",
+      "type": "movie",
+      "name": "In My Blood",
+      "poster": "https://image.tmdb.org/t/p/w185/6TwMVDNUtjoFFb2LUTYdIVx9aIS.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt41822675",
+      "type": "movie",
+      "name": "Idol Seed",
+      "poster": "https://image.tmdb.org/t/p/w185/luo4ESNtCkHx6B3pYJigRfUUe8q.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "iEYKSEe97Ok",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt35410859",
+      "type": "movie",
+      "name": "Fjord",
+      "poster": "https://image.tmdb.org/t/p/w185/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.6",
+      "imdbRating": "7.6",
+      "trailers": [
+        {
+          "source": "frg59VOungA",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt37304295",
+      "type": "movie",
+      "name": "Fatherland",
+      "poster": "https://image.tmdb.org/t/p/w185/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.3",
+      "imdbRating": "7.3",
+      "trailers": [
+        {
+          "source": "52zHLYf25M0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt41592057",
+      "type": "movie",
+      "name": "Everytime",
+      "poster": "https://image.tmdb.org/t/p/w185/lbZ7ltgw8xiKfCEXme8GO5HcV9z.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.3",
+      "imdbRating": "7.3"
+    },
+    {
+      "id": "tt32358921",
+      "type": "movie",
+      "name": "Dao",
+      "poster": "https://image.tmdb.org/t/p/w185/ehsdt10j3GBcQWlzUb00egBqHYh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.2",
+      "imdbRating": "6.2",
+      "trailers": [
+        {
+          "source": "TQwKj4ZfQek",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39328391",
+      "type": "movie",
+      "name": "Coward",
+      "poster": "https://image.tmdb.org/t/p/w185/l05jDisMYVVpyAH3zgx1bUqPocZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.3",
+      "imdbRating": "7.3",
+      "trailers": [
+        {
+          "source": "vyRlBGfVlvQ",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt33335610",
+      "type": "movie",
+      "name": "Clarissa",
+      "poster": "https://image.tmdb.org/t/p/w185/9qS8heXhQdLoyGsqZHHb3HkrK62.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.3",
+      "imdbRating": "6.3",
+      "trailers": [
+        {
+          "source": "sJAqmdXaM8U",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt36834996",
+      "type": "movie",
+      "name": "All of a Sudden",
+      "poster": "https://image.tmdb.org/t/p/w185/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 8.0",
+      "imdbRating": "8.0",
+      "trailers": [
+        {
+          "source": "2AxtdPvDojA",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt42693626",
+      "type": "movie",
+      "name": "Adore Him",
+      "poster": "https://image.tmdb.org/t/p/w185/2U2WAvmT0l3xCF4c7bhvNGgf6Rs.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Limited theatrical • NR"
+    },
+    {
+      "id": "tt32459280",
+      "type": "movie",
+      "name": "A Girl Unknown",
+      "poster": "https://image.tmdb.org/t/p/w185/5A1dG9Plbr5OkSNVrZqRsDKeoc5.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.6",
+      "imdbRating": "6.6"
+    },
+    {
       "id": "tt35856037",
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
@@ -75,6 +694,19 @@
       ]
     },
     {
+      "id": "tt40792103",
+      "type": "movie",
+      "name": "Union Town",
+      "poster": "https://image.tmdb.org/t/p/w185/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.2",
+      "imdbRating": "7.2"
+    },
+    {
       "id": "tt47599669",
       "type": "movie",
       "name": "Toxic Moon",
@@ -105,26 +737,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt39571626",
-      "type": "movie",
-      "name": "The Meltdown",
-      "poster": "https://image.tmdb.org/t/p/w185/76pVKG0ly7tLeKimKZLcEFp41Qd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 6.7",
-      "imdbRating": "6.7",
-      "trailers": [
-        {
-          "source": "o0t7FOjxmtY",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt35308845",
@@ -214,25 +826,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt37044690",
-      "type": "movie",
-      "name": "Something Pointless",
-      "poster": "https://image.tmdb.org/t/p/w185/pDfyA0pt0HHB79xXtPx4MHCCUJD.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 9.5",
-      "imdbRating": "9.5",
-      "trailers": [
-        {
-          "source": "qV_UHyjoL_8",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt40188315",
@@ -341,25 +934,14 @@
       ]
     },
     {
-      "id": "tt34385689",
+      "id": "tt44121917",
       "type": "movie",
-      "name": "Paper Tiger",
-      "poster": "https://image.tmdb.org/t/p/w185/zVYm9mNSyr9EYhUUI72DOGgYRZH.jpg",
+      "name": "Overt Listening",
+      "poster": "https://image.tmdb.org/t/p/w185/wcPvxH9BPB6O2ZqABR98jP0q1Vn.jpg",
       "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": [],
       "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 6.9",
-      "imdbRating": "6.9",
-      "trailers": [
-        {
-          "source": "MLwTyQOhBkw",
-          "type": "Trailer"
-        }
-      ]
+      "description": "US release: October 3, 2026 • Premiere • NR"
     },
     {
       "id": "tt44766123",
@@ -466,21 +1048,6 @@
       ]
     },
     {
-      "id": "tt32321285",
-      "type": "movie",
-      "name": "Josephine",
-      "poster": "https://image.tmdb.org/t/p/w185/eqMWdviWwaRahQ7QkHLpXCpqIfu.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 8.0",
-      "imdbRating": "8.0"
-    },
-    {
       "id": "tt32350757",
       "type": "movie",
       "name": "Jasmine That Blooms in Autumn",
@@ -513,20 +1080,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt39315967",
-      "type": "movie",
-      "name": "In My Blood",
-      "poster": "https://image.tmdb.org/t/p/w185/6TwMVDNUtjoFFb2LUTYdIVx9aIS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Mystery",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR"
     },
     {
       "id": "tt39699949",
@@ -581,25 +1134,6 @@
       "imdbRating": "6.0"
     },
     {
-      "id": "tt35410859",
-      "type": "movie",
-      "name": "Fjord",
-      "poster": "https://image.tmdb.org/t/p/w185/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.6",
-      "imdbRating": "7.6",
-      "trailers": [
-        {
-          "source": "frg59VOungA",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt36615690",
       "type": "movie",
       "name": "Fiddler’s Green",
@@ -611,19 +1145,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt41592057",
-      "type": "movie",
-      "name": "Everytime",
-      "poster": "https://image.tmdb.org/t/p/w185/lbZ7ltgw8xiKfCEXme8GO5HcV9z.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.3",
-      "imdbRating": "7.3"
     },
     {
       "id": "tt39383384",
@@ -814,6 +1335,21 @@
       "imdbRating": "8.3"
     },
     {
+      "id": "tt43442930",
+      "type": "movie",
+      "name": "Big Break",
+      "poster": "https://image.tmdb.org/t/p/w185/n5wTK3Pkdfo7Z5Tn9Wx5JwDqFYr.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.3",
+      "imdbRating": "7.3"
+    },
+    {
       "id": "tt42195273",
       "type": "movie",
       "name": "Bagman",
@@ -841,25 +1377,6 @@
       "trailers": [
         {
           "source": "tqUHlN0_qVA",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt36834996",
-      "type": "movie",
-      "name": "All of a Sudden",
-      "poster": "https://image.tmdb.org/t/p/w185/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 8.0",
-      "imdbRating": "8.0",
-      "trailers": [
-        {
-          "source": "2AxtdPvDojA",
           "type": "Trailer"
         }
       ]
@@ -968,6 +1485,19 @@
       ]
     },
     {
+      "id": "tt43666042",
+      "type": "movie",
+      "name": "Tomorrow a Long Time Ago",
+      "poster": "https://image.tmdb.org/t/p/w185/xQcsixJ2Vay8ptSFISfcPv2xOUN.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Premiere • NR • IMDb 4.8",
+      "imdbRating": "4.8"
+    },
+    {
       "id": "tt42047992",
       "type": "movie",
       "name": "Time Warp",
@@ -1049,20 +1579,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 2, 2026 • Premiere • NR • IMDb 5.5",
       "imdbRating": "5.5"
-    },
-    {
-      "id": "tt8613988",
-      "type": "movie",
-      "name": "The Liberation",
-      "poster": "https://image.tmdb.org/t/p/w185/cjbHYvJz9j5H3BSBfoaOiGMEHeZ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Premiere • NR • IMDb 7.9",
-      "imdbRating": "7.9"
     },
     {
       "id": "tt39150288",
@@ -1232,7 +1748,13 @@
         "Thriller"
       ],
       "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Theatrical • NR"
+      "description": "US release: October 2, 2026 • Theatrical • NR",
+      "trailers": [
+        {
+          "source": "3Z7mAkThz5Q",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt39453404",
@@ -1724,10 +2246,23 @@
       ]
     },
     {
+      "id": "tt39401675",
+      "type": "movie",
+      "name": "Everything is F***ed",
+      "poster": "https://image.tmdb.org/t/p/w185/jDs5pJNNZoE3s0Q8j0zDVOnZJXk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Premiere • NR"
+    },
+    {
       "id": "tt27050858",
       "type": "movie",
       "name": "Drishyam: The Conclusion",
-      "poster": "https://image.tmdb.org/t/p/w185/67FsF2kpgEZ1T5Qos4adgqm9dLf.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/yyWYi1VDg15mk9JlWldmmR7yf9C.jpg",
       "posterShape": "poster",
       "genres": [
         "Thriller",
@@ -2017,6 +2552,28 @@
       ]
     },
     {
+      "id": "tt30850718",
+      "type": "movie",
+      "name": "April X",
+      "poster": "https://image.tmdb.org/t/p/w185/Aqth7r2pr79YPYj6WPGDs23F4Wb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Theatrical • NR • IMDb 6.1",
+      "imdbRating": "6.1",
+      "trailers": [
+        {
+          "source": "1Dbuam1jvw4",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt29870331",
       "type": "movie",
       "name": "Appofeniacs",
@@ -2077,25 +2634,18 @@
       "description": "US release: October 2, 2026 • Premiere • NR"
     },
     {
-      "id": "tt15799564",
+      "id": "tt42776111",
       "type": "movie",
-      "name": "Wild Horse Nine",
-      "poster": "https://image.tmdb.org/t/p/w185/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "name": "[MV]",
+      "poster": "https://image.tmdb.org/t/p/w185/xjNFEBB1XreQYKFo9Lmbct31Amq.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
+        "Music",
+        "Animation",
+        "Science Fiction"
       ],
       "releaseInfo": "2026",
-      "description": "US release: October 1, 2026 • Premiere • NR • IMDb 8.1",
-      "imdbRating": "8.1",
-      "trailers": [
-        {
-          "source": "kqxuamKxRTo",
-          "type": "Trailer"
-        }
-      ]
+      "description": "US release: October 2, 2026 • Digital • NR"
     },
     {
       "id": "tt43989206",
@@ -2302,6 +2852,16 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt44637053",
+      "type": "movie",
+      "name": "Swimmers",
+      "poster": "https://image.tmdb.org/t/p/w185/5lDO6RAe0gFo4YyLUfdGlNfjLUS.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 1, 2026 • Premiere • NR"
     },
     {
       "id": "tt36069890",
@@ -2586,26 +3146,6 @@
       "description": "US release: October 1, 2026 • Theatrical • PG-13"
     },
     {
-      "id": "tt37304295",
-      "type": "movie",
-      "name": "Fatherland",
-      "poster": "https://image.tmdb.org/t/p/w185/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 1, 2026 • Premiere • NR • IMDb 7.3",
-      "imdbRating": "7.3",
-      "trailers": [
-        {
-          "source": "52zHLYf25M0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt44898383",
       "type": "movie",
       "name": "Eyes on the Road",
@@ -2784,8 +3324,9 @@
       "poster": "https://image.tmdb.org/t/p/w185/cWY636zXGECkRHbrqhQdFyP9n69.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Comedy",
+        "Action"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 1, 2026 • Theatrical • NR",
@@ -3591,7 +4132,7 @@
       "id": "tt43656794",
       "type": "movie",
       "name": "Making Marie Antoinette",
-      "poster": "https://image.tmdb.org/t/p/w185/4B2qSMSyev7aqPNT00TNPVCBKGF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/cDon3INaVBlKkklOipQnVKbwbYh.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -3655,6 +4196,25 @@
       "trailers": [
         {
           "source": "gJNznIi7hAk",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt30309529",
+      "type": "movie",
+      "name": "Doll of Deceit (2026)",
+      "poster": "https://image.tmdb.org/t/p/w185/5VvSZKeo2AvQdaMnbE65XySrhaC.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 29, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "657rGbMhv-0",
           "type": "Trailer"
         }
       ]
@@ -3729,6 +4289,44 @@
       "trailers": [
         {
           "source": "kMsiD1Nky5I",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt46796917",
+      "type": "movie",
+      "name": "Content",
+      "poster": "https://image.tmdb.org/t/p/w185/n0eXUYsBvtSxbzUh1WAc7LBrK4a.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 29, 2026 • Digital • NR • IMDb 3.9",
+      "imdbRating": "3.9",
+      "trailers": [
+        {
+          "source": "B_GGrOiQBxo",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt44840711",
+      "type": "movie",
+      "name": "Apnea",
+      "poster": "https://image.tmdb.org/t/p/w185/1928d0E8GxGtTeVAzc9piZoTZ7j.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 29, 2026 • Premiere • PG-13",
+      "trailers": [
+        {
+          "source": "QK7Emj4s1qQ",
           "type": "Trailer"
         }
       ]
@@ -3997,6 +4595,18 @@
       "description": "US release: September 27, 2026 • Digital • NR"
     },
     {
+      "id": "tt39929952",
+      "type": "movie",
+      "name": "Changed Forever",
+      "poster": "https://image.tmdb.org/t/p/w185/vPZG3dtUAqex4FaY9kBnsKxAXTF.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 27, 2026 • Theatrical • NR"
+    },
+    {
       "id": "tt32252801",
       "type": "movie",
       "name": "Blue Heron",
@@ -4047,6 +4657,16 @@
       "releaseInfo": "2026",
       "description": "US release: September 27, 2026 • Premiere • NR • IMDb 6.9",
       "imdbRating": "6.9"
+    },
+    {
+      "id": "tt36167569",
+      "type": "movie",
+      "name": "Waning Love",
+      "poster": "https://image.tmdb.org/t/p/w185/gfO02y3XBfGjuAwLSIgymPOUbWh.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: September 26, 2026 • Digital • NR"
     },
     {
       "id": "tt38595519",
@@ -5700,7 +6320,7 @@
       "id": "tt7526136",
       "type": "movie",
       "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w185/mYqiF90igComG2L2qm8SwFbaMwn.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "posterShape": "poster",
       "genres": [
         "Adventure",
@@ -6221,20 +6841,6 @@
       ]
     },
     {
-      "id": "tt36125423",
-      "type": "movie",
-      "name": "Ponderosa",
-      "poster": "https://image.tmdb.org/t/p/w185/hGy8hODGfne7Eh41hNVDv1AZw4M.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 24, 2026 • Premiere • NR • IMDb 5.0",
-      "imdbRating": "5.0"
-    },
-    {
       "id": "tt41914712",
       "type": "movie",
       "name": "Mexicanamerican",
@@ -6324,6 +6930,19 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt41634823",
+      "type": "movie",
+      "name": "Dying for Love",
+      "poster": "https://image.tmdb.org/t/p/w185/k5fGAzu4lRhqfBDdThl9kqKgRmR.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 24, 2026 • Premiere • NR"
     },
     {
       "id": "tt32775760",
@@ -7521,19 +8140,6 @@
       ]
     },
     {
-      "id": "tt40792103",
-      "type": "movie",
-      "name": "Union Town",
-      "poster": "https://image.tmdb.org/t/p/w185/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 19, 2026 • Premiere • NR • IMDb 7.2",
-      "imdbRating": "7.2"
-    },
-    {
       "id": "tt43706652",
       "type": "movie",
       "name": "Three Arugula Salads",
@@ -7822,6 +8428,24 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: September 19, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt33782392",
+      "type": "movie",
+      "name": "But Wait, There's More!",
+      "poster": "https://image.tmdb.org/t/p/w185/uATPIWXWl2wAKDe5rh2ZWq2yPz8.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 19, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "Gm1WXsKwgXI",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt44842292",
@@ -8944,6 +9568,26 @@
       ]
     },
     {
+      "id": "tt29714073",
+      "type": "movie",
+      "name": "Bad Apples",
+      "poster": "https://image.tmdb.org/t/p/w185/sDgb5jVuZ6ZOh4YjtSMMnbovkCi.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 18, 2026 • Premiere • NR • IMDb 7.1",
+      "imdbRating": "7.1",
+      "trailers": [
+        {
+          "source": "4nhu80EmVQE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt0113000",
       "type": "movie",
       "name": "Against The Clock",
@@ -9340,26 +9984,6 @@
       ]
     },
     {
-      "id": "tt35511966",
-      "type": "movie",
-      "name": "La bola negra",
-      "poster": "https://image.tmdb.org/t/p/w185/l76qrRUs1e1Th4CNeQIQ10TjHOl.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "War"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 17, 2026 • Premiere • NR • IMDb 7.9",
-      "imdbRating": "7.9",
-      "trailers": [
-        {
-          "source": "lBVxKt0gKDY",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt39306135",
       "type": "movie",
       "name": "Jollyface",
@@ -9505,6 +10129,26 @@
       "imdbRating": "8.4"
     },
     {
+      "id": "tt36173361",
+      "type": "movie",
+      "name": "Edie Arnold Is a Loser",
+      "poster": "https://image.tmdb.org/t/p/w185/7AlkSpRja0uBBVSCXl328QFqwVS.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Music",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 17, 2026 • Premiere • NR • IMDb 7.8",
+      "imdbRating": "7.8",
+      "trailers": [
+        {
+          "source": "mnqaj0dLWTE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt43660976",
       "type": "movie",
       "name": "Donkey Princess",
@@ -9544,6 +10188,20 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt38117143",
+      "type": "movie",
+      "name": "Corpus",
+      "poster": "https://image.tmdb.org/t/p/w185/qUSB21YnXYYf0RUk6CKqyChgJ0Z.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 17, 2026 • Premiere • NR • IMDb 6.5",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt35332631",
@@ -9678,6 +10336,19 @@
       "description": "US release: September 16, 2026 • Digital • PG-13"
     },
     {
+      "id": "tt44797597",
+      "type": "movie",
+      "name": "Max vs 100",
+      "poster": "https://image.tmdb.org/t/p/w185/mHbOZIrkSkoxpKLGfk1577GjRPb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "TV Movie"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 16, 2026 • Digital • NR • IMDb 6.6",
+      "imdbRating": "6.6"
+    },
+    {
       "id": "tt39795768",
       "type": "movie",
       "name": "In Her You'll Find Sanctuary",
@@ -9731,6 +10402,27 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: September 16, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt39978539",
+      "type": "movie",
+      "name": "Apartment 7",
+      "poster": "https://image.tmdb.org/t/p/w185/3OxIOFFjEAetReskR7p68Weiwf.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Drama",
+        "Music"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 16, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "nA9L6b_GFwU",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt36753905",
@@ -10371,16 +11063,6 @@
       "description": "US release: September 12, 2026 • Premiere • NR"
     },
     {
-      "id": "tt41634823",
-      "type": "movie",
-      "name": "Dying for Love",
-      "poster": "https://image.tmdb.org/t/p/w185/k5fGAzu4lRhqfBDdThl9kqKgRmR.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: September 12, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt44632475",
       "type": "movie",
       "name": "Daughters of 9/11",
@@ -10510,7 +11192,7 @@
       "id": "tt9601292",
       "type": "movie",
       "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w185/9iSkee8DPpwBQI3GhXSTGZJKNYM.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -11495,6 +12177,25 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: September 8, 2026 • Digital • NR"
+    },
+    {
+      "id": "tt13611778",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w185/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 8, 2026 • Digital • R",
+      "trailers": [
+        {
+          "source": "aHrMFtt40_Q",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt36236728",
@@ -12527,26 +13228,6 @@
       ]
     },
     {
-      "id": "tt36482679",
-      "type": "movie",
-      "name": "The Only Living Pickpocket in New York",
-      "poster": "https://image.tmdb.org/t/p/w185/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 4, 2026 • Premiere • NR • IMDb 7.2",
-      "imdbRating": "7.2",
-      "trailers": [
-        {
-          "source": "iXA7BmrBBxs",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt0117218",
       "type": "movie",
       "name": "The Nutty Professor",
@@ -12777,24 +13458,6 @@
       "trailers": [
         {
           "source": "AMLCbpM1fRQ",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt44054636",
-      "type": "movie",
-      "name": "One More Time",
-      "poster": "https://image.tmdb.org/t/p/w185/ipfyL4OZHm8Ug7TWdLppG6b6QtJ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 4, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "B1MrJRwbb6s",
           "type": "Trailer"
         }
       ]
@@ -13518,340 +14181,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt38689439",
-      "type": "movie",
-      "name": "The Night Is Fading Away",
-      "poster": "https://image.tmdb.org/t/p/w185/39jzHk0VK2kdt9lRAb8CqNuGcGc.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR • IMDb 7.4",
-      "imdbRating": "7.4"
-    },
-    {
-      "id": "tt29268110",
-      "type": "movie",
-      "name": "Smile 2",
-      "poster": "https://image.tmdb.org/t/p/w185/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • R • IMDb 6.7",
-      "imdbRating": "6.7",
-      "trailers": [
-        {
-          "source": "FU_bAopCcSE",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt34297885",
-      "type": "movie",
-      "name": "Silim",
-      "poster": "https://image.tmdb.org/t/p/w185/dUq3wmz4TdwEmDcSKpT6hg0UxLl.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt32093575",
-      "type": "movie",
-      "name": "Scary Movie",
-      "poster": "https://image.tmdb.org/t/p/w185/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • R • IMDb 4.8",
-      "imdbRating": "4.8",
-      "trailers": [
-        {
-          "source": "cGgWAHXuTKc",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt38572816",
-      "type": "movie",
-      "name": "Pressure Points",
-      "poster": "https://image.tmdb.org/t/p/w185/tMU3jC3woUVrGnCyL7q6V7wPp3I.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Theatrical • NR"
-    },
-    {
-      "id": "tt37214541",
-      "type": "movie",
-      "name": "Nomina",
-      "poster": "https://image.tmdb.org/t/p/w185/vW34XcBP4xQKYKyxqu46F8w5cQS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt35062877",
-      "type": "movie",
-      "name": "Media Trained",
-      "poster": "https://image.tmdb.org/t/p/w185/bZ0IGzRHTK6aIeE07IVIoLpuRU2.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "-lRVE0vFzdo",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt28014327",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w185/sKIO6oO1GRCVt9Ag2iIBAdCjUj.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • PG-13 • IMDb 6.8",
-      "imdbRating": "6.8",
-      "trailers": [
-        {
-          "source": "om5Un9X720M",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt38779530",
-      "type": "movie",
-      "name": "Manila's Finest",
-      "poster": "https://image.tmdb.org/t/p/w185/osc21A1GwgrBm6aXomvSdgkPFsg.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR • IMDb 6.8",
-      "imdbRating": "6.8",
-      "trailers": [
-        {
-          "source": "nAnIpGp3660",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt39570123",
-      "type": "movie",
-      "name": "Jamie & Lina Write the Greatest Song Ever",
-      "poster": "https://image.tmdb.org/t/p/w185/bxq5BhU9U13Q2LcSPnbhnp8NqxM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt34284946",
-      "type": "movie",
-      "name": "I'm Game",
-      "poster": "https://image.tmdb.org/t/p/w185/h1ezPKcMYv5FHbHDuHcZfTbWTY5.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Limited theatrical • NR • IMDb 6.4",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt33354945",
-      "type": "movie",
-      "name": "Gandhari",
-      "poster": "https://image.tmdb.org/t/p/w185/hCHei97aPYCCsh4vicz9X0wmdFV.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • R • IMDb 5.0",
-      "imdbRating": "5.0",
-      "trailers": [
-        {
-          "source": "TRyBiPD1bUc",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt41559858",
-      "type": "movie",
-      "name": "Fito Páez: The World Within a Song",
-      "poster": "https://image.tmdb.org/t/p/w185/5Olp4wGl2XEGkjVebukgZljYW3Q.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • NR • IMDb 6.2",
-      "imdbRating": "6.2",
-      "trailers": [
-        {
-          "source": "4P0PSlJDZvk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt45120348",
-      "type": "movie",
-      "name": "Famous Last Words: Gloria Steinem",
-      "poster": "https://image.tmdb.org/t/p/w185/bt0gDeOJv2La7LpbribAw60PXFG.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • PG-13 • IMDb 8.1",
-      "imdbRating": "8.1"
-    },
-    {
-      "id": "tt41277097",
-      "type": "movie",
-      "name": "Crux",
-      "poster": "https://image.tmdb.org/t/p/w185/48U8azia6K62vauPRzCt6V8SKbm.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt39398727",
-      "type": "movie",
-      "name": "Crocodile Dose",
-      "poster": "https://image.tmdb.org/t/p/w185/2fLUCNV3UxL3qUwpsVvXjBJ2hQT.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR • IMDb 7.8",
-      "imdbRating": "7.8",
-      "trailers": [
-        {
-          "source": "zj0W7B8JmKw",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt37752275",
-      "type": "movie",
-      "name": "Clash of the Thundermans",
-      "poster": "https://image.tmdb.org/t/p/w185/16oqRrWVzQm6qdGfBxvziZ2UiMT.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "TV Movie",
-        "Family",
-        "Action",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital / TV • G • IMDb 4.4",
-      "imdbRating": "4.4",
-      "trailers": [
-        {
-          "source": "Tui9Jpmyb6Q",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt31260224",
-      "type": "movie",
-      "name": "Chickenhare and the Secret of the Groundhog",
-      "poster": "https://image.tmdb.org/t/p/w185/cUCwWxHF1bRfqeY7beZfsvT7WBR.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • G • IMDb 6.5",
-      "imdbRating": "6.5",
-      "trailers": [
-        {
-          "source": "WdTbLiWjld0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt39734954",
-      "type": "movie",
-      "name": "Almost Us",
-      "poster": "https://image.tmdb.org/t/p/w185/gQurSKUKrCFHa90ydVJRtSMyjLB.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Digital • NR • IMDb 7.2",
-      "imdbRating": "7.2",
-      "trailers": [
-        {
-          "source": "7Syb_uhtdN0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt39484319",
-      "type": "movie",
-      "name": "A Quiet Man",
-      "poster": "https://image.tmdb.org/t/p/w185/coim6lfj9KqyAZXQ4tymbQrEQvj.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: September 3, 2026 • Premiere • NR"
     }
   ]
 }

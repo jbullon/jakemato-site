@@ -46,20 +46,6 @@
       "imdbRating": "7.0"
     },
     {
-      "id": "tt0095271",
-      "type": "movie",
-      "name": "Halloween 4: The Return of Michael Myers",
-      "poster": "https://image.tmdb.org/t/p/w185/eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, The Hills Have Eyes, Texas Chainsaw Massacre • IMDb 5.8",
-      "releaseInfo": "1988",
-      "imdbRating": "5.8"
-    },
-    {
       "id": "tt0804555",
       "type": "movie",
       "name": "Wrong Turn 2: Dead End",
@@ -72,6 +58,20 @@
       "description": "Jake's Picks • Adjacent to: The Descent, Victor Crowley, The Hills Have Eyes • IMDb 5.5",
       "releaseInfo": "2007",
       "imdbRating": "5.5"
+    },
+    {
+      "id": "tt0095271",
+      "type": "movie",
+      "name": "Halloween 4: The Return of Michael Myers",
+      "poster": "https://image.tmdb.org/t/p/w185/eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, The Hills Have Eyes, Texas Chainsaw Massacre • IMDb 5.8",
+      "releaseInfo": "1988",
+      "imdbRating": "5.8"
     },
     {
       "id": "tt34793095",
@@ -143,21 +143,6 @@
       "imdbRating": "4.6"
     },
     {
-      "id": "tt0489270",
-      "type": "movie",
-      "name": "Saw III",
-      "poster": "https://image.tmdb.org/t/p/w185/4iO9n24Rb10peXV0JH2EldIOrAp.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: Saw, Hatchet III, The Human Centipede (First Sequence) • IMDb 6.2",
-      "releaseInfo": "2006",
-      "imdbRating": "6.2"
-    },
-    {
       "id": "tt0093177",
       "type": "movie",
       "name": "Hellraiser",
@@ -186,6 +171,35 @@
       "imdbRating": "6.5"
     },
     {
+      "id": "tt0489270",
+      "type": "movie",
+      "name": "Saw III",
+      "poster": "https://image.tmdb.org/t/p/w185/4iO9n24Rb10peXV0JH2EldIOrAp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: Saw, Hatchet III, The Human Centipede (First Sequence) • IMDb 6.2",
+      "releaseInfo": "2006",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt0844479",
+      "type": "movie",
+      "name": "The Collector",
+      "poster": "https://image.tmdb.org/t/p/w185/e33HSokiAxhj8ptpAr2xAU4jnd8.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: Hatchet III, The Texas Chainsaw Massacre, Hatchet II • IMDb 6.3",
+      "releaseInfo": "2009",
+      "imdbRating": "6.3"
+    },
+    {
       "id": "tt1763264",
       "type": "movie",
       "name": "No One Lives",
@@ -200,18 +214,79 @@
       "imdbRating": "6.0"
     },
     {
-      "id": "tt2103217",
+      "id": "tt0489664",
       "type": "movie",
-      "name": "Maniac",
-      "poster": "https://image.tmdb.org/t/p/w185/nbDkRvhmbYnHDXkoq0sF0PLeo8j.jpg",
+      "name": "Butterfly on a Wheel",
+      "poster": "https://image.tmdb.org/t/p/w185/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
+      "releaseInfo": "2007",
+      "imdbRating": "6.6"
+    },
+    {
+      "id": "tt9000184",
+      "type": "movie",
+      "name": "Goodnight Mommy",
+      "poster": "https://image.tmdb.org/t/p/w185/oHhD5jD4S5ElPNNFCDKXJAzMZ5h.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "description": "Jake's Picks • Adjacent to: Funny Games • IMDb 5.7",
+      "releaseInfo": "2022",
+      "imdbRating": "5.7"
+    },
+    {
+      "id": "tt1599348",
+      "type": "movie",
+      "name": "Safe House",
+      "poster": "https://image.tmdb.org/t/p/w185/7SYBPjv5ywF6cI4BSFFtlDyChT2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Hostel, The Human Centipede (First Sequence), Martyrs • IMDb 6.1",
+      "description": "Jake's Picks • Adjacent to: The Interview • IMDb 6.7",
       "releaseInfo": "2012",
-      "imdbRating": "6.1"
+      "imdbRating": "6.7"
+    },
+    {
+      "id": "tt1462041",
+      "type": "movie",
+      "name": "Dream House",
+      "poster": "https://image.tmdb.org/t/p/w185/uQFbnBEYguc6EWYKG0Hgq4LVdc2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.0",
+      "releaseInfo": "2011",
+      "imdbRating": "6.0"
+    },
+    {
+      "id": "tt0161081",
+      "type": "movie",
+      "name": "What Lies Beneath",
+      "poster": "https://image.tmdb.org/t/p/w185/2L3Cn0CizbSy2E9KJt1SiOSyb6p.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
+      "releaseInfo": "2000",
+      "imdbRating": "6.6"
     },
     {
       "id": "tt1236471",
@@ -230,48 +305,6 @@
       "imdbRating": "5.8"
     },
     {
-      "id": "tt8530978",
-      "type": "movie",
-      "name": "Beats",
-      "poster": "https://image.tmdb.org/t/p/w185/b8P13nIvkkizVBzd2RpegsRt5zP.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Music"
-      ],
-      "description": "Jake's Picks • Adjacent to: Whiplash • IMDb 6.4",
-      "releaseInfo": "2019",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt0083941",
-      "type": "movie",
-      "name": "Who Dares Wins",
-      "poster": "https://image.tmdb.org/t/p/w185/v3SmUZCJweaS4LzltjmXC2x5vTK.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Predator • IMDb 6.4",
-      "releaseInfo": "1982",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt4560436",
-      "type": "movie",
-      "name": "Mile 22",
-      "poster": "https://image.tmdb.org/t/p/w185/2L8ehd95eSW9x7KINYtZmRkAlrZ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Interview • IMDb 6.1",
-      "releaseInfo": "2018",
-      "imdbRating": "6.1"
-    },
-    {
       "id": "tt1850418",
       "type": "movie",
       "name": "To Write Love on Her Arms",
@@ -286,80 +319,49 @@
       "imdbRating": "6.5"
     },
     {
-      "id": "tt1836944",
+      "id": "tt0093624",
       "type": "movie",
-      "name": "The Baytown Outlaws",
-      "poster": "https://image.tmdb.org/t/p/w185/oevsox25ZnoUBms45KARDs8epmg.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: Pineapple Express • IMDb 6.3",
-      "releaseInfo": "2012",
-      "imdbRating": "6.3"
-    },
-    {
-      "id": "tt0489664",
-      "type": "movie",
-      "name": "Butterfly on a Wheel",
-      "poster": "https://image.tmdb.org/t/p/w185/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
-      "releaseInfo": "2007",
-      "imdbRating": "6.6"
-    },
-    {
-      "id": "tt0095652",
-      "type": "movie",
-      "name": "Monkey Shines",
-      "poster": "https://image.tmdb.org/t/p/w185/zbxrAWN2Ss5RXK1uDvMW82xFh0n.jpg",
+      "name": "Night of the Demons",
+      "poster": "https://image.tmdb.org/t/p/w185/2VcJ4wpIx8TO14rXZnYPhzKL7Tp.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
-        "Science Fiction",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Hatchet • IMDb 6.1",
+      "releaseInfo": "1988",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt0351977",
+      "type": "movie",
+      "name": "Walking Tall",
+      "poster": "https://image.tmdb.org/t/p/w185/2sdmKtRz2SlGSLxxZDePKm5zxus.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Adventure",
         "Drama",
+        "Action",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Bone Tomahawk • IMDb 6.2",
-      "releaseInfo": "1988",
+      "description": "Jake's Picks • Adjacent to: First Blood • IMDb 6.2",
+      "releaseInfo": "2004",
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0093137",
+      "id": "tt1658837",
       "type": "movie",
-      "name": "Hamburger Hill",
-      "poster": "https://image.tmdb.org/t/p/w185/a84FDoIm64qcyKq6BEMB9Ycldpt.jpg",
+      "name": "The Tall Man",
+      "poster": "https://image.tmdb.org/t/p/w185/iZGQsDlYcNaJf2MVopAZHs69FI4.jpg",
       "posterShape": "poster",
       "genres": [
-        "War",
-        "Action",
-        "Drama"
-      ],
-      "description": "Jake's Picks • Adjacent to: First Blood • IMDb 6.7",
-      "releaseInfo": "1987",
-      "imdbRating": "6.7"
-    },
-    {
-      "id": "tt26625693",
-      "type": "movie",
-      "name": "The Order",
-      "poster": "https://image.tmdb.org/t/p/w185/r3BPhDb45sy87kNV41Q1TwCL6BS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
+        "Horror",
+        "Mystery",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 6.8",
-      "releaseInfo": "2024",
-      "imdbRating": "6.8"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 5.9",
+      "releaseInfo": "2012",
+      "imdbRating": "5.9"
     }
   ]
 }
