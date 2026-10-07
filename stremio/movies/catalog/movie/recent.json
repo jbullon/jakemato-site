@@ -204,7 +204,7 @@
       "id": "tt35511966",
       "type": "movie",
       "name": "LA BOLA NEGRA",
-      "poster": "https://image.tmdb.org/t/p/w185/l76qrRUs1e1Th4CNeQIQ10TjHOl.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/7HwFQTMghL6HOvzEnXYUvyuZXeh.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -242,7 +242,7 @@
       "id": "tt45915205",
       "type": "movie",
       "name": "Jamie Foxx: Take Care of Yourself",
-      "poster": "https://image.tmdb.org/t/p/w185/yldpC40h6F8c55vu6hMFotG1Hs6.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/lVMY9gUcGpYozb4WVEJTNuUG2fN.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy"
@@ -377,6 +377,19 @@
       ]
     },
     {
+      "id": "tt14538056",
+      "type": "movie",
+      "name": "The Night Driver",
+      "poster": "https://image.tmdb.org/t/p/w185/wVnSiYL4MqN7utunt8ZdAcegje8.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 6, 2026 • Premiere • NR"
+    },
+    {
       "id": "tt39571626",
       "type": "movie",
       "name": "The Meltdown",
@@ -438,6 +451,25 @@
       "trailers": [
         {
           "source": "-o39M6N24Dk",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt29256561",
+      "type": "movie",
+      "name": "The Beast",
+      "poster": "https://image.tmdb.org/t/p/w185/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 6, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "5ckqV_uf8E0",
           "type": "Trailer"
         }
       ]
@@ -719,6 +751,25 @@
       ]
     },
     {
+      "id": "tt27219293",
+      "type": "movie",
+      "name": "I Rarely Wake Up Dreaming",
+      "poster": "https://image.tmdb.org/t/p/w185/5uQ3m7Qt4rj73ubBylu0lzElbL8.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 6, 2026 • Premiere • NR • IMDb 6.6",
+      "imdbRating": "6.6",
+      "trailers": [
+        {
+          "source": "S0OB2kv7oRI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt4902012",
       "type": "movie",
       "name": "Hurricane of Fun: The Making of Wet Hot",
@@ -944,6 +995,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt46473659",
+      "type": "movie",
+      "name": "Shush",
+      "poster": "https://image.tmdb.org/t/p/w185/y4kkF1T8GBzhdff4gDeiTUCg6aE.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 5, 2026 • Premiere • NR"
     },
     {
       "id": "tt34385689",
@@ -1181,6 +1244,19 @@
       ]
     },
     {
+      "id": "tt42407244",
+      "type": "movie",
+      "name": "Torino Shadow",
+      "poster": "https://image.tmdb.org/t/p/w185/5nlKTL1eCntTNDu82aaPtOKRvmg.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 5.9",
+      "imdbRating": "5.9"
+    },
+    {
       "id": "tt39141722",
       "type": "movie",
       "name": "Together Forever",
@@ -1198,7 +1274,7 @@
       "id": "tt37510326",
       "type": "movie",
       "name": "The Social Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w185/nZ8cQbjAQHRuSqwxvuYhOfxyhfW.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/qZr5bxGXE1t2A9pNSikb9fQKzov.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -1582,7 +1658,10 @@
       "name": "Barbizon",
       "poster": "https://image.tmdb.org/t/p/w185/6L6Acv657OCKC4uVqsRAlrYjKvf.jpg",
       "posterShape": "poster",
-      "genres": [],
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
       "releaseInfo": "2026",
       "description": "US release: October 4, 2026 • Premiere • NR"
     },
@@ -1630,6 +1709,27 @@
       "releaseInfo": "2026",
       "description": "US release: October 4, 2026 • Premiere • NR • IMDb 6.8",
       "imdbRating": "6.8"
+    },
+    {
+      "id": "tt35856037",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w185/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.5",
+      "imdbRating": "7.5",
+      "trailers": [
+        {
+          "source": "uEcoV-ngH38",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt43694807",
@@ -2088,7 +2188,7 @@
       "id": "tt37967547",
       "type": "movie",
       "name": "Ink",
-      "poster": "https://image.tmdb.org/t/p/w185/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/bTmfOuLiyylwozRwGnV2rtkR6Qi.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -2132,6 +2232,19 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt38991615",
+      "type": "movie",
+      "name": "I See Buildings Fall Like Lightning",
+      "poster": "https://image.tmdb.org/t/p/w185/lsHuNs9qT8aVhVIxXNdLuVhr5CM.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 6.9",
+      "imdbRating": "6.9"
     },
     {
       "id": "tt38201160",
@@ -2231,7 +2344,7 @@
       "id": "tt37363222",
       "type": "movie",
       "name": "Elsinore",
-      "poster": "https://image.tmdb.org/t/p/w185/mTd1B0Nq4vwMRilsf7eGNpdGIrv.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/whGi0pbmYnE9mRCg3JRiKpAJON8.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -2241,7 +2354,7 @@
       "imdbRating": "7.8",
       "trailers": [
         {
-          "source": "SzopCeFAWF0",
+          "source": "TpNEh5vvAns",
           "type": "Trailer"
         }
       ]
@@ -2560,6 +2673,19 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt43666042",
+      "type": "movie",
+      "name": "Tomorrow a Long Time Ago",
+      "poster": "https://image.tmdb.org/t/p/w185/xQcsixJ2Vay8ptSFISfcPv2xOUN.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Premiere • NR • IMDb 4.1",
+      "imdbRating": "4.1"
     },
     {
       "id": "tt42047992",
@@ -3013,6 +3139,25 @@
       ]
     },
     {
+      "id": "tt39317981",
+      "type": "movie",
+      "name": "My Undesirable Friends: Part II - Exile",
+      "poster": "https://image.tmdb.org/t/p/w185/zt2bViOzNGvq4C8al6ub7x87433.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Premiere • NR • IMDb 7.6",
+      "imdbRating": "7.6",
+      "trailers": [
+        {
+          "source": "pCVB13sFJ8w",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt4975722",
       "type": "movie",
       "name": "Moonlight",
@@ -3030,6 +3175,16 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt15250526",
+      "type": "movie",
+      "name": "Luccica",
+      "poster": "https://image.tmdb.org/t/p/w185/p3oSugbPQaZaEfLOxGa3zgWzNhW.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Limited theatrical • NR"
     },
     {
       "id": "tt43685260",
@@ -6887,6 +7042,26 @@
       ]
     },
     {
+      "id": "tt36980182",
+      "type": "movie",
+      "name": "The Incomer",
+      "poster": "https://image.tmdb.org/t/p/w185/QSHsgR6ZTAbnDkHjRhaxkL3caj.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 25, 2026 • Theatrical • R • IMDb 7.5",
+      "imdbRating": "7.5",
+      "trailers": [
+        {
+          "source": "vJ6TSvmnUEE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt39150234",
       "type": "movie",
       "name": "The History of Concrete",
@@ -8640,7 +8815,7 @@
       "id": "tt31214005",
       "type": "movie",
       "name": "Good Sport",
-      "poster": "https://image.tmdb.org/t/p/w185/5jiois5LOpV1qrcxMKWDpax089q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/1JEOuqm1IID2Yv6bEGJB0I8TySN.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy"
@@ -8864,6 +9039,26 @@
       "releaseInfo": "2026",
       "description": "US release: September 21, 2026 • Premiere • NR • IMDb 7.0",
       "imdbRating": "7.0"
+    },
+    {
+      "id": "tt28766782",
+      "type": "movie",
+      "name": "What Happened to Doris?",
+      "poster": "https://image.tmdb.org/t/p/w185/umSN8hRPvWxAHdTx4ZuTmT1BZlG.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 20, 2026 • Premiere • R • IMDb 5.7",
+      "imdbRating": "5.7",
+      "trailers": [
+        {
+          "source": "4qSjCu3RvJw",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt38128726",
@@ -9760,6 +9955,20 @@
       "releaseInfo": "2026",
       "description": "US release: September 18, 2026 • Theatrical • NR • IMDb 7.2",
       "imdbRating": "7.2"
+    },
+    {
+      "id": "tt33298658",
+      "type": "movie",
+      "name": "Upiro",
+      "poster": "https://image.tmdb.org/t/p/w185/xaZrc3mPhKMbmr8Rl5EGKZghZbz.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 18, 2026 • Premiere • NR • IMDb 6.8",
+      "imdbRating": "6.8"
     },
     {
       "id": "tt12824754",
@@ -11171,6 +11380,19 @@
       "releaseInfo": "2026",
       "description": "US release: September 17, 2026 • Premiere • NR • IMDb 5.8",
       "imdbRating": "5.8"
+    },
+    {
+      "id": "tt39465613",
+      "type": "movie",
+      "name": "First They Came for My College",
+      "poster": "https://image.tmdb.org/t/p/w185/vw7kbBasPpc3fGwuDceZNAvznsG.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 17, 2026 • Limited theatrical • NR • IMDb 8.2",
+      "imdbRating": "8.2"
     },
     {
       "id": "tt36173361",
