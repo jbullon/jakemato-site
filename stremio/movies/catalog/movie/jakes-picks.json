@@ -11,7 +11,7 @@
         "Action",
         "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: Wolf Creek 2, Hatchet III, Green Room • IMDb 7.5",
+      "description": "Jake's Picks • Adjacent to: Wolf Creek 2, Hatchet III, Hatchet II • IMDb 7.5",
       "releaseInfo": "2007",
       "imdbRating": "7.5"
     },
@@ -29,6 +29,20 @@
       "description": "Jake's Picks • Adjacent to: The Texas Chain Saw Massacre, Funny Games, Martyrs • IMDb 6.2",
       "releaseInfo": "2010",
       "imdbRating": "6.2"
+    },
+    {
+      "id": "tt9177040",
+      "type": "movie",
+      "name": "Trick",
+      "poster": "https://image.tmdb.org/t/p/w185/vxo4qqrhz61SnAUtlHIbYPzZoBU.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Hills Have Eyes, Terrifier, The Texas Chainsaw Massacre: The Beginning • IMDb 5.0",
+      "releaseInfo": "2019",
+      "imdbRating": "5.0"
     },
     {
       "id": "tt22375054",
@@ -60,33 +74,6 @@
       "imdbRating": "5.5"
     },
     {
-      "id": "tt0251736",
-      "type": "movie",
-      "name": "House of 1000 Corpses",
-      "poster": "https://image.tmdb.org/t/p/w185/29c2qgXmSREosLBevOILEuMWzQC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: Evil Dead, The Texas Chain Saw Massacre, The Human Centipede (First Sequence) • IMDb 6.0",
-      "releaseInfo": "2003",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt9177040",
-      "type": "movie",
-      "name": "Trick",
-      "poster": "https://image.tmdb.org/t/p/w185/vxo4qqrhz61SnAUtlHIbYPzZoBU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Hills Have Eyes, Terrifier, The Texas Chainsaw Massacre: The Beginning • IMDb 5.0",
-      "releaseInfo": "2019",
-      "imdbRating": "5.0"
-    },
-    {
       "id": "tt34793095",
       "type": "movie",
       "name": "Play Dead",
@@ -111,6 +98,19 @@
       ],
       "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre: The Beginning, Funny Games, The Texas Chainsaw Massacre • IMDb 6.0",
       "releaseInfo": "2019",
+      "imdbRating": "6.0"
+    },
+    {
+      "id": "tt0251736",
+      "type": "movie",
+      "name": "House of 1000 Corpses",
+      "poster": "https://image.tmdb.org/t/p/w185/29c2qgXmSREosLBevOILEuMWzQC.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Evil Dead, The Texas Chain Saw Massacre, The Human Centipede (First Sequence) • IMDb 6.0",
+      "releaseInfo": "2003",
       "imdbRating": "6.0"
     },
     {
@@ -141,18 +141,18 @@
       "imdbRating": "6.9"
     },
     {
-      "id": "tt0082495",
+      "id": "tt0844479",
       "type": "movie",
-      "name": "Halloween II",
-      "poster": "https://image.tmdb.org/t/p/w185/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+      "name": "The Collector",
+      "poster": "https://image.tmdb.org/t/p/w185/e33HSokiAxhj8ptpAr2xAU4jnd8.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, Texas Chainsaw Massacre, Wolf Creek 2 • IMDb 6.5",
-      "releaseInfo": "1981",
-      "imdbRating": "6.5"
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, Hatchet II, Hatchet III • IMDb 6.3",
+      "releaseInfo": "2009",
+      "imdbRating": "6.3"
     },
     {
       "id": "tt0489270",
@@ -170,33 +170,32 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0844479",
+      "id": "tt0082495",
       "type": "movie",
-      "name": "The Collector",
-      "poster": "https://image.tmdb.org/t/p/w185/e33HSokiAxhj8ptpAr2xAU4jnd8.jpg",
+      "name": "Halloween II",
+      "poster": "https://image.tmdb.org/t/p/w185/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, Hatchet III, Hatchet II • IMDb 6.3",
-      "releaseInfo": "2009",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, Texas Chainsaw Massacre, Wolf Creek 2 • IMDb 6.5",
+      "releaseInfo": "1981",
+      "imdbRating": "6.5"
     },
     {
-      "id": "tt12300742",
+      "id": "tt2103217",
       "type": "movie",
-      "name": "Bugonia",
-      "poster": "https://image.tmdb.org/t/p/w185/18Kbb0qeCxwzna0W6a9gEMZuizF.jpg",
+      "name": "Maniac",
+      "poster": "https://image.tmdb.org/t/p/w185/nbDkRvhmbYnHDXkoq0sF0PLeo8j.jpg",
       "posterShape": "poster",
       "genres": [
-        "Science Fiction",
-        "Thriller",
-        "Comedy"
+        "Horror",
+        "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: This Is the End, Don't Look Up, District 9 • IMDb 7.4",
-      "releaseInfo": "2025",
-      "imdbRating": "7.4"
+      "description": "Jake's Picks • Adjacent to: Hostel, The Human Centipede (First Sequence), Martyrs • IMDb 6.1",
+      "releaseInfo": "2012",
+      "imdbRating": "6.1"
     },
     {
       "id": "tt1763264",
@@ -213,60 +212,18 @@
       "imdbRating": "6.0"
     },
     {
-      "id": "tt2461520",
+      "id": "tt3445580",
       "type": "movie",
-      "name": "Man Down",
-      "poster": "https://image.tmdb.org/t/p/w185/6sv6YqD7CPbk1Wn7ayq5zosPeCi.jpg",
+      "name": "Boys in the Trees",
+      "poster": "https://image.tmdb.org/t/p/w185/nZzSxliBkqVqRaXKCnQVr59VcNt.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
         "Drama",
-        "War"
+        "Horror",
+        "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Threads • IMDb 6.0",
+      "description": "Jake's Picks • Adjacent to: Midsommar • IMDb 6.3",
       "releaseInfo": "2016",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt1850418",
-      "type": "movie",
-      "name": "To Write Love on Her Arms",
-      "poster": "https://image.tmdb.org/t/p/w185/naQRUuVa4j0uIrgxACIeFlwgKSn.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Music"
-      ],
-      "description": "Jake's Picks • Adjacent to: Requiem for a Dream • IMDb 6.5",
-      "releaseInfo": "2015",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt0348333",
-      "type": "movie",
-      "name": "Waiting...",
-      "poster": "https://image.tmdb.org/t/p/w185/h3NJDiaaliUH35ApXPu8PFKZwWz.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Office Space • IMDb 6.7",
-      "releaseInfo": "2005",
-      "imdbRating": "6.7"
-    },
-    {
-      "id": "tt1836944",
-      "type": "movie",
-      "name": "The Baytown Outlaws",
-      "poster": "https://image.tmdb.org/t/p/w185/oevsox25ZnoUBms45KARDs8epmg.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: Pineapple Express • IMDb 6.3",
-      "releaseInfo": "2012",
       "imdbRating": "6.3"
     },
     {
@@ -284,80 +241,120 @@
       "imdbRating": "6.8"
     },
     {
-      "id": "tt9352178",
+      "id": "tt20315818",
       "type": "movie",
-      "name": "The Primevals",
-      "poster": "https://image.tmdb.org/t/p/w185/mGfRWFJEybNVxxJUa9hYk8VQJFC.jpg",
+      "name": "Ezra",
+      "poster": "https://image.tmdb.org/t/p/w185/uXSajviZLZhYUSNL41y1PJ9RisB.jpg",
       "posterShape": "poster",
       "genres": [
-        "Science Fiction",
-        "Fantasy",
-        "Adventure"
+        "Comedy",
+        "Drama"
       ],
-      "description": "Jake's Picks • Adjacent to: Predator • IMDb 5.8",
-      "releaseInfo": "2023",
-      "imdbRating": "5.8"
+      "description": "Jake's Picks • Adjacent to: Little Miss Sunshine • IMDb 6.5",
+      "releaseInfo": "2024",
+      "imdbRating": "6.5"
     },
     {
-      "id": "tt8530978",
+      "id": "tt4560436",
       "type": "movie",
-      "name": "Beats",
-      "poster": "https://image.tmdb.org/t/p/w185/b8P13nIvkkizVBzd2RpegsRt5zP.jpg",
+      "name": "Mile 22",
+      "poster": "https://image.tmdb.org/t/p/w185/2L8ehd95eSW9x7KINYtZmRkAlrZ.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Music"
-      ],
-      "description": "Jake's Picks • Adjacent to: Whiplash • IMDb 6.4",
-      "releaseInfo": "2019",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt0227984",
-      "type": "movie",
-      "name": "The 51st State",
-      "poster": "https://image.tmdb.org/t/p/w185/aYlrGirWrRCTU1PF6Svghn1EMAc.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
         "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Jake's Picks • Adjacent to: Pineapple Express • IMDb 6.3",
-      "releaseInfo": "2001",
-      "imdbRating": "6.3"
-    },
-    {
-      "id": "tt5076792",
-      "type": "movie",
-      "name": "Trash Fire",
-      "poster": "https://image.tmdb.org/t/p/w185/7JH49NYwWTV2U1foK06KKXYllmm.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Horror",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.8",
-      "releaseInfo": "2016",
+      "description": "Jake's Picks • Adjacent to: The Interview • IMDb 6.1",
+      "releaseInfo": "2018",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt0120804",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w185/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "description": "Jake's Picks • Adjacent to: District 9 • IMDb 6.6",
+      "releaseInfo": "2002",
+      "imdbRating": "6.6"
+    },
+    {
+      "id": "tt1713476",
+      "type": "movie",
+      "name": "The Bay",
+      "poster": "https://image.tmdb.org/t/p/w185/fnmYgr4AOOE09zKa7omPW1FWT8K.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: District 9 • IMDb 5.7",
+      "releaseInfo": "2012",
+      "imdbRating": "5.7"
+    },
+    {
+      "id": "tt1778304",
+      "type": "movie",
+      "name": "Paranormal Activity 3",
+      "poster": "https://image.tmdb.org/t/p/w185/9nYranPiWdNmbD5PRPPSL7VUFTS.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "description": "Jake's Picks • Adjacent to: Evil Dead Rise • IMDb 5.8",
+      "releaseInfo": "2011",
       "imdbRating": "5.8"
     },
     {
-      "id": "tt2402157",
+      "id": "tt0097243",
       "type": "movie",
-      "name": "The November Man",
-      "poster": "https://image.tmdb.org/t/p/w185/4ejNFbCgLMDAuy7jFQmc7cr6UAW.jpg",
+      "name": "A Dry White Season",
+      "poster": "https://image.tmdb.org/t/p/w185/6Wx9oZ7WUoootNLv70EDq6nyDqW.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: Whiplash • IMDb 7.0",
+      "releaseInfo": "1989",
+      "imdbRating": "7.0"
+    },
+    {
+      "id": "tt0145660",
+      "type": "movie",
+      "name": "Austin Powers: The Spy Who Shagged Me",
+      "poster": "https://image.tmdb.org/t/p/w185/jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: Airplane! • IMDb 6.7",
+      "releaseInfo": "1999",
+      "imdbRating": "6.7"
+    },
+    {
+      "id": "tt29028515",
+      "type": "movie",
+      "name": "Wasteman",
+      "poster": "https://image.tmdb.org/t/p/w185/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
       "posterShape": "poster",
       "genres": [
         "Crime",
-        "Action",
+        "Drama",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Interview • IMDb 6.3",
-      "releaseInfo": "2014",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: Requiem for a Dream • IMDb 7.2",
+      "releaseInfo": "2026",
+      "imdbRating": "7.2"
     }
   ]
 }
