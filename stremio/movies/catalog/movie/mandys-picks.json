@@ -28,6 +28,22 @@
       "imdbRating": "5.4"
     },
     {
+      "id": "tt0063442",
+      "type": "movie",
+      "name": "Planet of the Apes",
+      "poster": "https://image.tmdb.org/t/p/w185/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Drama",
+        "Action"
+      ],
+      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 8.0",
+      "releaseInfo": "1968",
+      "imdbRating": "8.0"
+    },
+    {
       "id": "tt0246464",
       "type": "movie",
       "name": "Big Trouble",
@@ -39,21 +55,6 @@
       ],
       "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.4",
       "releaseInfo": "2002",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt2239822",
-      "type": "movie",
-      "name": "Valerian and the City of a Thousand Planets",
-      "poster": "https://image.tmdb.org/t/p/w185/vlc95gl3PtrjxSEuM8RhTtSm2xU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Adventure",
-        "Science Fiction",
-        "Action"
-      ],
-      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 6.4",
-      "releaseInfo": "2017",
       "imdbRating": "6.4"
     },
     {
@@ -103,7 +104,7 @@
       "id": "tt0280778",
       "type": "movie",
       "name": "Iris",
-      "poster": "https://image.tmdb.org/t/p/w185/sm1ve46SuxDVywnvVEg2XvhvlK8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/yheTJ4f7Qlw96GdBjSj6FidvEZg.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -212,19 +213,6 @@
       "imdbRating": "7.3"
     },
     {
-      "id": "tt0093748",
-      "type": "movie",
-      "name": "Planes, Trains and Automobiles",
-      "poster": "https://image.tmdb.org/t/p/w185/fwi2cET87xArJCb8MdbWq2BZO3n.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Mandys Picks • Adjacent to: Dumb and Dumber, Talladega Nights: The Ballad of Ricky Bobby • IMDb 7.6",
-      "releaseInfo": "1987",
-      "imdbRating": "7.6"
-    },
-    {
       "id": "tt1621045",
       "type": "movie",
       "name": "Think Like a Man",
@@ -239,6 +227,19 @@
       "imdbRating": "6.5"
     },
     {
+      "id": "tt0093748",
+      "type": "movie",
+      "name": "Planes, Trains and Automobiles",
+      "poster": "https://image.tmdb.org/t/p/w185/fwi2cET87xArJCb8MdbWq2BZO3n.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Dumb and Dumber, Talladega Nights: The Ballad of Ricky Bobby • IMDb 7.6",
+      "releaseInfo": "1987",
+      "imdbRating": "7.6"
+    },
+    {
       "id": "tt0080339",
       "type": "movie",
       "name": "Airplane!",
@@ -250,6 +251,20 @@
       "description": "Mandys Picks • Adjacent to: Talladega Nights: The Ballad of Ricky Bobby, Dumb and Dumber • IMDb 7.7",
       "releaseInfo": "1980",
       "imdbRating": "7.7"
+    },
+    {
+      "id": "tt1086772",
+      "type": "movie",
+      "name": "Blended",
+      "poster": "https://image.tmdb.org/t/p/w185/o2YrH9jS7CAfWjETHFeL0tth79E.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: Because I Said So • IMDb 6.5",
+      "releaseInfo": "2014",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt4560436",
@@ -307,18 +322,18 @@
       "imdbRating": "6.7"
     },
     {
-      "id": "tt1457767",
+      "id": "tt0245674",
       "type": "movie",
-      "name": "The Conjuring",
-      "poster": "https://image.tmdb.org/t/p/w185/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "name": "Thir13en Ghosts",
+      "poster": "https://image.tmdb.org/t/p/w185/6yrrddjIjx0ElCRZp5pTZeqrj3k.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 7.5",
-      "releaseInfo": "2013",
-      "imdbRating": "7.5"
+      "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 5.7",
+      "releaseInfo": "2001",
+      "imdbRating": "5.7"
     },
     {
       "id": "tt3445580",
@@ -552,21 +567,6 @@
       "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.7",
       "releaseInfo": "2015",
       "imdbRating": "7.7"
-    },
-    {
-      "id": "tt0491152",
-      "type": "movie",
-      "name": "Something Borrowed",
-      "poster": "https://image.tmdb.org/t/p/w185/66VZu75VeLGc6tcAypqyGzWcPeN.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: He's Just Not That Into You • IMDb 5.8",
-      "releaseInfo": "2011",
-      "imdbRating": "5.8"
     }
   ]
 }
