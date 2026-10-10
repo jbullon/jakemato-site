@@ -272,6 +272,41 @@
       "imdbRating": "6.8"
     },
     {
+      "id": "tt34718200",
+      "type": "movie",
+      "name": "The Debut",
+      "poster": "https://image.tmdb.org/t/p/w185/5CZdxLiBpYMBXwo0rur6YzZTVP4.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Music",
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 7.8",
+      "imdbRating": "7.8",
+      "trailers": [
+        {
+          "source": "clyzHmBx43E",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt22183852",
+      "type": "movie",
+      "name": "Tangles",
+      "poster": "https://image.tmdb.org/t/p/w185/agQGw5Cux2CYaxI8UHlLbta2bgw.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 7.8",
+      "imdbRating": "7.8"
+    },
+    {
       "id": "tt34381576",
       "type": "movie",
       "name": "Sunshine",
@@ -526,6 +561,25 @@
       ]
     },
     {
+      "id": "tt36107185",
+      "type": "movie",
+      "name": "La Gradiva",
+      "poster": "https://image.tmdb.org/t/p/w185/y6AkOgTEPM9nTJUOeyvHqlf6Bgp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 7.4",
+      "imdbRating": "7.4",
+      "trailers": [
+        {
+          "source": "5yY6V9MbEoE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt35511966",
       "type": "movie",
       "name": "LA BOLA NEGRA",
@@ -552,7 +606,9 @@
       "poster": "https://image.tmdb.org/t/p/w185/aXNm7mgW22mxCSwSV7i7GHjy6Ga.jpg",
       "posterShape": "poster",
       "genres": [
-        "Animation"
+        "Animation",
+        "Drama",
+        "Family"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 10, 2026 • Premiere • NR • IMDb 7.8",
@@ -666,27 +722,6 @@
       ]
     },
     {
-      "id": "tt39328391",
-      "type": "movie",
-      "name": "Coward",
-      "poster": "https://image.tmdb.org/t/p/w185/jhBDAdVy7qPglzcBsPDMJXQ9Cls.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Romance",
-        "War"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 7.3",
-      "imdbRating": "7.3",
-      "trailers": [
-        {
-          "source": "vyRlBGfVlvQ",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt38058097",
       "type": "movie",
       "name": "Club Kid",
@@ -770,19 +805,6 @@
       ]
     },
     {
-      "id": "tt38220998",
-      "type": "movie",
-      "name": "A Long Winter",
-      "poster": "https://image.tmdb.org/t/p/w185/wj4CICdz6ikL37KzFG3D5MNk4LC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 6.5",
-      "imdbRating": "6.5"
-    },
-    {
       "id": "tt30235784",
       "type": "movie",
       "name": "Winter of the Crow",
@@ -841,7 +863,7 @@
       "id": "tt0128801",
       "type": "movie",
       "name": "Under Wraps",
-      "poster": "https://image.tmdb.org/t/p/w185/wgq6xA57hLo6c7vCDClUKs8kpQk.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/zKcBCoesWRrgmaK4i0GEkvZFPVy.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
@@ -990,27 +1012,6 @@
       ]
     },
     {
-      "id": "tt34718200",
-      "type": "movie",
-      "name": "The Debut",
-      "poster": "https://image.tmdb.org/t/p/w185/5CZdxLiBpYMBXwo0rur6YzZTVP4.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Music",
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 9, 2026 • Premiere • NR • IMDb 7.8",
-      "imdbRating": "7.8",
-      "trailers": [
-        {
-          "source": "clyzHmBx43E",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt43623536",
       "type": "movie",
       "name": "The Beast in the Cave",
@@ -1123,6 +1124,19 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 9, 2026 • Digital • NR"
+    },
+    {
+      "id": "tt47657999",
+      "type": "movie",
+      "name": "Reporting Live",
+      "poster": "https://image.tmdb.org/t/p/w185/7Ncfrt43mLLFB8yWcWON8imHr0Q.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 9, 2026 • Digital • PG-13"
     },
     {
       "id": "tt40902212",
@@ -1279,10 +1293,11 @@
       "id": "tt47736883",
       "type": "movie",
       "name": "Olivia Rodrigo: Austin City Limits",
-      "poster": "https://image.tmdb.org/t/p/w185/mJADQhTL0sycprAzQEDMbSTNF6S.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5XwUKihQc91vRST0yNFZG0EMPeC.jpg",
       "posterShape": "poster",
       "genres": [
-        "Music"
+        "Music",
+        "Documentary"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 9, 2026 • Digital • NR"
@@ -2009,24 +2024,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 8, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt35554261",
-      "type": "movie",
-      "name": "The Fish Don't Care When It Rains",
-      "poster": "https://image.tmdb.org/t/p/w185/lIFrNtXCu2glClQMFtFx65XWK8a.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 8, 2026 • Theatrical • NR",
-      "trailers": [
-        {
-          "source": "5qtGNv1VEfM",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt38785098",
@@ -3518,6 +3515,19 @@
       "description": "US release: October 4, 2026 • Premiere • NR"
     },
     {
+      "id": "tt39570084",
+      "type": "movie",
+      "name": "Landscapes of Memory",
+      "poster": "https://image.tmdb.org/t/p/w185/vBK2nPHDH7xwyckk1fiU73XqRkp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 4, 2026 • Premiere • NR • IMDb 7.6",
+      "imdbRating": "7.6"
+    },
+    {
       "id": "tt43626878",
       "type": "movie",
       "name": "Lab Rat",
@@ -4059,25 +4069,6 @@
       "description": "US release: October 3, 2026 • Premiere • NR"
     },
     {
-      "id": "tt36107185",
-      "type": "movie",
-      "name": "La Gradiva",
-      "poster": "https://image.tmdb.org/t/p/w185/y6AkOgTEPM9nTJUOeyvHqlf6Bgp.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.4",
-      "imdbRating": "7.4",
-      "trailers": [
-        {
-          "source": "5yY6V9MbEoE",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt32347068",
       "type": "movie",
       "name": "Kiss and Be Friends",
@@ -4096,20 +4087,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt32350757",
-      "type": "movie",
-      "name": "Jasmine That Blooms in Autumn",
-      "poster": "https://image.tmdb.org/t/p/w185/34ctQQDeeAyOJqTxQl0ECWFiAnu.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 8.1",
-      "imdbRating": "8.1"
     },
     {
       "id": "tt37967547",
@@ -4366,19 +4343,6 @@
       "imdbRating": "7.3"
     },
     {
-      "id": "tt39371367",
-      "type": "movie",
-      "name": "Be My Baby",
-      "poster": "https://image.tmdb.org/t/p/w185/ay2TmnZ6me1W0IaulUlBgyWuUDn.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 3, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt42195273",
       "type": "movie",
       "name": "Bagman",
@@ -4390,6 +4354,26 @@
       "releaseInfo": "2026",
       "description": "US release: October 3, 2026 • Premiere • NR • IMDb 7.1",
       "imdbRating": "7.1"
+    },
+    {
+      "id": "tt36789083",
+      "type": "movie",
+      "name": "Atonement",
+      "poster": "https://image.tmdb.org/t/p/w185/pOVdATDlYfPimHCDgI42LGHCKf9.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 3, 2026 • Premiere • NR • IMDb 6.4",
+      "imdbRating": "6.4",
+      "trailers": [
+        {
+          "source": "RBhp78Xt01w",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt30460036",
@@ -4713,7 +4697,13 @@
         "Action"
       ],
       "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Digital • NR"
+      "description": "US release: October 2, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "WWtWBqDTgC8",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt33038782",
@@ -5550,26 +5540,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 2, 2026 • Theatrical • NR • IMDb 7.2",
       "imdbRating": "7.2"
-    },
-    {
-      "id": "tt36789083",
-      "type": "movie",
-      "name": "Atonement",
-      "poster": "https://image.tmdb.org/t/p/w185/pOVdATDlYfPimHCDgI42LGHCKf9.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "War",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Limited theatrical • NR • IMDb 6.4",
-      "imdbRating": "6.4",
-      "trailers": [
-        {
-          "source": "RBhp78Xt01w",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt41862952",
@@ -7543,6 +7513,25 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: September 27, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt34751281",
+      "type": "movie",
+      "name": "Matrescence",
+      "poster": "https://image.tmdb.org/t/p/w185/dq868QaOlpIncna3VCKbI14DTUR.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 27, 2026 • Premiere • NR • IMDb 6.6",
+      "imdbRating": "6.6",
+      "trailers": [
+        {
+          "source": "uMXvq9zrdY8",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt42577138",
@@ -14035,6 +14024,24 @@
       ]
     },
     {
+      "id": "tt37790651",
+      "type": "movie",
+      "name": "Gluten is a Joke",
+      "poster": "https://image.tmdb.org/t/p/w185/AtTuSklvQ00QnjBE8cTal4X1xKM.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: September 12, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "gpe4HnpKLxA",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt0203905",
       "type": "movie",
       "name": "Exit Only",
@@ -14504,7 +14511,7 @@
       "id": "tt35448218",
       "type": "movie",
       "name": "Epic - First Semester",
-      "poster": "https://image.tmdb.org/t/p/w185/vqt0fIHy8dkSpUtVcrN1NaaANl8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/pXf3VlwaCgxvS7kvQlQ3QBwjZpy.jpg",
       "posterShape": "poster",
       "genres": [
         "Romance",
