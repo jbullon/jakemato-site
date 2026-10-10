@@ -655,6 +655,27 @@
       ]
     },
     {
+      "id": "tt39328391",
+      "type": "movie",
+      "name": "Coward",
+      "poster": "https://image.tmdb.org/t/p/w185/jhBDAdVy7qPglzcBsPDMJXQ9Cls.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 14, 2026 • Premiere • NR • IMDb 7.3",
+      "imdbRating": "7.3",
+      "trailers": [
+        {
+          "source": "vyRlBGfVlvQ",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt32358921",
       "type": "movie",
       "name": "Dao",
@@ -1191,10 +1212,10 @@
       "poster": "https://image.tmdb.org/t/p/w185/z66BFw33Gdla0dQATHxS2jC6YNo.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Horror",
         "Action",
-        "Adventure"
+        "Adventure",
+        "Comedy",
+        "Horror"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 15, 2026 • Premiere • NR",
@@ -1666,10 +1687,31 @@
       ]
     },
     {
+      "id": "tt32268992",
+      "type": "movie",
+      "name": "Sacrifice",
+      "poster": "https://image.tmdb.org/t/p/w185/SGH7mlgfDyGgRCi2At62Ljg3zV.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Action"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 16, 2026 • Digital • R • IMDb 5.1",
+      "imdbRating": "5.1",
+      "trailers": [
+        {
+          "source": "u5qW1gMMSVI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt13609648",
       "type": "movie",
       "name": "Sense and Sensibility",
-      "poster": "https://image.tmdb.org/t/p/w185/p1vgrJqcZMppdRZ2eoHIlpdTltA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -2844,6 +2886,26 @@
       ]
     },
     {
+      "id": "tt34890576",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w185/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 23, 2026 • Theatrical • R",
+      "trailers": [
+        {
+          "source": "KCR-rz0YfD4",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt32986823",
       "type": "movie",
       "name": "DISC",
@@ -2877,6 +2939,25 @@
       "trailers": [
         {
           "source": "Q7U2SG3Z9fc",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt27786691",
+      "type": "movie",
+      "name": "Going for Two",
+      "poster": "https://image.tmdb.org/t/p/w185/mGnLadfXJ81EVKFLqFewdN00D7c.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 23, 2026 • Theatrical • PG-13",
+      "trailers": [
+        {
+          "source": "cz3zRukx3-E",
           "type": "Trailer"
         }
       ]
@@ -4019,6 +4100,24 @@
       ]
     },
     {
+      "id": "tt44825373",
+      "type": "movie",
+      "name": "SCTV: The Greatest Show You've Never Heard Of",
+      "poster": "https://image.tmdb.org/t/p/w185/dSp528gsiCTMEth1DrJcxIXBXim.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 30, 2026 • Digital • R",
+      "trailers": [
+        {
+          "source": "24skSoZsJv0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt44147815",
       "type": "movie",
       "name": "Sundown",
@@ -4134,6 +4233,25 @@
       "trailers": [
         {
           "source": "9JjiD-MFtLU",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt38234667",
+      "type": "movie",
+      "name": "DOUEN",
+      "poster": "https://image.tmdb.org/t/p/w185/d9YCYrALafv57nrFfaAToQDQk2M.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Premiere • PG-13",
+      "trailers": [
+        {
+          "source": "Cd1On__bV2s",
           "type": "Trailer"
         }
       ]
@@ -4871,40 +4989,6 @@
       ]
     },
     {
-      "id": "tt47087012",
-      "type": "movie",
-      "name": "The Brownsburg Conversations",
-      "poster": "https://image.tmdb.org/t/p/w185/tDnALHAvFDQtCQJ2hTbigABAfnY.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: November 12, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "crzcR1b3ZZ8",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt44872039",
-      "type": "movie",
-      "name": "American Amazon",
-      "poster": "https://image.tmdb.org/t/p/w185/iXEjoGWBRzInoSkGnTLGeuARV79.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 13, 2026 • Limited theatrical • NR",
-      "trailers": [
-        {
-          "source": "FytNn_9GP-Q",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt38773219",
       "type": "movie",
       "name": "Ebenezer",
@@ -4977,66 +5061,6 @@
       "trailers": [
         {
           "source": "MVvWKh336m4",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt42725902",
-      "type": "movie",
-      "name": "Moral",
-      "poster": "https://image.tmdb.org/t/p/w185/qHbAaFFVNjxpkltVBFpAWjHOp48.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Family",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 13, 2026 • Digital • PG-13",
-      "trailers": [
-        {
-          "source": "eVMzwW4hEnc",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt33320647",
-      "type": "movie",
-      "name": "Plucked",
-      "poster": "https://image.tmdb.org/t/p/w185/yqhpJ3JXXrycbFSyzEb5FmapcXo.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 13, 2026 • Limited theatrical • R • IMDb 5.1",
-      "imdbRating": "5.1",
-      "trailers": [
-        {
-          "source": "UM4P4O2PGvs",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt29730964",
-      "type": "movie",
-      "name": "Search Party: Where's PawPaw?",
-      "poster": "https://image.tmdb.org/t/p/w185/5nqQ3waPLLMVdNKtVgp4QPNbvGS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Adventure",
-        "Mystery",
-        "Comedy",
-        "Family"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 13, 2026 • Theatrical • PG",
-      "trailers": [
-        {
-          "source": "DZPMP3vDGVk",
           "type": "Trailer"
         }
       ]
@@ -5307,7 +5331,7 @@
       "id": "tt36408401",
       "type": "movie",
       "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "poster": "https://image.tmdb.org/t/p/w185/6aS1fKh5Z8Vf9n7wWtVAe86BHVG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/9glmVprB6L0yrNsG5aocW6FYLyL.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -5472,6 +5496,24 @@
       "trailers": [
         {
           "source": "1G5LArU7tmE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt42439639",
+      "type": "movie",
+      "name": "Royal Puppies for Christmas",
+      "poster": "https://image.tmdb.org/t/p/w185/2vKsm4J6KCDLtrfbcDsyafobRPs.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 4, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "sw2-UyTqiC0",
           "type": "Trailer"
         }
       ]
