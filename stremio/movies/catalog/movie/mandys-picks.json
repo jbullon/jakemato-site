@@ -90,20 +90,6 @@
       "imdbRating": "7.0"
     },
     {
-      "id": "tt22740896",
-      "type": "movie",
-      "name": "People We Meet on Vacation",
-      "poster": "https://image.tmdb.org/t/p/w185/peG6482ALJQ9Tbvv2P38BquVk0f.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: 50 First Dates • IMDb 6.6",
-      "releaseInfo": "2026",
-      "imdbRating": "6.6"
-    },
-    {
       "id": "tt0137523",
       "type": "movie",
       "name": "Fight Club",
@@ -318,20 +304,6 @@
       "imdbRating": "6.7"
     },
     {
-      "id": "tt14814040",
-      "type": "movie",
-      "name": "Not Okay",
-      "poster": "https://image.tmdb.org/t/p/w185/x1q3FkqFHBkMeKnHiS6GYgdLvUs.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 6.1",
-      "releaseInfo": "2022",
-      "imdbRating": "6.1"
-    },
-    {
       "id": "tt0787475",
       "type": "movie",
       "name": "Hot Rod",
@@ -463,18 +435,17 @@
       "imdbRating": "6.7"
     },
     {
-      "id": "tt1423894",
+      "id": "tt32221196",
       "type": "movie",
-      "name": "Barney's Version",
-      "poster": "https://image.tmdb.org/t/p/w185/vdsSaFbBWl8N6RV2XJuPBFyKeV8.jpg",
+      "name": "One of Them Days",
+      "poster": "https://image.tmdb.org/t/p/w185/ccn6bFUA5DECjA3Lo0CuJqGNQCv.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama"
+        "Comedy"
       ],
-      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 7.3",
-      "releaseInfo": "2010",
-      "imdbRating": "7.3"
+      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 6.4",
+      "releaseInfo": "2025",
+      "imdbRating": "6.4"
     },
     {
       "id": "tt2992552",
@@ -490,20 +461,6 @@
       "description": "Mandys Picks • Adjacent to: Threads • IMDb 4.4",
       "releaseInfo": "2014",
       "imdbRating": "4.4"
-    },
-    {
-      "id": "tt28073548",
-      "type": "movie",
-      "name": "Love Is in the Air",
-      "poster": "https://image.tmdb.org/t/p/w185/cAn1tvopkqATQ0AfV4LK08ReAvp.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "description": "Mandys Picks • Adjacent to: 50 First Dates • IMDb 5.6",
-      "releaseInfo": "2023",
-      "imdbRating": "5.6"
     },
     {
       "id": "tt8579674",
@@ -575,6 +532,47 @@
       "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 8.1",
       "releaseInfo": "1996",
       "imdbRating": "8.1"
+    },
+    {
+      "id": "tt1457767",
+      "type": "movie",
+      "name": "The Conjuring",
+      "poster": "https://image.tmdb.org/t/p/w185/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 7.5",
+      "releaseInfo": "2013",
+      "imdbRating": "7.5"
+    },
+    {
+      "id": "tt2191701",
+      "type": "movie",
+      "name": "Grown Ups 2",
+      "poster": "https://image.tmdb.org/t/p/w185/hT6ijOtjtYrnyDhN7VA2QWyGFAm.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 5.4",
+      "releaseInfo": "2013",
+      "imdbRating": "5.4"
+    },
+    {
+      "id": "tt0298130",
+      "type": "movie",
+      "name": "The Ring",
+      "poster": "https://image.tmdb.org/t/p/w185/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "description": "Mandys Picks • Adjacent to: Sinister • IMDb 7.1",
+      "releaseInfo": "2002",
+      "imdbRating": "7.1"
     }
   ]
 }
