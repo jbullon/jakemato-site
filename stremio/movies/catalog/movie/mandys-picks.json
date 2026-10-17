@@ -17,19 +17,18 @@
       "imdbRating": "5.5"
     },
     {
-      "id": "tt0116922",
+      "id": "tt0137523",
       "type": "movie",
-      "name": "Lost Highway",
-      "poster": "https://image.tmdb.org/t/p/w185/5POhfNeFPIi4VUNwCTaK85sh98r.jpg",
+      "name": "Fight Club",
+      "poster": "https://image.tmdb.org/t/p/w185/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "Thriller",
-        "Mystery"
+        "Thriller"
       ],
-      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 7.6",
-      "releaseInfo": "1997",
-      "imdbRating": "7.6"
+      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 8.8",
+      "releaseInfo": "1999",
+      "imdbRating": "8.8"
     },
     {
       "id": "tt3402138",
@@ -262,20 +261,6 @@
       "description": "Mandys Picks • Adjacent to: The Idea of You • IMDb 7.0",
       "releaseInfo": "2023",
       "imdbRating": "7.0"
-    },
-    {
-      "id": "tt8128276",
-      "type": "movie",
-      "name": "Ted K",
-      "poster": "https://image.tmdb.org/t/p/w185/wv9VeqVU4FXnG02mHXT2Vz43bQ7.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 6.0",
-      "releaseInfo": "2021",
-      "imdbRating": "6.0"
     },
     {
       "id": "tt0349169",
@@ -573,6 +558,22 @@
       "description": "Mandys Picks • Adjacent to: Talladega Nights: The Ballad of Ricky Bobby, Dumb and Dumber • IMDb 7.0",
       "releaseInfo": "2017",
       "imdbRating": "7.0"
+    },
+    {
+      "id": "tt0063442",
+      "type": "movie",
+      "name": "Planet of the Apes",
+      "poster": "https://image.tmdb.org/t/p/w185/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Drama",
+        "Action"
+      ],
+      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 8.0",
+      "releaseInfo": "1968",
+      "imdbRating": "8.0"
     }
   ]
 }
