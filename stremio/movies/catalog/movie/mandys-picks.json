@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt2848292",
+      "id": "tt9873892",
       "type": "movie",
-      "name": "Pitch Perfect 2",
-      "poster": "https://image.tmdb.org/t/p/w185/fQaEGzFmvTYu3G641WV0Tg9auAt.jpg",
+      "name": "They Cloned Tyrone",
+      "poster": "https://image.tmdb.org/t/p/w185/hnzXoDaK346U4ByfvQenu2DZnTg.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
-        "Music"
+        "Science Fiction",
+        "Mystery"
       ],
-      "description": "Mandys Picks • Adjacent to: Anchorman: The Legend of Ron Burgundy • IMDb 6.4",
-      "releaseInfo": "2015",
-      "imdbRating": "6.4"
+      "description": "Mandys Picks • Adjacent to: The Interview • IMDb 6.7",
+      "releaseInfo": "2023",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt0085995",
@@ -29,49 +30,18 @@
       "imdbRating": "7.3"
     },
     {
-      "id": "tt15398776",
+      "id": "tt15744298",
       "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w185/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "name": "Freelance",
+      "poster": "https://image.tmdb.org/t/p/w185/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "History",
-        "War"
+        "Action",
+        "Comedy"
       ],
-      "description": "Mandys Picks • Adjacent to: Threads • IMDb 8.2",
+      "description": "Mandys Picks • Adjacent to: The Interview • IMDb 5.6",
       "releaseInfo": "2023",
-      "imdbRating": "8.2"
-    },
-    {
-      "id": "tt20048582",
-      "type": "movie",
-      "name": "Canary Black",
-      "poster": "https://image.tmdb.org/t/p/w185/hhiR6uUbTYYvKoACkdAIQPS5c6f.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Interview • IMDb 5.4",
-      "releaseInfo": "2024",
-      "imdbRating": "5.4"
-    },
-    {
-      "id": "tt9669176",
-      "type": "movie",
-      "name": "Accident Man: Hitman's Holiday",
-      "poster": "https://image.tmdb.org/t/p/w185/8XF5EIDUOZv1p9orukdyERvv2Qn.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.9",
-      "releaseInfo": "2022",
-      "imdbRating": "5.9"
+      "imdbRating": "5.6"
     },
     {
       "id": "tt1172570",
@@ -89,6 +59,20 @@
       "imdbRating": "7.0"
     },
     {
+      "id": "tt1457767",
+      "type": "movie",
+      "name": "The Conjuring",
+      "poster": "https://image.tmdb.org/t/p/w185/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 7.5",
+      "releaseInfo": "2013",
+      "imdbRating": "7.5"
+    },
+    {
       "id": "tt2338424",
       "type": "movie",
       "name": "Tumbledown",
@@ -103,6 +87,34 @@
       "description": "Mandys Picks • Adjacent to: The Idea of You • IMDb 6.2",
       "releaseInfo": "2016",
       "imdbRating": "6.2"
+    },
+    {
+      "id": "tt13470094",
+      "type": "movie",
+      "name": "Never Back Down: Revolt",
+      "poster": "https://image.tmdb.org/t/p/w185/2tkwrelJopWtF75LYyXNzk494nL.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action"
+      ],
+      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 4.2",
+      "releaseInfo": "2021",
+      "imdbRating": "4.2"
+    },
+    {
+      "id": "tt0058213",
+      "type": "movie",
+      "name": "Hush... Hush, Sweet Charlotte",
+      "poster": "https://image.tmdb.org/t/p/w185/hwVGNaVXFblluLwUjGcJ7RgW1rV.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "description": "Mandys Picks • Adjacent to: Hereditary, Midsommar • IMDb 7.5",
+      "releaseInfo": "1964",
+      "imdbRating": "7.5"
     },
     {
       "id": "tt0384537",
@@ -133,21 +145,6 @@
       "imdbRating": "5.9"
     },
     {
-      "id": "tt1172571",
-      "type": "movie",
-      "name": "The Children",
-      "poster": "https://image.tmdb.org/t/p/w185/vTyc2ahe0qq7BVBlPD3L4zAl7WU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: Hereditary, Midsommar • IMDb 5.9",
-      "releaseInfo": "2008",
-      "imdbRating": "5.9"
-    },
-    {
       "id": "tt0056575",
       "type": "movie",
       "name": "That Touch of Mink",
@@ -160,6 +157,19 @@
       "description": "Mandys Picks • Adjacent to: 50 First Dates, How to Lose a Guy in 10 Days • IMDb 6.6",
       "releaseInfo": "1962",
       "imdbRating": "6.6"
+    },
+    {
+      "id": "tt0364725",
+      "type": "movie",
+      "name": "DodgeBall: A True Underdog Story",
+      "poster": "https://image.tmdb.org/t/p/w185/r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Anchorman: The Legend of Ron Burgundy, Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.7",
+      "releaseInfo": "2004",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt0491152",
@@ -177,47 +187,60 @@
       "imdbRating": "5.8"
     },
     {
-      "id": "tt4786282",
+      "id": "tt9224288",
       "type": "movie",
-      "name": "Lights Out",
-      "poster": "https://image.tmdb.org/t/p/w185/AjZXonSbqC3LdSr8xCUzMiQksrM.jpg",
+      "name": "Mainstream",
+      "poster": "https://image.tmdb.org/t/p/w185/9vTf02WXyldeKN4kfwZRwwI4XbG.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Mystery"
+        "Comedy",
+        "Drama"
       ],
-      "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 6.3",
-      "releaseInfo": "2016",
-      "imdbRating": "6.3"
+      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 5.1",
+      "releaseInfo": "2021",
+      "imdbRating": "5.1"
     },
     {
-      "id": "tt12300742",
+      "id": "tt14814040",
       "type": "movie",
-      "name": "Bugonia",
-      "poster": "https://image.tmdb.org/t/p/w185/rSdOua3wKMEaFWDcKAYWRjXQWOt.jpg",
+      "name": "Not Okay",
+      "poster": "https://image.tmdb.org/t/p/w185/x1q3FkqFHBkMeKnHiS6GYgdLvUs.jpg",
       "posterShape": "poster",
       "genres": [
-        "Science Fiction",
-        "Thriller",
+        "Comedy",
+        "Drama"
+      ],
+      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 6.1",
+      "releaseInfo": "2022",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt31868189",
+      "type": "movie",
+      "name": "Happy Gilmore 2",
+      "poster": "https://image.tmdb.org/t/p/w185/E3dPHPJigkXwuiE0n1vzz0se8a.jpg",
+      "posterShape": "poster",
+      "genres": [
         "Comedy"
       ],
-      "description": "Mandys Picks • Adjacent to: Triangle of Sadness • IMDb 7.4",
+      "description": "Mandys Picks • Adjacent to: Anchorman: The Legend of Ron Burgundy, Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.1",
       "releaseInfo": "2025",
-      "imdbRating": "7.4"
+      "imdbRating": "6.1"
     },
     {
-      "id": "tt3064298",
+      "id": "tt2205697",
       "type": "movie",
-      "name": "Man Up",
-      "poster": "https://image.tmdb.org/t/p/w185/tJskXY0qQcc21UzkGPyiGRKw2md.jpg",
+      "name": "Stuck in Love",
+      "poster": "https://image.tmdb.org/t/p/w185/byic4VFVrpPyjDWK54CcsxYWW85.jpg",
       "posterShape": "poster",
       "genres": [
-        "Romance",
-        "Comedy"
+        "Drama",
+        "Comedy",
+        "Romance"
       ],
-      "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 6.8",
-      "releaseInfo": "2015",
-      "imdbRating": "6.8"
+      "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 7.2",
+      "releaseInfo": "2013",
+      "imdbRating": "7.2"
     },
     {
       "id": "tt0471042",
@@ -264,19 +287,48 @@
       "imdbRating": "6.7"
     },
     {
-      "id": "tt2992552",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "Seal Team Eight: Behind Enemy Lines",
-      "poster": "https://image.tmdb.org/t/p/w185/fmI6cpKVpw9sDyDmcgXJcnyckww.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w185/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "description": "Mandys Picks • Adjacent to: Threads • IMDb 8.2",
+      "releaseInfo": "2023",
+      "imdbRating": "8.2"
+    },
+    {
+      "id": "tt3811906",
+      "type": "movie",
+      "name": "Malignant",
+      "poster": "https://image.tmdb.org/t/p/w185/dGv2BWjzwAz6LB8a8JeRIZL8hSz.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "description": "Mandys Picks • Adjacent to: Sinister • IMDb 6.2",
+      "releaseInfo": "2021",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt3766354",
+      "type": "movie",
+      "name": "The Equalizer 2",
+      "poster": "https://image.tmdb.org/t/p/w185/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
-        "War",
-        "Drama"
+        "Thriller",
+        "Crime"
       ],
-      "description": "Mandys Picks • Adjacent to: Threads • IMDb 4.4",
-      "releaseInfo": "2014",
-      "imdbRating": "4.4"
+      "description": "Mandys Picks • Adjacent to: The Interview • IMDb 6.7",
+      "releaseInfo": "2018",
+      "imdbRating": "6.7"
     },
     {
       "id": "tt3172532",
@@ -310,36 +362,6 @@
       "imdbRating": "7.0"
     },
     {
-      "id": "tt3387648",
-      "type": "movie",
-      "name": "The Taking of Deborah Logan",
-      "poster": "https://image.tmdb.org/t/p/w185/77i7EBUyQKOUiZeYQ5tWDGQb0AI.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: Sinister • IMDb 6.0",
-      "releaseInfo": "2014",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt6998518",
-      "type": "movie",
-      "name": "Mandy",
-      "poster": "https://image.tmdb.org/t/p/w185/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Fantasy",
-        "Action",
-        "Horror"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance, Kill Bill: Vol. 1 • IMDb 6.5",
-      "releaseInfo": "2018",
-      "imdbRating": "6.5"
-    },
-    {
       "id": "tt32063050",
       "type": "movie",
       "name": "Bridget Jones: Mad About the Boy",
@@ -355,6 +377,22 @@
       "imdbRating": "6.5"
     },
     {
+      "id": "tt9893250",
+      "type": "movie",
+      "name": "I Care a Lot",
+      "poster": "https://image.tmdb.org/t/p/w185/gKnhEsjNefpKnUdAkn7INzIFLSu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama",
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Parasite • IMDb 6.4",
+      "releaseInfo": "2021",
+      "imdbRating": "6.4"
+    },
+    {
       "id": "tt0080339",
       "type": "movie",
       "name": "Airplane!",
@@ -368,33 +406,63 @@
       "imdbRating": "7.7"
     },
     {
-      "id": "tt4504044",
+      "id": "tt0816556",
       "type": "movie",
-      "name": "The Prodigy",
-      "poster": "https://image.tmdb.org/t/p/w185/yyejodyk3lWncVjVhhrEkPctY9o.jpg",
+      "name": "Lake Mungo",
+      "poster": "https://image.tmdb.org/t/p/w185/5IaGu8r0t6bBaydkR6z9l9tJsCg.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "description": "Mandys Picks • Adjacent to: Sinister • IMDb 5.9",
-      "releaseInfo": "2019",
-      "imdbRating": "5.9"
+      "description": "Mandys Picks • Adjacent to: Sinister • IMDb 6.2",
+      "releaseInfo": "2009",
+      "imdbRating": "6.2"
     },
     {
-      "id": "tt1104001",
+      "id": "tt0929629",
       "type": "movie",
-      "name": "TRON: Legacy",
-      "poster": "https://image.tmdb.org/t/p/w185/xcO8Uun0mfmE3N9CaiCy0tvjpiu.jpg",
+      "name": "Stargate: Continuum",
+      "poster": "https://image.tmdb.org/t/p/w185/1rQUvblJHU8766FatqTtCMiRhph.jpg",
       "posterShape": "poster",
       "genres": [
-        "Adventure",
         "Action",
-        "Science Fiction"
+        "Adventure",
+        "Science Fiction",
+        "TV Movie"
       ],
-      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 6.8",
-      "releaseInfo": "2010",
-      "imdbRating": "6.8"
+      "description": "Mandys Picks • Adjacent to: Interstellar • IMDb 7.4",
+      "releaseInfo": "2008",
+      "imdbRating": "7.4"
+    },
+    {
+      "id": "tt10276470",
+      "type": "movie",
+      "name": "Work It",
+      "poster": "https://image.tmdb.org/t/p/w185/b5XfICAvUe8beWExBz97i0Qw4Qh.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 6.1",
+      "releaseInfo": "2020",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt0437086",
+      "type": "movie",
+      "name": "Alita: Battle Angel",
+      "poster": "https://image.tmdb.org/t/p/w185/xRWht48C2V8XNfzvPehyClOvDni.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Hunger Games • IMDb 7.3",
+      "releaseInfo": "2019",
+      "imdbRating": "7.3"
     },
     {
       "id": "tt33039440",
@@ -411,121 +479,74 @@
       "imdbRating": "6.1"
     },
     {
-      "id": "tt21276878",
+      "id": "tt4481066",
       "type": "movie",
-      "name": "You Are So Not Invited to My Bat Mitzvah",
-      "poster": "https://image.tmdb.org/t/p/w185/ukpifWBW2xEmMtJX4bCpoNpWEr2.jpg",
+      "name": "Giant Little Ones",
+      "poster": "https://image.tmdb.org/t/p/w185/j4U3nFK1JcvfCm9SyBta2g0eTwU.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
         "Drama"
       ],
-      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 5.9",
-      "releaseInfo": "2023",
-      "imdbRating": "5.9"
+      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.2",
+      "releaseInfo": "2019",
+      "imdbRating": "7.2"
     },
     {
-      "id": "tt1731141",
+      "id": "tt0853153",
       "type": "movie",
-      "name": "Ender's Game",
-      "poster": "https://image.tmdb.org/t/p/w185/pVcRI5YKnkkgaAD876jBeKb189d.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Hunger Games • IMDb 6.6",
-      "releaseInfo": "2013",
-      "imdbRating": "6.6"
-    },
-    {
-      "id": "tt4595186",
-      "type": "movie",
-      "name": "Luckiest Girl Alive",
-      "poster": "https://image.tmdb.org/t/p/w185/e0vrbTmTf2ZcW5CIS9qJ8FDbsU9.jpg",
+      "name": "Stuart: A Life Backwards",
+      "poster": "https://image.tmdb.org/t/p/w185/vpzjn5QQ9AFNoY6Lr7M8evFXK3l.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 6.4",
-      "releaseInfo": "2022",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt13470094",
-      "type": "movie",
-      "name": "Never Back Down: Revolt",
-      "poster": "https://image.tmdb.org/t/p/w185/2tkwrelJopWtF75LYyXNzk494nL.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action"
-      ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 4.2",
-      "releaseInfo": "2021",
-      "imdbRating": "4.2"
-    },
-    {
-      "id": "tt0058213",
-      "type": "movie",
-      "name": "Hush... Hush, Sweet Charlotte",
-      "poster": "https://image.tmdb.org/t/p/w185/hwVGNaVXFblluLwUjGcJ7RgW1rV.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: Hereditary, Midsommar • IMDb 7.5",
-      "releaseInfo": "1964",
-      "imdbRating": "7.5"
-    },
-    {
-      "id": "tt0116922",
-      "type": "movie",
-      "name": "Lost Highway",
-      "poster": "https://image.tmdb.org/t/p/w185/5POhfNeFPIi4VUNwCTaK85sh98r.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
+        "TV Movie"
       ],
       "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 7.6",
-      "releaseInfo": "1997",
+      "releaseInfo": "2007",
       "imdbRating": "7.6"
     },
     {
-      "id": "tt1527793",
+      "id": "tt0210070",
       "type": "movie",
-      "name": "No Other Choice",
-      "poster": "https://image.tmdb.org/t/p/w185/vc2S0dvgpsM0XfSiXZDMVkRCSSU.jpg",
+      "name": "Ginger Snaps",
+      "poster": "https://image.tmdb.org/t/p/w185/ozohDiJd7Oi65NEf8B0ya7lR9Fr.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 6.8",
+      "releaseInfo": "2000",
+      "imdbRating": "6.8"
+    },
+    {
+      "id": "tt3402138",
+      "type": "movie",
+      "name": "The Naked Gun",
+      "poster": "https://image.tmdb.org/t/p/w185/rwla9vqzrKVVKVKiOuROTIXGsxj.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
         "Crime",
-        "Thriller"
+        "Action"
       ],
-      "description": "Mandys Picks • Adjacent to: Parasite • IMDb 7.5",
+      "description": "Mandys Picks • Adjacent to: The Other Guys, Anchorman: The Legend of Ron Burgundy • IMDb 6.3",
       "releaseInfo": "2025",
-      "imdbRating": "7.5"
+      "imdbRating": "6.3"
     },
     {
-      "id": "tt6432466",
+      "id": "tt0492044",
       "type": "movie",
-      "name": "Moxie",
-      "poster": "https://image.tmdb.org/t/p/w185/aLBo1Ca9PggcWY98ItW5ZkdxTuA.jpg",
+      "name": "The Haunting in Connecticut",
+      "poster": "https://image.tmdb.org/t/p/w185/dTfL0YbTa7S59vZYmWbk6UofHkI.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama",
-        "Music"
+        "Thriller",
+        "Horror"
       ],
-      "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 6.7",
-      "releaseInfo": "2021",
-      "imdbRating": "6.7"
+      "description": "Mandys Picks • Adjacent to: Hereditary, Sinister • IMDb 5.9",
+      "releaseInfo": "2009",
+      "imdbRating": "5.9"
     },
     {
       "id": "tt1083456",
@@ -555,35 +576,6 @@
       "description": "Mandys Picks • Adjacent to: The Other Guys, Dumb and Dumber, Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.7",
       "releaseInfo": "1997",
       "imdbRating": "6.7"
-    },
-    {
-      "id": "tt0944835",
-      "type": "movie",
-      "name": "Salt",
-      "poster": "https://image.tmdb.org/t/p/w185/ppXyhOe8UCEOrBRSYqE3SkHwrcR.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Mystery",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Interview • IMDb 6.5",
-      "releaseInfo": "2010",
-      "imdbRating": "6.5"
-    },
-    {
-      "id": "tt0219965",
-      "type": "movie",
-      "name": "Bandits",
-      "poster": "https://image.tmdb.org/t/p/w185/67AUAkiT4rbgqN7SNlIJn0zWZqU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.5",
-      "releaseInfo": "2001",
-      "imdbRating": "6.5"
     }
   ]
 }
