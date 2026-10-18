@@ -1,0 +1,47 @@
+name: Refresh MTG pack hits
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "scripts/build_mtg_hits.py"
+      - "tests/test_mtg_hits.py"
+      - "tools/mtg-hits/index.html"
+      - ".github/workflows/update-mtg-hits.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mtg-hits
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify product/finish filtering
+        run: python -m unittest discover -s tests -p "test_mtg_hits.py" -v
+      - name: Compile current product sheets and daily prices
+        run: python scripts/build_mtg_hits.py
+      - name: Commit refreshed catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/mtg-hits/data/hits.json
+          if git diff --cached --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git commit -m "Refresh verified MTG pack hits"
+          git push
