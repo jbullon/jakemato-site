@@ -2,20 +2,18 @@
 """Build product-accurate, daily MTG $20+ hits for Jakemato.
 
 MTGJSON identifies the *actual product sheets*, including cross-set cards and
-foil/nonfoil slots. Scryfall supplies prices, images, and exact-print purchase
-links. No card is included simply because it shares a set name.
+foil/nonfoil slots. MTGJSON supplies daily TCGplayer prices and print-specific
+purchase links; Scryfall printing IDs identify the correct card images. No card is included simply because it shares a set name.
 """
-import argparse
 import datetime as dt
+import gzip
 import json
-import os
 import pathlib
 import time
 import urllib.error
 import urllib.request
 
 BASE = "https://mtgjson.com/api/v5"
-SCRYFALL = "https://api.scryfall.com/cards/collection"
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "tools/mtg-hits/data/hits.json"
 MIN_PRICE = 20.0
@@ -131,7 +129,7 @@ def collect_boosters(record, cache):
                     continue
                 finish = finish_for_sheet(card, sheet_name, bool(sheet.get("foil")))
                 if finish:
-                    entries.add((card["identifiers"]["scryfallId"], finish))
+                    entries.add((uuid, finish))
                 else:
                     missing += 1
         products.append({
@@ -141,6 +139,7 @@ def collect_boosters(record, cache):
             "name": PACK_TYPES[kind],
             "type": kind.lower(),
             "_entries": entries,
+            "_cards": {uuid: card_by_uuid[uuid] for uuid, _ in entries},
             "_unresolved": missing,
         })
     return products
@@ -184,7 +183,7 @@ def collect_secret_lair(cache):
             else:
                 finish = "foil" if ref.get("foil") else "nonfoil"
             if finish in (card.get("finishes") or []):
-                entries.add((sid, finish))
+                entries.add((ref["uuid"], finish))
             else:
                 missing += 1
         # Don't claim all contents verified if the underlying product is incomplete.
@@ -197,71 +196,78 @@ def collect_secret_lair(cache):
             "name": product["name"],
             "type": "secret-lair",
             "_entries": entries,
+            "_cards": {uuid: cards[uuid] for uuid, _ in entries},
             "_unresolved": missing
         })
     return drops
 
 
-def fetch_scryfall(ids):
-    results = {}
-    ids = sorted(set(ids))
-    for start in range(0, len(ids), 75):
-        chunk = ids[start:start + 75]
-        response = request_json(SCRYFALL, {
-            "identifiers": [{"id": sid} for sid in chunk]
-        })
-        for card in response.get("data", []):
-            results[card["id"]] = card
-        if response.get("not_found"):
-            print("Scryfall unmatched:", len(response["not_found"]), flush=True)
-        # Scryfall asks callers to average fewer than ten requests per second.
-        time.sleep(0.17)
-    return results
+def fetch_daily_prices():
+    """One small gzip file, not 13,000+ Scryfall API lookups every day."""
+    url = BASE + "/AllPricesToday.json.gz"
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(
+                url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}
+            ), timeout=90) as response:
+                with gzip.GzipFile(fileobj=response) as stream:
+                    return json.load(stream)["data"]
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
 
 
-def public_hit(card, finish):
-    price_field = {"nonfoil": "usd", "foil": "usd_foil",
-                   "etched": "usd_etched"}[finish]
-    raw = (card.get("prices") or {}).get(price_field)
+def public_hit(card, finish, price_record):
+    """TCGplayer retail price for the exact UUID and physical foil variant."""
+    listing = ((price_record or {}).get("paper") or {}).get("tcgplayer") or {}
+    if listing.get("currency", "USD").upper() != "USD":
+        return None
+    field = {"nonfoil": "normal", "foil": "foil", "etched": "etched"}[finish]
+    points = (listing.get("retail") or {}).get(field) or {}
+    if not points:
+        return None
     try:
-        price = float(raw)
+        price = float(points[max(points)])
     except (ValueError, TypeError):
-        return None  # Do not invent a price for unlisted/serialized cards.
+        return None
     if price <= MIN_PRICE:
         return None
-    image = (card.get("image_uris") or {}).get("normal")
-    if not image:
-        faces = card.get("card_faces") or []
-        image = ((faces[0].get("image_uris") or {}).get("normal")
-                 if faces else None)
+    sid = (card.get("identifiers") or {}).get("scryfallId")
+    if not sid or len(sid) < 3:
+        return None
+    image = "https://cards.scryfall.io/normal/front/" + sid[0] + "/" + sid[1] + "/" + sid + ".jpg"
+    urls = card.get("purchaseUrls") or {}
+    url = (urls.get("tcgplayerEtched") if finish == "etched" else
+           urls.get("tcgplayerAlternativeFoil") if finish == "foil" else None)
     return {
-        "id": card["id"],
+        "id": sid,
         "name": card["name"],
-        "set": card.get("set", "").upper(),
-        "number": card.get("collector_number", ""),
+        "set": card.get("setCode", "").upper(),
+        "number": card.get("number", ""),
         "finish": finish,
         "price": round(price, 2),
         "image": image,
-        # Scryfall links directly to the matching printing, not a search result.
-        "tcgplayer": (card.get("purchase_uris") or {}).get("tcgplayer"),
+        "tcgplayer": url or urls.get("tcgplayer"),
     }
 
 
-def make_catalog(products, cards):
+def make_catalog(products, prices):
     published = []
     for product in products:
-        seen, hits = set(), []
-        for sid, finish in product.pop("_entries"):
-            card = cards.get(sid)
+        seen, product_hits = set(), []
+        cards = product.pop("_cards")
+        for uuid, finish in product.pop("_entries"):
+            card = cards.get(uuid)
             if not card:
                 product["_unresolved"] += 1
                 continue
-            hit = public_hit(card, finish)
-            if hit and (sid, finish) not in seen:
-                seen.add((sid, finish))
-                hits.append(hit)
-        hits.sort(key=lambda hit: (-hit["price"], hit["name"], hit["finish"]))
-        product["hits"] = hits
+            hit = public_hit(card, finish, prices.get(uuid))
+            if hit and (uuid, finish) not in seen:
+                seen.add((uuid, finish))
+                product_hits.append(hit)
+        product_hits.sort(key=lambda h: (-h["price"], h["name"], h["finish"]))
+        product["hits"] = product_hits
         product["unresolved"] = product.pop("_unresolved")
         published.append(product)
     published.sort(key=lambda p: (p["set"] == "SLD", p["setName"].lower(),
@@ -291,19 +297,21 @@ def build():
         products.extend(collect_secret_lair(cache))
     except Exception as error:
         print("Secret Lair data unavailable", error, flush=True)
-    ids = {sid for p in products for sid, _ in p["_entries"]}
+    ids = {uuid for p in products for uuid, _ in p["_entries"]}
     print("Products", len(products), "unique printings", len(ids), flush=True)
     if not ids:
         raise RuntimeError("No verified product sheets found; refusing empty output")
-    cards = fetch_scryfall(ids)
-    if len(cards) < len(ids) * 0.9:
-        raise RuntimeError("Too many missing Scryfall matches; preserving old data")
-    catalog = make_catalog(products, cards)
+    prices = fetch_daily_prices()
+    coverage = sum(uuid in prices for uuid in ids)
+    print("Printings with pricing records:", coverage, "of", len(ids), flush=True)
+    if coverage < len(ids) * 0.7:
+        raise RuntimeError("TCGplayer price feed coverage too low; preserving old data")
+    catalog = make_catalog(products, prices)
     # A missing source card means the listing may be incomplete. Make it visible.
     payload = {
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "minimumPriceExclusive": MIN_PRICE,
-        "pricingSource": "Scryfall daily USD market estimates",
+        "pricingSource": "MTGJSON TCGplayer daily USD retail estimates",
         "products": catalog,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
