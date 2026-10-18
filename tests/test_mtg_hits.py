@@ -46,25 +46,28 @@ class ProductAccuracyTests(unittest.TestCase):
         products = hits.collect_boosters(source, {"MH3": source})
         self.assertEqual(len(products), 2)
         by_type = {p["type"]: p for p in products}
-        self.assertEqual(by_type["play"]["_entries"], {("id-regular", "nonfoil")})
-        self.assertIn(("id-textured", "foil"), by_type["collector"]["_entries"])
+        self.assertEqual(by_type["play"]["_entries"], {("regular", "nonfoil")})
+        self.assertIn(("textured", "foil"), by_type["collector"]["_entries"])
         self.assertNotIn(("id-textured", "foil"), by_type["play"]["_entries"])
 
     def test_exact_price_and_printing_links(self):
         card = {
-            "id": "printing-123", "name": "Test Card",
-            "set": "mh3", "collector_number": "468",
-            "prices": {"usd": "20.00", "usd_foil": "25.50"},
-            "image_uris": {"normal": "https://cards.scryfall.io/example.jpg"},
-            "purchase_uris": {"tcgplayer": "https://www.tcgplayer.com/product/1234"}
+            "identifiers": {"scryfallId": "abcf0012-aabb-ccdd-1234-123456789012"},
+            "name": "Test Card", "setCode": "MH3", "number": "468",
+            "purchaseUrls": {"tcgplayer": "https://www.tcgplayer.com/product/1234"}
         }
-        self.assertIsNone(hits.public_hit(card, "nonfoil"))
-        foil = hits.public_hit(card, "foil")
+        prices = {"paper": {"tcgplayer": {"currency": "USD", "retail": {
+            "normal": {"2026-10-17": 20.00},
+            "foil": {"2026-10-17": 25.50}
+        }}}}
+        self.assertIsNone(hits.public_hit(card, "nonfoil", prices))
+        foil = hits.public_hit(card, "foil", prices)
         self.assertEqual(foil["price"], 25.50)
         self.assertEqual(foil["finish"], "foil")
         self.assertEqual(foil["number"], "468")
+        self.assertIn("abcf0012-aabb-ccdd", foil["image"])
         self.assertEqual(foil["tcgplayer"], "https://www.tcgplayer.com/product/1234")
-        self.assertIsNone(hits.public_hit(card, "etched"))
+        self.assertIsNone(hits.public_hit(card, "etched", prices))
 
     def test_unlisted_treatments_not_guessed(self):
         card = sample_card("a", "id-a", ["etched"])
@@ -88,7 +91,7 @@ class ProductAccuracyTests(unittest.TestCase):
         with patch.object(hits, "set_data", return_value=record):
             products = hits.collect_secret_lair({})
         self.assertEqual(len(products), 1)
-        self.assertEqual(products[0]["_entries"], {("id-sld", "foil")})
+        self.assertEqual(products[0]["_entries"], {("sld-card", "foil")})
 
 
 if __name__ == "__main__":
