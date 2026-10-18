@@ -90,6 +90,8 @@ def collect_boosters(record, cache):
     products = []
     mapping = pack_type_by_config(record)
     for config_id, config in (record.get("booster") or {}).items():
+        if "sample" in str(config_id).lower():
+            continue  # MTGJSON sample configurations are not retail packs.
         kind = mapping.get(config_id)
         # MH3's default configuration is the Play Booster, as confirmed by WotC.
         if record["code"].upper() == "MH3" and config_id == "default":
@@ -154,6 +156,8 @@ def collect_secret_lair(cache):
     record = set_data("SLD", cache)
     lookup = {}
     for item in record.get("sealedProduct", []):
+        if not (item.get("name") or "").startswith("Secret Lair Drop "):
+            continue  # Bundles/decks are not individual SLD drops.
         contents = item.get("contents") or {}
         for included in contents.get("card", []):
             lookup.setdefault(included.get("set", "SLD").upper(), set()).add(
@@ -168,6 +172,8 @@ def collect_secret_lair(cache):
 
     drops = []
     for product in record.get("sealedProduct", []):
+        if not (product.get("name") or "").startswith("Secret Lair Drop "):
+            continue
         included = (product.get("contents") or {}).get("card") or []
         if not included:
             continue
