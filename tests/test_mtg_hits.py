@@ -33,6 +33,11 @@ class ProductAccuracyTests(unittest.TestCase):
                     "boosters": [{"contents": {"normal": 1}, "weight": 1}],
                     "sheets": {"normal": {"foil": False, "cards": {"regular": 1}}}
                 },
+                "collector-sample": {
+                    "sourceSetCodes": ["MH3"],
+                    "boosters": [{"contents": {"textured": 1}, "weight": 1}],
+                    "sheets": {"textured": {"foil": True, "cards": {"textured": 1}}}
+                },
                 "collector": {
                     "sourceSetCodes": ["MH3"],
                     "boosters": [{"contents": {"textured": 1, "regular": 1}, "weight": 1}],
@@ -48,7 +53,8 @@ class ProductAccuracyTests(unittest.TestCase):
         by_type = {p["type"]: p for p in products}
         self.assertEqual(by_type["play"]["_entries"], {("regular", "nonfoil")})
         self.assertIn(("textured", "foil"), by_type["collector"]["_entries"])
-        self.assertNotIn(("id-textured", "foil"), by_type["play"]["_entries"])
+        self.assertNotIn(("textured", "foil"), by_type["play"]["_entries"])
+        self.assertNotIn("collector-sample", [p["id"] for p in products])
 
     def test_exact_price_and_printing_links(self):
         card = {
@@ -85,7 +91,9 @@ class ProductAccuracyTests(unittest.TestCase):
                 {"uuid": "drop-1", "name": "Secret Lair Drop: Test (Foil)",
                  "contents": {"card": [{"uuid": "sld-card", "set": "SLD", "foil": True}]}},
                 {"uuid": "drop-2", "name": "Secret Lair Drop: Unknown",
-                 "contents": None}
+                 "contents": None},
+                {"uuid": "bundle-1", "name": "Secret Lair Bundle: Test",
+                 "contents": {"card": [{"uuid": "sld-card", "set": "SLD", "foil": True}]}}
             ]
         }
         with patch.object(hits, "set_data", return_value=record):
