@@ -156,7 +156,7 @@ def collect_secret_lair(cache):
     record = set_data("SLD", cache)
     lookup = {}
     for item in record.get("sealedProduct", []):
-        if not (item.get("name") or "").startswith("Secret Lair Drop "):
+        if not (item.get("name") or "").startswith("Secret Lair Drop"):
             continue  # Bundles/decks are not individual SLD drops.
         contents = item.get("contents") or {}
         for included in contents.get("card", []):
@@ -172,7 +172,7 @@ def collect_secret_lair(cache):
 
     drops = []
     for product in record.get("sealedProduct", []):
-        if not (product.get("name") or "").startswith("Secret Lair Drop "):
+        if not (product.get("name") or "").startswith("Secret Lair Drop"):
             continue
         included = (product.get("contents") or {}).get("card") or []
         if not included:
