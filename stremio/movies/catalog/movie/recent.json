@@ -152,8 +152,7 @@
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "Crime",
-        "Thriller"
+        "Crime"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 19, 2026 • Premiere • NR • IMDb 8.0",
@@ -985,7 +984,7 @@
       "id": "tt35410859",
       "type": "movie",
       "name": "Fjord",
-      "poster": "https://image.tmdb.org/t/p/w185/3PPPIeSdeivjUn3O9RahGiaJ9b8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -1052,6 +1051,19 @@
       "releaseInfo": "2026",
       "description": "US release: October 18, 2026 • Premiere • NR • IMDb 6.0",
       "imdbRating": "6.0"
+    },
+    {
+      "id": "tt39377057",
+      "type": "movie",
+      "name": "Death Came Knocking",
+      "poster": "https://image.tmdb.org/t/p/w185/mjTLbmdNhgB6OgMh4HLmgyVRz7r.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 18, 2026 • Premiere • NR"
     },
     {
       "id": "tt26584495",
@@ -1343,22 +1355,6 @@
       ]
     },
     {
-      "id": "tt37762970",
-      "type": "movie",
-      "name": "When Wine Meets Coffee",
-      "poster": "https://image.tmdb.org/t/p/w185/7avXGwZngRgVAaWcVK4AbledyzH.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Fantasy",
-        "Mystery",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Theatrical • G"
-    },
-    {
       "id": "tt46662749",
       "type": "movie",
       "name": "Vincent Price: What Keeps Us Alive",
@@ -1382,19 +1378,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 17, 2026 • Premiere • R • IMDb 6.7",
       "imdbRating": "6.7"
-    },
-    {
-      "id": "tt28577299",
-      "type": "movie",
-      "name": "Unleashed Spirits: The Rise of the Hollywood Vampires",
-      "poster": "https://image.tmdb.org/t/p/w185/ekR8ryuTNlAatAEKCDidWaZZ6uu.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
     },
     {
       "id": "tt40792103",
@@ -1437,18 +1420,22 @@
       "description": "US release: October 17, 2026 • Theatrical • NR"
     },
     {
-      "id": "tt43732005",
+      "id": "tt40588836",
       "type": "movie",
-      "name": "The Visitor",
-      "poster": "https://image.tmdb.org/t/p/w185/yrA0TM5AeBYenMpiv6r9nowPqY3.jpg",
+      "name": "The Ringing",
+      "poster": "https://image.tmdb.org/t/p/w185/bFHEqi00y7Cr4xbg7MspB6TlTED.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
+        "Horror"
       ],
       "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
+      "description": "US release: October 17, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "OFfRxE-9BcQ",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt40790329",
@@ -1801,19 +1788,6 @@
       "description": "US release: October 17, 2026 • Premiere • NR"
     },
     {
-      "id": "tt37396514",
-      "type": "movie",
-      "name": "Marrow",
-      "poster": "https://image.tmdb.org/t/p/w185/AwkkDjzyivcKx998ej0944i0hFx.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt39094466",
       "type": "movie",
       "name": "Look Back",
@@ -1843,19 +1817,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 17, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt39570084",
-      "type": "movie",
-      "name": "Landscapes of Memory",
-      "poster": "https://image.tmdb.org/t/p/w185/vBK2nPHDH7xwyckk1fiU73XqRkp.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR • IMDb 7.6",
-      "imdbRating": "7.6"
     },
     {
       "id": "tt31109276",
@@ -1929,6 +1890,19 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 17, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt43651297",
+      "type": "movie",
+      "name": "God's Future Soldiers",
+      "poster": "https://image.tmdb.org/t/p/w185/vFwL188e5OIgNeXPGe1MP8c3AZw.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 17, 2026 • Theatrical • NR"
     },
     {
       "id": "tt38528813",
@@ -2177,24 +2151,6 @@
       "trailers": [
         {
           "source": "wHemyT7TZnA",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt16530712",
-      "type": "movie",
-      "name": "As Far Back As I Can Remember... The Story of Goodfellas",
-      "poster": "https://image.tmdb.org/t/p/w185/i9wEZ62EHHOU6E68e1ZjxYpREVU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "bu2OwKuj33k",
           "type": "Trailer"
         }
       ]
@@ -2508,6 +2464,20 @@
       ]
     },
     {
+      "id": "tt39150035",
+      "type": "movie",
+      "name": "The Disciple: A Wu-Tang Fable",
+      "poster": "https://image.tmdb.org/t/p/w185/2vrQxy3Xrb6AvPtsa7jAU9DKxvu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 16, 2026 • Digital • NR • IMDb 6.0",
+      "imdbRating": "6.0"
+    },
+    {
       "id": "tt0066993",
       "type": "movie",
       "name": "The Devils",
@@ -2779,7 +2749,7 @@
       "id": "tt45858039",
       "type": "movie",
       "name": "Seriously Single Too",
-      "poster": "https://image.tmdb.org/t/p/w185/hbApG0WSwgtaK7hXTZpwZDstDaR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/ocSY3cX4g6hxy4EkQWXPjrrdzCI.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
@@ -2977,6 +2947,20 @@
       "releaseInfo": "2026",
       "description": "US release: October 16, 2026 • Premiere • NR • IMDb 5.0",
       "imdbRating": "5.0"
+    },
+    {
+      "id": "tt22053356",
+      "type": "movie",
+      "name": "One of Us",
+      "poster": "https://image.tmdb.org/t/p/w185/tgl3uwheuxbQ1FWkAvFYdONeMOY.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 16, 2026 • Premiere • NR • IMDb 6.5",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt7833566",
@@ -4025,18 +4009,6 @@
       ]
     },
     {
-      "id": "tt36958261",
-      "type": "movie",
-      "name": "Mister pot Pie",
-      "poster": "https://image.tmdb.org/t/p/w185/yvtGewp7AWUbPUVIKQbXJZQuBUm.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 15, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt43676770",
       "type": "movie",
       "name": "Man in the Wave",
@@ -4109,7 +4081,7 @@
       "id": "tt33571304",
       "type": "movie",
       "name": "Garuda Di Dadaku",
-      "poster": "https://image.tmdb.org/t/p/w185/lqK1P7iLrXnYdXoK2FLv8euV4RF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/rVekPzg73BRlSeN3G0sGpBQyNgU.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -4127,18 +4099,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt49268503",
-      "type": "movie",
-      "name": "Expectations feat. Chappell Roan",
-      "poster": "https://image.tmdb.org/t/p/w185/olVAaqk6pTLDCTZ6Zt5Gh0D8Bls.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Music"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 15, 2026 • Theatrical • NR"
     },
     {
       "id": "tt35222590",
@@ -4718,7 +4678,7 @@
       "id": "tt27369017",
       "type": "movie",
       "name": "Hope",
-      "poster": "https://image.tmdb.org/t/p/w185/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -4969,6 +4929,17 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt38907463",
+      "type": "movie",
+      "name": "Red Days 2: Cecilia",
+      "poster": "https://image.tmdb.org/t/p/w185/6lYxc12B9uidBY3pG1ZSHeFDg7E.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 12, 2026 • Theatrical • NR • IMDb 5.7",
+      "imdbRating": "5.7"
     },
     {
       "id": "tt48437216",
@@ -5701,6 +5672,18 @@
       ]
     },
     {
+      "id": "tt46737031",
+      "type": "movie",
+      "name": "Get Comfy",
+      "poster": "https://image.tmdb.org/t/p/w185/x852lA5oA0bjixeeOXCO7QsFH8d.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 10, 2026 • Premiere • NR"
+    },
+    {
       "id": "tt33035227",
       "type": "movie",
       "name": "Cement",
@@ -6098,7 +6081,9 @@
       "name": "Pride Weekend",
       "poster": "https://image.tmdb.org/t/p/w185/6xxXqMpoKQQoK6OAdprrETw7IfS.jpg",
       "posterShape": "poster",
-      "genres": [],
+      "genres": [
+        "Horror"
+      ],
       "releaseInfo": "2026",
       "description": "US release: October 9, 2026 • Digital • NR"
     },
@@ -6135,18 +6120,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt48487817",
-      "type": "movie",
-      "name": "Phoebe Bridgers | Sound Check at Cherry Lane Theatre",
-      "poster": "https://image.tmdb.org/t/p/w185/y1iElB8Yxr2egBDenbZK7yzBD62.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Music"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 9, 2026 • Digital • NR"
     },
     {
       "id": "tt43632113",
@@ -7861,6 +7834,17 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt37840127",
+      "type": "movie",
+      "name": "Give Me Something Good",
+      "poster": "https://image.tmdb.org/t/p/w185/3ibTQ9b8d7waz3a9IBTorCYKqpV.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 6, 2026 • Theatrical • NR • IMDb 6.3",
+      "imdbRating": "6.3"
     },
     {
       "id": "tt39101475",
@@ -9875,6 +9859,18 @@
       ]
     },
     {
+      "id": "tt48115706",
+      "type": "movie",
+      "name": "Disney Off the Page Adventures: The night before the royal fitting",
+      "poster": "https://image.tmdb.org/t/p/w185/tjX2QYRI4OmHEkhlSxv9XBWNIiQ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 2, 2026 • Digital • NR"
+    },
+    {
       "id": "tt31450459",
       "type": "movie",
       "name": "Digger",
@@ -10813,6 +10809,16 @@
       "description": "US release: October 1, 2026 • Theatrical • NR"
     },
     {
+      "id": "tt40304831",
+      "type": "movie",
+      "name": "Crown or Class",
+      "poster": "https://image.tmdb.org/t/p/w185/wXkTyIIEteE1ZFWDNU3YgOP9mP5.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 1, 2026 • Theatrical • NR"
+    },
+    {
       "id": "tt32131697",
       "type": "movie",
       "name": "Creature Fear",
@@ -10950,6 +10956,16 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 1, 2026 • Digital • NR"
+    },
+    {
+      "id": "tt38249821",
+      "type": "movie",
+      "name": "Beyond Boy",
+      "poster": "https://image.tmdb.org/t/p/w185/q0gvXQOXqF8QWTrJPTK7IG16o3J.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: October 1, 2026 • Theatrical • PG"
     },
     {
       "id": "tt37535100",
@@ -12463,7 +12479,7 @@
       "id": "tt45172779",
       "type": "movie",
       "name": "The Flower + The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w185/ku88ydW45KgZ2SGbsvSWslO8dP7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/erJ4riD6BeZ4R9VUDQU7icocTP1.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
@@ -13368,7 +13384,7 @@
       "id": "tt36980182",
       "type": "movie",
       "name": "The Incomer",
-      "poster": "https://image.tmdb.org/t/p/w185/iccroKK1eUTdCnLfmp7I3YXwAKF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/nGnI5tT7qstkld94S8m4c68noZt.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
