@@ -28,7 +28,7 @@
       "genres": [
         "Fantasy",
         "Comedy",
-        "Crime"
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 22, 2026 • Theatrical • NR"
@@ -299,7 +299,13 @@
         "Drama"
       ],
       "releaseInfo": "2026",
-      "description": "US release: October 22, 2026 • Premiere • NR"
+      "description": "US release: October 22, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "eWG3i4EFcRA",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt32321285",
@@ -345,35 +351,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 22, 2026 • Premiere • NR • IMDb 8.9",
       "imdbRating": "8.9"
-    },
-    {
-      "id": "tt37341481",
-      "type": "movie",
-      "name": "It Will Happen Tonight",
-      "poster": "https://image.tmdb.org/t/p/w185/g4c8HGej6x1bJxcsQdqL3rbzinY.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 22, 2026 • Premiere • NR • IMDb 6.4",
-      "imdbRating": "6.4"
-    },
-    {
-      "id": "tt39315967",
-      "type": "movie",
-      "name": "In My Blood",
-      "poster": "https://image.tmdb.org/t/p/w185/6TwMVDNUtjoFFb2LUTYdIVx9aIS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Mystery",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 22, 2026 • Premiere • NR"
     },
     {
       "id": "tt33424638",
@@ -591,26 +568,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 22, 2026 • Premiere • NR • IMDb 6.2",
       "imdbRating": "6.2"
-    },
-    {
-      "id": "tt38058097",
-      "type": "movie",
-      "name": "Club Kid",
-      "poster": "https://image.tmdb.org/t/p/w185/3CdM37GtEDMAp7fGlRn9MCpFjn1.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 22, 2026 • Premiere • NR • IMDb 8.1",
-      "imdbRating": "8.1",
-      "trailers": [
-        {
-          "source": "guKEdb_iRXw",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt33335610",
@@ -1021,6 +978,18 @@
       ]
     },
     {
+      "id": "tt33243622",
+      "type": "movie",
+      "name": "Just One Before I Die",
+      "poster": "https://image.tmdb.org/t/p/w185/r2PNfbqHJOv4zUSUBG6Q5Mtoj5v.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 21, 2026 • Digital • NR"
+    },
+    {
       "id": "tt37280404",
       "type": "movie",
       "name": "Joy Will Prevail",
@@ -1191,9 +1160,10 @@
       "poster": "https://image.tmdb.org/t/p/w185/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
         "Thriller",
-        "Crime"
+        "Adventure",
+        "History",
+        "Drama"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 20, 2026 • Digital • R • IMDb 6.8",
@@ -1560,6 +1530,26 @@
       ]
     },
     {
+      "id": "tt16304140",
+      "type": "movie",
+      "name": "Butthole Surfers: The Hole Truth and Nothing Butt",
+      "poster": "https://image.tmdb.org/t/p/w185/uG7aqinXD5EgXtm2MTJma37t7V8.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 20, 2026 • Digital • NR • IMDb 8.8",
+      "imdbRating": "8.8",
+      "trailers": [
+        {
+          "source": "UFtkc11i3uE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt38820979",
       "type": "movie",
       "name": "Ben'Imana",
@@ -1576,7 +1566,7 @@
       "id": "tt38893248",
       "type": "movie",
       "name": "Arrested Memory",
-      "poster": "https://image.tmdb.org/t/p/w185/pzQscOy3gZWeqPV9dOfDsztNwXo.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/yjjm0BDt91vSSb6y6CWUwDyr7FP.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -1687,20 +1677,6 @@
       ]
     },
     {
-      "id": "tt46447180",
-      "type": "movie",
-      "name": "Something's in the Water",
-      "poster": "https://image.tmdb.org/t/p/w185/jqJg1LBvlBYZ2aXxhvWWtfkA130.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 19, 2026 • Digital • NR"
-    },
-    {
       "id": "tt39847635",
       "type": "movie",
       "name": "Sinner Supper Club",
@@ -1806,35 +1782,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt48913651",
-      "type": "movie",
-      "name": "Gentle by Birth",
-      "poster": "https://image.tmdb.org/t/p/w185/eyoRrU8bQXMhxotHePBCn7xUjBM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 19, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "PaoEYEd46WE",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt43626808",
-      "type": "movie",
-      "name": "Gavin Matts: present",
-      "poster": "https://image.tmdb.org/t/p/w185/g5sW4C2q60ZIn8mxWgLMLYOwgXg.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: October 19, 2026 • Digital • NR • IMDb 8.5",
-      "imdbRating": "8.5"
     },
     {
       "id": "tt39384835",
@@ -2095,28 +2042,6 @@
       "description": "US release: October 18, 2026 • Digital • NR"
     },
     {
-      "id": "tt18270542",
-      "type": "movie",
-      "name": "Ray Gunn",
-      "poster": "https://image.tmdb.org/t/p/w185/rpP29aOKpHy1FhX8OZQdUICEs2j.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 18, 2026 • Premiere • NR • IMDb 7.5",
-      "imdbRating": "7.5",
-      "trailers": [
-        {
-          "source": "VL-xjzQFWsY",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt30128967",
       "type": "movie",
       "name": "Prosthetika",
@@ -2231,19 +2156,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt28275219",
-      "type": "movie",
-      "name": "lolcow",
-      "poster": "https://image.tmdb.org/t/p/w185/vhXgWwYY5UP5U81hbmTr2I5av87.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 18, 2026 • Premiere / Digital • NR"
     },
     {
       "id": "tt26758789",
@@ -2959,19 +2871,6 @@
       ]
     },
     {
-      "id": "tt46075251",
-      "type": "movie",
-      "name": "Rusalka",
-      "poster": "https://image.tmdb.org/t/p/w185/vVTDAV3bvhecbuaVIjDC4GeWaSr.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt38907958",
       "type": "movie",
       "name": "Relieved",
@@ -3319,30 +3218,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 17, 2026 • Premiere • NR • IMDb 5.9",
       "imdbRating": "5.9"
-    },
-    {
-      "id": "tt46079302",
-      "type": "movie",
-      "name": "Clementine Orange",
-      "poster": "https://image.tmdb.org/t/p/w185/hsRKiqDRPYiAHSBUjhz0SUWaeeP.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt42718518",
-      "type": "movie",
-      "name": "By Yourself",
-      "poster": "https://image.tmdb.org/t/p/w185/dt39bTYSXTDe72pG6c7EHPUvwCt.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
     },
     {
       "id": "tt43708682",
@@ -3979,24 +3854,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 16, 2026 • Premiere • NR • IMDb 6.9",
       "imdbRating": "6.9"
-    },
-    {
-      "id": "tt48451597",
-      "type": "movie",
-      "name": "SNOT",
-      "poster": "https://image.tmdb.org/t/p/w185/uJuCpiGAsHjKDH7jP0bYuT2NBhd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "40cLV_Ur6mo",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt43680834",
@@ -5093,6 +4950,19 @@
       "imdbRating": "8.7"
     },
     {
+      "id": "tt38999737",
+      "type": "movie",
+      "name": "That Damn Cat",
+      "poster": "https://image.tmdb.org/t/p/w185/lDdOwZuL6728nHiN0IZ7Sp59Rbt.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 15, 2026 • Premiere • NR"
+    },
+    {
       "id": "tt6262770",
       "type": "movie",
       "name": "Tenzing",
@@ -5891,21 +5761,6 @@
       "imdbRating": "7.2"
     },
     {
-      "id": "tt27210514",
-      "type": "movie",
-      "name": "L’Ordre Pourpre",
-      "poster": "https://image.tmdb.org/t/p/w185/f8LMZi3xRNJpiTaVxoUbnyT5BYT.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 13, 2026 • Premiere • PG-13"
-    },
-    {
       "id": "tt9174288",
       "type": "movie",
       "name": "Let's Have Kids!",
@@ -6059,26 +5914,6 @@
       "trailers": [
         {
           "source": "BrJ4KD5csU0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt34890576",
-      "type": "movie",
-      "name": "Clayface",
-      "poster": "https://image.tmdb.org/t/p/w185/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 13, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "f7jlCqdtwdM",
           "type": "Trailer"
         }
       ]
@@ -6554,26 +6389,6 @@
       "genres": [],
       "releaseInfo": "2026",
       "description": "US release: October 11, 2026 • Theatrical • NR"
-    },
-    {
-      "id": "tt36339656",
-      "type": "movie",
-      "name": "Boss Cat",
-      "poster": "https://image.tmdb.org/t/p/w185/bGVQFQbDdaGp6lWUvc3WV8AmBEH.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 11, 2026 • Premiere • NR • IMDb 8.7",
-      "imdbRating": "8.7",
-      "trailers": [
-        {
-          "source": "lft4KUoTz7E",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt38275278",
@@ -7248,18 +7063,6 @@
       "description": "US release: October 9, 2026 • Premiere • NR"
     },
     {
-      "id": "tt41593737",
-      "type": "movie",
-      "name": "Strangers and Their Babies",
-      "poster": "https://image.tmdb.org/t/p/w185/2XkE8j5nRBsJY50RHE2gLCknaEY.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 9, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt22076598",
       "type": "movie",
       "name": "Roof",
@@ -7381,7 +7184,7 @@
       "id": "tt0457430",
       "type": "movie",
       "name": "Pan's Labyrinth",
-      "poster": "https://image.tmdb.org/t/p/w185/7wb2Ldp0oAx1lcZvffq9RfWoI2h.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/khBQ6nN5FLfg9XgPXIZDkABJjqo.jpg",
       "posterShape": "poster",
       "genres": [
         "Fantasy",
@@ -7675,18 +7478,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt6061058",
-      "type": "movie",
-      "name": "Faraway Home",
-      "poster": "https://image.tmdb.org/t/p/w185/aMxAUbjIJQGmyga8x8yi4JgS8Kc.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 9, 2026 • Limited theatrical • NR"
     },
     {
       "id": "tt32752251",
@@ -8513,18 +8304,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt43729408",
-      "type": "movie",
-      "name": "The House Call",
-      "poster": "https://image.tmdb.org/t/p/w185/3ED5S2zwNG1P7c2HeawGiqh0nWi.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 7, 2026 • Premiere • NR"
     },
     {
       "id": "tt47786356",
@@ -10722,26 +10501,6 @@
       "description": "US release: October 2, 2026 • Limited theatrical • NR"
     },
     {
-      "id": "tt43685260",
-      "type": "movie",
-      "name": "Lonely Boy",
-      "poster": "https://image.tmdb.org/t/p/w185/2EsE1k9S9Co8RBYP0648Scpo3oC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "OQ2LMxu42_I",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt4565764",
       "type": "movie",
       "name": "Journey",
@@ -11227,20 +10986,6 @@
       "genres": [],
       "releaseInfo": "2026",
       "description": "US release: October 2, 2026 • Limited theatrical • NR"
-    },
-    {
-      "id": "tt37091196",
-      "type": "movie",
-      "name": "Backpay",
-      "poster": "https://image.tmdb.org/t/p/w185/o0JCIJ2yBcavkh0JY05HOTRpBYz.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Action"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Digital • R • IMDb 9.3",
-      "imdbRating": "9.3"
     },
     {
       "id": "tt34792531",
@@ -14182,27 +13927,6 @@
       "trailers": [
         {
           "source": "KgUkoGoBmX8",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt34384661",
-      "type": "movie",
-      "name": "Godzilla Minus Zero",
-      "poster": "https://image.tmdb.org/t/p/w185/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Action"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 26, 2026 • Premiere • NR • IMDb 8.0",
-      "imdbRating": "8.0",
-      "trailers": [
-        {
-          "source": "pWJjYoqVSjQ",
           "type": "Trailer"
         }
       ]
