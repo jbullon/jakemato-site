@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0462322",
-      "type": "movie",
-      "name": "Grindhouse",
-      "poster": "https://image.tmdb.org/t/p/w185/tvMBwJlmQTIQf5EBjHzzyE9tjcN.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Horror"
-      ],
-      "description": "Jake's Picks • Adjacent to: Green Room, Wolf Creek 2, Hatchet II • IMDb 7.5",
-      "releaseInfo": "2007",
-      "imdbRating": "7.5"
-    },
-    {
       "id": "tt1434435",
       "type": "movie",
       "name": "Mother's Day",
@@ -31,18 +16,19 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0804555",
+      "id": "tt0462322",
       "type": "movie",
-      "name": "Wrong Turn 2: Dead End",
-      "poster": "https://image.tmdb.org/t/p/w185/ow3IMhTVLryZuCEoQznVTTmFYuu.jpg",
+      "name": "Grindhouse",
+      "poster": "https://image.tmdb.org/t/p/w185/tvMBwJlmQTIQf5EBjHzzyE9tjcN.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Thriller",
+        "Action",
+        "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: The Descent, The Hills Have Eyes, Victor Crowley • IMDb 5.5",
+      "description": "Jake's Picks • Adjacent to: Green Room, Wolf Creek 2, Hatchet II • IMDb 7.5",
       "releaseInfo": "2007",
-      "imdbRating": "5.5"
+      "imdbRating": "7.5"
     },
     {
       "id": "tt0083972",
@@ -56,6 +42,20 @@
       "description": "Jake's Picks • Adjacent to: Wolf Creek 2, The Texas Chainsaw Massacre: The Beginning, Texas Chainsaw Massacre • IMDb 5.6",
       "releaseInfo": "1982",
       "imdbRating": "5.6"
+    },
+    {
+      "id": "tt0804555",
+      "type": "movie",
+      "name": "Wrong Turn 2: Dead End",
+      "poster": "https://image.tmdb.org/t/p/w185/iQ37ygxcpJNZp1XdHMantumylmw.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Descent, The Hills Have Eyes, Victor Crowley • IMDb 5.5",
+      "releaseInfo": "2007",
+      "imdbRating": "5.5"
     },
     {
       "id": "tt9177040",
@@ -112,6 +112,21 @@
       "imdbRating": "5.8"
     },
     {
+      "id": "tt0489270",
+      "type": "movie",
+      "name": "Saw III",
+      "poster": "https://image.tmdb.org/t/p/w185/4iO9n24Rb10peXV0JH2EldIOrAp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: Saw, Hatchet III, The Human Centipede (First Sequence) • IMDb 6.2",
+      "releaseInfo": "2006",
+      "imdbRating": "6.2"
+    },
+    {
       "id": "tt0093177",
       "type": "movie",
       "name": "Hellraiser",
@@ -155,33 +170,19 @@
       "imdbRating": "6.5"
     },
     {
-      "id": "tt0489270",
+      "id": "tt22375054",
       "type": "movie",
-      "name": "Saw III",
-      "poster": "https://image.tmdb.org/t/p/w185/4iO9n24Rb10peXV0JH2EldIOrAp.jpg",
+      "name": "Strange Darling",
+      "poster": "https://image.tmdb.org/t/p/w185/kWNCRgt3ocv19bYO0sk7TRuZuFY.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
+        "Crime",
         "Thriller",
-        "Crime"
+        "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: Saw, Hatchet III, The Human Centipede (First Sequence) • IMDb 6.2",
-      "releaseInfo": "2006",
-      "imdbRating": "6.2"
-    },
-    {
-      "id": "tt0844479",
-      "type": "movie",
-      "name": "The Collector",
-      "poster": "https://image.tmdb.org/t/p/w185/e33HSokiAxhj8ptpAr2xAU4jnd8.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Hatchet II, Hatchet III, The Texas Chainsaw Massacre • IMDb 6.3",
-      "releaseInfo": "2009",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: Evil Dead, Hostel, The Texas Chainsaw Massacre: The Beginning • IMDb 7.0",
+      "releaseInfo": "2024",
+      "imdbRating": "7.0"
     },
     {
       "id": "tt1763264",
@@ -213,78 +214,18 @@
       "imdbRating": "7.4"
     },
     {
-      "id": "tt0134847",
+      "id": "tt7090140",
       "type": "movie",
-      "name": "Pitch Black",
-      "poster": "https://image.tmdb.org/t/p/w185/3AnlxZ5CZnhKKzjgFyY6EHxmOyl.jpg",
+      "name": "Coda",
+      "poster": "https://image.tmdb.org/t/p/w185/v8w80VLACr7wz97dlGK8GvNIGbP.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Action"
+        "Music",
+        "Drama"
       ],
-      "description": "Jake's Picks • Adjacent to: Alien • IMDb 7.0",
-      "releaseInfo": "2000",
-      "imdbRating": "7.0"
-    },
-    {
-      "id": "tt0117774",
-      "type": "movie",
-      "name": "The Substitute",
-      "poster": "https://image.tmdb.org/t/p/w185/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Rambo • IMDb 6.1",
-      "releaseInfo": "1996",
+      "description": "Jake's Picks • Adjacent to: Whiplash • IMDb 6.1",
+      "releaseInfo": "2020",
       "imdbRating": "6.1"
-    },
-    {
-      "id": "tt1462041",
-      "type": "movie",
-      "name": "Dream House",
-      "poster": "https://image.tmdb.org/t/p/w185/uQFbnBEYguc6EWYKG0Hgq4LVdc2.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.0",
-      "releaseInfo": "2011",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt7690016",
-      "type": "movie",
-      "name": "Never Goin' Back",
-      "poster": "https://image.tmdb.org/t/p/w185/3ytp5pmHFVvAesnL2SJecxgV8W2.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Superbad • IMDb 6.0",
-      "releaseInfo": "2018",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt0489664",
-      "type": "movie",
-      "name": "Butterfly on a Wheel",
-      "poster": "https://image.tmdb.org/t/p/w185/qcjjYcMaaSKD2C8xn0hy6o6yj2L.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 6.6",
-      "releaseInfo": "2007",
-      "imdbRating": "6.6"
     },
     {
       "id": "tt8976710",
@@ -300,18 +241,90 @@
       "imdbRating": "4.5"
     },
     {
-      "id": "tt6865630",
+      "id": "tt3640682",
       "type": "movie",
-      "name": "Ana",
-      "poster": "https://image.tmdb.org/t/p/w185/bYHxq8yNLTr7LZP2wBjpMPkW6EV.jpg",
+      "name": "I Smile Back",
+      "poster": "https://image.tmdb.org/t/p/w185/8ufYyCJsID2ufc493ZkJocdkPCY.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "description": "Jake's Picks • Adjacent to: Requiem for a Dream • IMDb 6.2",
+      "releaseInfo": "2015",
+      "imdbRating": "6.2"
+    },
+    {
+      "id": "tt1172570",
+      "type": "movie",
+      "name": "Bronson",
+      "poster": "https://image.tmdb.org/t/p/w185/6diyyGIbBNiANsdIaCGtyv4IofR.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
+        "Action",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: Requiem for a Dream • IMDb 7.0",
+      "releaseInfo": "2009",
+      "imdbRating": "7.0"
+    },
+    {
+      "id": "tt0095348",
+      "type": "movie",
+      "name": "I'm Gonna Git You Sucka",
+      "poster": "https://image.tmdb.org/t/p/w185/s92HcoJmUHGvZ6o5RvIQjemzMap.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "description": "Jake's Picks • Adjacent to: Tropic Thunder • IMDb 6.6",
+      "releaseInfo": "1988",
+      "imdbRating": "6.6"
+    },
+    {
+      "id": "tt12313942",
+      "type": "movie",
+      "name": "Malicious",
+      "poster": "https://image.tmdb.org/t/p/w185/gIQqqSiQj9BFvD0OtaeammxpJhH.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Coffee Table • IMDb 5.6",
+      "releaseInfo": "2023",
+      "imdbRating": "5.6"
+    },
+    {
+      "id": "tt7690016",
+      "type": "movie",
+      "name": "Never Goin' Back",
+      "poster": "https://image.tmdb.org/t/p/w185/3ytp5pmHFVvAesnL2SJecxgV8W2.jpg",
+      "posterShape": "poster",
+      "genres": [
         "Comedy"
       ],
-      "description": "Jake's Picks • Adjacent to: Little Miss Sunshine • IMDb 6.0",
-      "releaseInfo": "2020",
+      "description": "Jake's Picks • Adjacent to: Superbad • IMDb 6.0",
+      "releaseInfo": "2018",
       "imdbRating": "6.0"
+    },
+    {
+      "id": "tt0093624",
+      "type": "movie",
+      "name": "Night of the Demons",
+      "poster": "https://image.tmdb.org/t/p/w185/2VcJ4wpIx8TO14rXZnYPhzKL7Tp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Hatchet • IMDb 6.1",
+      "releaseInfo": "1988",
+      "imdbRating": "6.1"
     },
     {
       "id": "tt36363971",
@@ -328,33 +341,18 @@
       "imdbRating": "5.5"
     },
     {
-      "id": "tt35522483",
+      "id": "tt0100260",
       "type": "movie",
-      "name": "Nirvanna the Band the Show the Movie",
-      "poster": "https://image.tmdb.org/t/p/w185/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
+      "name": "Nightbreed",
+      "poster": "https://image.tmdb.org/t/p/w185/1ChluYH0BEvJo3gtYoFHnMZI660.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Science Fiction",
-        "Adventure"
+        "Horror",
+        "Fantasy"
       ],
-      "description": "Jake's Picks • Adjacent to: Airplane! • IMDb 7.7",
-      "releaseInfo": "2026",
-      "imdbRating": "7.7"
-    },
-    {
-      "id": "tt1013743",
-      "type": "movie",
-      "name": "Knight and Day",
-      "poster": "https://image.tmdb.org/t/p/w185/phhp52CZZJiGYmiOTp9ZBDkGHB3.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "description": "Jake's Picks • Adjacent to: Airplane! • IMDb 6.3",
-      "releaseInfo": "2010",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 6.4",
+      "releaseInfo": "1990",
+      "imdbRating": "6.4"
     }
   ]
 }
