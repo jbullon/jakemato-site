@@ -31,20 +31,6 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt0095271",
-      "type": "movie",
-      "name": "Halloween 4: The Return of Michael Myers",
-      "poster": "https://image.tmdb.org/t/p/w185/eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, The Hills Have Eyes, Texas Chainsaw Massacre • IMDb 5.8",
-      "releaseInfo": "1988",
-      "imdbRating": "5.8"
-    },
-    {
       "id": "tt0083972",
       "type": "movie",
       "name": "Friday the 13th Part III",
@@ -58,17 +44,18 @@
       "imdbRating": "5.6"
     },
     {
-      "id": "tt34793095",
+      "id": "tt0095271",
       "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w185/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
+      "name": "Halloween 4: The Return of Michael Myers",
+      "poster": "https://image.tmdb.org/t/p/w185/eFSOkXF9n9hsfGv45MDsPixiOyx.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror"
+        "Horror",
+        "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Descent, Hostel, The Human Centipede (First Sequence) • IMDb 3.8",
-      "releaseInfo": "2025",
-      "imdbRating": "3.8"
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, The Hills Have Eyes, Texas Chainsaw Massacre • IMDb 5.8",
+      "releaseInfo": "1988",
+      "imdbRating": "5.8"
     },
     {
       "id": "tt0804555",
@@ -85,6 +72,19 @@
       "imdbRating": "5.5"
     },
     {
+      "id": "tt0100258",
+      "type": "movie",
+      "name": "Night of the Living Dead",
+      "poster": "https://image.tmdb.org/t/p/w185/7WkSCClUvcAq8JNEp4pM4A9hiDU.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Evil Dead, The Hills Have Eyes, Evil Dead • IMDb 6.8",
+      "releaseInfo": "1990",
+      "imdbRating": "6.8"
+    },
+    {
       "id": "tt9177040",
       "type": "movie",
       "name": "Trick",
@@ -99,17 +99,17 @@
       "imdbRating": "5.0"
     },
     {
-      "id": "tt0100258",
+      "id": "tt34793095",
       "type": "movie",
-      "name": "Night of the Living Dead",
-      "poster": "https://image.tmdb.org/t/p/w185/7WkSCClUvcAq8JNEp4pM4A9hiDU.jpg",
+      "name": "Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w185/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror"
       ],
-      "description": "Jake's Picks • Adjacent to: The Evil Dead, The Hills Have Eyes, Evil Dead • IMDb 6.8",
-      "releaseInfo": "1990",
-      "imdbRating": "6.8"
+      "description": "Jake's Picks • Adjacent to: The Descent, Hostel, The Human Centipede (First Sequence) • IMDb 3.8",
+      "releaseInfo": "2025",
+      "imdbRating": "3.8"
     },
     {
       "id": "tt0093177",
@@ -121,9 +121,23 @@
         "Horror",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Hostel, The Descent, Martyrs • IMDb 6.9",
+      "description": "Jake's Picks • Adjacent to: Hostel, The Evil Dead, The Descent • IMDb 6.9",
       "releaseInfo": "1987",
       "imdbRating": "6.9"
+    },
+    {
+      "id": "tt8883524",
+      "type": "movie",
+      "name": "Bloodline",
+      "poster": "https://image.tmdb.org/t/p/w185/u9UfbDVilnhT3fa82aTFs3O0TsA.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre: The Beginning, Funny Games, The Texas Chainsaw Massacre • IMDb 6.0",
+      "releaseInfo": "2019",
+      "imdbRating": "6.0"
     },
     {
       "id": "tt10314450",
@@ -156,20 +170,6 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt8883524",
-      "type": "movie",
-      "name": "Bloodline",
-      "poster": "https://image.tmdb.org/t/p/w185/u9UfbDVilnhT3fa82aTFs3O0TsA.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre: The Beginning, Funny Games, The Texas Chainsaw Massacre • IMDb 6.0",
-      "releaseInfo": "2019",
-      "imdbRating": "6.0"
-    },
-    {
       "id": "tt0329101",
       "type": "movie",
       "name": "Freddy vs. Jason",
@@ -181,6 +181,20 @@
       "description": "Jake's Picks • Adjacent to: Texas Chainsaw Massacre, The Hills Have Eyes, The Texas Chainsaw Massacre • IMDb 5.8",
       "releaseInfo": "2003",
       "imdbRating": "5.8"
+    },
+    {
+      "id": "tt0082495",
+      "type": "movie",
+      "name": "Halloween II",
+      "poster": "https://image.tmdb.org/t/p/w185/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Texas Chainsaw Massacre, Texas Chainsaw Massacre, Wolf Creek 2 • IMDb 6.5",
+      "releaseInfo": "1981",
+      "imdbRating": "6.5"
     },
     {
       "id": "tt12300742",
@@ -198,18 +212,62 @@
       "imdbRating": "7.4"
     },
     {
-      "id": "tt9110170",
+      "id": "tt6483422",
       "type": "movie",
-      "name": "Wrong Turn",
-      "poster": "https://image.tmdb.org/t/p/w185/4U1SBHmwHkNA0eHZ2n1CuiC1K1g.jpg",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w185/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
       "posterShape": "poster",
       "genres": [
-        "Horror",
+        "Adventure",
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: The Backrooms • IMDb 4.5",
+      "releaseInfo": "2020",
+      "imdbRating": "4.5"
+    },
+    {
+      "id": "tt0117774",
+      "type": "movie",
+      "name": "The Substitute",
+      "poster": "https://image.tmdb.org/t/p/w185/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
         "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: The Descent, The Texas Chainsaw Massacre: The Beginning, Green Room • IMDb 5.6",
-      "releaseInfo": "2021",
-      "imdbRating": "5.6"
+      "description": "Jake's Picks • Adjacent to: Rambo • IMDb 6.1",
+      "releaseInfo": "1996",
+      "imdbRating": "6.1"
+    },
+    {
+      "id": "tt0109445",
+      "type": "movie",
+      "name": "Clerks",
+      "poster": "https://image.tmdb.org/t/p/w185/9IiSgiq4h4siTIS9H3o4nZ3h5L9.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Jake's Picks • Adjacent to: Office Space • IMDb 7.7",
+      "releaseInfo": "1994",
+      "imdbRating": "7.7"
+    },
+    {
+      "id": "tt0335245",
+      "type": "movie",
+      "name": "The Ladykillers",
+      "poster": "https://image.tmdb.org/t/p/w185/l4g9R39NCp6VaYFrw6q8JwKNW9x.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "description": "Jake's Picks • Adjacent to: Airplane! • IMDb 6.2",
+      "releaseInfo": "2004",
+      "imdbRating": "6.2"
     },
     {
       "id": "tt2458106",
@@ -227,20 +285,6 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt9731386",
-      "type": "movie",
-      "name": "Rogue Agent",
-      "poster": "https://image.tmdb.org/t/p/w185/4tOaGR6mzUAEQzIgWCeVoneRIkp.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "description": "Jake's Picks • Adjacent to: Whiplash • IMDb 6.5",
-      "releaseInfo": "2022",
-      "imdbRating": "6.5"
-    },
-    {
       "id": "tt0489664",
       "type": "movie",
       "name": "Butterfly on a Wheel",
@@ -256,75 +300,18 @@
       "imdbRating": "6.6"
     },
     {
-      "id": "tt1880399",
+      "id": "tt11810418",
       "type": "movie",
-      "name": "Kodachrome",
-      "poster": "https://image.tmdb.org/t/p/w185/mseyc8v3UD1DhaZ3kSdXs4Dj9Xf.jpg",
+      "name": "Marc Maron: End Times Fun",
+      "poster": "https://image.tmdb.org/t/p/w185/nBf5pWB3NFseW0Go9HR5M73RtD4.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Comedy"
+        "Comedy",
+        "TV Movie"
       ],
-      "description": "Jake's Picks • Adjacent to: Little Miss Sunshine • IMDb 6.9",
-      "releaseInfo": "2017",
-      "imdbRating": "6.9"
-    },
-    {
-      "id": "tt0087981",
-      "type": "movie",
-      "name": "Razorback",
-      "poster": "https://image.tmdb.org/t/p/w185/227exUUzUWkCYOVoPxap5RaVmTM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "description": "Jake's Picks • Adjacent to: Wolf Creek • IMDb 6.0",
-      "releaseInfo": "1984",
-      "imdbRating": "6.0"
-    },
-    {
-      "id": "tt0091027",
-      "type": "movie",
-      "name": "Eye of the Tiger",
-      "poster": "https://image.tmdb.org/t/p/w185/9Gu1ihgAeO7MBbXe7nUKV7LyQpy.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "description": "Jake's Picks • Adjacent to: First Blood • IMDb 5.7",
-      "releaseInfo": "1986",
-      "imdbRating": "5.7"
-    },
-    {
-      "id": "tt3289956",
-      "type": "movie",
-      "name": "The Autopsy of Jane Doe",
-      "poster": "https://image.tmdb.org/t/p/w185/6K0wjP8kPCiPYy9PtXBGuypyt5I.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "description": "Jake's Picks • Adjacent to: Hereditary • IMDb 6.8",
-      "releaseInfo": "2016",
+      "description": "Jake's Picks • Adjacent to: This Is the End • IMDb 6.8",
+      "releaseInfo": "2020",
       "imdbRating": "6.8"
-    },
-    {
-      "id": "tt0052311",
-      "type": "movie",
-      "name": "Touch of Evil",
-      "poster": "https://image.tmdb.org/t/p/w185/1pvRgmfBaoMczIJBOi9gCOZ4FMC.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "description": "Jake's Picks • Adjacent to: No Country for Old Men • IMDb 7.9",
-      "releaseInfo": "1958",
-      "imdbRating": "7.9"
     },
     {
       "id": "tt0094642",
@@ -340,20 +327,32 @@
       "imdbRating": "5.8"
     },
     {
-      "id": "tt0227984",
+      "id": "tt31193180",
       "type": "movie",
-      "name": "The 51st State",
-      "poster": "https://image.tmdb.org/t/p/w185/aYlrGirWrRCTU1PF6Svghn1EMAc.jpg",
+      "name": "Sinners",
+      "poster": "https://image.tmdb.org/t/p/w185/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
+        "Horror",
         "Action",
-        "Comedy",
-        "Crime"
+        "Thriller"
       ],
-      "description": "Jake's Picks • Adjacent to: Pineapple Express • IMDb 6.3",
-      "releaseInfo": "2001",
-      "imdbRating": "6.3"
+      "description": "Jake's Picks • Adjacent to: Evil Dead Rise • IMDb 7.5",
+      "releaseInfo": "2025",
+      "imdbRating": "7.5"
+    },
+    {
+      "id": "tt33763941",
+      "type": "movie",
+      "name": "Passenger",
+      "poster": "https://image.tmdb.org/t/p/w185/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "description": "Jake's Picks • Adjacent to: Wolf Creek • IMDb 5.5",
+      "releaseInfo": "2026",
+      "imdbRating": "5.5"
     }
   ]
 }
