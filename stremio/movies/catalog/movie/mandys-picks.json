@@ -16,20 +16,6 @@
       "imdbRating": "7.5"
     },
     {
-      "id": "tt1621045",
-      "type": "movie",
-      "name": "Think Like a Man",
-      "poster": "https://image.tmdb.org/t/p/w185/kfIrKVPDzXJDBzPnFEuoatlaZPW.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days, Because I Said So • IMDb 6.5",
-      "releaseInfo": "2012",
-      "imdbRating": "6.5"
-    },
-    {
       "id": "tt0401420",
       "type": "movie",
       "name": "Fierce People",
@@ -70,21 +56,6 @@
       "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 6.1",
       "releaseInfo": "2020",
       "imdbRating": "6.1"
-    },
-    {
-      "id": "tt9669176",
-      "type": "movie",
-      "name": "Accident Man: Hitman's Holiday",
-      "poster": "https://image.tmdb.org/t/p/w185/8XF5EIDUOZv1p9orukdyERvv2Qn.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.9",
-      "releaseInfo": "2022",
-      "imdbRating": "5.9"
     },
     {
       "id": "tt6998518",
@@ -215,20 +186,6 @@
       "description": "Mandys Picks • Adjacent to: Mean Girls • IMDb 7.4",
       "releaseInfo": "2017",
       "imdbRating": "7.4"
-    },
-    {
-      "id": "tt13430858",
-      "type": "movie",
-      "name": "What's Love Got to Do with It?",
-      "poster": "https://image.tmdb.org/t/p/w185/uJJYCo87r6qtsaTRENatoYuE9pI.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days, 50 First Dates • IMDb 6.3",
-      "releaseInfo": "2023",
-      "imdbRating": "6.3"
     },
     {
       "id": "tt26394837",
@@ -391,6 +348,21 @@
       "imdbRating": "6.9"
     },
     {
+      "id": "tt2452244",
+      "type": "movie",
+      "name": "Isn't It Romantic",
+      "poster": "https://image.tmdb.org/t/p/w185/5xNBYXuv8wqiLVDhsfqCOr75DL7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days • IMDb 5.9",
+      "releaseInfo": "2019",
+      "imdbRating": "5.9"
+    },
+    {
       "id": "tt3402138",
       "type": "movie",
       "name": "The Naked Gun",
@@ -433,20 +405,6 @@
       "imdbRating": "5.9"
     },
     {
-      "id": "tt0066921",
-      "type": "movie",
-      "name": "A Clockwork Orange",
-      "poster": "https://image.tmdb.org/t/p/w185/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Science Fiction",
-        "Crime"
-      ],
-      "description": "Mandys Picks • Adjacent to: The Substance • IMDb 8.2",
-      "releaseInfo": "1971",
-      "imdbRating": "8.2"
-    },
-    {
       "id": "tt2883512",
       "type": "movie",
       "name": "Chef",
@@ -474,17 +432,19 @@
       "imdbRating": "7.1"
     },
     {
-      "id": "tt1742336",
+      "id": "tt0251075",
       "type": "movie",
-      "name": "Your Sister's Sister",
-      "poster": "https://image.tmdb.org/t/p/w185/yEyoOzOEUBMSofsTticDWBOOsv7.jpg",
+      "name": "Evolution",
+      "poster": "https://image.tmdb.org/t/p/w185/dwIrP544LxJtXToLpzkEa08pIMm.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy"
+        "Comedy",
+        "Science Fiction",
+        "Action"
       ],
-      "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.7",
-      "releaseInfo": "2011",
-      "imdbRating": "6.7"
+      "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.1",
+      "releaseInfo": "2001",
+      "imdbRating": "6.1"
     },
     {
       "id": "tt2582496",
@@ -516,20 +476,6 @@
       "imdbRating": "7.3"
     },
     {
-      "id": "tt6957966",
-      "type": "movie",
-      "name": "Little Italy",
-      "poster": "https://image.tmdb.org/t/p/w185/vdSSmzYKqViKH7mkQwgOVSALrOO.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "description": "Mandys Picks • Adjacent to: How to Lose a Guy in 10 Days, Because I Said So • IMDb 5.7",
-      "releaseInfo": "2018",
-      "imdbRating": "5.7"
-    },
-    {
       "id": "tt26470109",
       "type": "movie",
       "name": "Oddity",
@@ -541,6 +487,19 @@
       ],
       "description": "Mandys Picks • Adjacent to: Hereditary • IMDb 6.7",
       "releaseInfo": "2024",
+      "imdbRating": "6.7"
+    },
+    {
+      "id": "tt1742336",
+      "type": "movie",
+      "name": "Your Sister's Sister",
+      "poster": "https://image.tmdb.org/t/p/w185/yEyoOzOEUBMSofsTticDWBOOsv7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "description": "Mandys Picks • Adjacent to: Dumb and Dumber • IMDb 6.7",
+      "releaseInfo": "2011",
       "imdbRating": "6.7"
     },
     {
@@ -569,6 +528,49 @@
       "description": "Mandys Picks • Adjacent to: Anchorman: The Legend of Ron Burgundy, Talladega Nights: The Ballad of Ricky Bobby • IMDb 6.7",
       "releaseInfo": "2004",
       "imdbRating": "6.7"
+    },
+    {
+      "id": "tt3797868",
+      "type": "movie",
+      "name": "The Choice",
+      "poster": "https://image.tmdb.org/t/p/w185/6MF3cdAasnF17SG9bmeamQ066iJ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: He's Just Not That Into You • IMDb 6.5",
+      "releaseInfo": "2016",
+      "imdbRating": "6.5"
+    },
+    {
+      "id": "tt0419677",
+      "type": "movie",
+      "name": "Dead Man's Shoes",
+      "poster": "https://image.tmdb.org/t/p/w185/sCbXlGHmonE3QEOeM7I2PRkG8y6.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 7.5",
+      "releaseInfo": "2004",
+      "imdbRating": "7.5"
+    },
+    {
+      "id": "tt1093908",
+      "type": "movie",
+      "name": "Confessions of a Shopaholic",
+      "poster": "https://image.tmdb.org/t/p/w185/r17R9OIC0pKDqqsNore6atYLCVZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "description": "Mandys Picks • Adjacent to: He's Just Not That Into You • IMDb 5.9",
+      "releaseInfo": "2009",
+      "imdbRating": "5.9"
     }
   ]
 }
