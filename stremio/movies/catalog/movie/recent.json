@@ -630,26 +630,6 @@
       "imdbRating": "7.6"
     },
     {
-      "id": "tt32321285",
-      "type": "movie",
-      "name": "Josephine",
-      "poster": "https://image.tmdb.org/t/p/w185/6pUSCeInGp4Ut3rqgPNWUrmKBUi.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 25, 2026 • Premiere • NR • IMDb 8.0",
-      "imdbRating": "8.0",
-      "trailers": [
-        {
-          "source": "d7NLG3IfowQ",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt35748025",
       "type": "movie",
       "name": "Isabel",
@@ -959,6 +939,19 @@
       "releaseInfo": "2026",
       "description": "US release: October 25, 2026 • Premiere • NR • IMDb 8.1",
       "imdbRating": "8.1"
+    },
+    {
+      "id": "tt44632444",
+      "type": "movie",
+      "name": "Band Practice",
+      "poster": "https://image.tmdb.org/t/p/w185/bGzSorg2gH4B87KMDUSXQTOOLB7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 25, 2026 • Premiere • PG"
     },
     {
       "id": "tt30460036",
@@ -2151,7 +2144,8 @@
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "Crime"
+        "Crime",
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 24, 2026 • Premiere • NR • IMDb 6.8",
@@ -4466,6 +4460,29 @@
       ]
     },
     {
+      "id": "tt27502365",
+      "type": "movie",
+      "name": "Kubi",
+      "poster": "https://image.tmdb.org/t/p/w185/DG3B7D0cLx3gmoySAwHVZ6QPeb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "History",
+        "Action",
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 20, 2026 • Digital • NR • IMDb 6.4",
+      "imdbRating": "6.4",
+      "trailers": [
+        {
+          "source": "Sfy7-veCsAc",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt18765720",
       "type": "movie",
       "name": "I Don't Want to Drink Your Blood Anymore",
@@ -4547,6 +4564,21 @@
       "releaseInfo": "2026",
       "description": "US release: October 20, 2026 • Digital • NR • IMDb 7.9",
       "imdbRating": "7.9"
+    },
+    {
+      "id": "tt39308609",
+      "type": "movie",
+      "name": "Frosty Nights, Santa Fights",
+      "poster": "https://image.tmdb.org/t/p/w185/2zaUKHVLrrIcmnWusqTiBCwvP2y.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 20, 2026 • Digital • NR • IMDb 7.4",
+      "imdbRating": "7.4"
     },
     {
       "id": "tt34610141",
@@ -5375,7 +5407,13 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 18, 2026 • Premiere • NR • IMDb 7.4",
-      "imdbRating": "7.4"
+      "imdbRating": "7.4",
+      "trailers": [
+        {
+          "source": "dp0nwsHxwO8",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt49204723",
@@ -6258,7 +6296,9 @@
       "poster": "https://image.tmdb.org/t/p/w185/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
       "posterShape": "poster",
       "genres": [
-        "Documentary"
+        "Documentary",
+        "Horror",
+        "Drama"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 16, 2026 • Theatrical • R • IMDb 9.3",
@@ -7265,25 +7305,6 @@
       ]
     },
     {
-      "id": "tt47793872",
-      "type": "movie",
-      "name": "Heather McMahan: By a Thread",
-      "poster": "https://image.tmdb.org/t/p/w185/juQgJkraNasHQJ9vydh589ZcYsm.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Digital • NR • IMDb 5.8",
-      "imdbRating": "5.8",
-      "trailers": [
-        {
-          "source": "XyBb8Y9nZ-Y",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt39032793",
       "type": "movie",
       "name": "Halloween Candy 2",
@@ -7334,17 +7355,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 16, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt39372522",
-      "type": "movie",
-      "name": "Forever My Lady",
-      "poster": "https://image.tmdb.org/t/p/w185/by2OjJrCXzcHMFsL6bJsjPhtVjh.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Digital • NR • IMDb 6.0",
-      "imdbRating": "6.0"
     },
     {
       "id": "tt42004484",
@@ -7530,24 +7540,6 @@
       "trailers": [
         {
           "source": "hCM8MNUVbkQ",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt48436864",
-      "type": "movie",
-      "name": "Black Water",
-      "poster": "https://image.tmdb.org/t/p/w185/q8lOiv5KQuA7B9cRLJUbydCyMH1.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "-ebIXhF8vBE",
           "type": "Trailer"
         }
       ]
@@ -11429,18 +11421,6 @@
       "imdbRating": "8.0"
     },
     {
-      "id": "tt36986316",
-      "type": "movie",
-      "name": "The Last Place on Earth",
-      "poster": "https://image.tmdb.org/t/p/w185/iA6J5NKIOxOFxQExenrhdY2FXOT.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 6, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt38468616",
       "type": "movie",
       "name": "The Illusion of an Everlasting Summer",
@@ -13561,19 +13541,6 @@
       ]
     },
     {
-      "id": "tt34971178",
-      "type": "movie",
-      "name": "Hinter",
-      "poster": "https://image.tmdb.org/t/p/w185/y2HxvGlIXs6Ahrl0rUK0GZqOw7t.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt36553782",
       "type": "movie",
       "name": "Her Will Be Done",
@@ -13675,19 +13642,6 @@
       ]
     },
     {
-      "id": "tt39401675",
-      "type": "movie",
-      "name": "Everything is F***ed",
-      "poster": "https://image.tmdb.org/t/p/w185/jDs5pJNNZoE3s0Q8j0zDVOnZJXk.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Premiere • NR"
-    },
-    {
       "id": "tt35683654",
       "type": "movie",
       "name": "Dyahe Piece",
@@ -13726,7 +13680,7 @@
       "id": "tt0246578",
       "type": "movie",
       "name": "Donnie Darko",
-      "poster": "https://image.tmdb.org/t/p/w185/kxrx1Jg35YhEyb7KuuDGlrkbpC7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/j2AtZFsflxiluaNtajMTI0Avm8C.jpg",
       "posterShape": "poster",
       "genres": [
         "Fantasy",
@@ -14245,6 +14199,25 @@
       "trailers": [
         {
           "source": "aYCze1vl2jU",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt48312118",
+      "type": "movie",
+      "name": "The Seventh Day",
+      "poster": "https://image.tmdb.org/t/p/w185/xmwxG7xdSMXemdnmse4wJXhMo0h.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 1, 2026 • Theatrical • NR • IMDb 5.8",
+      "imdbRating": "5.8",
+      "trailers": [
+        {
+          "source": "q5O3zDDrVa8",
           "type": "Trailer"
         }
       ]
