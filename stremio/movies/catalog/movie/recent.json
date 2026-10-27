@@ -99,6 +99,24 @@
       ]
     },
     {
+      "id": "tt37028623",
+      "type": "movie",
+      "name": "The Lost Ones",
+      "poster": "https://image.tmdb.org/t/p/w185/vJgnRh06pvQUOW2s455CsiJE3bN.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 27, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "sq7zxDAhRE0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt14173636",
       "type": "movie",
       "name": "The Invite",
@@ -126,7 +144,6 @@
       "poster": "https://image.tmdb.org/t/p/w185/5O616X9vmRzQdB68PHzBewPittd.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
         "Thriller",
         "Adventure",
         "Science Fiction"
@@ -241,7 +258,7 @@
       "id": "tt27988879",
       "type": "movie",
       "name": "Ramayana: Rise of a Legend",
-      "poster": "https://image.tmdb.org/t/p/w185/hX94xNPYwazKOVGGqL1GiwMSNuY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/hz2Hv8tPToHvQ7HaxzqeLvahmcJ.jpg",
       "posterShape": "poster",
       "genres": [
         "Fantasy",
@@ -317,6 +334,21 @@
       ]
     },
     {
+      "id": "tt29005651",
+      "type": "movie",
+      "name": "Mariana's Trench",
+      "poster": "https://image.tmdb.org/t/p/w185/g8J1xb9F9WqVUv74cZJ5UDY0jaX.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 27, 2026 • Digital • NR • IMDb 6.8",
+      "imdbRating": "6.8"
+    },
+    {
       "id": "tt49164308",
       "type": "movie",
       "name": "Kordell Stewart / Slash & Burn",
@@ -338,7 +370,7 @@
       "id": "tt32321285",
       "type": "movie",
       "name": "Josephine",
-      "poster": "https://image.tmdb.org/t/p/w185/6pUSCeInGp4Ut3rqgPNWUrmKBUi.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/8KTcbsdz2PcyA58puJMA3CUnZeA.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -647,8 +679,8 @@
     {
       "id": "tt35511966",
       "type": "movie",
-      "name": "LA BOLA NEGRA",
-      "poster": "https://image.tmdb.org/t/p/w185/t1azKLExwUxKj6v6m2L535evuRa.jpg",
+      "name": "La bola negra",
+      "poster": "https://image.tmdb.org/t/p/w185/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -971,28 +1003,6 @@
       "trailers": [
         {
           "source": "oWofWD4gdbE",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt18270542",
-      "type": "movie",
-      "name": "Ray Gunn",
-      "poster": "https://image.tmdb.org/t/p/w185/rpP29aOKpHy1FhX8OZQdUICEs2j.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 25, 2026 • Premiere • NR • IMDb 7.5",
-      "imdbRating": "7.5",
-      "trailers": [
-        {
-          "source": "VL-xjzQFWsY",
           "type": "Trailer"
         }
       ]
@@ -1673,25 +1683,6 @@
       "imdbRating": "6.6"
     },
     {
-      "id": "tt46658752",
-      "type": "movie",
-      "name": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
-      "poster": "https://image.tmdb.org/t/p/w185/aRoPHxYzfQjCLxSp4H4sJANNmou.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Music",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 24, 2026 • Limited theatrical • NR",
-      "trailers": [
-        {
-          "source": "q0XKUFGn_M4",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt45074624",
       "type": "movie",
       "name": "There's Room For Two In Here",
@@ -1790,16 +1781,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt42466963",
-      "type": "movie",
-      "name": "The Late in Life Guide to Modern Day Lesbianism",
-      "poster": "https://image.tmdb.org/t/p/w185/zQht0U6Bmn2JyUq4HIoQ4DUC8rw.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: October 24, 2026 • Theatrical • NR"
     },
     {
       "id": "tt39334277",
@@ -2301,6 +2282,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt50137586",
+      "type": "movie",
+      "name": "Holding",
+      "poster": "https://image.tmdb.org/t/p/w185/tcDeSA0UA1P7EFy6c4sdQtpXABC.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 24, 2026 • Premiere • NR"
     },
     {
       "id": "tt35834511",
@@ -3038,27 +3031,6 @@
       "trailers": [
         {
           "source": "mZsxeHN5qQo",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt36870725",
-      "type": "movie",
-      "name": "Terrestrial",
-      "poster": "https://image.tmdb.org/t/p/w185/sHkkXROc8IVZ9vrVE4SWi6faQ8p.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 23, 2026 • Limited theatrical • NR • IMDb 5.1",
-      "imdbRating": "5.1",
-      "trailers": [
-        {
-          "source": "cD0fVpDoN8Y",
           "type": "Trailer"
         }
       ]
@@ -5329,24 +5301,6 @@
       ]
     },
     {
-      "id": "tt48913651",
-      "type": "movie",
-      "name": "Gentle by Birth",
-      "poster": "https://image.tmdb.org/t/p/w185/eyoRrU8bQXMhxotHePBCn7xUjBM.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 19, 2026 • Premiere • NR",
-      "trailers": [
-        {
-          "source": "PaoEYEd46WE",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt43626808",
       "type": "movie",
       "name": "Gavin Matts: present",
@@ -5703,6 +5657,21 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt43376986",
+      "type": "movie",
+      "name": "Intoxication",
+      "poster": "https://image.tmdb.org/t/p/w185/8mGExfOy6dG9x7WsWDOON7fI2ZT.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Adventure",
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 18, 2026 • Premiere • NR"
     },
     {
       "id": "tt37038389",
@@ -6526,22 +6495,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt35715517",
-      "type": "movie",
-      "name": "Dudley & the Invasion of the Space Slugs",
-      "poster": "https://image.tmdb.org/t/p/w185/vIjAALPzNGe1BX0LcCxfUEOmjuI.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Family",
-        "Science Fiction",
-        "Comedy",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR"
     },
     {
       "id": "tt44938620",
@@ -7911,19 +7864,6 @@
       ]
     },
     {
-      "id": "tt33605322",
-      "type": "movie",
-      "name": "Conceivable",
-      "poster": "https://image.tmdb.org/t/p/w185/g5qpNDC5vLb3aTuPTqddfSqzuEy.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Limited theatrical • PG-13 • IMDb 5.5",
-      "imdbRating": "5.5"
-    },
-    {
       "id": "tt36271247",
       "type": "movie",
       "name": "Clean Hands",
@@ -8012,16 +7952,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt37060845",
-      "type": "movie",
-      "name": "Beyond The Eagle Obsession",
-      "poster": "https://image.tmdb.org/t/p/w185/u5jGqEGYYUt8XAzmAhhZxKcUFN8.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: October 16, 2026 • Theatrical • G"
     },
     {
       "id": "tt0144084",
@@ -9731,26 +9661,6 @@
       "description": "US release: October 11, 2026 • Theatrical • NR"
     },
     {
-      "id": "tt36339656",
-      "type": "movie",
-      "name": "Boss Cat",
-      "poster": "https://image.tmdb.org/t/p/w185/bGVQFQbDdaGp6lWUvc3WV8AmBEH.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 11, 2026 • Premiere • NR • IMDb 8.7",
-      "imdbRating": "8.7",
-      "trailers": [
-        {
-          "source": "lft4KUoTz7E",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt38275278",
       "type": "movie",
       "name": "WWE Money in the Bank 2026",
@@ -10105,19 +10015,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 10, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt27371518",
-      "type": "movie",
-      "name": "Carl Sagan: We Are Made of Star Stuff",
-      "poster": "https://image.tmdb.org/t/p/w185/zsNoHDfuIUEoW6fbrHzHRq00AUE.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 10, 2026 • Premiere • NR • IMDb 8.6",
-      "imdbRating": "8.6"
     },
     {
       "id": "tt37969347",
@@ -13919,16 +13816,6 @@
       "description": "US release: October 2, 2026 • Premiere • NR"
     },
     {
-      "id": "tt15250526",
-      "type": "movie",
-      "name": "Luccica",
-      "poster": "https://image.tmdb.org/t/p/w185/p3oSugbPQaZaEfLOxGa3zgWzNhW.jpg",
-      "posterShape": "poster",
-      "genres": [],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Limited theatrical • NR"
-    },
-    {
       "id": "tt43685260",
       "type": "movie",
       "name": "Lonely Boy",
@@ -14118,24 +14005,6 @@
       "trailers": [
         {
           "source": "otL78_pk_A0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt42609274",
-      "type": "movie",
-      "name": "Four Days In June",
-      "poster": "https://image.tmdb.org/t/p/w185/rQbIgyfjbGpx3PRuwzGRAkfsA7U.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 2, 2026 • Limited theatrical • NR",
-      "trailers": [
-        {
-          "source": "Jbl3C3KBwk4",
           "type": "Trailer"
         }
       ]
@@ -14479,7 +14348,7 @@
       "id": "tt30850718",
       "type": "movie",
       "name": "April X",
-      "poster": "https://image.tmdb.org/t/p/w185/3QrpmL3VLFkKwW1VUpq46RhCj3X.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/koNUflGEz6Fdy1GCqpvqBOcIaTP.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -15612,25 +15481,6 @@
       ]
     },
     {
-      "id": "tt44568097",
-      "type": "movie",
-      "name": "The Widower: 'Til Death Do Us Part",
-      "poster": "https://image.tmdb.org/t/p/w185/8MmN3JmgscGiAP3bUlrc2rLsGDq.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: September 30, 2026 • Digital • R • IMDb 6.6",
-      "imdbRating": "6.6",
-      "trailers": [
-        {
-          "source": "2Xn881UkR3s",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt33085567",
       "type": "movie",
       "name": "River",
@@ -15796,7 +15646,7 @@
       "id": "tt37493440",
       "type": "movie",
       "name": "Escape at Alcatraz",
-      "poster": "https://image.tmdb.org/t/p/w185/pz1q0j05YoQarSf39BSqw0ANv0h.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/g0hGknJSzy7bqB8oqXfEeA79kwB.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
