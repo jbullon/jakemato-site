@@ -57,6 +57,22 @@
       "imdbRating": "7.2"
     },
     {
+      "id": "tt2378453",
+      "type": "movie",
+      "name": "Savaged",
+      "poster": "https://image.tmdb.org/t/p/w185/bsPV6pXVDTAGbl4Tg4xWkm3Kkl.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.5",
+      "releaseInfo": "2014",
+      "imdbRating": "5.5"
+    },
+    {
       "id": "tt0234137",
       "type": "movie",
       "name": "Love & Sex",
@@ -70,21 +86,6 @@
       "description": "Mandys Picks • Adjacent to: Bridget Jones's Diary • IMDb 6.1",
       "releaseInfo": "2000",
       "imdbRating": "6.1"
-    },
-    {
-      "id": "tt2458106",
-      "type": "movie",
-      "name": "Ninja: Shadow of a Tear",
-      "poster": "https://image.tmdb.org/t/p/w185/f4i1wzuyFXv6NHREAy4fPPGSH7E.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 6.2",
-      "releaseInfo": "2013",
-      "imdbRating": "6.2"
     },
     {
       "id": "tt1103275",
@@ -276,21 +277,6 @@
       "imdbRating": "6.2"
     },
     {
-      "id": "tt1186367",
-      "type": "movie",
-      "name": "Ninja Assassin",
-      "poster": "https://image.tmdb.org/t/p/w185/ipJ4mgqse6uoTRsDyU3TXmva1rt.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 6.3",
-      "releaseInfo": "2009",
-      "imdbRating": "6.3"
-    },
-    {
       "id": "tt3468380",
       "type": "movie",
       "name": "Which Brings Me to You",
@@ -377,18 +363,33 @@
       "imdbRating": "7.4"
     },
     {
-      "id": "tt0853153",
+      "id": "tt2295722",
       "type": "movie",
-      "name": "Stuart: A Life Backwards",
-      "poster": "https://image.tmdb.org/t/p/w185/vpzjn5QQ9AFNoY6Lr7M8evFXK3l.jpg",
+      "name": "Falcon Rising",
+      "poster": "https://image.tmdb.org/t/p/w185/4wnfTO8mvqcTU62YMkUeKq49VMT.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.8",
+      "releaseInfo": "2014",
+      "imdbRating": "5.8"
+    },
+    {
+      "id": "tt0419677",
+      "type": "movie",
+      "name": "Dead Man's Shoes",
+      "poster": "https://image.tmdb.org/t/p/w185/sCbXlGHmonE3QEOeM7I2PRkG8y6.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
-        "TV Movie"
+        "Thriller",
+        "Crime"
       ],
-      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 7.6",
-      "releaseInfo": "2007",
-      "imdbRating": "7.6"
+      "description": "Mandys Picks • Adjacent to: Requiem for a Dream • IMDb 7.5",
+      "releaseInfo": "2004",
+      "imdbRating": "7.5"
     },
     {
       "id": "tt1621045",
@@ -461,18 +462,19 @@
       "imdbRating": "6.1"
     },
     {
-      "id": "tt3776288",
+      "id": "tt0458481",
       "type": "movie",
-      "name": "Sniper: Legacy",
-      "poster": "https://image.tmdb.org/t/p/w185/a9L1t3vRaZRU1Fa0kolfQGiTCnQ.jpg",
+      "name": "Sin City: A Dame to Kill For",
+      "poster": "https://image.tmdb.org/t/p/w185/50kALxDX4mmzIRljbNbPY0u4cie.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Action"
+        "Action",
+        "Crime",
+        "Thriller"
       ],
-      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 5.4",
+      "description": "Mandys Picks • Adjacent to: Kill Bill: Vol. 1 • IMDb 6.5",
       "releaseInfo": "2014",
-      "imdbRating": "5.4"
+      "imdbRating": "6.5"
     },
     {
       "id": "tt2452244",
