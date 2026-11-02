@@ -596,6 +596,25 @@
       ]
     },
     {
+      "id": "tt21275854",
+      "type": "movie",
+      "name": "In Transit",
+      "poster": "https://image.tmdb.org/t/p/w185/pwLQA4dir1QY3RzPOWb89yXsWNv.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Limited theatrical • NR • IMDb 6.3",
+      "imdbRating": "6.3",
+      "trailers": [
+        {
+          "source": "FeJD9y7eSx4",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt37803936",
       "type": "movie",
       "name": "I'm not crazy. Maybe a little...",
@@ -1381,10 +1400,28 @@
       "description": "US release: October 31, 2026 • Premiere • NR"
     },
     {
+      "id": "tt50139658",
+      "type": "movie",
+      "name": "All Those Who Bear Witness",
+      "poster": "https://image.tmdb.org/t/p/w185/weilfo4OcO4ZaRJr4XbKU5C6FY0.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 31, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "2J_Ydx35TVo",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt50389959",
       "type": "movie",
       "name": "A Story of Derry",
-      "poster": "https://image.tmdb.org/t/p/w185/q2XCoT6AqBANz0mKmkgVeo4PyRQ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -2011,7 +2048,6 @@
       "genres": [
         "Action",
         "Crime",
-        "Drama",
         "Thriller"
       ],
       "releaseInfo": "2026",
@@ -2215,8 +2251,8 @@
       "poster": "https://image.tmdb.org/t/p/w185/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
       "posterShape": "poster",
       "genres": [
+        "Thriller",
         "Drama",
-        "Action",
         "Crime"
       ],
       "releaseInfo": "2026",
@@ -2457,8 +2493,8 @@
       "poster": "https://image.tmdb.org/t/p/w185/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
         "Romance",
+        "Drama",
         "History"
       ],
       "releaseInfo": "2026",
@@ -2525,19 +2561,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt50284060",
-      "type": "movie",
-      "name": "Mama Bear",
-      "poster": "https://image.tmdb.org/t/p/w185/mbGxV5FbHLI8LQfWe2s6KnwCWuJ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 29, 2026 • Digital • NR • IMDb 6.4",
-      "imdbRating": "6.4"
     },
     {
       "id": "tt39298798",
@@ -3837,7 +3860,7 @@
       "id": "tt37522972",
       "type": "movie",
       "name": "The Man I Love",
-      "poster": "https://image.tmdb.org/t/p/w185/bUVI5ZPt4KhrS0B8WIzbutkBs39.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/8qwnjSldZjF3axsjTYgFJquU6lm.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -5342,7 +5365,7 @@
       "id": "tt2056785",
       "type": "movie",
       "name": "Wildwood",
-      "poster": "https://image.tmdb.org/t/p/w185/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -12617,27 +12640,6 @@
       "description": "US release: October 10, 2026 • Premiere • NR"
     },
     {
-      "id": "tt49205475",
-      "type": "movie",
-      "name": "Daredevil: Damned",
-      "poster": "https://image.tmdb.org/t/p/w185/30O2FQilhAYuqXNmZpN07qWytS.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 10, 2026 • Digital • NR • IMDb 8.9",
-      "imdbRating": "8.9",
-      "trailers": [
-        {
-          "source": "-wJ9gmMkO-g",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt33035227",
       "type": "movie",
       "name": "Cement",
@@ -13269,7 +13271,7 @@
       "id": "tt38807889",
       "type": "movie",
       "name": "Monster Mia",
-      "poster": "https://image.tmdb.org/t/p/w185/rlAFhlAdaUoujDxWRxBCVwM8esY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/rEIgF9W6OXJiHpM1fXLVVMqQlfF.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
