@@ -528,6 +528,19 @@
       "imdbRating": "8.4"
     },
     {
+      "id": "tt39122099",
+      "type": "movie",
+      "name": "When We Become Wind",
+      "poster": "https://image.tmdb.org/t/p/w185/aFxE5tJWsIqfIFAjvMt5rCX74me.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 7, 2026 • Theatrical • NR"
+    },
+    {
       "id": "tt39163238",
       "type": "movie",
       "name": "When a Witness Recants",
@@ -1375,19 +1388,6 @@
       ]
     },
     {
-      "id": "tt39122099",
-      "type": "movie",
-      "name": "When We Become Wind",
-      "poster": "https://image.tmdb.org/t/p/w185/aFxE5tJWsIqfIFAjvMt5rCX74me.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 6, 2026 • Theatrical • NR"
-    },
-    {
       "id": "tt37723374",
       "type": "movie",
       "name": "What Lives in Room 214?",
@@ -1726,7 +1726,8 @@
       "poster": "https://image.tmdb.org/t/p/w185/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama"
+        "Drama",
+        "Romance"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 6, 2026 • Digital • R • IMDb 8.0",
@@ -2393,26 +2394,6 @@
       "imdbRating": "8.0"
     },
     {
-      "id": "tt38058097",
-      "type": "movie",
-      "name": "Club Kid",
-      "poster": "https://image.tmdb.org/t/p/w185/o1qMU0ZB5XDX8IXJFFu3AkhOqjh.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 6, 2026 • Limited theatrical • R • IMDb 8.2",
-      "imdbRating": "8.2",
-      "trailers": [
-        {
-          "source": "guKEdb_iRXw",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt36165038",
       "type": "movie",
       "name": "Cleanliness",
@@ -2813,19 +2794,6 @@
       ]
     },
     {
-      "id": "tt50623997",
-      "type": "movie",
-      "name": "Law of Human Action",
-      "poster": "https://image.tmdb.org/t/p/w185/2xMsfl2ISeh15pk44b0lMKEaWtm.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 5, 2026 • Digital • NR"
-    },
-    {
       "id": "tt36639956",
       "type": "movie",
       "name": "Iron Boy",
@@ -2889,19 +2857,6 @@
       "description": "US release: November 5, 2026 • Premiere • NR"
     },
     {
-      "id": "tt49813394",
-      "type": "movie",
-      "name": "High End: The Watch Theft Ring",
-      "poster": "https://image.tmdb.org/t/p/w185/xd6c6evoWm6NHIjMlC7Y357crxf.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 5, 2026 • Digital • NR • IMDb 4.3",
-      "imdbRating": "4.3"
-    },
-    {
       "id": "tt48913651",
       "type": "movie",
       "name": "Gentle by Birth",
@@ -2935,19 +2890,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt49876731",
-      "type": "movie",
-      "name": "Forsaken",
-      "poster": "https://image.tmdb.org/t/p/w185/jfckrVLpD91ebCTKpQPxJPrHsc7.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 5, 2026 • Digital • NR"
     },
     {
       "id": "tt35410859",
@@ -3067,19 +3009,6 @@
           "type": "Trailer"
         }
       ]
-    },
-    {
-      "id": "tt31414242",
-      "type": "movie",
-      "name": "The Patient",
-      "poster": "https://image.tmdb.org/t/p/w185/4m1F4QVXlxr03ZPfd7clXfgFtD1.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 4, 2026 • Premiere • NR • IMDb 4.3",
-      "imdbRating": "4.3"
     },
     {
       "id": "tt40210362",
@@ -3229,26 +3158,6 @@
       "releaseInfo": "2026",
       "description": "US release: November 4, 2026 • Premiere • NR • IMDb 8.9",
       "imdbRating": "8.9"
-    },
-    {
-      "id": "tt38515310",
-      "type": "movie",
-      "name": "A Dog's Perfect Christmas",
-      "poster": "https://image.tmdb.org/t/p/w185/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 4, 2026 • Digital • PG-13 • IMDb 6.4",
-      "imdbRating": "6.4",
-      "trailers": [
-        {
-          "source": "L18ih13Bf-U",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt35856037",
@@ -4061,7 +3970,7 @@
       "id": "tt21919870",
       "type": "movie",
       "name": "Heartbeat",
-      "poster": "https://image.tmdb.org/t/p/w185/AqtdjOAAwqhxAHYffQIZNnTpGkh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/sf1BmAwYm13brRHWrR9fC7PXT22.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -4718,6 +4627,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt14104176",
+      "type": "movie",
+      "name": "BONDE",
+      "poster": "https://image.tmdb.org/t/p/w185/t4ZZVHAESrEKiPSOR0vDS0pWXWG.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Premiere • R"
     },
     {
       "id": "tt39166553",
@@ -8620,20 +8541,6 @@
       ]
     },
     {
-      "id": "tt33253352",
-      "type": "movie",
-      "name": "The Table: Day and Night",
-      "poster": "https://image.tmdb.org/t/p/w185/vI5ukJxgbRGs7FqA89LFGMH3lUc.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 24, 2026 • Premiere • NR • IMDb 6.1",
-      "imdbRating": "6.1"
-    },
-    {
       "id": "tt36684296",
       "type": "movie",
       "name": "The Spectacle",
@@ -8946,26 +8853,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 24, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt44766123",
-      "type": "movie",
-      "name": "NAZA",
-      "poster": "https://image.tmdb.org/t/p/w185/cbxiZ1l21KUATu2KKQQ8J8fJhpe.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary",
-        "War"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 24, 2026 • Premiere • NR • IMDb 8.4",
-      "imdbRating": "8.4",
-      "trailers": [
-        {
-          "source": "40KW6knYMo4",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt50174033",
@@ -12796,21 +12683,6 @@
       "imdbRating": "8.6"
     },
     {
-      "id": "tt31109276",
-      "type": "movie",
-      "name": "Julián",
-      "poster": "https://image.tmdb.org/t/p/w185/j36gobU51TFw7LCxl92AOIRBdwd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 17, 2026 • Premiere • NR • IMDb 7.5",
-      "imdbRating": "7.5"
-    },
-    {
       "id": "tt36955518",
       "type": "movie",
       "name": "Jim Queen and the Quest for Chloroqueer",
@@ -15431,7 +15303,8 @@
       "posterShape": "poster",
       "genres": [
         "Action",
-        "Comedy"
+        "Comedy",
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 13, 2026 • Digital • PG-13 • IMDb 6.2",
@@ -15488,22 +15361,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 13, 2026 • Digital • NR • IMDb 7.1",
       "imdbRating": "7.1"
-    },
-    {
-      "id": "tt27210514",
-      "type": "movie",
-      "name": "L’Ordre Pourpre",
-      "poster": "https://image.tmdb.org/t/p/w185/f8LMZi3xRNJpiTaVxoUbnyT5BYT.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 13, 2026 • Premiere • PG-13 • IMDb 5.0",
-      "imdbRating": "5.0"
     },
     {
       "id": "tt9174288",
@@ -15990,6 +15847,24 @@
       "releaseInfo": "2026",
       "description": "US release: October 11, 2026 • Premiere • NR • IMDb 9.9",
       "imdbRating": "9.9"
+    },
+    {
+      "id": "tt39150622",
+      "type": "movie",
+      "name": "The Bloodline of Bathory",
+      "poster": "https://image.tmdb.org/t/p/w185/eLUBCr6e4iSxzhhIhXqjam9ECXp.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 11, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "IKxtb2_UuUM",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt43634230",
