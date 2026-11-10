@@ -1,6 +1,25 @@
 {
   "metas": [
     {
+      "id": "tt43329426",
+      "type": "movie",
+      "name": "Wishing Well Road",
+      "poster": "https://image.tmdb.org/t/p/w185/hQroK2QPcNgFxHfklrj6N1rv8iA.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 10, 2026 • Digital • NR • IMDb 4.6",
+      "imdbRating": "4.6",
+      "trailers": [
+        {
+          "source": "aAQggTxtDkM",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt13848364",
       "type": "movie",
       "name": "We Are All Strangers",
@@ -85,27 +104,6 @@
       "releaseInfo": "2026",
       "description": "US release: November 10, 2026 • Premiere • NR • IMDb 7.0",
       "imdbRating": "7.0"
-    },
-    {
-      "id": "tt0066993",
-      "type": "movie",
-      "name": "The Devils",
-      "poster": "https://image.tmdb.org/t/p/w185/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "History",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 10, 2026 • Digital • NC-17 • IMDb 7.8",
-      "imdbRating": "7.8",
-      "trailers": [
-        {
-          "source": "ImeXlanF3iY",
-          "type": "Trailer"
-        }
-      ]
     },
     {
       "id": "tt43699368",
@@ -249,6 +247,24 @@
       ]
     },
     {
+      "id": "tt49625485",
+      "type": "movie",
+      "name": "Janelle James: How Romantic",
+      "poster": "https://image.tmdb.org/t/p/w185/zjASMxUqsye6BKLbW78FA9d64Yy.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 10, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "MeBysXIz-zM",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt49814435",
       "type": "movie",
       "name": "Invasive Florida",
@@ -383,15 +399,21 @@
       "id": "tt39453578",
       "type": "movie",
       "name": "The Good Lawyer",
-      "poster": "https://image.tmdb.org/t/p/w185/5gLUXJZzyL1GQAAGdfnz1KEH8gj.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/rVkMvD7CpBueGmNIz2uVgluhTjS.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Thriller"
+        "Thriller",
+        "Drama"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 9, 2026 • Digital • R • IMDb 6.2",
-      "imdbRating": "6.2"
+      "imdbRating": "6.2",
+      "trailers": [
+        {
+          "source": "3Ep7Rq24jDA",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt43663820",
@@ -1911,7 +1933,7 @@
       "id": "tt49241977",
       "type": "movie",
       "name": "Wolves Up Close with Bertie Gregory",
-      "poster": "https://image.tmdb.org/t/p/w185/qzXLcjoiQpRpPZBMpXrszWhMzA5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/fopmDU345HPkMC9iUaNQEY0uRkk.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -2047,6 +2069,19 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt39479582",
+      "type": "movie",
+      "name": "The Hustler",
+      "poster": "https://image.tmdb.org/t/p/w185/tk5LryKVc9vR6Z81NieJ6RAqgUz.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 6, 2026 • Premiere • NR • IMDb 6.6",
+      "imdbRating": "6.6"
     },
     {
       "id": "tt33039059",
@@ -2287,8 +2322,7 @@
       "poster": "https://image.tmdb.org/t/p/w185/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Romance"
+        "Drama"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 6, 2026 • Digital • R • IMDb 7.9",
@@ -2717,7 +2751,7 @@
       "imdbRating": "6.9",
       "trailers": [
         {
-          "source": "eokBqEFiVHs",
+          "source": "-IK_cCkRqfU",
           "type": "Trailer"
         }
       ]
@@ -2908,7 +2942,7 @@
       "id": "tt28553375",
       "type": "movie",
       "name": "De Gaulle: Résistance",
-      "poster": "https://image.tmdb.org/t/p/w185/ylXQDz9eAQuC785UQaz5wum2GSe.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/39rtqWTBIUHxo6yLvRbpOHN9tK5.jpg",
       "posterShape": "poster",
       "genres": [
         "History",
@@ -3568,7 +3602,7 @@
       "id": "tt35410859",
       "type": "movie",
       "name": "Fjord",
-      "poster": "https://image.tmdb.org/t/p/w185/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/rIhqYAVPmMQaTCiBJI5o21KDFM2.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -5319,6 +5353,19 @@
       "genres": [],
       "releaseInfo": "2026",
       "description": "US release: November 1, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt43138582",
+      "type": "movie",
+      "name": "Christmas Owes Me Nothing",
+      "poster": "https://image.tmdb.org/t/p/w185/u3RANqkntPw4CBwuZtpaPpwDtYj.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Digital • NR"
     },
     {
       "id": "tt48413160",
@@ -7399,41 +7446,6 @@
       "description": "US release: October 29, 2026 • Premiere • NR"
     },
     {
-      "id": "tt50368115",
-      "type": "movie",
-      "name": "My Chemical Romance & Lauren Tsai: Prelude to the End",
-      "poster": "https://image.tmdb.org/t/p/w185/7P9TTF2tzrVvWnUfKtpIhYq1mD7.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Fantasy",
-        "Horror",
-        "Music"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 29, 2026 • Digital • NR • IMDb 8.0",
-      "imdbRating": "8.0",
-      "trailers": [
-        {
-          "source": "BpJikRTDqdk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt27666891",
-      "type": "movie",
-      "name": "Mama Bear",
-      "poster": "https://image.tmdb.org/t/p/w185/tkwS1t4yxU4tcNTLXOmCuXnTzm6.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 29, 2026 • Digital • NR • IMDb 6.2",
-      "imdbRating": "6.2"
-    },
-    {
       "id": "tt39298798",
       "type": "movie",
       "name": "Log 15",
@@ -7940,7 +7952,7 @@
       "id": "tt45368240",
       "type": "movie",
       "name": "You Can See Everything",
-      "poster": "https://image.tmdb.org/t/p/w185/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -12077,7 +12089,7 @@
       "id": "tt18765720",
       "type": "movie",
       "name": "I Don't Want to Drink Your Blood Anymore",
-      "poster": "https://image.tmdb.org/t/p/w185/hnI0V15KVTSDnmHvOGa3zAtnui0.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/2iSiXbDzxepfgBzcjwOVAmlHZ09.jpg",
       "posterShape": "poster",
       "genres": [
         "Horror",
@@ -12214,8 +12226,7 @@
       "genres": [
         "Thriller",
         "History",
-        "Crime",
-        "Drama"
+        "Crime"
       ],
       "releaseInfo": "2026",
       "description": "US release: October 20, 2026 • Digital • R • IMDb 6.5",
@@ -14080,6 +14091,27 @@
       "imdbRating": "6.2"
     },
     {
+      "id": "tt0066993",
+      "type": "movie",
+      "name": "The Devils",
+      "poster": "https://image.tmdb.org/t/p/w185/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "History",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 16, 2026 • Limited theatrical • NC-17 • IMDb 7.8",
+      "imdbRating": "7.8",
+      "trailers": [
+        {
+          "source": "z_LVe_dUWKg",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt32273171",
       "type": "movie",
       "name": "The Death of Robin Hood",
@@ -14660,7 +14692,7 @@
       "id": "tt43657324",
       "type": "movie",
       "name": "KATSEYE: Wild Hearts",
-      "poster": "https://image.tmdb.org/t/p/w185/ny0ixZtPOnBTjz1nycQOE0czyMy.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/2iMiErHxi3prW3J2ZjFiChfhptt.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary",
