@@ -1403,6 +1403,19 @@
       "description": "US release: November 12, 2026 • Premiere • NR"
     },
     {
+      "id": "tt39150043",
+      "type": "movie",
+      "name": "To Hold a Mountain",
+      "poster": "https://image.tmdb.org/t/p/w185/pdfOMNE7uXZ2BRoO0xwDQlwd4U.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 12, 2026 • Premiere • NR • IMDb 7.8",
+      "imdbRating": "7.8"
+    },
+    {
       "id": "tt43704183",
       "type": "movie",
       "name": "They're Here",
@@ -1688,7 +1701,7 @@
       "id": "tt33318732",
       "type": "movie",
       "name": "Jailer 2",
-      "poster": "https://image.tmdb.org/t/p/w185/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/1ei2UWNDRx5xKR7HjvEj17qExvL.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -1947,7 +1960,7 @@
       "id": "tt36834996",
       "type": "movie",
       "name": "All of a Sudden",
-      "poster": "https://image.tmdb.org/t/p/w185/fgxhBo4elwt89J5k9wzhHSXGQmY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -2512,7 +2525,13 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 10, 2026 • Digital • NR • IMDb 6.3",
-      "imdbRating": "6.3"
+      "imdbRating": "6.3",
+      "trailers": [
+        {
+          "source": "RV6eGEq43FU",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt10381014",
@@ -13252,7 +13271,6 @@
       "posterShape": "poster",
       "genres": [
         "History",
-        "Comedy",
         "Drama"
       ],
       "releaseInfo": "2026",
