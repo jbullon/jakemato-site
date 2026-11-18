@@ -1,84 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt6611324",
-      "type": "movie",
-      "name": "Guarding Stars",
-      "poster": "https://image.tmdb.org/t/p/w185/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 18, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "mFvtVPMa5ak",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt24818230",
-      "type": "movie",
-      "name": "Madden",
-      "poster": "https://image.tmdb.org/t/p/w185/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 18, 2026 • Digital • R",
-      "trailers": [
-        {
-          "source": "xzh7HzLXXpk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt34385689",
-      "type": "movie",
-      "name": "Paper Tiger",
-      "poster": "https://image.tmdb.org/t/p/w185/p6oLmq5KmuWY6uRXBQBL2q30jia.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 18, 2026 • Premiere • NR • IMDb 6.9",
-      "imdbRating": "6.9",
-      "trailers": [
-        {
-          "source": "MLwTyQOhBkw",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt39640040",
-      "type": "movie",
-      "name": "The Hotline",
-      "poster": "https://image.tmdb.org/t/p/w185/qTgC6JjpEkaWFYR3dSMBxSITGJD.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 18, 2026 • Digital / TV • NR • IMDb 7.1",
-      "imdbRating": "7.1",
-      "trailers": [
-        {
-          "source": "XBY2ylbeOkM",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt33335610",
       "type": "movie",
       "name": "Clarissa",
@@ -151,6 +73,26 @@
       "trailers": [
         {
           "source": "TpNEh5vvAns",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt32755816",
+      "type": "movie",
+      "name": "John Lindahl's CULT CLASSIQUÉ",
+      "poster": "https://image.tmdb.org/t/p/w185/n2lXBiBwiPAei7vsVOdn1bu8nT2.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Music",
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 19, 2026 • Limited theatrical • NR",
+      "trailers": [
+        {
+          "source": "HKJXTdLuRAk",
           "type": "Trailer"
         }
       ]
@@ -349,6 +291,22 @@
       "trailers": [
         {
           "source": "z5WjIRjuVH0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt38773658",
+      "type": "movie",
+      "name": "Déjà Vu: The Eye of LuLu",
+      "poster": "https://image.tmdb.org/t/p/w185/dJUYzJIReqi0P5JvjKLr56Xo1XX.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Theatrical • NR",
+      "trailers": [
+        {
+          "source": "ik3v1Nf_E1I",
           "type": "Trailer"
         }
       ]
@@ -597,7 +555,7 @@
       "id": "tt32558705",
       "type": "movie",
       "name": "The Hunger Games: Sunrise on the Reaping",
-      "poster": "https://image.tmdb.org/t/p/w185/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -1351,6 +1309,27 @@
       ]
     },
     {
+      "id": "tt9853500",
+      "type": "movie",
+      "name": "Bandit",
+      "poster": "https://image.tmdb.org/t/p/w185/yph9PAbmjYPvyvbeZvdYIhCZHEu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 25, 2026 • Digital • R • IMDb 6.5",
+      "imdbRating": "6.5",
+      "trailers": [
+        {
+          "source": "sSjYZXVXiaM",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt34966140",
       "type": "movie",
       "name": "Focker-in-Law",
@@ -1413,10 +1392,31 @@
       ]
     },
     {
+      "id": "tt34385689",
+      "type": "movie",
+      "name": "Paper Tiger",
+      "poster": "https://image.tmdb.org/t/p/w185/p6oLmq5KmuWY6uRXBQBL2q30jia.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 25, 2026 • Theatrical • R • IMDb 6.9",
+      "imdbRating": "6.9",
+      "trailers": [
+        {
+          "source": "MLwTyQOhBkw",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt36408401",
       "type": "movie",
       "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "poster": "https://image.tmdb.org/t/p/w185/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5jO6rhfethzH7xdWl6KCOxCNCzQ.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
@@ -1779,7 +1779,7 @@
     {
       "id": "tt35511966",
       "type": "movie",
-      "name": "La Bola Negra",
+      "name": "LA BOLA NEGRA",
       "poster": "https://image.tmdb.org/t/p/w185/7HwFQTMghL6HOvzEnXYUvyuZXeh.jpg",
       "posterShape": "poster",
       "genres": [
@@ -1957,7 +1957,7 @@
       "id": "tt27419420",
       "type": "movie",
       "name": "Street Fighter",
-      "poster": "https://image.tmdb.org/t/p/w185/8nP4lF51Ea861YfHEEqhZBLYv3e.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -2212,10 +2212,9 @@
       "id": "tt48503221",
       "type": "movie",
       "name": "Diary of a Wimpy Kid Christmas: The Getaway",
-      "poster": "https://image.tmdb.org/t/p/w185/3yqKz67ZbcqYNJcjz7ZqGcnggyc.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/aHHIMSaXLnHZlWW15cZx9bBc0kq.jpg",
       "posterShape": "poster",
       "genres": [
-        "Adventure",
         "Animation",
         "Comedy",
         "Family"
@@ -2275,7 +2274,7 @@
       "id": "tt38044308",
       "type": "movie",
       "name": "GAME",
-      "poster": "https://image.tmdb.org/t/p/w185/tTLf0s9nlahvZNrP1qipds7irTO.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/9ATwqT1SqpqzuAWle2n5bYWOfEt.jpg",
       "posterShape": "poster",
       "genres": [
         "Thriller",
@@ -2326,6 +2325,25 @@
       "trailers": [
         {
           "source": "UoAf0LNAn30",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39150251",
+      "type": "movie",
+      "name": "Jane Elliott Against the World",
+      "poster": "https://image.tmdb.org/t/p/w185/c08mBqkNPZKtZ5H9Y5KH8UxDD9U.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 4, 2026 • Limited theatrical • NR • IMDb 8.3",
+      "imdbRating": "8.3",
+      "trailers": [
+        {
+          "source": "54shEK14kfY",
           "type": "Trailer"
         }
       ]
@@ -2507,6 +2525,26 @@
       "trailers": [
         {
           "source": "ld465IU0NGY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt34382912",
+      "type": "movie",
+      "name": "The Gallerist",
+      "poster": "https://image.tmdb.org/t/p/w185/mEi0c3wUrjnekhv02RM1kEAC3Qc.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 4, 2026 • Theatrical • R • IMDb 4.6",
+      "imdbRating": "4.6",
+      "trailers": [
+        {
+          "source": "2ZW9QDB_PHA",
           "type": "Trailer"
         }
       ]
@@ -2785,6 +2823,27 @@
       "trailers": [
         {
           "source": "uEcoV-ngH38",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt11358390",
+      "type": "movie",
+      "name": "Renfield",
+      "poster": "https://image.tmdb.org/t/p/w185/p6yUjhvNGQpFZilKwOKbxQ1eHlo.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 9, 2026 • Digital • R • IMDb 6.4",
+      "imdbRating": "6.4",
+      "trailers": [
+        {
+          "source": "OkMep-7CXCI",
           "type": "Trailer"
         }
       ]
@@ -3322,11 +3381,10 @@
         "Adventure",
         "Animation",
         "Comedy",
-        "Family",
-        "Science Fiction"
+        "Family"
       ],
       "releaseInfo": "2026",
-      "description": "US release: December 23, 2026 • Theatrical • NR",
+      "description": "US release: December 23, 2026 • Theatrical • PG",
       "trailers": [
         {
           "source": "FjYzudbOzlY",
