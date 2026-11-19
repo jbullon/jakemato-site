@@ -1,6 +1,18 @@
 {
   "metas": [
     {
+      "id": "tt49813814",
+      "type": "movie",
+      "name": "The Pursuit: F1 ACADEMY",
+      "poster": "https://image.tmdb.org/t/p/w185/uVTEtFV01czYnVziWoR1QfoW9Wu.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 19, 2026 • Digital • NR"
+    },
+    {
       "id": "tt49412678",
       "type": "movie",
       "name": "The Great Lake Bums",
@@ -259,7 +271,7 @@
       "id": "tt39640040",
       "type": "movie",
       "name": "The Hotline",
-      "poster": "https://image.tmdb.org/t/p/w185/qTgC6JjpEkaWFYR3dSMBxSITGJD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/2LdKmKtwTueljR7YPSOFrnqVsbM.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -382,7 +394,13 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 18, 2026 • Digital • R • IMDb 6.8",
-      "imdbRating": "6.8"
+      "imdbRating": "6.8",
+      "trailers": [
+        {
+          "source": "VZNH5XSIgD4",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt39163238",
@@ -719,6 +737,27 @@
       ]
     },
     {
+      "id": "tt37171180",
+      "type": "movie",
+      "name": "Artificial",
+      "poster": "https://image.tmdb.org/t/p/w185/2bz0HPE8OFOqnyvl8sCdVDIg1KX.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 17, 2026 • Premiere • PG-13 • IMDb 7.7",
+      "imdbRating": "7.7",
+      "trailers": [
+        {
+          "source": "ufeJbTNq-BI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt14129116",
       "type": "movie",
       "name": "A Talent for Murder",
@@ -777,7 +816,7 @@
       "id": "tt32558705",
       "type": "movie",
       "name": "The Hunger Games: Sunrise on the Reaping",
-      "poster": "https://image.tmdb.org/t/p/w185/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -2379,7 +2418,13 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 13, 2026 • Premiere • NR • IMDb 7.2",
-      "imdbRating": "7.2"
+      "imdbRating": "7.2",
+      "trailers": [
+        {
+          "source": "cal1RfsmHUI",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt35069832",
@@ -3179,7 +3224,7 @@
       "id": "tt39131708",
       "type": "movie",
       "name": "Itllu Arjuna",
-      "poster": "https://image.tmdb.org/t/p/w185/305TOBJYCjuZriRu9FrbRHOprPX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/i8WRWBdLhbAI6z3aaQAKuYf5g4T.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -3189,6 +3234,19 @@
       "releaseInfo": "2026",
       "description": "US release: November 12, 2026 • Theatrical • NR • IMDb 9.5",
       "imdbRating": "9.5"
+    },
+    {
+      "id": "tt48310691",
+      "type": "movie",
+      "name": "Hot Wieners and Coffee Milk",
+      "poster": "https://image.tmdb.org/t/p/w185/6THdox8XFTo4kYQ1yteT3aQQLPX.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 12, 2026 • Premiere • NR"
     },
     {
       "id": "tt38077943",
@@ -10175,26 +10233,6 @@
       ]
     },
     {
-      "id": "tt43083548",
-      "type": "movie",
-      "name": "The Class: Online",
-      "poster": "https://image.tmdb.org/t/p/w185/3O1mCt9FRyHtJERJd6zsUjGqEwF.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 30, 2026 • Digital • R",
-      "trailers": [
-        {
-          "source": "X5NdmR4zWvk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt39773403",
       "type": "movie",
       "name": "The Canvas",
@@ -11311,6 +11349,20 @@
       ]
     },
     {
+      "id": "tt37896763",
+      "type": "movie",
+      "name": "Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w185/jAJJsY1ZLG0nFth1AabrjfVOyS5.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary",
+        "History"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 28, 2026 • Premiere • NR • IMDb 5.4",
+      "imdbRating": "5.4"
+    },
+    {
       "id": "tt32890033",
       "type": "movie",
       "name": "Minions & Monsters",
@@ -11562,7 +11614,7 @@
       "id": "tt45368240",
       "type": "movie",
       "name": "You Can See Everything",
-      "poster": "https://image.tmdb.org/t/p/w185/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"

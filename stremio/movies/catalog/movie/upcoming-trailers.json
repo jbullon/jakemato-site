@@ -398,7 +398,7 @@
       "id": "tt32558705",
       "type": "movie",
       "name": "The Hunger Games: Sunrise on the Reaping",
-      "poster": "https://image.tmdb.org/t/p/w185/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/nzIXSQNgYZwFOMrmv0d0I3ulvkM.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -2080,9 +2080,9 @@
       "poster": "https://image.tmdb.org/t/p/w185/vyI8RnUy0tV7F0rj0WUjlNKIIHx.jpg",
       "posterShape": "poster",
       "genres": [
-        "History",
         "Drama",
-        "War"
+        "War",
+        "History"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 4, 2026 • Limited theatrical / Digital • NR • IMDb 7.8",
@@ -2933,6 +2933,26 @@
       ]
     },
     {
+      "id": "tt30057115",
+      "type": "movie",
+      "name": "Killing Castro",
+      "poster": "https://image.tmdb.org/t/p/w185/5pNmqh1lcCGfuXZTWLjMI1wQpVa.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 11, 2026 • Limited theatrical • R • IMDb 7.2",
+      "imdbRating": "7.2",
+      "trailers": [
+        {
+          "source": "cal1RfsmHUI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt12042730",
       "type": "movie",
       "name": "Project Hail Mary",
@@ -2948,6 +2968,26 @@
       "trailers": [
         {
           "source": "Q2UjkMU_ZWQ",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt36119435",
+      "type": "movie",
+      "name": "Red Snow",
+      "poster": "https://image.tmdb.org/t/p/w185/xe43Kvbi10VSMeOgqblZfldTqA7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 11, 2026 • Digital • NR • IMDb 6.1",
+      "imdbRating": "6.1",
+      "trailers": [
+        {
+          "source": "XZYHylWurc0",
           "type": "Trailer"
         }
       ]
@@ -3115,7 +3155,7 @@
       "id": "tt21357150",
       "type": "movie",
       "name": "Avengers: Doomsday",
-      "poster": "https://image.tmdb.org/t/p/w185/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/1zqWkLwC1zLBBBtIWzmkmWeMWnT.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -3587,7 +3627,7 @@
         "Drama"
       ],
       "releaseInfo": "2026",
-      "description": "US release: December 30, 2026 • Limited theatrical • NR • IMDb 7.6",
+      "description": "US release: December 30, 2026 • Limited theatrical • PG-13 • IMDb 7.6",
       "imdbRating": "7.6",
       "trailers": [
         {
