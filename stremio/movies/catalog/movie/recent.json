@@ -220,7 +220,7 @@
       "id": "tt14413964",
       "type": "movie",
       "name": "Steps",
-      "poster": "https://image.tmdb.org/t/p/w185/c7eHnRXLK86sdCuq0rnZgp7GvS5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -298,7 +298,13 @@
         "Documentary"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 20, 2026 • Digital • NR"
+      "description": "US release: November 20, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "bkttnVxwp70",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt18351090",
@@ -440,7 +446,7 @@
       "id": "tt11995650",
       "type": "movie",
       "name": "I Play Rocky",
-      "poster": "https://image.tmdb.org/t/p/w185/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/jKW6b89n5EGbJXtxTZYBcDHLpYg.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -658,7 +664,7 @@
       "id": "tt36834996",
       "type": "movie",
       "name": "All of a Sudden",
-      "poster": "https://image.tmdb.org/t/p/w185/qPJ4yjGitxUGRJiyxUlM51OEbp5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/kFD1vl6FPt8heIIgFiAyIbZqrYh.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -677,13 +683,12 @@
       "id": "tt35108047",
       "type": "movie",
       "name": "After This Death",
-      "poster": "https://image.tmdb.org/t/p/w185/zLMJ5Y3pIBW7CL6I502i9URzHkA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/7tIbnCqfCx3XliHDiDFnd4zfWdL.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
         "Mystery",
-        "Music",
-        "Comedy"
+        "Music"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 20, 2026 • Digital • NR • IMDb 5.8",
@@ -834,6 +839,19 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 19, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt50016818",
+      "type": "movie",
+      "name": "Last Meal",
+      "poster": "https://image.tmdb.org/t/p/w185/kdz0fHndmpFKb0iwJvauyPHRAh7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 19, 2026 • Digital • R"
     },
     {
       "id": "tt32755816",
@@ -1083,7 +1101,7 @@
       "id": "tt37020296",
       "type": "movie",
       "name": "Gentle Monster",
-      "poster": "https://image.tmdb.org/t/p/w185/e6JypFBgG2Mv037ZxhnxkEO8fHa.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/tZg30lLnTwXFayKbVdgtk69zMim.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -1097,6 +1115,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt51543182",
+      "type": "movie",
+      "name": "Gentle Monster",
+      "poster": "https://image.tmdb.org/t/p/w185/2VijnIcYDfLMz6r3kk2SJsSoLr0.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 18, 2026 • Digital • NR"
     },
     {
       "id": "tt39163238",
@@ -1444,7 +1474,7 @@
         "History"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 17, 2026 • Premiere • NR • IMDb 7.7",
+      "description": "US release: November 17, 2026 • Premiere • PG-13 • IMDb 7.7",
       "imdbRating": "7.7",
       "trailers": [
         {
@@ -3141,6 +3171,26 @@
       ]
     },
     {
+      "id": "tt38651971",
+      "type": "movie",
+      "name": "Gondhal",
+      "poster": "https://image.tmdb.org/t/p/w185/hUIXIenoIPPhEUFcfR5PBSLX9oZ.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller",
+        "Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 13, 2026 • Premiere / Theatrical • NR • IMDb 8.4",
+      "imdbRating": "8.4",
+      "trailers": [
+        {
+          "source": "GMVAyGDGS0g",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt38060517",
       "type": "movie",
       "name": "God with Us",
@@ -3480,6 +3530,24 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 13, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt49237543",
+      "type": "movie",
+      "name": "Whiddy",
+      "poster": "https://image.tmdb.org/t/p/w185/spRPrwVmD08aXiZV951G5PQGVLb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 12, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "UvEm8WWIZ7M",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt40856286",
@@ -4383,6 +4451,16 @@
       "releaseInfo": "2026",
       "description": "US release: November 11, 2026 • Digital • NR • IMDb 7.4",
       "imdbRating": "7.4"
+    },
+    {
+      "id": "tt49282063",
+      "type": "movie",
+      "name": "Tampons & Taxes: Or How to Play the Ole Boys Club and Win",
+      "poster": "https://image.tmdb.org/t/p/w185/eAvrQyo9DbSE0W9VOEuEMnvlcO5.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 11, 2026 • Premiere • NR"
     },
     {
       "id": "tt38938078",
@@ -6440,7 +6518,7 @@
       "id": "tt15799564",
       "type": "movie",
       "name": "Wild Horse Nine",
-      "poster": "https://image.tmdb.org/t/p/w185/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/jc9lhVWASTgkuQiukNNxaivsTns.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
@@ -8095,7 +8173,7 @@
       "id": "tt40210362",
       "type": "movie",
       "name": "The Last Temptation of Becky",
-      "poster": "https://image.tmdb.org/t/p/w185/dS2EUbnMyfv1bWsGa6GBgzwp5cF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/nzSx9jiInWGWumMV1n1qyRqrpbq.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -8251,7 +8329,7 @@
       "id": "tt35856037",
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w185/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -9338,6 +9416,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt35596446",
+      "type": "movie",
+      "name": "Sheepwell",
+      "poster": "https://image.tmdb.org/t/p/w185/eqrMqFdsvqDfXG20nq9FvglJamr.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Premiere • NR"
     },
     {
       "id": "tt41603068",
