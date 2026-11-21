@@ -428,6 +428,24 @@
       "description": "US release: November 21, 2026 • Premiere • NR"
     },
     {
+      "id": "tt43634562",
+      "type": "movie",
+      "name": "Zombie Bloodlines",
+      "poster": "https://image.tmdb.org/t/p/w185/lwVSBjQJjLUlGkgEWm9OeLThPmo.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "Dk1YpmzCqrI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt42204235",
       "type": "movie",
       "name": "XI: Thou Shalt Not Be Indifferent",
@@ -542,26 +560,6 @@
       ]
     },
     {
-      "id": "tt37371373",
-      "type": "movie",
-      "name": "The Vile",
-      "poster": "https://image.tmdb.org/t/p/w185/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 20, 2026 • Limited theatrical / Digital • NR • IMDb 5.9",
-      "imdbRating": "5.9",
-      "trailers": [
-        {
-          "source": "JqvU-xl_rqk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt31973693",
       "type": "movie",
       "name": "The Roses",
@@ -657,10 +655,10 @@
       "posterShape": "poster",
       "genres": [
         "Animation",
-        "Fantasy",
-        "Comedy",
         "Family",
-        "Adventure"
+        "Comedy",
+        "Adventure",
+        "Fantasy"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 20, 2026 • Limited theatrical / Digital • PG",
@@ -896,6 +894,25 @@
       ]
     },
     {
+      "id": "tt51456225",
+      "type": "movie",
+      "name": "Jingle Bells Wedding Bells",
+      "poster": "https://image.tmdb.org/t/p/w185/sB1qF2Q947sGlLAf7n5mZFTC8yk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "7EGKGz2e-64",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt29518677",
       "type": "movie",
       "name": "Investigations of a Breakup",
@@ -1056,7 +1073,7 @@
       "id": "tt44879019",
       "type": "movie",
       "name": "Cameron Winter at Carnegie Hall",
-      "poster": "https://image.tmdb.org/t/p/w185/yQ30rrZxTQxnXIrKdSFKIpg0j3W.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/2M76qcM9nL31pnQemARtd3P9tCH.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary",
@@ -1088,6 +1105,24 @@
       "trailers": [
         {
           "source": "R-9dlnkY448",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt31962060",
+      "type": "movie",
+      "name": "Birth of the Black Underworld",
+      "poster": "https://image.tmdb.org/t/p/w185/fsCP5PZgin9ximhKJo4ZzPLILFk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Limited theatrical • NR",
+      "trailers": [
+        {
+          "source": "huwSjvU-Nsk",
           "type": "Trailer"
         }
       ]
@@ -1180,6 +1215,26 @@
       "trailers": [
         {
           "source": "CoOwzq9Hrqo",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt38984184",
+      "type": "movie",
+      "name": "418",
+      "poster": "https://image.tmdb.org/t/p/w185/1UUwomcPXFMLW3JT9JNFjQAGkKk.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Digital • R • IMDb 8.5",
+      "imdbRating": "8.5",
+      "trailers": [
+        {
+          "source": "eyIkfBMr-mI",
           "type": "Trailer"
         }
       ]
@@ -1519,7 +1574,7 @@
       "id": "tt6611324",
       "type": "movie",
       "name": "Guarding Stars",
-      "poster": "https://image.tmdb.org/t/p/w185/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
       "posterShape": "poster",
       "genres": [
         "Romance",
@@ -2278,7 +2333,7 @@
       "id": "tt32409947",
       "type": "movie",
       "name": "Light Pillar",
-      "poster": "https://image.tmdb.org/t/p/w185/fGY1InCDeYRplQBu5e3E3gCEnPt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/7G9LpBvpUQXz0IlAodOLMb7zawq.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -4575,6 +4630,19 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt35877960",
+      "type": "movie",
+      "name": "American Theater",
+      "poster": "https://image.tmdb.org/t/p/w185/wL3tMqmOSa0EGrovtubGcD8AM4t.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 12, 2026 • Limited theatrical • NR • IMDb 7.4",
+      "imdbRating": "7.4"
     },
     {
       "id": "tt39149951",
@@ -7809,7 +7877,7 @@
       "id": "tt37304295",
       "type": "movie",
       "name": "Fatherland",
-      "poster": "https://image.tmdb.org/t/p/w185/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/A4oNFaKi6BuIK3MZL3KEbB9H2T8.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -10059,6 +10127,22 @@
       "trailers": [
         {
           "source": "7HujVonRwB4",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt32916391",
+      "type": "movie",
+      "name": "Holy Death",
+      "poster": "https://image.tmdb.org/t/p/w185/2Qyi1RdQPdzaEf35Q3giImqrh4z.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 1, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "pS6OiW6Lt5o",
           "type": "Trailer"
         }
       ]
@@ -13614,7 +13698,7 @@
       "id": "tt23130254",
       "type": "movie",
       "name": "Long Day's Journey into Night",
-      "poster": "https://image.tmdb.org/t/p/w185/nFupOsOEWt0Q0olnqugNKR690Hn.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/v7SiGIDOia5nSsOpMfC3KYUIjpP.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -15768,26 +15852,6 @@
       "trailers": [
         {
           "source": "xTFGbhH7to0",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt38984184",
-      "type": "movie",
-      "name": "418",
-      "poster": "https://image.tmdb.org/t/p/w185/oaZFZQtqQFQOdSoaZanDeNQZc25.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 23, 2026 • Theatrical • NR • IMDb 8.5",
-      "imdbRating": "8.5",
-      "trailers": [
-        {
-          "source": "eyIkfBMr-mI",
           "type": "Trailer"
         }
       ]
