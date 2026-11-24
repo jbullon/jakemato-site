@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:06:09.095604+00:00",
+  "generated_at": "2026-11-24T22:52:15.227881+00:00",
   "window": {
     "days_back": 180,
     "days_forward": 90,
@@ -7,51 +7,10 @@
     "start_date": "2026-05-28",
     "end_date": "2027-02-22"
   },
-  "movie_count": 9025,
+  "movie_count": 9044,
   "skipped_not_found": 0,
   "skipped_errors": 0,
   "jakes_picks": [
-    {
-      "tmdb_id": 285923,
-      "title": "Grindhouse",
-      "original_title": "Grindhouse",
-      "original_language": "en",
-      "primary_release_date": "2007-04-06",
-      "poster_path": "/tvMBwJlmQTIQf5EBjHzzyE9tjcN.jpg",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Horror"
-      ],
-      "runtime": 191,
-      "vote_average": 7.004,
-      "vote_count": 1991,
-      "imdb_id": "tt0462322",
-      "primary_seed": "Green Room",
-      "seed_matches": [
-        "Green Room",
-        "Wolf Creek 2",
-        "Hatchet III",
-        "Hatchet II",
-        "Victor Crowley",
-        "Hatchet",
-        "The Texas Chainsaw Massacre",
-        "Predator",
-        "The Texas Chain Saw Massacre",
-        "The Hills Have Eyes",
-        "Carver",
-        "The Evil Dead",
-        "The Human Centipede (First Sequence)",
-        "The Texas Chainsaw Massacre: The Beginning"
-      ],
-      "recommendation_score": 306.43,
-      "confidence_tier": "high",
-      "taste_keyword_matches": [
-        "slasher"
-      ],
-      "imdb_rating": 7.5,
-      "imdb_votes": 198385
-    },
     {
       "tmdb_id": 101669,
       "title": "Mother's Day",
@@ -92,111 +51,45 @@
       "imdb_votes": 19678
     },
     {
-      "tmdb_id": 298250,
-      "title": "Jigsaw",
-      "original_title": "Jigsaw",
+      "tmdb_id": 285923,
+      "title": "Grindhouse",
+      "original_title": "Grindhouse",
       "original_language": "en",
-      "primary_release_date": "2017-10-25",
-      "poster_path": "/7RwHxhdUNS996JPFNB9a7CJtlwR.jpg",
+      "primary_release_date": "2007-04-06",
+      "poster_path": "/tvMBwJlmQTIQf5EBjHzzyE9tjcN.jpg",
       "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "runtime": 91,
-      "vote_average": 6.209,
-      "vote_count": 4117,
-      "imdb_id": "tt3348730",
-      "primary_seed": "Saw",
-      "seed_matches": [
-        "Saw",
-        "Hatchet III",
-        "Evil Dead Burn",
-        "Evil Dead",
-        "The Texas Chainsaw Massacre",
-        "Hatchet II",
-        "Wolf Creek 2",
-        "Hostel",
-        "The Human Centipede (First Sequence)"
-      ],
-      "recommendation_score": 215.17,
-      "confidence_tier": "high",
-      "taste_keyword_matches": [
-        "gore",
-        "survival",
-        "torture"
-      ],
-      "imdb_rating": 5.7,
-      "imdb_votes": 105320
-    },
-    {
-      "tmdb_id": 2662,
-      "title": "House of 1000 Corpses",
-      "original_title": "House of 1000 Corpses",
-      "original_language": "en",
-      "primary_release_date": "2003-04-11",
-      "poster_path": "/29c2qgXmSREosLBevOILEuMWzQC.jpg",
-      "genres": [
+        "Thriller",
+        "Action",
         "Horror"
       ],
-      "runtime": 89,
-      "vote_average": 6.203,
-      "vote_count": 1873,
-      "imdb_id": "tt0251736",
-      "primary_seed": "Evil Dead",
+      "runtime": 191,
+      "vote_average": 7.004,
+      "vote_count": 1991,
+      "imdb_id": "tt0462322",
+      "primary_seed": "Green Room",
       "seed_matches": [
-        "Evil Dead",
-        "The Texas Chain Saw Massacre",
-        "The Human Centipede (First Sequence)",
-        "The Evil Dead",
-        "Wolf Creek",
-        "Terrifier",
-        "Evil Dead Burn",
-        "The Texas Chainsaw Massacre: The Beginning",
-        "Funny Games",
-        "Hostel"
-      ],
-      "recommendation_score": 222.75,
-      "confidence_tier": "high",
-      "taste_keyword_matches": [
-        "psychopath"
-      ],
-      "imdb_rating": 6.0,
-      "imdb_votes": 102311
-    },
-    {
-      "tmdb_id": 13186,
-      "title": "Wrong Turn 2: Dead End",
-      "original_title": "Wrong Turn 2: Dead End",
-      "original_language": "en",
-      "primary_release_date": "2007-08-25",
-      "poster_path": "/iQ37ygxcpJNZp1XdHMantumylmw.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 97,
-      "vote_average": 6.183,
-      "vote_count": 1656,
-      "imdb_id": "tt0804555",
-      "primary_seed": "The Descent",
-      "seed_matches": [
-        "The Descent",
-        "The Hills Have Eyes",
-        "Victor Crowley",
+        "Green Room",
         "Wolf Creek 2",
         "Hatchet III",
-        "The Texas Chainsaw Massacre: The Beginning",
-        "Eden Lake"
+        "Hatchet II",
+        "Victor Crowley",
+        "Hatchet",
+        "Predator",
+        "The Texas Chainsaw Massacre",
+        "The Texas Chain Saw Massacre",
+        "The Hills Have Eyes",
+        "Carver",
+        "The Evil Dead",
+        "The Human Centipede (First Sequence)",
+        "The Texas Chainsaw Massacre: The Beginning"
       ],
-      "recommendation_score": 193.37,
+      "recommendation_score": 307.91,
       "confidence_tier": "high",
       "taste_keyword_matches": [
-        "slasher",
-        "survival"
+        "slasher"
       ],
-      "imdb_rating": 5.5,
-      "imdb_votes": 51384
+      "imdb_rating": 7.5,
+      "imdb_votes": 198385
     },
     {
       "tmdb_id": 9728,
@@ -216,13 +109,14 @@
       "seed_matches": [
         "Wolf Creek 2",
         "The Texas Chainsaw Massacre: The Beginning",
+        "Texas Chainsaw Massacre",
         "Victor Crowley",
         "Eden Lake",
         "The Texas Chainsaw Massacre",
         "The Texas Chain Saw Massacre",
         "The Hills Have Eyes"
       ],
-      "recommendation_score": 191.36,
+      "recommendation_score": 220.43,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "slasher",
@@ -231,6 +125,43 @@
       ],
       "imdb_rating": 5.6,
       "imdb_votes": 70925
+    },
+    {
+      "tmdb_id": 298250,
+      "title": "Jigsaw",
+      "original_title": "Jigsaw",
+      "original_language": "en",
+      "primary_release_date": "2017-10-25",
+      "poster_path": "/7RwHxhdUNS996JPFNB9a7CJtlwR.jpg",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "runtime": 91,
+      "vote_average": 6.2,
+      "vote_count": 4117,
+      "imdb_id": "tt3348730",
+      "primary_seed": "Saw",
+      "seed_matches": [
+        "Saw",
+        "Hatchet III",
+        "Evil Dead Burn",
+        "Evil Dead",
+        "The Texas Chainsaw Massacre",
+        "Hatchet II",
+        "Wolf Creek 2",
+        "Hostel"
+      ],
+      "recommendation_score": 208.6,
+      "confidence_tier": "high",
+      "taste_keyword_matches": [
+        "gore",
+        "survival",
+        "torture"
+      ],
+      "imdb_rating": 5.7,
+      "imdb_votes": 105320
     },
     {
       "tmdb_id": 543917,
@@ -268,6 +199,41 @@
       "imdb_votes": 10399
     },
     {
+      "tmdb_id": 2662,
+      "title": "House of 1000 Corpses",
+      "original_title": "House of 1000 Corpses",
+      "original_language": "en",
+      "primary_release_date": "2003-04-11",
+      "poster_path": "/29c2qgXmSREosLBevOILEuMWzQC.jpg",
+      "genres": [
+        "Horror"
+      ],
+      "runtime": 89,
+      "vote_average": 6.204,
+      "vote_count": 1874,
+      "imdb_id": "tt0251736",
+      "primary_seed": "Evil Dead",
+      "seed_matches": [
+        "Evil Dead",
+        "The Texas Chain Saw Massacre",
+        "The Human Centipede (First Sequence)",
+        "The Evil Dead",
+        "Terrifier",
+        "Evil Dead Burn",
+        "The Texas Chainsaw Massacre: The Beginning",
+        "Wolf Creek",
+        "Funny Games",
+        "Hostel"
+      ],
+      "recommendation_score": 220.83,
+      "confidence_tier": "high",
+      "taste_keyword_matches": [
+        "psychopath"
+      ],
+      "imdb_rating": 6.0,
+      "imdb_votes": 102311
+    },
+    {
       "tmdb_id": 11357,
       "title": "Halloween 4: The Return of Michael Myers",
       "original_title": "Halloween 4: The Return of Michael Myers",
@@ -295,7 +261,7 @@
         "Hatchet II",
         "Wolf Creek 2"
       ],
-      "recommendation_score": 202.78,
+      "recommendation_score": 202.89,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "serial killer"
@@ -328,7 +294,7 @@
         "The Texas Chainsaw Massacre",
         "Wolf Creek"
       ],
-      "recommendation_score": 201.27,
+      "recommendation_score": 199.39,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "survival",
@@ -336,6 +302,40 @@
       ],
       "imdb_rating": 3.8,
       "imdb_votes": 535
+    },
+    {
+      "tmdb_id": 13186,
+      "title": "Wrong Turn 2: Dead End",
+      "original_title": "Wrong Turn 2: Dead End",
+      "original_language": "en",
+      "primary_release_date": "2007-08-25",
+      "poster_path": "/iQ37ygxcpJNZp1XdHMantumylmw.jpg",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 97,
+      "vote_average": 6.183,
+      "vote_count": 1656,
+      "imdb_id": "tt0804555",
+      "primary_seed": "The Descent",
+      "seed_matches": [
+        "The Descent",
+        "The Hills Have Eyes",
+        "Victor Crowley",
+        "Wolf Creek 2",
+        "Hatchet III",
+        "The Texas Chainsaw Massacre: The Beginning",
+        "Eden Lake"
+      ],
+      "recommendation_score": 193.37,
+      "confidence_tier": "high",
+      "taste_keyword_matches": [
+        "slasher",
+        "survival"
+      ],
+      "imdb_rating": 5.5,
+      "imdb_votes": 51384
     },
     {
       "tmdb_id": 601844,
@@ -350,8 +350,8 @@
         "Action"
       ],
       "runtime": 93,
-      "vote_average": 6.279,
-      "vote_count": 793,
+      "vote_average": 6.28,
+      "vote_count": 794,
       "imdb_id": "tt10314450",
       "primary_seed": "Carver",
       "seed_matches": [
@@ -362,7 +362,7 @@
         "Hatchet III",
         "Martyrs"
       ],
-      "recommendation_score": 167.38,
+      "recommendation_score": 169.48,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "gore",
@@ -397,7 +397,7 @@
         "Wolf Creek 2",
         "The Texas Chainsaw Massacre: The Beginning"
       ],
-      "recommendation_score": 163.77,
+      "recommendation_score": 163.92,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "gore",
@@ -442,72 +442,6 @@
       "imdb_votes": 232081
     },
     {
-      "tmdb_id": 663712,
-      "title": "Terrifier 2",
-      "original_title": "Terrifier 2",
-      "original_language": "en",
-      "primary_release_date": "2022-10-06",
-      "poster_path": "/qEAlwXbYk6IHA4ztoS2XFFaa7Xo.jpg",
-      "genres": [
-        "Horror"
-      ],
-      "runtime": 138,
-      "vote_average": 6.637,
-      "vote_count": 2661,
-      "imdb_id": "tt10403420",
-      "primary_seed": "Terrifier",
-      "seed_matches": [
-        "Terrifier",
-        "Evil Dead",
-        "Victor Crowley",
-        "The Evil Dead",
-        "Texas Chainsaw Massacre"
-      ],
-      "recommendation_score": 136.07,
-      "confidence_tier": "high",
-      "taste_keyword_matches": [
-        "gore",
-        "slasher"
-      ],
-      "imdb_rating": 6.0,
-      "imdb_votes": 86530
-    },
-    {
-      "tmdb_id": 1029281,
-      "title": "Strange Darling",
-      "original_title": "Strange Darling",
-      "original_language": "en",
-      "primary_release_date": "2024-08-22",
-      "poster_path": "/kWNCRgt3ocv19bYO0sk7TRuZuFY.jpg",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Horror"
-      ],
-      "runtime": 97,
-      "vote_average": 6.872,
-      "vote_count": 1118,
-      "imdb_id": "tt22375054",
-      "primary_seed": "Evil Dead",
-      "seed_matches": [
-        "Evil Dead",
-        "Hostel",
-        "Saw",
-        "Green Room",
-        "Carver",
-        "The Texas Chainsaw Massacre: The Beginning",
-        "Funny Games"
-      ],
-      "recommendation_score": 127.4,
-      "confidence_tier": "high",
-      "taste_keyword_matches": [
-        "gore",
-        "serial killer"
-      ],
-      "imdb_rating": 7.0,
-      "imdb_votes": 74183
-    },
-    {
       "tmdb_id": 9003,
       "title": "Hellraiser",
       "original_title": "Hellraiser",
@@ -526,13 +460,13 @@
       "seed_matches": [
         "Hostel",
         "The Evil Dead",
-        "Hereditary",
         "The Descent",
+        "Hereditary",
         "Martyrs",
         "Evil Dead",
         "The Human Centipede (First Sequence)"
       ],
-      "recommendation_score": 136.17,
+      "recommendation_score": 137.95,
       "confidence_tier": "high",
       "taste_keyword_matches": [
         "gore",
@@ -542,83 +476,228 @@
       "imdb_votes": 159177
     },
     {
-      "tmdb_id": 26178,
-      "title": "Razorback",
-      "original_title": "Razorback",
+      "tmdb_id": 123109,
+      "title": "No One Lives",
+      "original_title": "No One Lives",
       "original_language": "en",
-      "primary_release_date": "1984-04-19",
-      "poster_path": "/227exUUzUWkCYOVoPxap5RaVmTM.jpg",
+      "primary_release_date": "2013-03-09",
+      "poster_path": "/d9wDmRcQngl9Jo7Go3EU7f2W15m.jpg",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "runtime": 95,
-      "vote_average": 5.9,
-      "vote_count": 226,
-      "imdb_id": "tt0087981",
-      "primary_seed": "Wolf Creek",
+      "runtime": 87,
+      "vote_average": 5.992,
+      "vote_count": 732,
+      "imdb_id": "tt1763264",
+      "primary_seed": "Green Room",
       "seed_matches": [
-        "Wolf Creek"
+        "Green Room",
+        "Wolf Creek 2",
+        "The Texas Chain Saw Massacre",
+        "Wolf Creek",
+        "Eden Lake",
+        "The Texas Chainsaw Massacre"
       ],
-      "recommendation_score": 25.5,
-      "confidence_tier": "adventurous",
-      "taste_keyword_matches": [],
+      "recommendation_score": 128.93,
+      "confidence_tier": "high",
+      "taste_keyword_matches": [
+        "serial killer",
+        "psychopath",
+        "torture"
+      ],
       "imdb_rating": 6.0,
-      "imdb_votes": 9052
+      "imdb_votes": 27610
     },
     {
-      "tmdb_id": 18533,
-      "title": "Bronson",
-      "original_title": "Bronson",
+      "tmdb_id": 11281,
+      "title": "Halloween II",
+      "original_title": "Halloween II",
       "original_language": "en",
-      "primary_release_date": "2009-03-13",
-      "poster_path": "/6diyyGIbBNiANsdIaCGtyv4IofR.jpg",
+      "primary_release_date": "1981-10-30",
+      "poster_path": "/3nX5HHGgOKaVMxXwMLT9DHO1Ne6.jpg",
       "genres": [
-        "Drama",
-        "Action",
-        "Crime"
+        "Horror",
+        "Thriller"
       ],
       "runtime": 92,
-      "vote_average": 6.934,
-      "vote_count": 2830,
-      "imdb_id": "tt1172570",
-      "primary_seed": "Requiem for a Dream",
+      "vote_average": 6.594,
+      "vote_count": 2387,
+      "imdb_id": "tt0082495",
+      "primary_seed": "The Texas Chainsaw Massacre",
       "seed_matches": [
-        "Requiem for a Dream"
+        "The Texas Chainsaw Massacre",
+        "Texas Chainsaw Massacre",
+        "Wolf Creek 2",
+        "The Hills Have Eyes",
+        "Hatchet III",
+        "Victor Crowley"
+      ],
+      "recommendation_score": 135.58,
+      "confidence_tier": "high",
+      "taste_keyword_matches": [
+        "serial killer"
+      ],
+      "imdb_rating": 6.5,
+      "imdb_votes": 115997
+    },
+    {
+      "tmdb_id": 1576,
+      "title": "Resident Evil",
+      "original_title": "Resident Evil",
+      "original_language": "en",
+      "primary_release_date": "2002-03-15",
+      "poster_path": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 100,
+      "vote_average": 6.689,
+      "vote_count": 7364,
+      "imdb_id": "tt0120804",
+      "primary_seed": "District 9",
+      "seed_matches": [
+        "District 9"
+      ],
+      "recommendation_score": 25.2,
+      "confidence_tier": "adventurous",
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.6,
+      "imdb_votes": 322622
+    },
+    {
+      "tmdb_id": 1095340,
+      "title": "Malicious",
+      "original_title": "Malicious",
+      "original_language": "en",
+      "primary_release_date": "2023-03-05",
+      "poster_path": "/gIQqqSiQj9BFvD0OtaeammxpJhH.jpg",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 91,
+      "vote_average": 7.2,
+      "vote_count": 56,
+      "imdb_id": "tt12313942",
+      "primary_seed": "The Coffee Table",
+      "seed_matches": [
+        "The Coffee Table"
+      ],
+      "recommendation_score": 24.75,
+      "confidence_tier": "adventurous",
+      "taste_keyword_matches": [
+        "home invasion"
+      ],
+      "imdb_rating": 5.6,
+      "imdb_votes": 885
+    },
+    {
+      "tmdb_id": 56669,
+      "title": "Hider in the House",
+      "original_title": "Hider in the House",
+      "original_language": "en",
+      "primary_release_date": "1989-05-13",
+      "poster_path": "/gHQCFroGpj3Tj4PIU5qFu3ZnVVu.jpg",
+      "genres": [
+        "Thriller"
+      ],
+      "runtime": 108,
+      "vote_average": 6.292,
+      "vote_count": 65,
+      "imdb_id": "tt0097503",
+      "primary_seed": "Funny Games",
+      "seed_matches": [
+        "Funny Games"
       ],
       "recommendation_score": 25.65,
       "confidence_tier": "adventurous",
-      "taste_keyword_matches": [
-        "isolation"
-      ],
-      "imdb_rating": 7.0,
-      "imdb_votes": 152395
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.0,
+      "imdb_votes": 2427
     },
     {
-      "tmdb_id": 683556,
-      "title": "We Go In at Dawn",
-      "original_title": "We Go In at Dawn",
+      "tmdb_id": 11397,
+      "title": "Not Another Teen Movie",
+      "original_title": "Not Another Teen Movie",
       "original_language": "en",
-      "primary_release_date": "2020-03-16",
-      "poster_path": "/nQqLA58PeF0ofPzq36lNUFRSzCa.jpg",
+      "primary_release_date": "2001-12-07",
+      "poster_path": "/9ZaGxvj1mqdKVLpSloq4mzS7SK6.jpg",
       "genres": [
-        "History",
-        "War",
-        "Thriller"
+        "Comedy"
       ],
-      "runtime": 86,
-      "vote_average": 5.9,
-      "vote_count": 51,
-      "imdb_id": "tt7622584",
-      "primary_seed": "Men Behind the Sun",
+      "runtime": 89,
+      "vote_average": 5.821,
+      "vote_count": 2418,
+      "imdb_id": "tt0277371",
+      "primary_seed": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
       "seed_matches": [
-        "Men Behind the Sun"
+        "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan"
       ],
-      "recommendation_score": 25.3,
+      "recommendation_score": 24.19,
+      "confidence_tier": "adventurous",
+      "taste_keyword_matches": [
+        "satire"
+      ],
+      "imdb_rating": 5.8,
+      "imdb_votes": 129346
+    },
+    {
+      "tmdb_id": 484247,
+      "title": "A Simple Favor",
+      "original_title": "A Simple Favor",
+      "original_language": "en",
+      "primary_release_date": "2018-09-13",
+      "poster_path": "/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+      "genres": [
+        "Thriller",
+        "Comedy",
+        "Mystery"
+      ],
+      "runtime": 117,
+      "vote_average": 6.634,
+      "vote_count": 4755,
+      "imdb_id": "tt7040874",
+      "primary_seed": "This Is the End",
+      "seed_matches": [
+        "This Is the End"
+      ],
+      "recommendation_score": 23.94,
+      "confidence_tier": "adventurous",
+      "taste_keyword_matches": [
+        "dark comedy"
+      ],
+      "imdb_rating": 6.7,
+      "imdb_votes": 193062
+    },
+    {
+      "tmdb_id": 2185,
+      "title": "Big Trouble",
+      "original_title": "Big Trouble",
+      "original_language": "en",
+      "primary_release_date": "2002-04-05",
+      "poster_path": "/h844gBztdYMLrroUen6qbsomrGx.jpg",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "runtime": 85,
+      "vote_average": 6.13,
+      "vote_count": 350,
+      "imdb_id": "tt0246464",
+      "primary_seed": "Airplane!",
+      "seed_matches": [
+        "Airplane!"
+      ],
+      "recommendation_score": 25.0,
       "confidence_tier": "adventurous",
       "taste_keyword_matches": [],
-      "imdb_rating": 3.6,
-      "imdb_votes": 473
+      "imdb_rating": 6.4,
+      "imdb_votes": 23389
     },
     {
       "tmdb_id": 24740,
@@ -647,165 +726,82 @@
       "imdb_votes": 21144
     },
     {
-      "tmdb_id": 397243,
-      "title": "The Autopsy of Jane Doe",
-      "original_title": "The Autopsy of Jane Doe",
+      "tmdb_id": 1233413,
+      "title": "Sinners",
+      "original_title": "Sinners",
       "original_language": "en",
-      "primary_release_date": "2016-12-21",
-      "poster_path": "/6K0wjP8kPCiPYy9PtXBGuypyt5I.jpg",
+      "primary_release_date": "2025-04-16",
+      "poster_path": "/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
       "genres": [
         "Horror",
-        "Mystery"
-      ],
-      "runtime": 86,
-      "vote_average": 6.852,
-      "vote_count": 5009,
-      "imdb_id": "tt3289956",
-      "primary_seed": "Hereditary",
-      "seed_matches": [
-        "Hereditary"
-      ],
-      "recommendation_score": 24.0,
-      "confidence_tier": "adventurous",
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.8,
-      "imdb_votes": 171788
-    },
-    {
-      "tmdb_id": 17006,
-      "title": "I'm Gonna Git You Sucka",
-      "original_title": "I'm Gonna Git You Sucka",
-      "original_language": "en",
-      "primary_release_date": "1988-11-10",
-      "poster_path": "/s92HcoJmUHGvZ6o5RvIQjemzMap.jpg",
-      "genres": [
-        "Comedy",
         "Action",
-        "Crime"
-      ],
-      "runtime": 88,
-      "vote_average": 6.371,
-      "vote_count": 229,
-      "imdb_id": "tt0095348",
-      "primary_seed": "Tropic Thunder",
-      "seed_matches": [
-        "Tropic Thunder"
-      ],
-      "recommendation_score": 25.2,
-      "confidence_tier": "adventurous",
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.6,
-      "imdb_votes": 16867
-    },
-    {
-      "tmdb_id": 13335,
-      "title": "Harold & Kumar Escape from Guantanamo Bay",
-      "original_title": "Harold & Kumar Escape from Guantanamo Bay",
-      "original_language": "en",
-      "primary_release_date": "2008-04-25",
-      "poster_path": "/gmXKlm8c8O7JEISYP4WiWq2x3We.jpg",
-      "genres": [
-        "Comedy",
-        "Adventure"
-      ],
-      "runtime": 101,
-      "vote_average": 6.324,
-      "vote_count": 1716,
-      "imdb_id": "tt0481536",
-      "primary_seed": "Tropic Thunder",
-      "seed_matches": [
-        "Tropic Thunder"
-      ],
-      "recommendation_score": 23.94,
-      "confidence_tier": "adventurous",
-      "taste_keyword_matches": [
-        "stoner"
-      ],
-      "imdb_rating": 6.5,
-      "imdb_votes": 147195
-    },
-    {
-      "tmdb_id": 591274,
-      "title": "Fear Street: 1978",
-      "original_title": "Fear Street: 1978",
-      "original_language": "en",
-      "primary_release_date": "2021-07-08",
-      "poster_path": "/5dNTxhoGDTHHGqUTdxcr4H1dqlU.jpg",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Drama"
-      ],
-      "runtime": 111,
-      "vote_average": 7.157,
-      "vote_count": 2387,
-      "imdb_id": "tt9701940",
-      "primary_seed": "Midsommar",
-      "seed_matches": [
-        "Midsommar"
-      ],
-      "recommendation_score": 13.85,
-      "confidence_tier": "wildcard",
-      "taste_keyword_matches": [
-        "slasher"
-      ],
-      "imdb_rating": 6.7,
-      "imdb_votes": 93854
-    },
-    {
-      "tmdb_id": 10652,
-      "title": "Hamburger Hill",
-      "original_title": "Hamburger Hill",
-      "original_language": "en",
-      "primary_release_date": "1987-08-07",
-      "poster_path": "/a84FDoIm64qcyKq6BEMB9Ycldpt.jpg",
-      "genres": [
-        "War",
-        "Action",
-        "Drama"
-      ],
-      "runtime": 110,
-      "vote_average": 6.587,
-      "vote_count": 537,
-      "imdb_id": "tt0093137",
-      "primary_seed": "First Blood",
-      "seed_matches": [
-        "First Blood"
-      ],
-      "recommendation_score": 13.8,
-      "confidence_tier": "wildcard",
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.7,
-      "imdb_votes": 30500
-    },
-    {
-      "tmdb_id": 29787,
-      "title": "Monkey Shines",
-      "original_title": "Monkey Shines",
-      "original_language": "en",
-      "primary_release_date": "1988-07-29",
-      "poster_path": "/zbxrAWN2Ss5RXK1uDvMW82xFh0n.jpg",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Drama",
         "Thriller"
       ],
-      "runtime": 113,
-      "vote_average": 6.318,
-      "vote_count": 387,
-      "imdb_id": "tt0095652",
-      "primary_seed": "Bone Tomahawk",
+      "runtime": 138,
+      "vote_average": 7.522,
+      "vote_count": 5614,
+      "imdb_id": "tt31193180",
+      "primary_seed": "Evil Dead Rise",
       "seed_matches": [
-        "Bone Tomahawk"
+        "Evil Dead Rise"
       ],
-      "recommendation_score": 13.61,
+      "recommendation_score": 13.0,
       "confidence_tier": "wildcard",
-      "taste_keyword_matches": [
-        "revenge"
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.5,
+      "imdb_votes": 545298
+    },
+    {
+      "tmdb_id": 4141,
+      "title": "Shoot 'Em Up",
+      "original_title": "Shoot 'Em Up",
+      "original_language": "en",
+      "primary_release_date": "2007-07-26",
+      "poster_path": "/hZ4p0MvSUWnCCL0IUn47UXTVPCs.jpg",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Comedy",
+        "Crime"
       ],
-      "imdb_rating": 6.2,
-      "imdb_votes": 15024
+      "runtime": 86,
+      "vote_average": 6.512,
+      "vote_count": 2244,
+      "imdb_id": "tt0465602",
+      "primary_seed": "Rambo",
+      "seed_matches": [
+        "Rambo"
+      ],
+      "recommendation_score": 13.2,
+      "confidence_tier": "wildcard",
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.6,
+      "imdb_votes": 160354
+    },
+    {
+      "tmdb_id": 853,
+      "title": "Enemy at the Gates",
+      "original_title": "Enemy at the Gates",
+      "original_language": "en",
+      "primary_release_date": "2001-02-28",
+      "poster_path": "/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg",
+      "genres": [
+        "War",
+        "History"
+      ],
+      "runtime": 131,
+      "vote_average": 7.428,
+      "vote_count": 4271,
+      "imdb_id": "tt0215750",
+      "primary_seed": "Men Behind the Sun",
+      "seed_matches": [
+        "Men Behind the Sun"
+      ],
+      "recommendation_score": 12.65,
+      "confidence_tier": "wildcard",
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.5,
+      "imdb_votes": 297162
     }
   ],
   "mandys_picks": [
@@ -834,52 +830,29 @@
       "imdb_votes": 38546
     },
     {
-      "tmdb_id": 64807,
-      "title": "Grudge Match",
-      "original_title": "Grudge Match",
+      "tmdb_id": 50646,
+      "title": "Crazy, Stupid, Love.",
+      "original_title": "Crazy, Stupid, Love.",
       "original_language": "en",
-      "primary_release_date": "2013-12-25",
-      "poster_path": "/jTq9jYTKKo6EhQPso4xTMpPYYXW.jpg",
+      "primary_release_date": "2011-07-28",
+      "poster_path": "/p4RafgAPk558muOjnBMHhMArjS2.jpg",
       "genres": [
-        "Comedy"
-      ],
-      "runtime": 113,
-      "vote_average": 6.11,
-      "vote_count": 1421,
-      "imdb_id": "tt1661382",
-      "primary_seed": "Talladega Nights: The Ballad of Ricky Bobby",
-      "seed_matches": [
-        "Talladega Nights: The Ballad of Ricky Bobby"
-      ],
-      "recommendation_score": 18.75,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.4,
-      "imdb_votes": 65754
-    },
-    {
-      "tmdb_id": 975043,
-      "title": "Which Brings Me to You",
-      "original_title": "Which Brings Me to You",
-      "original_language": "en",
-      "primary_release_date": "2023-12-08",
-      "poster_path": "/gspoAZ5p7G7D83OU9UFOmKICejw.jpg",
-      "genres": [
-        "Romance",
         "Comedy",
-        "Drama"
+        "Drama",
+        "Romance"
       ],
-      "runtime": 98,
-      "vote_average": 6.3,
-      "vote_count": 229,
-      "imdb_id": "tt3468380",
+      "runtime": 118,
+      "vote_average": 7.279,
+      "vote_count": 9690,
+      "imdb_id": "tt1570728",
       "primary_seed": "He's Just Not That Into You",
       "seed_matches": [
         "He's Just Not That Into You"
       ],
-      "recommendation_score": 16.5,
+      "recommendation_score": 15.4,
       "taste_keyword_matches": [],
-      "imdb_rating": 5.6,
-      "imdb_votes": 5859
+      "imdb_rating": 7.4,
+      "imdb_votes": 634361
     },
     {
       "tmdb_id": 3981,
@@ -894,7 +867,7 @@
       ],
       "runtime": 127,
       "vote_average": 6.454,
-      "vote_count": 4628,
+      "vote_count": 4629,
       "imdb_id": "tt0207201",
       "primary_seed": "Because I Said So",
       "seed_matches": [
@@ -906,127 +879,78 @@
       "imdb_votes": 242415
     },
     {
-      "tmdb_id": 695721,
-      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-      "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "tmdb_id": 101299,
+      "title": "The Hunger Games: Catching Fire",
+      "original_title": "The Hunger Games: Catching Fire",
       "original_language": "en",
-      "primary_release_date": "2023-11-15",
-      "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+      "primary_release_date": "2013-11-15",
+      "poster_path": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
       "genres": [
-        "Science Fiction",
+        "Adventure",
         "Action",
-        "Adventure"
+        "Science Fiction"
       ],
-      "runtime": 157,
-      "vote_average": 6.951,
-      "vote_count": 3878,
-      "imdb_id": "tt10545296",
+      "runtime": 146,
+      "vote_average": 7.427,
+      "vote_count": 19129,
+      "imdb_id": "tt1951264",
       "primary_seed": "The Hunger Games",
       "seed_matches": [
         "The Hunger Games"
       ],
-      "recommendation_score": 17.85,
+      "recommendation_score": 18.7,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.6,
-      "imdb_votes": 198235
+      "imdb_rating": 7.5,
+      "imdb_votes": 792035
     },
     {
-      "tmdb_id": 13573,
-      "title": "The United States of Leland",
-      "original_title": "The United States of Leland",
+      "tmdb_id": 253849,
+      "title": "John Doe: Vigilante",
+      "original_title": "John Doe: Vigilante",
       "original_language": "en",
-      "primary_release_date": "2003-05-15",
-      "poster_path": "/60B0kXNSy3isCSZtM3vl2GWeKdE.jpg",
+      "primary_release_date": "2014-03-21",
+      "poster_path": "/6bsz5CNrgw84xsx0FTnrDt8Yuub.jpg",
       "genres": [
-        "Crime",
-        "Drama"
+        "Thriller",
+        "Crime"
       ],
-      "runtime": 108,
-      "vote_average": 6.517,
-      "vote_count": 351,
-      "imdb_id": "tt0301976",
+      "runtime": 93,
+      "vote_average": 6.4,
+      "vote_count": 157,
+      "imdb_id": "tt1418754",
       "primary_seed": "The Life of David Gale",
       "seed_matches": [
         "The Life of David Gale"
       ],
-      "recommendation_score": 12.6,
+      "recommendation_score": 13.5,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.9,
-      "imdb_votes": 25533
+      "imdb_rating": 6.5,
+      "imdb_votes": 8911
     },
     {
-      "tmdb_id": 671318,
-      "title": "¿Y cómo es él?",
-      "original_title": "¿Y cómo es él?",
+      "tmdb_id": 7211,
+      "title": "Dan in Real Life",
+      "original_title": "Dan in Real Life",
       "original_language": "en",
-      "primary_release_date": "2022-04-07",
-      "poster_path": "/n5nH4IcSmlYgAil6NOVvn6d35BH.jpg",
+      "primary_release_date": "2007-10-26",
+      "poster_path": "/wJkkkG4ditqNzlua0oJzoaICGiz.jpg",
       "genres": [
         "Comedy",
-        "Drama"
-      ],
-      "runtime": 95,
-      "vote_average": 7.5,
-      "vote_count": 260,
-      "imdb_id": "tt8928230",
-      "primary_seed": "Parasite",
-      "seed_matches": [
-        "Parasite",
-        "Triangle of Sadness"
-      ],
-      "recommendation_score": 22.2,
-      "taste_keyword_matches": [],
-      "imdb_rating": 5.6,
-      "imdb_votes": 316
-    },
-    {
-      "tmdb_id": 591273,
-      "title": "Fear Street: 1994",
-      "original_title": "Fear Street: 1994",
-      "original_language": "en",
-      "primary_release_date": "2021-06-28",
-      "poster_path": "/9J9Wy39ZjrVmfk7yMkulpcI5sy0.jpg",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Drama"
-      ],
-      "runtime": 108,
-      "vote_average": 6.669,
-      "vote_count": 2824,
-      "imdb_id": "tt6566576",
-      "primary_seed": "Midsommar",
-      "seed_matches": [
-        "Midsommar"
-      ],
-      "recommendation_score": 19.5,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.2,
-      "imdb_votes": 113854
-    },
-    {
-      "tmdb_id": 1167725,
-      "title": "Love Is in the Air",
-      "original_title": "Love Is in the Air",
-      "original_language": "en",
-      "primary_release_date": "2023-09-28",
-      "poster_path": "/1yDSZj3EE63u0XjqGmmx1urZc04.jpg",
-      "genres": [
         "Romance",
-        "Comedy"
+        "Drama"
       ],
-      "runtime": 88,
-      "vote_average": 6.15,
-      "vote_count": 133,
-      "imdb_id": "tt28073548",
-      "primary_seed": "50 First Dates",
+      "runtime": 98,
+      "vote_average": 6.579,
+      "vote_count": 1413,
+      "imdb_id": "tt0480242",
+      "primary_seed": "He's Just Not That Into You",
       "seed_matches": [
-        "50 First Dates"
+        "He's Just Not That Into You"
       ],
-      "recommendation_score": 14.4,
+      "recommendation_score": 24.2,
       "taste_keyword_matches": [],
-      "imdb_rating": 5.7,
-      "imdb_votes": 5296
+      "imdb_rating": 6.8,
+      "imdb_votes": 112186
     },
     {
       "tmdb_id": 1248226,
@@ -1047,34 +971,82 @@
       "seed_matches": [
         "Talladega Nights: The Ballad of Ricky Bobby"
       ],
-      "recommendation_score": 12.5,
+      "recommendation_score": 13.75,
       "taste_keyword_matches": [],
       "imdb_rating": 5.5,
       "imdb_votes": 33281
     },
     {
-      "tmdb_id": 296096,
-      "title": "Me Before You",
-      "original_title": "Me Before You",
+      "tmdb_id": 612706,
+      "title": "Work It",
+      "original_title": "Work It",
       "original_language": "en",
-      "primary_release_date": "2016-06-01",
-      "poster_path": "/oo2Q3T8juOYFh2G1YJ3oSMAfUyq.jpg",
+      "primary_release_date": "2020-08-07",
+      "poster_path": "/b5XfICAvUe8beWExBz97i0Qw4Qh.jpg",
       "genres": [
-        "Drama",
+        "Comedy",
+        "Music"
+      ],
+      "runtime": 93,
+      "vote_average": 7.5,
+      "vote_count": 1235,
+      "imdb_id": "tt10276470",
+      "primary_seed": "Mean Girls",
+      "seed_matches": [
+        "Mean Girls"
+      ],
+      "recommendation_score": 29.4,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.1,
+      "imdb_votes": 18430
+    },
+    {
+      "tmdb_id": 22100,
+      "title": "Watching the Detectives",
+      "original_title": "Watching the Detectives",
+      "original_language": "en",
+      "primary_release_date": "2007-05-01",
+      "poster_path": "/wm2TaGTXpy30WNLuZaqagIMbf1K.jpg",
+      "genres": [
+        "Comedy",
         "Romance"
       ],
-      "runtime": 110,
-      "vote_average": 7.93,
-      "vote_count": 13737,
-      "imdb_id": "tt2674426",
-      "primary_seed": "The Notebook",
+      "runtime": 94,
+      "vote_average": 6.3,
+      "vote_count": 207,
+      "imdb_id": "tt0472205",
+      "primary_seed": "50 First Dates",
       "seed_matches": [
-        "The Notebook"
+        "50 First Dates"
       ],
-      "recommendation_score": 22.0,
+      "recommendation_score": 13.2,
       "taste_keyword_matches": [],
-      "imdb_rating": 7.4,
-      "imdb_votes": 347692
+      "imdb_rating": 6.2,
+      "imdb_votes": 10245
+    },
+    {
+      "tmdb_id": 565,
+      "title": "The Ring",
+      "original_title": "The Ring",
+      "original_language": "en",
+      "primary_release_date": "2002-10-18",
+      "poster_path": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": 115,
+      "vote_average": 6.712,
+      "vote_count": 6997,
+      "imdb_id": "tt0298130",
+      "primary_seed": "Sinister",
+      "seed_matches": [
+        "Sinister"
+      ],
+      "recommendation_score": 25.3,
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.1,
+      "imdb_votes": 409960
     },
     {
       "tmdb_id": 208134,
@@ -1100,401 +1072,104 @@
       "imdb_votes": 101731
     },
     {
-      "tmdb_id": 27374,
-      "title": "Lake Mungo",
-      "original_title": "Lake Mungo",
+      "tmdb_id": 391713,
+      "title": "Lady Bird",
+      "original_title": "Lady Bird",
       "original_language": "en",
-      "primary_release_date": "2009-07-30",
-      "poster_path": "/5IaGu8r0t6bBaydkR6z9l9tJsCg.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 87,
-      "vote_average": 6.144,
-      "vote_count": 761,
-      "imdb_id": "tt0816556",
-      "primary_seed": "Sinister",
-      "seed_matches": [
-        "Sinister"
-      ],
-      "recommendation_score": 24.2,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.2,
-      "imdb_votes": 40150
-    },
-    {
-      "tmdb_id": 308369,
-      "title": "Me and Earl and the Dying Girl",
-      "original_title": "Me and Earl and the Dying Girl",
-      "original_language": "en",
-      "primary_release_date": "2015-06-12",
-      "poster_path": "/eLjS2bLMjln2n2I73Xu6TaANPDZ.jpg",
+      "primary_release_date": "2017-09-01",
+      "poster_path": "/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg",
       "genres": [
         "Drama",
         "Comedy"
       ],
-      "runtime": 105,
-      "vote_average": 7.529,
-      "vote_count": 2861,
-      "imdb_id": "tt2582496",
+      "runtime": 94,
+      "vote_average": 7.248,
+      "vote_count": 9297,
+      "imdb_id": "tt4925292",
       "primary_seed": "Mean Girls",
       "seed_matches": [
         "Mean Girls"
       ],
-      "recommendation_score": 23.8,
+      "recommendation_score": 25.2,
       "taste_keyword_matches": [],
-      "imdb_rating": 7.7,
-      "imdb_votes": 145821
+      "imdb_rating": 7.4,
+      "imdb_votes": 371476
     },
     {
-      "tmdb_id": 891621,
-      "title": "Wild Horse Nine",
-      "original_title": "Wild Horse Nine",
+      "tmdb_id": 1122573,
+      "title": "In the Grey",
+      "original_title": "In the Grey",
       "original_language": "en",
-      "primary_release_date": "2026-10-30",
-      "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
-      "runtime": 117,
-      "vote_average": 7.931,
-      "vote_count": 320,
-      "imdb_id": "tt15799564",
-      "primary_seed": "The Interview",
-      "seed_matches": [
-        "The Interview"
-      ],
-      "recommendation_score": 19.2,
-      "taste_keyword_matches": [],
-      "imdb_rating": 8.1,
-      "imdb_votes": 26593
-    },
-    {
-      "tmdb_id": 11889,
-      "title": "Iris",
-      "original_title": "Iris",
-      "original_language": "en",
-      "primary_release_date": "2001-12-14",
-      "poster_path": "/yheTJ4f7Qlw96GdBjSj6FidvEZg.jpg",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "runtime": 91,
-      "vote_average": 6.394,
-      "vote_count": 226,
-      "imdb_id": "tt0280778",
-      "primary_seed": "The Notebook",
-      "seed_matches": [
-        "The Notebook"
-      ],
-      "recommendation_score": 24.2,
-      "taste_keyword_matches": [],
-      "imdb_rating": 7.0,
-      "imdb_votes": 20053
-    },
-    {
-      "tmdb_id": 22215,
-      "title": "Chéri",
-      "original_title": "Chéri",
-      "original_language": "en",
-      "primary_release_date": "2009-04-08",
-      "poster_path": "/b35rv11ebJdqCe5chVmSUZ0RIlX.jpg",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "runtime": 86,
-      "vote_average": 6.08,
-      "vote_count": 237,
-      "imdb_id": "tt1179258",
-      "primary_seed": "The Idea of You",
-      "seed_matches": [
-        "The Idea of You"
-      ],
-      "recommendation_score": 16.0,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.1,
-      "imdb_votes": 12222
-    },
-    {
-      "tmdb_id": 648579,
-      "title": "The Unbearable Weight of Massive Talent",
-      "original_title": "The Unbearable Weight of Massive Talent",
-      "original_language": "en",
-      "primary_release_date": "2022-04-20",
-      "poster_path": "/aqhLeieyTpTUKPOfZ3jzo2La0Mq.jpg",
+      "primary_release_date": "2026-05-13",
+      "poster_path": "/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
       "genres": [
         "Action",
-        "Comedy",
         "Crime"
       ],
-      "runtime": 107,
-      "vote_average": 6.767,
-      "vote_count": 2704,
-      "imdb_id": "tt11291274",
+      "runtime": 97,
+      "vote_average": 7.5,
+      "vote_count": 1228,
+      "imdb_id": "tt27681354",
       "primary_seed": "The Interview",
       "seed_matches": [
         "The Interview"
       ],
-      "recommendation_score": 14.4,
-      "taste_keyword_matches": [],
-      "imdb_rating": 7.0,
-      "imdb_votes": 182849
-    },
-    {
-      "tmdb_id": 1321439,
-      "title": "The Wrong Paris",
-      "original_title": "The Wrong Paris",
-      "original_language": "en",
-      "primary_release_date": "2025-09-11",
-      "poster_path": "/A0KRoR842OgNByCfw9iFHbWoeR9.jpg",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "runtime": 107,
-      "vote_average": 6.731,
-      "vote_count": 361,
-      "imdb_id": "tt33039440",
-      "primary_seed": "How to Lose a Guy in 10 Days",
-      "seed_matches": [
-        "How to Lose a Guy in 10 Days",
-        "He's Just Not That Into You"
-      ],
-      "recommendation_score": 32.0,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.1,
-      "imdb_votes": 15997
-    },
-    {
-      "tmdb_id": 12708,
-      "title": "That Touch of Mink",
-      "original_title": "That Touch of Mink",
-      "original_language": "en",
-      "primary_release_date": "1962-06-14",
-      "poster_path": "/eEG29x9cljGKL2GPmRK9IByyL9e.jpg",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "runtime": 99,
-      "vote_average": 6.477,
-      "vote_count": 193,
-      "imdb_id": "tt0056575",
-      "primary_seed": "50 First Dates",
-      "seed_matches": [
-        "50 First Dates",
-        "How to Lose a Guy in 10 Days"
-      ],
-      "recommendation_score": 37.2,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.6,
-      "imdb_votes": 11906
-    },
-    {
-      "tmdb_id": 813,
-      "title": "Airplane!",
-      "original_title": "Airplane!",
-      "original_language": "en",
-      "primary_release_date": "1980-06-27",
-      "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": 88,
-      "vote_average": 7.303,
-      "vote_count": 5376,
-      "imdb_id": "tt0080339",
-      "primary_seed": "Talladega Nights: The Ballad of Ricky Bobby",
-      "seed_matches": [
-        "Talladega Nights: The Ballad of Ricky Bobby",
-        "Dumb and Dumber"
-      ],
-      "recommendation_score": 30.65,
-      "taste_keyword_matches": [],
-      "imdb_rating": 7.7,
-      "imdb_votes": 294669
-    },
-    {
-      "tmdb_id": 103620,
-      "title": "Maniac",
-      "original_title": "Maniac",
-      "original_language": "en",
-      "primary_release_date": "2012-12-26",
-      "poster_path": "/nbDkRvhmbYnHDXkoq0sF0PLeo8j.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 89,
-      "vote_average": 6.031,
-      "vote_count": 1089,
-      "imdb_id": "tt2103217",
-      "primary_seed": "The Substance",
-      "seed_matches": [
-        "The Substance"
-      ],
-      "recommendation_score": 11.25,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.1,
-      "imdb_votes": 43351
-    },
-    {
-      "tmdb_id": 11676,
-      "title": "Nothing to Lose",
-      "original_title": "Nothing to Lose",
-      "original_language": "en",
-      "primary_release_date": "1997-07-18",
-      "poster_path": "/umbzQyRMeB1oHTKiymTlH591xNB.jpg",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Action",
-        "Adventure"
-      ],
-      "runtime": 97,
-      "vote_average": 6.6,
-      "vote_count": 780,
-      "imdb_id": "tt0119807",
-      "primary_seed": "Dumb and Dumber",
-      "seed_matches": [
-        "Dumb and Dumber",
-        "The Other Guys",
-        "Talladega Nights: The Ballad of Ricky Bobby"
-      ],
-      "recommendation_score": 56.35,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.7,
-      "imdb_votes": 53215
-    },
-    {
-      "tmdb_id": 10299,
-      "title": "Hush... Hush, Sweet Charlotte",
-      "original_title": "Hush... Hush, Sweet Charlotte",
-      "original_language": "en",
-      "primary_release_date": "1964-12-16",
-      "poster_path": "/hwVGNaVXFblluLwUjGcJ7RgW1rV.jpg",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "runtime": 133,
-      "vote_average": 7.31,
-      "vote_count": 298,
-      "imdb_id": "tt0058213",
-      "primary_seed": "Hereditary",
-      "seed_matches": [
-        "Hereditary",
-        "Midsommar"
-      ],
-      "recommendation_score": 32.5,
-      "taste_keyword_matches": [],
-      "imdb_rating": 7.5,
-      "imdb_votes": 17814
-    },
-    {
-      "tmdb_id": 189,
-      "title": "Sin City: A Dame to Kill For",
-      "original_title": "Sin City: A Dame to Kill For",
-      "original_language": "en",
-      "primary_release_date": "2014-08-20",
-      "poster_path": "/50kALxDX4mmzIRljbNbPY0u4cie.jpg",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "runtime": 102,
-      "vote_average": 6.399,
-      "vote_count": 4339,
-      "imdb_id": "tt0458481",
-      "primary_seed": "Kill Bill: Vol. 1",
-      "seed_matches": [
-        "Kill Bill: Vol. 1"
-      ],
-      "recommendation_score": 8.4,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.5,
-      "imdb_votes": 180697
-    },
-    {
-      "tmdb_id": 912908,
-      "title": "Strays",
-      "original_title": "Strays",
-      "original_language": "en",
-      "primary_release_date": "2023-08-17",
-      "poster_path": "/n1hqbSCtyBAxaXEl1Dj3ipXJAJG.jpg",
-      "genres": [
-        "Comedy",
-        "Adventure"
-      ],
-      "runtime": 93,
-      "vote_average": 7.161,
-      "vote_count": 1071,
-      "imdb_id": "tt15153532",
-      "primary_seed": "Step Brothers",
-      "seed_matches": [
-        "Step Brothers"
-      ],
-      "recommendation_score": 13.5,
+      "recommendation_score": 9.6,
       "taste_keyword_matches": [],
       "imdb_rating": 6.3,
-      "imdb_votes": 38831
+      "imdb_votes": 60435
     },
     {
-      "tmdb_id": 1216191,
-      "title": "Oddity",
-      "original_title": "Oddity",
+      "tmdb_id": 1272149,
+      "title": "Bridget Jones: Mad About the Boy",
+      "original_title": "Bridget Jones: Mad About the Boy",
       "original_language": "en",
-      "primary_release_date": "2024-07-19",
-      "poster_path": "/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "primary_release_date": "2025-02-12",
+      "poster_path": "/e5VR3nhLYG60znxaqU84wv4VSCb.jpg",
       "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "runtime": 98,
-      "vote_average": 6.724,
-      "vote_count": 980,
-      "imdb_id": "tt26470109",
-      "primary_seed": "Hereditary",
-      "seed_matches": [
-        "Hereditary"
-      ],
-      "recommendation_score": 26.0,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.7,
-      "imdb_votes": 65556
-    },
-    {
-      "tmdb_id": 320588,
-      "title": "Hello, My Name Is Doris",
-      "original_title": "Hello, My Name Is Doris",
-      "original_language": "en",
-      "primary_release_date": "2015-11-27",
-      "poster_path": "/tV7MKM6xFGzO3zhYTC7rDmx5B4Y.jpg",
-      "genres": [
+        "Romance",
         "Comedy",
-        "Drama",
-        "Romance"
+        "Drama"
       ],
-      "runtime": 95,
-      "vote_average": 6.4,
-      "vote_count": 536,
-      "imdb_id": "tt3766394",
-      "primary_seed": "The Idea of You",
+      "runtime": 124,
+      "vote_average": 6.322,
+      "vote_count": 614,
+      "imdb_id": "tt32063050",
+      "primary_seed": "Bridget Jones's Diary",
       "seed_matches": [
+        "Bridget Jones's Diary",
         "The Idea of You"
       ],
-      "recommendation_score": 20.0,
+      "recommendation_score": 34.6,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.6,
-      "imdb_votes": 23974
+      "imdb_rating": 6.5,
+      "imdb_votes": 36269
+    },
+    {
+      "tmdb_id": 1161617,
+      "title": "Code 3",
+      "original_title": "Code 3",
+      "original_language": "en",
+      "primary_release_date": "2025-09-12",
+      "poster_path": "/4PeJrEYkngzkksUCGHr1b6bEAa0.jpg",
+      "genres": [
+        "Comedy",
+        "Action",
+        "Drama"
+      ],
+      "runtime": 100,
+      "vote_average": 7.029,
+      "vote_count": 398,
+      "imdb_id": "tt26394837",
+      "primary_seed": "Parasite",
+      "seed_matches": [
+        "Parasite",
+        "Triangle of Sadness"
+      ],
+      "recommendation_score": 41.9,
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.2,
+      "imdb_votes": 23753
     },
     {
       "tmdb_id": 136400,
@@ -1522,29 +1197,325 @@
       "imdb_votes": 240275
     },
     {
-      "tmdb_id": 530915,
-      "title": "1917",
-      "original_title": "1917",
+      "tmdb_id": 347375,
+      "title": "Mile 22",
+      "original_title": "Mile 22",
       "original_language": "en",
-      "primary_release_date": "2019-12-25",
-      "poster_path": "/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+      "primary_release_date": "2018-08-16",
+      "poster_path": "/2L8ehd95eSW9x7KINYtZmRkAlrZ.jpg",
       "genres": [
-        "War",
-        "Drama",
-        "History"
+        "Action",
+        "Thriller"
       ],
-      "runtime": 119,
-      "vote_average": 7.984,
-      "vote_count": 14167,
-      "imdb_id": "tt8579674",
+      "runtime": 94,
+      "vote_average": 6.287,
+      "vote_count": 2576,
+      "imdb_id": "tt4560436",
+      "primary_seed": "The Interview",
+      "seed_matches": [
+        "The Interview"
+      ],
+      "recommendation_score": 18.0,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.1,
+      "imdb_votes": 95400
+    },
+    {
+      "tmdb_id": 813,
+      "title": "Airplane!",
+      "original_title": "Airplane!",
+      "original_language": "en",
+      "primary_release_date": "1980-06-27",
+      "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 88,
+      "vote_average": 7.303,
+      "vote_count": 5377,
+      "imdb_id": "tt0080339",
+      "primary_seed": "Talladega Nights: The Ballad of Ricky Bobby",
+      "seed_matches": [
+        "Talladega Nights: The Ballad of Ricky Bobby",
+        "Dumb and Dumber"
+      ],
+      "recommendation_score": 31.9,
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.7,
+      "imdb_votes": 294669
+    },
+    {
+      "tmdb_id": 185,
+      "title": "A Clockwork Orange",
+      "original_title": "A Clockwork Orange",
+      "original_language": "en",
+      "primary_release_date": "1971-10-28",
+      "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+      "genres": [
+        "Science Fiction",
+        "Crime"
+      ],
+      "runtime": 137,
+      "vote_average": 8.165,
+      "vote_count": 14348,
+      "imdb_id": "tt0066921",
+      "primary_seed": "The Substance",
+      "seed_matches": [
+        "The Substance"
+      ],
+      "recommendation_score": 12.5,
+      "taste_keyword_matches": [],
+      "imdb_rating": 8.2,
+      "imdb_votes": 950498
+    },
+    {
+      "tmdb_id": 15263,
+      "title": "McLintock!",
+      "original_title": "McLintock!",
+      "original_language": "en",
+      "primary_release_date": "1963-11-12",
+      "poster_path": "/qRVKTwagLaJfqODKnCSlHofqMsU.jpg",
+      "genres": [
+        "Western",
+        "Comedy"
+      ],
+      "runtime": 127,
+      "vote_average": 6.6,
+      "vote_count": 269,
+      "imdb_id": "tt0057298",
+      "primary_seed": "Dumb and Dumber",
+      "seed_matches": [
+        "Dumb and Dumber",
+        "Talladega Nights: The Ballad of Ricky Bobby"
+      ],
+      "recommendation_score": 24.65,
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.1,
+      "imdb_votes": 18694
+    },
+    {
+      "tmdb_id": 11676,
+      "title": "Nothing to Lose",
+      "original_title": "Nothing to Lose",
+      "original_language": "en",
+      "primary_release_date": "1997-07-18",
+      "poster_path": "/umbzQyRMeB1oHTKiymTlH591xNB.jpg",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 97,
+      "vote_average": 6.6,
+      "vote_count": 780,
+      "imdb_id": "tt0119807",
+      "primary_seed": "Dumb and Dumber",
+      "seed_matches": [
+        "Dumb and Dumber",
+        "The Other Guys",
+        "Talladega Nights: The Ballad of Ricky Bobby"
+      ],
+      "recommendation_score": 57.6,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.7,
+      "imdb_votes": 53215
+    },
+    {
+      "tmdb_id": 1007401,
+      "title": "Mortal Kombat Legends: Snow Blind",
+      "original_title": "Mortal Kombat Legends: Snow Blind",
+      "original_language": "en",
+      "primary_release_date": "2022-10-09",
+      "poster_path": "/8wyOdQRVrpoUb2wMdGHykaD17GM.jpg",
+      "genres": [
+        "Animation",
+        "Action",
+        "Fantasy"
+      ],
+      "runtime": 82,
+      "vote_average": 7.653,
+      "vote_count": 255,
+      "imdb_id": "tt21477618",
+      "primary_seed": "Kill Bill: Vol. 1",
+      "seed_matches": [
+        "Kill Bill: Vol. 1"
+      ],
+      "recommendation_score": 9.45,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.7,
+      "imdb_votes": 5233
+    },
+    {
+      "tmdb_id": 838330,
+      "title": "Not Okay",
+      "original_title": "Not Okay",
+      "original_language": "en",
+      "primary_release_date": "2022-07-29",
+      "poster_path": "/x1q3FkqFHBkMeKnHiS6GYgdLvUs.jpg",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 103,
+      "vote_average": 6.2,
+      "vote_count": 534,
+      "imdb_id": "tt14814040",
+      "primary_seed": "Triangle of Sadness",
+      "seed_matches": [
+        "Triangle of Sadness"
+      ],
+      "recommendation_score": 25.2,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.1,
+      "imdb_votes": 22140
+    },
+    {
+      "tmdb_id": 1216191,
+      "title": "Oddity",
+      "original_title": "Oddity",
+      "original_language": "en",
+      "primary_release_date": "2024-07-19",
+      "poster_path": "/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": 98,
+      "vote_average": 6.724,
+      "vote_count": 980,
+      "imdb_id": "tt26470109",
+      "primary_seed": "Hereditary",
+      "seed_matches": [
+        "Hereditary"
+      ],
+      "recommendation_score": 26.0,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.7,
+      "imdb_votes": 65556
+    },
+    {
+      "tmdb_id": 4967,
+      "title": "Keeping the Faith",
+      "original_title": "Keeping the Faith",
+      "original_language": "en",
+      "primary_release_date": "2000-04-14",
+      "poster_path": "/9NF199FTvHr9ggqdBTVbPhF1MGk.jpg",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "runtime": 127,
+      "vote_average": 6.1,
+      "vote_count": 702,
+      "imdb_id": "tt0171433",
+      "primary_seed": "How to Lose a Guy in 10 Days",
+      "seed_matches": [
+        "How to Lose a Guy in 10 Days"
+      ],
+      "recommendation_score": 22.8,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.4,
+      "imdb_votes": 54713
+    },
+    {
+      "tmdb_id": 1137350,
+      "title": "The Phoenician Scheme",
+      "original_title": "The Phoenician Scheme",
+      "original_language": "en",
+      "primary_release_date": "2025-05-23",
+      "poster_path": "/iXxIUVqpQAlyy98UjUlzjkMYuj6.jpg",
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Thriller"
+      ],
+      "runtime": 102,
+      "vote_average": 6.532,
+      "vote_count": 1120,
+      "imdb_id": "tt30840798",
+      "primary_seed": "Talladega Nights: The Ballad of Ricky Bobby",
+      "seed_matches": [
+        "Talladega Nights: The Ballad of Ricky Bobby"
+      ],
+      "recommendation_score": 27.5,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.6,
+      "imdb_votes": 75362
+    },
+    {
+      "tmdb_id": 16428,
+      "title": "Breakin' All the Rules",
+      "original_title": "Breakin' All the Rules",
+      "original_language": "en",
+      "primary_release_date": "2004-05-14",
+      "poster_path": "/piEqcDe7CTbxxPUSwswrsoKWzMw.jpg",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "runtime": 85,
+      "vote_average": 6.0,
+      "vote_count": 107,
+      "imdb_id": "tt0349169",
+      "primary_seed": "How to Lose a Guy in 10 Days",
+      "seed_matches": [
+        "How to Lose a Guy in 10 Days"
+      ],
+      "recommendation_score": 26.4,
+      "taste_keyword_matches": [],
+      "imdb_rating": 5.6,
+      "imdb_votes": 6633
+    },
+    {
+      "tmdb_id": 8338,
+      "title": "Blindness",
+      "original_title": "Blindness",
+      "original_language": "en",
+      "primary_release_date": "2008-05-14",
+      "poster_path": "/deBsx5IxyqCC217j3VY24TkkE0Z.jpg",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "runtime": 121,
+      "vote_average": 6.522,
+      "vote_count": 1447,
+      "imdb_id": "tt0861689",
       "primary_seed": "Threads",
       "seed_matches": [
         "Threads"
       ],
-      "recommendation_score": 25.0,
+      "recommendation_score": 26.25,
       "taste_keyword_matches": [],
-      "imdb_rating": 8.2,
-      "imdb_votes": 793342
+      "imdb_rating": 6.5,
+      "imdb_votes": 77784
+    },
+    {
+      "tmdb_id": 303991,
+      "title": "Demolition",
+      "original_title": "Demolition",
+      "original_language": "en",
+      "primary_release_date": "2016-04-06",
+      "poster_path": "/4t56LZ1KbOOxgKfqMKN6truBDVc.jpg",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 101,
+      "vote_average": 6.865,
+      "vote_count": 2680,
+      "imdb_id": "tt1172049",
+      "primary_seed": "Triangle of Sadness",
+      "seed_matches": [
+        "Triangle of Sadness"
+      ],
+      "recommendation_score": 8.4,
+      "taste_keyword_matches": [],
+      "imdb_rating": 7.0,
+      "imdb_votes": 142139
     },
     {
       "tmdb_id": 109418,
@@ -1570,80 +1541,29 @@
       "imdb_votes": 196538
     },
     {
-      "tmdb_id": 391714,
-      "title": "On Chesil Beach",
-      "original_title": "On Chesil Beach",
+      "tmdb_id": 412656,
+      "title": "Chaos Walking",
+      "original_title": "Chaos Walking",
       "original_language": "en",
-      "primary_release_date": "2018-01-19",
-      "poster_path": "/7uRdd5NawI9iTQ5oWIKYjqNkyc1.jpg",
+      "primary_release_date": "2021-02-24",
+      "poster_path": "/xAYGdGBGptNkisXRpmhZSry6SPF.jpg",
       "genres": [
-        "Drama",
-        "Romance"
+        "Fantasy",
+        "Science Fiction",
+        "Adventure"
       ],
-      "runtime": 110,
-      "vote_average": 6.127,
-      "vote_count": 399,
-      "imdb_id": "tt1667321",
-      "primary_seed": "Bridget Jones's Diary",
+      "runtime": 109,
+      "vote_average": 6.5,
+      "vote_count": 2750,
+      "imdb_id": "tt2076822",
+      "primary_seed": "The Hunger Games",
       "seed_matches": [
-        "Bridget Jones's Diary"
+        "The Hunger Games"
       ],
-      "recommendation_score": 4.8,
+      "recommendation_score": 12.75,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.3,
-      "imdb_votes": 13710
-    },
-    {
-      "tmdb_id": 1161617,
-      "title": "Code 3",
-      "original_title": "Code 3",
-      "original_language": "en",
-      "primary_release_date": "2025-09-12",
-      "poster_path": "/4PeJrEYkngzkksUCGHr1b6bEAa0.jpg",
-      "genres": [
-        "Comedy",
-        "Action",
-        "Drama"
-      ],
-      "runtime": 100,
-      "vote_average": 7.0,
-      "vote_count": 397,
-      "imdb_id": "tt26394837",
-      "primary_seed": "Parasite",
-      "seed_matches": [
-        "Parasite",
-        "Triangle of Sadness"
-      ],
-      "recommendation_score": 41.9,
-      "taste_keyword_matches": [],
-      "imdb_rating": 7.2,
-      "imdb_votes": 23753
-    },
-    {
-      "tmdb_id": 480001,
-      "title": "The Art of Self-Defense",
-      "original_title": "The Art of Self-Defense",
-      "original_language": "en",
-      "primary_release_date": "2019-07-12",
-      "poster_path": "/bTq793Qwl3tCXb94zrDPAwppbsC.jpg",
-      "genres": [
-        "Comedy",
-        "Thriller",
-        "Drama",
-        "Mystery"
-      ],
-      "runtime": 104,
-      "vote_average": 6.6,
-      "vote_count": 888,
-      "imdb_id": "tt7339248",
-      "primary_seed": "Parasite",
-      "seed_matches": [
-        "Parasite"
-      ],
-      "recommendation_score": 26.25,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.6,
-      "imdb_votes": 44634
+      "imdb_rating": 5.7,
+      "imdb_votes": 65643
     },
     {
       "tmdb_id": 777620,
@@ -1671,128 +1591,205 @@
       "imdb_votes": 658
     },
     {
-      "tmdb_id": 392818,
-      "title": "The Transfiguration",
-      "original_title": "The Transfiguration",
+      "tmdb_id": 603661,
+      "title": "The Hating Game",
+      "original_title": "The Hating Game",
       "original_language": "en",
-      "primary_release_date": "2016-04-14",
-      "poster_path": "/b7DWSZeP9Rxbmoase8RaIg6I369.jpg",
+      "primary_release_date": "2021-12-09",
+      "poster_path": "/prbZxJxGcy07y60eq8lCGMciTYz.jpg",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "runtime": 102,
+      "vote_average": 7.252,
+      "vote_count": 1279,
+      "imdb_id": "tt8718158",
+      "primary_seed": "The Idea of You",
+      "seed_matches": [
+        "The Idea of You"
+      ],
+      "recommendation_score": 9.0,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.2,
+      "imdb_votes": 37249
+    },
+    {
+      "tmdb_id": 591273,
+      "title": "Fear Street: 1994",
+      "original_title": "Fear Street: 1994",
+      "original_language": "en",
+      "primary_release_date": "2021-06-28",
+      "poster_path": "/9J9Wy39ZjrVmfk7yMkulpcI5sy0.jpg",
       "genres": [
         "Horror",
+        "Mystery",
         "Drama"
       ],
-      "runtime": 97,
-      "vote_average": 6.0,
-      "vote_count": 139,
-      "imdb_id": "tt5039088",
+      "runtime": 108,
+      "vote_average": 6.668,
+      "vote_count": 2825,
+      "imdb_id": "tt6566576",
       "primary_seed": "Midsommar",
       "seed_matches": [
         "Midsommar"
       ],
       "recommendation_score": 20.8,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.1,
-      "imdb_votes": 4338
+      "imdb_rating": 6.2,
+      "imdb_votes": 113854
     },
     {
-      "tmdb_id": 11153,
-      "title": "National Lampoon's Vacation",
-      "original_title": "National Lampoon's Vacation",
+      "tmdb_id": 504827,
+      "title": "The Bob's Burgers Movie",
+      "original_title": "The Bob's Burgers Movie",
       "original_language": "en",
-      "primary_release_date": "1983-07-29",
-      "poster_path": "/q3DvoqY06yZnRp9faH6uge7n7VP.jpg",
+      "primary_release_date": "2022-05-26",
+      "poster_path": "/AvV2nHEDQMWuRqAUrpcx2fB97CB.jpg",
       "genres": [
+        "Animation",
         "Comedy",
-        "Adventure"
+        "Crime",
+        "Mystery"
       ],
-      "runtime": 99,
-      "vote_average": 7.095,
-      "vote_count": 1844,
-      "imdb_id": "tt0085995",
-      "primary_seed": "Dumb and Dumber",
+      "runtime": 102,
+      "vote_average": 6.943,
+      "vote_count": 402,
+      "imdb_id": "tt7466442",
+      "primary_seed": "The Other Guys",
       "seed_matches": [
         "Talladega Nights: The Ballad of Ricky Bobby",
-        "Dumb and Dumber"
+        "The Other Guys"
       ],
-      "recommendation_score": 46.85,
+      "recommendation_score": 27.8,
       "taste_keyword_matches": [],
-      "imdb_rating": 7.3,
-      "imdb_votes": 130389
+      "imdb_rating": 7.0,
+      "imdb_votes": 24881
     },
     {
-      "tmdb_id": 262504,
-      "title": "Allegiant",
-      "original_title": "Allegiant",
+      "tmdb_id": 8966,
+      "title": "Twilight",
+      "original_title": "Twilight",
       "original_language": "en",
-      "primary_release_date": "2016-03-09",
-      "poster_path": "/faq9JlF8znUGQ5p3En1W61Fi5p0.jpg",
+      "primary_release_date": "2008-11-20",
+      "poster_path": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
       "genres": [
-        "Adventure",
-        "Science Fiction",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "runtime": 122,
+      "vote_average": 6.27,
+      "vote_count": 14894,
+      "imdb_id": "tt1099212",
+      "primary_seed": "The Notebook",
+      "seed_matches": [
+        "The Notebook"
+      ],
+      "recommendation_score": 15.4,
+      "taste_keyword_matches": [],
+      "imdb_rating": 5.4,
+      "imdb_votes": 539851
+    },
+    {
+      "tmdb_id": 250574,
+      "title": "Creep",
+      "original_title": "Creep",
+      "original_language": "en",
+      "primary_release_date": "2014-03-08",
+      "poster_path": "/qn53D574tT0YRyLgirEFHQwGUXw.jpg",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 78,
+      "vote_average": 6.409,
+      "vote_count": 1778,
+      "imdb_id": "tt2428170",
+      "primary_seed": "Sinister",
+      "seed_matches": [
+        "Sinister"
+      ],
+      "recommendation_score": 15.4,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.3,
+      "imdb_votes": 89369
+    },
+    {
+      "tmdb_id": 1035259,
+      "title": "The Naked Gun",
+      "original_title": "The Naked Gun",
+      "original_language": "en",
+      "primary_release_date": "2025-07-30",
+      "poster_path": "/rwla9vqzrKVVKVKiOuROTIXGsxj.jpg",
+      "genres": [
+        "Comedy",
+        "Crime",
         "Action"
       ],
-      "runtime": 120,
-      "vote_average": 6.097,
-      "vote_count": 7182,
-      "imdb_id": "tt3410834",
-      "primary_seed": "The Hunger Games",
+      "runtime": 85,
+      "vote_average": 6.338,
+      "vote_count": 2114,
+      "imdb_id": "tt3402138",
+      "primary_seed": "The Other Guys",
       "seed_matches": [
-        "The Hunger Games"
+        "The Other Guys",
+        "Anchorman: The Legend of Ron Burgundy"
       ],
-      "recommendation_score": 11.9,
+      "recommendation_score": 46.8,
       "taste_keyword_matches": [],
-      "imdb_rating": 5.7,
-      "imdb_votes": 150147
+      "imdb_rating": 6.3,
+      "imdb_votes": 137969
     },
     {
-      "tmdb_id": 9472,
-      "title": "DodgeBall: A True Underdog Story",
-      "original_title": "DodgeBall: A True Underdog Story",
+      "tmdb_id": 13771,
+      "title": "Venus",
+      "original_title": "Venus",
       "original_language": "en",
-      "primary_release_date": "2004-06-18",
-      "poster_path": "/r8KbNHkkwFXLjV1suGwm0Qjure5.jpg",
+      "primary_release_date": "2006-09-02",
+      "poster_path": "/pY1B5ipgUkxtBN3fkJWuKAeFL2G.jpg",
       "genres": [
-        "Comedy"
-      ],
-      "runtime": 92,
-      "vote_average": 6.365,
-      "vote_count": 4028,
-      "imdb_id": "tt0364725",
-      "primary_seed": "Anchorman: The Legend of Ron Burgundy",
-      "seed_matches": [
-        "Anchorman: The Legend of Ron Burgundy",
-        "Talladega Nights: The Ballad of Ricky Bobby"
-      ],
-      "recommendation_score": 29.6,
-      "taste_keyword_matches": [],
-      "imdb_rating": 6.7,
-      "imdb_votes": 290578
-    },
-    {
-      "tmdb_id": 1272149,
-      "title": "Bridget Jones: Mad About the Boy",
-      "original_title": "Bridget Jones: Mad About the Boy",
-      "original_language": "en",
-      "primary_release_date": "2025-02-12",
-      "poster_path": "/e5VR3nhLYG60znxaqU84wv4VSCb.jpg",
-      "genres": [
-        "Romance",
         "Comedy",
-        "Drama"
+        "Drama",
+        "Romance"
       ],
-      "runtime": 124,
-      "vote_average": 6.322,
-      "vote_count": 614,
-      "imdb_id": "tt32063050",
-      "primary_seed": "Bridget Jones's Diary",
+      "runtime": 95,
+      "vote_average": 6.7,
+      "vote_count": 162,
+      "imdb_id": "tt0489327",
+      "primary_seed": "The Idea of You",
       "seed_matches": [
-        "Bridget Jones's Diary",
         "The Idea of You"
       ],
-      "recommendation_score": 35.6,
+      "recommendation_score": 21.0,
       "taste_keyword_matches": [],
-      "imdb_rating": 6.5,
-      "imdb_votes": 36269
+      "imdb_rating": 7.0,
+      "imdb_votes": 13922
+    },
+    {
+      "tmdb_id": 1058696,
+      "title": "Rotting in the Sun",
+      "original_title": "Rotting in the Sun",
+      "original_language": "en",
+      "primary_release_date": "2023-09-08",
+      "poster_path": "/n2UhXsV5W2IlVdCRSxtK7hNa83s.jpg",
+      "genres": [
+        "Comedy",
+        "Thriller"
+      ],
+      "runtime": 111,
+      "vote_average": 6.4,
+      "vote_count": 118,
+      "imdb_id": "tt24146896",
+      "primary_seed": "Triangle of Sadness",
+      "seed_matches": [
+        "Triangle of Sadness"
+      ],
+      "recommendation_score": 13.2,
+      "taste_keyword_matches": [],
+      "imdb_rating": 6.8,
+      "imdb_votes": 5203
     }
   ],
   "movies": [
@@ -2523,7 +2520,7 @@
         "Family"
       ],
       "runtime": 60,
-      "vote_average": 6.246,
+      "vote_average": 6.323,
       "vote_count": 65,
       "imdb_id": "tt41367695",
       "trailer_youtube_key": "Nd9fv9rPCMg",
@@ -3383,8 +3380,8 @@
         "Science Fiction"
       ],
       "runtime": 111,
-      "vote_average": 6.982,
-      "vote_count": 4168,
+      "vote_average": 6.981,
+      "vote_count": 4171,
       "imdb_id": "tt26657236",
       "trailer_youtube_key": "0HjdiohVOik",
       "events": [
@@ -3602,6 +3599,40 @@
       ],
       "imdb_rating": 4.4,
       "imdb_votes": 155
+    },
+    {
+      "tmdb_id": 1703930,
+      "title": "Bra jobbat.",
+      "original_title": "Bra jobbat.",
+      "original_language": "en",
+      "primary_release_date": "2026-05-29",
+      "poster_path": "/oyYo3rnniHiBsWUWdBoPh2UPVSl.jpg",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 9,
+      "vote_average": 9.0,
+      "vote_count": 1,
+      "imdb_id": "tt51047944",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-05-29",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        },
+        {
+          "date": "2026-10-20",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1483599,
@@ -4194,40 +4225,6 @@
       ],
       "imdb_rating": 5.8,
       "imdb_votes": 534
-    },
-    {
-      "tmdb_id": 1703930,
-      "title": "Good Job.",
-      "original_title": "Good Job.",
-      "original_language": "en",
-      "primary_release_date": "2026-05-29",
-      "poster_path": "/oyYo3rnniHiBsWUWdBoPh2UPVSl.jpg",
-      "genres": [
-        "Comedy"
-      ],
-      "runtime": 9,
-      "vote_average": 9.0,
-      "vote_count": 1,
-      "imdb_id": "tt51047944",
-      "trailer_youtube_key": null,
-      "events": [
-        {
-          "date": "2026-05-29",
-          "types": [
-            1
-          ],
-          "certification": "NR"
-        },
-        {
-          "date": "2026-10-20",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ],
-      "imdb_rating": null,
-      "imdb_votes": 0
     },
     {
       "tmdb_id": 1704708,
@@ -5196,8 +5193,8 @@
         "War"
       ],
       "runtime": 101,
-      "vote_average": 7.662,
-      "vote_count": 558,
+      "vote_average": 7.666,
+      "vote_count": 560,
       "imdb_id": "tt32547691",
       "trailer_youtube_key": "jjdOSchcobk",
       "events": [
@@ -7574,8 +7571,8 @@
         "Mystery"
       ],
       "runtime": 90,
-      "vote_average": 5.9,
-      "vote_count": 134,
+      "vote_average": 5.937,
+      "vote_count": 135,
       "imdb_id": "tt32332915",
       "trailer_youtube_key": "q5oWCPS3akw",
       "events": [
@@ -11986,7 +11983,7 @@
       ],
       "runtime": 112,
       "vote_average": 6.1,
-      "vote_count": 410,
+      "vote_count": 413,
       "imdb_id": "tt35298123",
       "trailer_youtube_key": "j9TsiTgYZGw",
       "events": [
@@ -13405,8 +13402,8 @@
         "History"
       ],
       "runtime": 121,
-      "vote_average": 8.289,
-      "vote_count": 699,
+      "vote_average": 8.291,
+      "vote_count": 700,
       "imdb_id": "tt31514146",
       "trailer_youtube_key": "10ynpduiRpM",
       "events": [
@@ -13440,7 +13437,7 @@
         "Crime"
       ],
       "runtime": 97,
-      "vote_average": 7.494,
+      "vote_average": 7.5,
       "vote_count": 1228,
       "imdb_id": "tt27681354",
       "trailer_youtube_key": "nufP15iN4GE",
@@ -14699,8 +14696,8 @@
         "Drama"
       ],
       "runtime": 189,
-      "vote_average": 5.6,
-      "vote_count": 74,
+      "vote_average": 5.7,
+      "vote_count": 75,
       "imdb_id": "tt23865918",
       "trailer_youtube_key": "AdEE5xFQelY",
       "events": [
@@ -17829,8 +17826,8 @@
         "Thriller"
       ],
       "runtime": 107,
-      "vote_average": 6.739,
-      "vote_count": 113,
+      "vote_average": 6.724,
+      "vote_count": 114,
       "imdb_id": "tt33365126",
       "trailer_youtube_key": "fNdC6SJ-TxY",
       "events": [
@@ -21063,8 +21060,8 @@
         "Thriller"
       ],
       "runtime": 97,
-      "vote_average": 7.136,
-      "vote_count": 11,
+      "vote_average": 7.6,
+      "vote_count": 13,
       "imdb_id": "tt9213874",
       "trailer_youtube_key": "9MeILB0M274",
       "events": [
@@ -22743,7 +22740,7 @@
       ],
       "runtime": 110,
       "vote_average": 7.082,
-      "vote_count": 2441,
+      "vote_count": 2443,
       "imdb_id": "tt27534307",
       "trailer_youtube_key": "iSIuxrjTMk0",
       "events": [
@@ -24949,13 +24946,13 @@
       "original_title": "The Symphony of Dance",
       "original_language": "en",
       "primary_release_date": "2026-06-07",
-      "poster_path": "/2hbDryKjroP8C5EnPgASf3gsY2D.jpg",
+      "poster_path": "/5FkdTRRHqTgaySPgQDwVlqx4c6J.jpg",
       "genres": [
         "Documentary"
       ],
       "runtime": 108,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 7.0,
+      "vote_count": 1,
       "imdb_id": "tt34902686",
       "trailer_youtube_key": null,
       "events": [
@@ -26526,8 +26523,8 @@
         "Drama"
       ],
       "runtime": 95,
-      "vote_average": 7.543,
-      "vote_count": 94,
+      "vote_average": 7.516,
+      "vote_count": 95,
       "imdb_id": "tt32432654",
       "trailer_youtube_key": "ZC1kEknG2ro",
       "events": [
@@ -26978,7 +26975,7 @@
       ],
       "runtime": 128,
       "vote_average": 8.567,
-      "vote_count": 4768,
+      "vote_count": 4773,
       "imdb_id": "tt11378946",
       "trailer_youtube_key": "k-YAcjaLuSI",
       "events": [
@@ -27451,7 +27448,7 @@
         "Romance"
       ],
       "runtime": 104,
-      "vote_average": 6.391,
+      "vote_average": 6.4,
       "vote_count": 1471,
       "imdb_id": "tt14109724",
       "trailer_youtube_key": "hkP4tVTdsz8",
@@ -27509,7 +27506,7 @@
       ],
       "runtime": 102,
       "vote_average": 8.238,
-      "vote_count": 2913,
+      "vote_count": 2915,
       "imdb_id": "tt29355505",
       "trailer_youtube_key": "QftAW9TTmuQ",
       "events": [
@@ -28166,8 +28163,8 @@
         "Thriller"
       ],
       "runtime": 80,
-      "vote_average": 6.0,
-      "vote_count": 14,
+      "vote_average": 5.967,
+      "vote_count": 15,
       "imdb_id": "tt29703555",
       "trailer_youtube_key": "ORjn6ox53_U",
       "events": [
@@ -28802,8 +28799,8 @@
         "Action"
       ],
       "runtime": 123,
-      "vote_average": 6.684,
-      "vote_count": 642,
+      "vote_average": 6.689,
+      "vote_count": 643,
       "imdb_id": "tt32273171",
       "trailer_youtube_key": "tlSDDuWxO_0",
       "events": [
@@ -31778,8 +31775,8 @@
         "Drama"
       ],
       "runtime": 132,
-      "vote_average": 8.073,
-      "vote_count": 13065,
+      "vote_average": 8.1,
+      "vote_count": 13066,
       "imdb_id": "tt5726616",
       "trailer_youtube_key": "Z9AYPxH5NTM",
       "events": [
@@ -31934,7 +31931,7 @@
       "original_title": "Coax",
       "original_language": "en",
       "primary_release_date": "2026-06-12",
-      "poster_path": null,
+      "poster_path": "/jFtLhk70Es5XQVMmX93An7WcTGI.jpg",
       "genres": [
         "Horror"
       ],
@@ -32220,7 +32217,7 @@
       ],
       "runtime": 146,
       "vote_average": 7.402,
-      "vote_count": 4070,
+      "vote_count": 4074,
       "imdb_id": "tt15047880",
       "trailer_youtube_key": "icDuEHSxE-w",
       "events": [
@@ -33028,8 +33025,8 @@
         "Thriller"
       ],
       "runtime": 94,
-      "vote_average": 6.086,
-      "vote_count": 411,
+      "vote_average": 6.081,
+      "vote_count": 412,
       "imdb_id": "tt19838566",
       "trailer_youtube_key": "EUTatY1-oBI",
       "events": [
@@ -33874,8 +33871,8 @@
         "Horror"
       ],
       "runtime": 113,
-      "vote_average": 7.1,
-      "vote_count": 347,
+      "vote_average": 7.066,
+      "vote_count": 348,
       "imdb_id": "tt35050712",
       "trailer_youtube_key": "uIY13LD3RUY",
       "events": [
@@ -34582,7 +34579,7 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt33991679",
-      "trailer_youtube_key": null,
+      "trailer_youtube_key": "41kpv0LozWg",
       "events": [
         {
           "date": "2026-06-12",
@@ -37626,8 +37623,8 @@
         "Drama"
       ],
       "runtime": 143,
-      "vote_average": 7.2,
-      "vote_count": 39,
+      "vote_average": 7.188,
+      "vote_count": 40,
       "imdb_id": "tt27470893",
       "trailer_youtube_key": "IHQQK_Wn5DM",
       "events": [
@@ -39668,8 +39665,8 @@
         "Adventure"
       ],
       "runtime": 107,
-      "vote_average": 7.311,
-      "vote_count": 787,
+      "vote_average": 7.314,
+      "vote_count": 788,
       "imdb_id": "tt29516222",
       "trailer_youtube_key": "f0ptq0Lzdh8",
       "events": [
@@ -39723,8 +39720,8 @@
         "Drama"
       ],
       "runtime": 160,
-      "vote_average": 7.876,
-      "vote_count": 178,
+      "vote_average": 7.838,
+      "vote_count": 179,
       "imdb_id": "tt8503618",
       "trailer_youtube_key": "0pvj1p1aaH8",
       "events": [
@@ -39889,7 +39886,7 @@
       ],
       "runtime": 108,
       "vote_average": 7.481,
-      "vote_count": 1825,
+      "vote_count": 1826,
       "imdb_id": "tt33978029",
       "trailer_youtube_key": "jczr0KCloXk",
       "events": [
@@ -40037,8 +40034,8 @@
         "Animation"
       ],
       "runtime": 98,
-      "vote_average": 8.174,
-      "vote_count": 4002,
+      "vote_average": 8.173,
+      "vote_count": 4003,
       "imdb_id": "tt28650488",
       "trailer_youtube_key": "En5QZmL5R1s",
       "events": [
@@ -40250,7 +40247,7 @@
         "Comedy"
       ],
       "runtime": 105,
-      "vote_average": 7.258,
+      "vote_average": 7.319,
       "vote_count": 127,
       "imdb_id": "tt36352591",
       "trailer_youtube_key": "uYTMroh8pjI",
@@ -40751,8 +40748,8 @@
         "Documentary"
       ],
       "runtime": 20,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 7.0,
+      "vote_count": 1,
       "imdb_id": "tt39646510",
       "trailer_youtube_key": "uxrhaidYnrw",
       "events": [
@@ -40999,8 +40996,8 @@
         "Romance"
       ],
       "runtime": 107,
-      "vote_average": 7.2,
-      "vote_count": 996,
+      "vote_average": 7.201,
+      "vote_count": 997,
       "imdb_id": "tt14173636",
       "trailer_youtube_key": "nelkiuezJxg",
       "events": [
@@ -41910,8 +41907,8 @@
         "Comedy"
       ],
       "runtime": 102,
-      "vote_average": 6.3,
-      "vote_count": 399,
+      "vote_average": 6.343,
+      "vote_count": 400,
       "imdb_id": "tt34888871",
       "trailer_youtube_key": "bWtrFcerKE0",
       "events": [
@@ -42361,8 +42358,8 @@
         "Adventure"
       ],
       "runtime": 157,
-      "vote_average": 8.6,
-      "vote_count": 9008,
+      "vote_average": 8.619,
+      "vote_count": 9012,
       "imdb_id": "tt12042730",
       "trailer_youtube_key": "Q2UjkMU_ZWQ",
       "events": [
@@ -44956,8 +44953,8 @@
         "Drama"
       ],
       "runtime": 119,
-      "vote_average": 8.277,
-      "vote_count": 1060,
+      "vote_average": 8.276,
+      "vote_count": 1061,
       "imdb_id": "tt10375624",
       "trailer_youtube_key": "9mi3YVYm3ZU",
       "events": [
@@ -47080,7 +47077,7 @@
       ],
       "runtime": 115,
       "vote_average": 7.928,
-      "vote_count": 14258,
+      "vote_count": 14259,
       "imdb_id": "tt0082971",
       "trailer_youtube_key": "0xQSIdSRlAk",
       "events": [
@@ -50020,7 +50017,7 @@
       ],
       "runtime": 198,
       "vote_average": 7.638,
-      "vote_count": 4731,
+      "vote_count": 4732,
       "imdb_id": "tt1757678",
       "trailer_youtube_key": "Ma1x7ikpid8",
       "events": [
@@ -50747,13 +50744,12 @@
       "poster_path": "/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
       "genres": [
         "Comedy",
-        "Crime",
         "Mystery",
         "Family"
       ],
       "runtime": 109,
-      "vote_average": 7.871,
-      "vote_count": 1950,
+      "vote_average": 7.87,
+      "vote_count": 1953,
       "imdb_id": "tt32565993",
       "trailer_youtube_key": "826SRt1CFbg",
       "events": [
@@ -52630,8 +52626,8 @@
         "Comedy"
       ],
       "runtime": 103,
-      "vote_average": 5.707,
-      "vote_count": 121,
+      "vote_average": 5.721,
+      "vote_count": 120,
       "imdb_id": "tt30691214",
       "trailer_youtube_key": "0nyUCq9k7_0",
       "events": [
@@ -53472,7 +53468,7 @@
         "Thriller"
       ],
       "runtime": 119,
-      "vote_average": 7.433,
+      "vote_average": 7.481,
       "vote_count": 104,
       "imdb_id": "tt15532464",
       "trailer_youtube_key": "DT_i0aq-vPs",
@@ -53971,7 +53967,7 @@
         "Comedy"
       ],
       "runtime": 93,
-      "vote_average": 6.0,
+      "vote_average": 6.083,
       "vote_count": 12,
       "imdb_id": "tt38283916",
       "trailer_youtube_key": null,
@@ -59132,7 +59128,7 @@
       ],
       "runtime": 109,
       "vote_average": 8.156,
-      "vote_count": 6727,
+      "vote_count": 6733,
       "imdb_id": "tt37287335",
       "trailer_youtube_key": "gMC8kkwbIQQ",
       "events": [
@@ -60538,7 +60534,7 @@
         "Fantasy"
       ],
       "runtime": 90,
-      "vote_average": 7.529,
+      "vote_average": 7.5,
       "vote_count": 1420,
       "imdb_id": "tt32890033",
       "trailer_youtube_key": "V-O-uBaHk3c",
@@ -61474,7 +61470,9 @@
       "original_language": "en",
       "primary_release_date": "2026-07-02",
       "poster_path": "/ibbNG1gWAeHTQ571qBFD3pryX2S.jpg",
-      "genres": [],
+      "genres": [
+        "Animation"
+      ],
       "runtime": 1,
       "vote_average": 5.0,
       "vote_count": 1,
@@ -61953,7 +61951,9 @@
       "original_language": "en",
       "primary_release_date": "2026-07-03",
       "poster_path": "/WTsTxdja0QEWq1PtxfP34EvMSc.jpg",
-      "genres": [],
+      "genres": [
+        "Animation"
+      ],
       "runtime": 1,
       "vote_average": 6.0,
       "vote_count": 1,
@@ -64274,7 +64274,7 @@
       ],
       "runtime": 125,
       "vote_average": 7.727,
-      "vote_count": 1785,
+      "vote_count": 1786,
       "imdb_id": "tt14905854",
       "trailer_youtube_key": "xYcgQMxQwmk",
       "events": [
@@ -67225,8 +67225,8 @@
         "Science Fiction"
       ],
       "runtime": 123,
-      "vote_average": 8.169,
-      "vote_count": 1637,
+      "vote_average": 8.164,
+      "vote_count": 1639,
       "imdb_id": "tt34385135",
       "trailer_youtube_key": "LW6dpj1uCK8",
       "events": [
@@ -68245,7 +68245,7 @@
       "title": "Reading Lolita in Tehran",
       "original_title": "Reading Lolita in Tehran",
       "original_language": "en",
-      "primary_release_date": "2024-11-21",
+      "primary_release_date": "2024-07-29",
       "poster_path": "/69WQXk3Omh0IKles3Pcmlhvo3En.jpg",
       "genres": [
         "Drama"
@@ -69342,8 +69342,8 @@
         "Crime"
       ],
       "runtime": 90,
-      "vote_average": 9.0,
-      "vote_count": 2,
+      "vote_average": 8.833,
+      "vote_count": 3,
       "imdb_id": "tt41038902",
       "trailer_youtube_key": null,
       "events": [
@@ -71771,8 +71771,8 @@
         "Comedy"
       ],
       "runtime": 95,
-      "vote_average": 6.0,
-      "vote_count": 4,
+      "vote_average": 6.667,
+      "vote_count": 3,
       "imdb_id": "tt38359641",
       "trailer_youtube_key": "CjzLUyf4U7g",
       "events": [
@@ -71910,8 +71910,8 @@
         "Thriller"
       ],
       "runtime": 91,
-      "vote_average": 7.2,
-      "vote_count": 810,
+      "vote_average": 7.207,
+      "vote_count": 811,
       "imdb_id": "tt31195136",
       "trailer_youtube_key": "5OndK0w1lYY",
       "events": [
@@ -72238,7 +72238,7 @@
       ],
       "runtime": 173,
       "vote_average": 8.027,
-      "vote_count": 5428,
+      "vote_count": 5440,
       "imdb_id": "tt33764258",
       "trailer_youtube_key": "AyIZ9tiiN8I",
       "events": [
@@ -74934,8 +74934,8 @@
         "Drama"
       ],
       "runtime": 129,
-      "vote_average": 8.0,
-      "vote_count": 1,
+      "vote_average": 7.0,
+      "vote_count": 2,
       "imdb_id": "tt36236732",
       "trailer_youtube_key": null,
       "events": [
@@ -75925,8 +75925,8 @@
         "Thriller"
       ],
       "runtime": 98,
-      "vote_average": 1.0,
-      "vote_count": 1,
+      "vote_average": 0,
+      "vote_count": 0,
       "imdb_id": "tt33009155",
       "trailer_youtube_key": null,
       "events": [
@@ -76296,8 +76296,8 @@
         "Thriller"
       ],
       "runtime": 142,
-      "vote_average": 7.2,
-      "vote_count": 24096,
+      "vote_average": 7.227,
+      "vote_count": 24103,
       "imdb_id": "tt1392170",
       "trailer_youtube_key": "wLGOaKY5STw",
       "events": [
@@ -76326,7 +76326,7 @@
       ],
       "runtime": 146,
       "vote_average": 7.4,
-      "vote_count": 19122,
+      "vote_count": 19124,
       "imdb_id": "tt1951264",
       "trailer_youtube_key": "zoKj7TdJk98",
       "events": [
@@ -76354,8 +76354,8 @@
         "Thriller"
       ],
       "runtime": 123,
-      "vote_average": 6.8,
-      "vote_count": 17296,
+      "vote_average": 6.816,
+      "vote_count": 17302,
       "imdb_id": "tt1951265",
       "trailer_youtube_key": "IXshQ5mv1K8",
       "events": [
@@ -76383,8 +76383,8 @@
         "Science Fiction"
       ],
       "runtime": 137,
-      "vote_average": 6.9,
-      "vote_count": 13830,
+      "vote_average": 6.901,
+      "vote_count": 13838,
       "imdb_id": "tt1951266",
       "trailer_youtube_key": "SoKIqLEGhI0",
       "events": [
@@ -76412,8 +76412,8 @@
         "Adventure"
       ],
       "runtime": 157,
-      "vote_average": 6.951,
-      "vote_count": 3878,
+      "vote_average": 6.952,
+      "vote_count": 3881,
       "imdb_id": "tt10545296",
       "trailer_youtube_key": "NxW_X4kzeus",
       "events": [
@@ -77444,8 +77444,8 @@
         "Crime"
       ],
       "runtime": 105,
-      "vote_average": 6.718,
-      "vote_count": 512,
+      "vote_average": 6.716,
+      "vote_count": 513,
       "imdb_id": "tt36304003",
       "trailer_youtube_key": "N-J-HR3quc4",
       "events": [
@@ -77586,8 +77586,8 @@
         "Action"
       ],
       "runtime": 157,
-      "vote_average": 6.863,
-      "vote_count": 771,
+      "vote_average": 6.878,
+      "vote_count": 776,
       "imdb_id": "tt27369017",
       "trailer_youtube_key": "OFaJzL83y0Q",
       "events": [
@@ -77955,8 +77955,8 @@
         "Fantasy"
       ],
       "runtime": 112,
-      "vote_average": 7.194,
-      "vote_count": 2719,
+      "vote_average": 7.2,
+      "vote_count": 2720,
       "imdb_id": "tt12003946",
       "trailer_youtube_key": "a53e4HHnx_s",
       "events": [
@@ -77984,7 +77984,7 @@
         "Romance"
       ],
       "runtime": 137,
-      "vote_average": 6.572,
+      "vote_average": 6.6,
       "vote_count": 1239,
       "imdb_id": "tt19847976",
       "trailer_youtube_key": "R2Xubj7lazE",
@@ -78741,8 +78741,8 @@
         "Science Fiction"
       ],
       "runtime": 132,
-      "vote_average": 7.445,
-      "vote_count": 2030,
+      "vote_average": 7.444,
+      "vote_count": 2032,
       "imdb_id": "tt30825738",
       "trailer_youtube_key": "uwild1rw7Aw",
       "events": [
@@ -79638,34 +79638,6 @@
           "date": "2026-07-22",
           "types": [
             3
-          ],
-          "certification": "NR"
-        }
-      ],
-      "imdb_rating": null,
-      "imdb_votes": 0
-    },
-    {
-      "tmdb_id": 1688322,
-      "title": "Unforgotten",
-      "original_title": "Unforgotten",
-      "original_language": "en",
-      "primary_release_date": "2004-05-31",
-      "poster_path": "/gZHKkoZAgxk3D5YS9JQOjMylPNm.jpg",
-      "genres": [
-        "Horror",
-        "Drama"
-      ],
-      "runtime": 4,
-      "vote_average": 7.0,
-      "vote_count": 4,
-      "imdb_id": null,
-      "trailer_youtube_key": null,
-      "events": [
-        {
-          "date": "2026-07-22",
-          "types": [
-            4
           ],
           "certification": "NR"
         }
@@ -81226,7 +81198,7 @@
       "title": "Estate",
       "original_title": "Ben Bayit",
       "original_language": "en",
-      "primary_release_date": "2026-07-24",
+      "primary_release_date": "2025-07-25",
       "poster_path": "/ytmBIzuRiZmHVzugtvpNESFoxHl.jpg",
       "genres": [
         "Drama",
@@ -81234,8 +81206,8 @@
         "Romance"
       ],
       "runtime": 86,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 6.0,
+      "vote_count": 1,
       "imdb_id": null,
       "trailer_youtube_key": null,
       "events": [
@@ -82212,8 +82184,8 @@
         "Mystery"
       ],
       "runtime": 82,
-      "vote_average": 6.2,
-      "vote_count": 180,
+      "vote_average": 6.295,
+      "vote_count": 183,
       "imdb_id": "tt30887701",
       "trailer_youtube_key": "Y4lZewE6JMI",
       "events": [
@@ -82825,8 +82797,8 @@
         "Animation"
       ],
       "runtime": 103,
-      "vote_average": 8.177,
-      "vote_count": 1550,
+      "vote_average": 8.174,
+      "vote_count": 1556,
       "imdb_id": "tt1756855",
       "trailer_youtube_key": "kMsiD1Nky5I",
       "events": [
@@ -85117,8 +85089,8 @@
         "Adventure"
       ],
       "runtime": 145,
-      "vote_average": 8.457,
-      "vote_count": 7085,
+      "vote_average": 8.456,
+      "vote_count": 7093,
       "imdb_id": "tt22084616",
       "trailer_youtube_key": "P3uI5sLosKU",
       "events": [
@@ -85344,8 +85316,8 @@
         "Drama"
       ],
       "runtime": 158,
-      "vote_average": 7.07,
-      "vote_count": 1644,
+      "vote_average": 7.071,
+      "vote_count": 1645,
       "imdb_id": "tt14444726",
       "trailer_youtube_key": "Na6gA1RehsU",
       "events": [
@@ -85673,8 +85645,8 @@
         "Crime"
       ],
       "runtime": 254,
-      "vote_average": 8.1,
-      "vote_count": 1490,
+      "vote_average": 8.117,
+      "vote_count": 1491,
       "imdb_id": "tt6019206",
       "trailer_youtube_key": "qbUz68h9BFo",
       "events": [
@@ -89396,7 +89368,7 @@
         "Mystery"
       ],
       "runtime": 147,
-      "vote_average": 7.522,
+      "vote_average": 7.5,
       "vote_count": 23,
       "imdb_id": "tt39602215",
       "trailer_youtube_key": "dY5kXykdbLo",
@@ -90859,8 +90831,8 @@
         "Fantasy"
       ],
       "runtime": 94,
-      "vote_average": 6.625,
-      "vote_count": 8,
+      "vote_average": 6.778,
+      "vote_count": 9,
       "imdb_id": "tt41927454",
       "trailer_youtube_key": "ix27wcPrFw4",
       "events": [
@@ -92751,7 +92723,7 @@
       ],
       "runtime": 154,
       "vote_average": 8.48,
-      "vote_count": 31395,
+      "vote_count": 31398,
       "imdb_id": "tt0110912",
       "trailer_youtube_key": "tGpTpVyI_OQ",
       "events": [
@@ -92890,7 +92862,7 @@
       ],
       "runtime": 100,
       "vote_average": 7.479,
-      "vote_count": 4158,
+      "vote_count": 4159,
       "imdb_id": "tt0067992",
       "trailer_youtube_key": "2WKPKnggJqk",
       "events": [
@@ -93118,8 +93090,8 @@
         "Thriller"
       ],
       "runtime": 86,
-      "vote_average": 5.247,
-      "vote_count": 352,
+      "vote_average": 5.264,
+      "vote_count": 356,
       "imdb_id": "tt36893729",
       "trailer_youtube_key": "Cgw3zNmFtRo",
       "events": [
@@ -93168,8 +93140,8 @@
         "Science Fiction"
       ],
       "runtime": 169,
-      "vote_average": 8.5,
-      "vote_count": 42001,
+      "vote_average": 8.494,
+      "vote_count": 42008,
       "imdb_id": "tt0816692",
       "trailer_youtube_key": "LY19rHKAaAg",
       "events": [
@@ -94300,8 +94272,8 @@
         "Drama"
       ],
       "runtime": 91,
-      "vote_average": 7.667,
-      "vote_count": 3,
+      "vote_average": 8.6,
+      "vote_count": 5,
       "imdb_id": "tt21442952",
       "trailer_youtube_key": "_sVRmwtkOwg",
       "events": [
@@ -98155,6 +98127,13 @@
             3
           ],
           "certification": "NR"
+        },
+        {
+          "date": "2026-12-15",
+          "types": [
+            4
+          ],
+          "certification": "NR"
         }
       ],
       "imdb_rating": 8.1,
@@ -98989,8 +98968,8 @@
         "Comedy"
       ],
       "runtime": 107,
-      "vote_average": 7.3,
-      "vote_count": 230,
+      "vote_average": 7.318,
+      "vote_count": 231,
       "imdb_id": "tt33095251",
       "trailer_youtube_key": "k1MVnzd2aVc",
       "events": [
@@ -102574,34 +102553,6 @@
       "imdb_votes": 0
     },
     {
-      "tmdb_id": 1233883,
-      "title": "Epitaph",
-      "original_title": "Epitaph",
-      "original_language": "en",
-      "primary_release_date": "2026-08-10",
-      "poster_path": "/bGrw0ibHwDoExjbQLnBYvTLRjor.jpg",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "runtime": 93,
-      "vote_average": 7.0,
-      "vote_count": 1,
-      "imdb_id": "",
-      "trailer_youtube_key": null,
-      "events": [
-        {
-          "date": "2026-08-10",
-          "types": [
-            3
-          ],
-          "certification": "NR"
-        }
-      ],
-      "imdb_rating": null,
-      "imdb_votes": 0
-    },
-    {
       "tmdb_id": 1802376,
       "title": "Gangster Man",
       "original_title": "Gangster Man",
@@ -103104,7 +103055,7 @@
         "Thriller"
       ],
       "runtime": 103,
-      "vote_average": 6.886,
+      "vote_average": 6.9,
       "vote_count": 3722,
       "imdb_id": "tt15791034",
       "trailer_youtube_key": "Dr89pmKrqkI",
@@ -103672,7 +103623,7 @@
         "Science Fiction"
       ],
       "runtime": 106,
-      "vote_average": 6.438,
+      "vote_average": 6.4,
       "vote_count": 6163,
       "imdb_id": "tt0116996",
       "trailer_youtube_key": "kTxmxlxg90E",
@@ -103699,8 +103650,8 @@
         "Horror"
       ],
       "runtime": 70,
-      "vote_average": 1.0,
-      "vote_count": 1,
+      "vote_average": 2.0,
+      "vote_count": 2,
       "imdb_id": "tt37527968",
       "trailer_youtube_key": "MlT2fg__8qo",
       "events": [
@@ -104095,8 +104046,8 @@
         "Action"
       ],
       "runtime": 84,
-      "vote_average": 6.0,
-      "vote_count": 6,
+      "vote_average": 5.857,
+      "vote_count": 7,
       "imdb_id": "tt28370319",
       "trailer_youtube_key": "rJ-ti9v1y8Y",
       "events": [
@@ -106807,8 +106758,8 @@
         "Drama"
       ],
       "runtime": 96,
-      "vote_average": 7.185,
-      "vote_count": 165,
+      "vote_average": 7.178,
+      "vote_count": 166,
       "imdb_id": "tt36590417",
       "trailer_youtube_key": "bvWqHSFkO5s",
       "events": [
@@ -106921,7 +106872,7 @@
         "Horror"
       ],
       "runtime": 82,
-      "vote_average": 6.41,
+      "vote_average": 6.4,
       "vote_count": 50,
       "imdb_id": "tt30505578",
       "trailer_youtube_key": "ORFG_EWDkCY",
@@ -107447,7 +107398,7 @@
         "Comedy"
       ],
       "runtime": 88,
-      "vote_average": 8.15,
+      "vote_average": 8.2,
       "vote_count": 207,
       "imdb_id": "tt29356163",
       "trailer_youtube_key": "xgI5iYmOf5Q",
@@ -107856,8 +107807,8 @@
         "Drama"
       ],
       "runtime": 103,
-      "vote_average": 5.816,
-      "vote_count": 19,
+      "vote_average": 5.725,
+      "vote_count": 20,
       "imdb_id": "tt33269988",
       "trailer_youtube_key": "LeSzEsiVu4g",
       "events": [
@@ -108010,8 +107961,8 @@
         "Thriller"
       ],
       "runtime": 100,
-      "vote_average": 6.993,
-      "vote_count": 2563,
+      "vote_average": 6.991,
+      "vote_count": 2566,
       "imdb_id": "tt27165187",
       "trailer_youtube_key": "u4tgctWuHc0",
       "events": [
@@ -110477,7 +110428,7 @@
       ],
       "runtime": 129,
       "vote_average": 7.891,
-      "vote_count": 18769,
+      "vote_count": 18770,
       "imdb_id": "tt3783958",
       "trailer_youtube_key": "Zfy4rGzZDes",
       "events": [
@@ -111306,6 +111257,34 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1841406,
+      "title": "Józefa",
+      "original_title": "Józefa",
+      "original_language": "en",
+      "primary_release_date": "2026-06-23",
+      "poster_path": "/bdFa921fFFHT4Ma5QPS2Sjtaw0.jpg",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "runtime": 12,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt44767734",
+      "trailer_youtube_key": "mNfHm_6BED0",
+      "events": [
+        {
+          "date": "2026-08-17",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1758337,
       "title": "Kök Börü",
       "original_title": "Kök Börü",
@@ -111898,8 +111877,8 @@
         "Thriller"
       ],
       "runtime": 106,
-      "vote_average": 7.7,
-      "vote_count": 1101,
+      "vote_average": 7.662,
+      "vote_count": 1102,
       "imdb_id": "tt32393988",
       "trailer_youtube_key": "gXjurDkYnEM",
       "events": [
@@ -114188,8 +114167,8 @@
         "Thriller"
       ],
       "runtime": 91,
-      "vote_average": 8.733,
-      "vote_count": 1001,
+      "vote_average": 8.734,
+      "vote_count": 1002,
       "imdb_id": "tt39390497",
       "trailer_youtube_key": "Rk0efhpa-5Y",
       "events": [
@@ -114358,7 +114337,7 @@
         "Thriller"
       ],
       "runtime": 101,
-      "vote_average": 4.344,
+      "vote_average": 4.26,
       "vote_count": 48,
       "imdb_id": "tt14119302",
       "trailer_youtube_key": "x54MPGBWXA8",
@@ -114817,8 +114796,8 @@
         "Drama"
       ],
       "runtime": 112,
-      "vote_average": 5.7,
-      "vote_count": 236,
+      "vote_average": 5.713,
+      "vote_count": 237,
       "imdb_id": "tt27200708",
       "trailer_youtube_key": "aqYHOsuje1E",
       "events": [
@@ -114887,8 +114866,8 @@
         "Thriller"
       ],
       "runtime": 96,
-      "vote_average": 7.604,
-      "vote_count": 1121,
+      "vote_average": 7.602,
+      "vote_count": 1124,
       "imdb_id": "tt32338669",
       "trailer_youtube_key": "2Iqvbe98Gb4",
       "events": [
@@ -117308,6 +117287,33 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1621669,
+      "title": "Mehman",
+      "original_title": "Guest",
+      "original_language": "en",
+      "primary_release_date": "2026-02-28",
+      "poster_path": "/8HDERKipYTrqj0H79b6J3xpO4E1.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 14,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt39390080",
+      "trailer_youtube_key": "VffwxhDcFzs",
+      "events": [
+        {
+          "date": "2026-08-23",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1744667,
       "title": "Only Bears",
       "original_title": "Only Bears",
@@ -118445,8 +118451,8 @@
         "Drama"
       ],
       "runtime": 79,
-      "vote_average": 9.093,
-      "vote_count": 512,
+      "vote_average": 9.1,
+      "vote_count": 513,
       "imdb_id": "tt32333324",
       "trailer_youtube_key": "90HAqMk7qv0",
       "events": [
@@ -118949,7 +118955,7 @@
         "Thriller"
       ],
       "runtime": 89,
-      "vote_average": 6.031,
+      "vote_average": 6.0,
       "vote_count": 1089,
       "imdb_id": "tt2103217",
       "trailer_youtube_key": "R5IS6XSXQ_s",
@@ -119363,7 +119369,7 @@
       ],
       "runtime": 86,
       "vote_average": 6.852,
-      "vote_count": 5009,
+      "vote_count": 5010,
       "imdb_id": "tt3289956",
       "trailer_youtube_key": "BNxsaFCzqxc",
       "events": [
@@ -119696,7 +119702,7 @@
         "Action"
       ],
       "runtime": 96,
-      "vote_average": 6.927,
+      "vote_average": 6.947,
       "vote_count": 253,
       "imdb_id": "tt4959750",
       "trailer_youtube_key": "CyrVTcTi7aE",
@@ -121519,7 +121525,7 @@
         "Horror"
       ],
       "runtime": 106,
-      "vote_average": 6.689,
+      "vote_average": 6.686,
       "vote_count": 449,
       "imdb_id": "tt23172090",
       "trailer_youtube_key": "lQqmOjPDlWg",
@@ -121631,7 +121637,7 @@
         "Comedy"
       ],
       "runtime": 111,
-      "vote_average": 6.991,
+      "vote_average": 7.036,
       "vote_count": 112,
       "imdb_id": "tt32499466",
       "trailer_youtube_key": "wc2UjmPzN8c",
@@ -122521,7 +122527,7 @@
       ],
       "runtime": 137,
       "vote_average": 8.179,
-      "vote_count": 15236,
+      "vote_count": 15238,
       "imdb_id": "tt0103064",
       "trailer_youtube_key": "BuBD2s2NmEM",
       "events": [
@@ -122606,8 +122612,8 @@
         "Science Fiction"
       ],
       "runtime": 119,
-      "vote_average": 7.158,
-      "vote_count": 1058,
+      "vote_average": 7.161,
+      "vote_count": 1059,
       "imdb_id": "tt21285562",
       "trailer_youtube_key": "-xSxaE1ClEE",
       "events": [
@@ -122648,8 +122654,8 @@
         "Comedy"
       ],
       "runtime": 101,
-      "vote_average": 6.9,
-      "vote_count": 24,
+      "vote_average": 6.84,
+      "vote_count": 25,
       "imdb_id": "tt39150234",
       "trailer_youtube_key": "O05arcJjOd0",
       "events": [
@@ -122827,8 +122833,8 @@
         "Mystery"
       ],
       "runtime": 119,
-      "vote_average": 6.51,
-      "vote_count": 154,
+      "vote_average": 6.532,
+      "vote_count": 155,
       "imdb_id": "tt37275992",
       "trailer_youtube_key": "FldeGkt4e4k",
       "events": [
@@ -125549,7 +125555,10 @@
       "original_language": "en",
       "primary_release_date": "2026-08-29",
       "poster_path": "/3mTehMnt9NBetkKlQq1jl94usVo.jpg",
-      "genres": [],
+      "genres": [
+        "Animation",
+        "Science Fiction"
+      ],
       "runtime": 80,
       "vote_average": 0,
       "vote_count": 0,
@@ -127556,7 +127565,7 @@
         "Comedy"
       ],
       "runtime": 130,
-      "vote_average": 7.17,
+      "vote_average": 7.2,
       "vote_count": 409,
       "imdb_id": "tt32588798",
       "trailer_youtube_key": "Ho10_4IX1jE",
@@ -128367,7 +128376,7 @@
       ],
       "runtime": 105,
       "vote_average": 6.861,
-      "vote_count": 8531,
+      "vote_count": 8532,
       "imdb_id": "tt2381941",
       "trailer_youtube_key": "6vY9UPiI4eQ",
       "events": [
@@ -129127,7 +129136,7 @@
       ],
       "runtime": 131,
       "vote_average": 6.916,
-      "vote_count": 3240,
+      "vote_count": 3241,
       "imdb_id": "tt17351924",
       "trailer_youtube_key": "s8l0llLj1uM",
       "events": [
@@ -129304,6 +129313,35 @@
       ],
       "imdb_rating": 4.0,
       "imdb_votes": 520
+    },
+    {
+      "tmdb_id": 1841571,
+      "title": "The Walten Files 5 - Faces of Grief",
+      "original_title": "The Walten Files 5 - Faces of Grief",
+      "original_language": "en",
+      "primary_release_date": "2026-09-01",
+      "poster_path": "/rhvt0xRBA0DlqKhY0sYRr0fL7w4.jpg",
+      "genres": [
+        "Horror",
+        "Drama",
+        "Animation"
+      ],
+      "runtime": 80,
+      "vote_average": 9.0,
+      "vote_count": 1,
+      "imdb_id": null,
+      "trailer_youtube_key": "IsJZE-R0zyU",
+      "events": [
+        {
+          "date": "2026-09-01",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1759422,
@@ -129679,8 +129717,8 @@
         "Thriller"
       ],
       "runtime": 98,
-      "vote_average": 7.234,
-      "vote_count": 885,
+      "vote_average": 7.229,
+      "vote_count": 890,
       "imdb_id": "tt31192372",
       "trailer_youtube_key": "Krs0VDIjhmE",
       "events": [
@@ -130049,8 +130087,8 @@
         "Action"
       ],
       "runtime": 86,
-      "vote_average": 6.653,
-      "vote_count": 734,
+      "vote_average": 6.65,
+      "vote_count": 736,
       "imdb_id": "tt34564059",
       "trailer_youtube_key": "zz4rsZLcauY",
       "events": [
@@ -130133,8 +130171,8 @@
         "History"
       ],
       "runtime": 128,
-      "vote_average": 7.7,
-      "vote_count": 437,
+      "vote_average": 7.694,
+      "vote_count": 438,
       "imdb_id": "tt36983905",
       "trailer_youtube_key": "lyhCxZN4Ro8",
       "events": [
@@ -130328,8 +130366,8 @@
         "Family"
       ],
       "runtime": 88,
-      "vote_average": 6.967,
-      "vote_count": 15,
+      "vote_average": 7.2,
+      "vote_count": 16,
       "imdb_id": "tt31260224",
       "trailer_youtube_key": "WdTbLiWjld0",
       "events": [
@@ -130667,8 +130705,8 @@
         "Comedy"
       ],
       "runtime": 111,
-      "vote_average": 7.8,
-      "vote_count": 1099,
+      "vote_average": 7.798,
+      "vote_count": 1101,
       "imdb_id": "tt28014327",
       "trailer_youtube_key": "om5Un9X720M",
       "events": [
@@ -131372,7 +131410,7 @@
       ],
       "runtime": 124,
       "vote_average": 7.938,
-      "vote_count": 5135,
+      "vote_count": 5137,
       "imdb_id": "tt0094625",
       "trailer_youtube_key": "Jq4ER-P6NCQ",
       "events": [
@@ -131565,8 +131603,8 @@
         "Crime"
       ],
       "runtime": 107,
-      "vote_average": 6.734,
-      "vote_count": 126,
+      "vote_average": 6.76,
+      "vote_count": 127,
       "imdb_id": "tt34379051",
       "trailer_youtube_key": "fvnyrBnUx4E",
       "events": [
@@ -131645,7 +131683,7 @@
         "Family"
       ],
       "runtime": 117,
-      "vote_average": 7.065,
+      "vote_average": 7.1,
       "vote_count": 15765,
       "imdb_id": "tt0317219",
       "trailer_youtube_key": "XszNWHhpaTc",
@@ -131702,8 +131740,8 @@
         "Drama"
       ],
       "runtime": 122,
-      "vote_average": 7.9,
-      "vote_count": 42,
+      "vote_average": 7.886,
+      "vote_count": 44,
       "imdb_id": "tt38058097",
       "trailer_youtube_key": "guKEdb_iRXw",
       "events": [
@@ -132429,8 +132467,8 @@
         "Family"
       ],
       "runtime": 109,
-      "vote_average": 8.026,
-      "vote_count": 292,
+      "vote_average": 8.0,
+      "vote_count": 294,
       "imdb_id": "tt36583977",
       "trailer_youtube_key": "PhgY8cOJiQA",
       "events": [
@@ -132486,8 +132524,8 @@
         "Thriller"
       ],
       "runtime": 96,
-      "vote_average": 7.12,
-      "vote_count": 543,
+      "vote_average": 7.121,
+      "vote_count": 545,
       "imdb_id": "tt31189814",
       "trailer_youtube_key": "1aNywiElPSY",
       "events": [
@@ -133013,7 +133051,7 @@
         "Thriller"
       ],
       "runtime": 142,
-      "vote_average": 7.4,
+      "vote_average": 7.397,
       "vote_count": 58,
       "imdb_id": "tt37118301",
       "trailer_youtube_key": "wdFIMrC4oW8",
@@ -133744,7 +133782,7 @@
       "title": "Tender Loving Care",
       "original_title": "Tender Loving Care",
       "original_language": "en",
-      "primary_release_date": "2026-12-04",
+      "primary_release_date": "2026-12-11",
       "poster_path": "/ritUkpIiQU1IofeQdG4RFMrSu9J.jpg",
       "genres": [
         "Drama",
@@ -133754,7 +133792,7 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt35638092",
-      "trailer_youtube_key": "-CDgxJgiQY4",
+      "trailer_youtube_key": "t-yPlxz2i3Y",
       "events": [
         {
           "date": "2026-09-04",
@@ -133883,9 +133921,16 @@
           "certification": "NR"
         },
         {
-          "date": "2026-12-04",
+          "date": "2026-12-11",
           "types": [
-            3
+            2
+          ],
+          "certification": "R"
+        },
+        {
+          "date": "2026-12-25",
+          "types": [
+            2
           ],
           "certification": "R"
         }
@@ -134663,7 +134708,7 @@
         "Horror"
       ],
       "runtime": 140,
-      "vote_average": 6.075,
+      "vote_average": 6.1,
       "vote_count": 20,
       "imdb_id": "tt32359586",
       "trailer_youtube_key": "vJ3vIzWzFno",
@@ -134898,8 +134943,8 @@
         "Thriller"
       ],
       "runtime": 117,
-      "vote_average": 7.931,
-      "vote_count": 320,
+      "vote_average": 7.9,
+      "vote_count": 322,
       "imdb_id": "tt15799564",
       "trailer_youtube_key": "kqxuamKxRTo",
       "events": [
@@ -135074,7 +135119,7 @@
       ],
       "runtime": 149,
       "vote_average": 8.043,
-      "vote_count": 13184,
+      "vote_count": 13188,
       "imdb_id": "tt0062622",
       "trailer_youtube_key": "kR2r-A9H3Kg",
       "events": [
@@ -135435,7 +135480,7 @@
         "History"
       ],
       "runtime": 82,
-      "vote_average": 7.22,
+      "vote_average": 7.2,
       "vote_count": 84,
       "imdb_id": "tt37304295",
       "trailer_youtube_key": "52zHLYf25M0",
@@ -135602,13 +135647,13 @@
       "original_title": "Fjord",
       "original_language": "ro",
       "primary_release_date": "2026-06-13",
-      "poster_path": "/bD6ynFDUP3PZvdIBjPi9VGhyi5a.jpg",
+      "poster_path": "/3PPPIeSdeivjUn3O9RahGiaJ9b8.jpg",
       "genres": [
         "Drama"
       ],
       "runtime": 147,
-      "vote_average": 7.189,
-      "vote_count": 143,
+      "vote_average": 7.2,
+      "vote_count": 146,
       "imdb_id": "tt35410859",
       "trailer_youtube_key": "frg59VOungA",
       "events": [
@@ -135719,8 +135764,8 @@
         "Thriller"
       ],
       "runtime": 115,
-      "vote_average": 6.825,
-      "vote_count": 20,
+      "vote_average": 6.8,
+      "vote_count": 21,
       "imdb_id": "tt37020296",
       "trailer_youtube_key": "VZNH5XSIgD4",
       "events": [
@@ -136032,7 +136077,7 @@
       ],
       "runtime": 159,
       "vote_average": 7.902,
-      "vote_count": 259,
+      "vote_count": 261,
       "imdb_id": "tt35511966",
       "trailer_youtube_key": "lBVxKt0gKDY",
       "events": [
@@ -137022,8 +137067,8 @@
         "Adventure"
       ],
       "runtime": 126,
-      "vote_average": 8.127,
-      "vote_count": 308,
+      "vote_average": 8.142,
+      "vote_count": 309,
       "imdb_id": "tt6262770",
       "trailer_youtube_key": "KkYCY5YR12U",
       "events": [
@@ -138265,9 +138310,9 @@
       "genres": [
         "Documentary"
       ],
-      "runtime": 175,
-      "vote_average": 8.8,
-      "vote_count": 163,
+      "runtime": 174,
+      "vote_average": 8.7,
+      "vote_count": 173,
       "imdb_id": "tt45368240",
       "trailer_youtube_key": "IEx8D1Wb__U",
       "events": [
@@ -138769,8 +138814,8 @@
         "Thriller"
       ],
       "runtime": 98,
-      "vote_average": 8.15,
-      "vote_count": 885,
+      "vote_average": 8.148,
+      "vote_count": 887,
       "imdb_id": "tt31349844",
       "trailer_youtube_key": "B6Z9MM1LhEA",
       "events": [
@@ -139149,7 +139194,7 @@
       ],
       "runtime": 139,
       "vote_average": 8.437,
-      "vote_count": 33419,
+      "vote_count": 33428,
       "imdb_id": "tt0137523",
       "trailer_youtube_key": "dfeUzm6KF4g",
       "events": [
@@ -140385,8 +140430,8 @@
         "Drama"
       ],
       "runtime": 111,
-      "vote_average": 6.6,
-      "vote_count": 50,
+      "vote_average": 6.618,
+      "vote_count": 51,
       "imdb_id": "tt38061210",
       "trailer_youtube_key": "VylsOZBYxQA",
       "events": [
@@ -142058,8 +142103,8 @@
         "Thriller"
       ],
       "runtime": 87,
-      "vote_average": 7.893,
-      "vote_count": 28,
+      "vote_average": 7.966,
+      "vote_count": 29,
       "imdb_id": "tt33512134",
       "trailer_youtube_key": "qRG0OTAHSlI",
       "events": [
@@ -142313,8 +142358,8 @@
         "Drama"
       ],
       "runtime": 183,
-      "vote_average": 7.7,
-      "vote_count": 491,
+      "vote_average": 7.739,
+      "vote_count": 492,
       "imdb_id": "tt0058279",
       "trailer_youtube_key": "CWcyccePme4",
       "events": [
@@ -142934,8 +142979,8 @@
         "Thriller"
       ],
       "runtime": 142,
-      "vote_average": 5.8,
-      "vote_count": 98,
+      "vote_average": 5.838,
+      "vote_count": 99,
       "imdb_id": "tt9601292",
       "trailer_youtube_key": "l5Luvr9TRRc",
       "events": [
@@ -146788,8 +146833,8 @@
         "Thriller"
       ],
       "runtime": 102,
-      "vote_average": 7.87,
-      "vote_count": 1196,
+      "vote_average": 7.871,
+      "vote_count": 1209,
       "imdb_id": "tt7526136",
       "trailer_youtube_key": "UkMuGKqAux4",
       "events": [
@@ -147737,8 +147782,8 @@
         "Comedy"
       ],
       "runtime": 106,
-      "vote_average": 6.826,
-      "vote_count": 122,
+      "vote_average": 6.837,
+      "vote_count": 123,
       "imdb_id": "tt9000310",
       "trailer_youtube_key": "otL78_pk_A0",
       "events": [
@@ -147917,7 +147962,7 @@
         "Comedy"
       ],
       "runtime": 85,
-      "vote_average": 7.83,
+      "vote_average": 7.8,
       "vote_count": 109,
       "imdb_id": "tt36955518",
       "trailer_youtube_key": "CHof1Bc8oeM",
@@ -148347,8 +148392,8 @@
         "Adventure"
       ],
       "runtime": 94,
-      "vote_average": 7.52,
-      "vote_count": 2526,
+      "vote_average": 7.522,
+      "vote_count": 2530,
       "imdb_id": "tt35538033",
       "trailer_youtube_key": "mNd1gb19A-c",
       "events": [
@@ -148744,8 +148789,8 @@
         "Mystery"
       ],
       "runtime": 111,
-      "vote_average": 6.812,
-      "vote_count": 173,
+      "vote_average": 6.819,
+      "vote_count": 174,
       "imdb_id": "tt32358390",
       "trailer_youtube_key": "m8vcBN8uza8",
       "events": [
@@ -149150,7 +149195,7 @@
         "Thriller"
       ],
       "runtime": 100,
-      "vote_average": 6.952,
+      "vote_average": 7.0,
       "vote_count": 187,
       "imdb_id": "tt29714073",
       "trailer_youtube_key": "4nhu80EmVQE",
@@ -149768,8 +149813,8 @@
         "Comedy"
       ],
       "runtime": 88,
-      "vote_average": 4.176,
-      "vote_count": 17,
+      "vote_average": 4.263,
+      "vote_count": 19,
       "imdb_id": "tt0113122",
       "trailer_youtube_key": "ltRK2aL51Xs",
       "events": [
@@ -149824,8 +149869,8 @@
         "Science Fiction"
       ],
       "runtime": 83,
-      "vote_average": 7.9,
-      "vote_count": 4168,
+      "vote_average": 7.931,
+      "vote_count": 4169,
       "imdb_id": "tt0113568",
       "trailer_youtube_key": "R1K__7QhLaA",
       "events": [
@@ -151650,8 +151695,8 @@
         "Thriller"
       ],
       "runtime": 112,
-      "vote_average": 6.894,
-      "vote_count": 127,
+      "vote_average": 6.918,
+      "vote_count": 128,
       "imdb_id": "tt10794054",
       "trailer_youtube_key": "7YpuMymmiJ8",
       "events": [
@@ -151929,7 +151974,7 @@
         "Thriller"
       ],
       "runtime": 102,
-      "vote_average": 6.3,
+      "vote_average": 6.333,
       "vote_count": 6,
       "imdb_id": "tt34374553",
       "trailer_youtube_key": "sDiFol_2j2I",
@@ -152460,7 +152505,7 @@
       ],
       "runtime": 126,
       "vote_average": 7.235,
-      "vote_count": 8975,
+      "vote_count": 8976,
       "imdb_id": "tt0096895",
       "trailer_youtube_key": "ygK7sAavO0c",
       "events": [
@@ -154394,8 +154439,8 @@
         "Family"
       ],
       "runtime": 104,
-      "vote_average": 7.266,
-      "vote_count": 5678,
+      "vote_average": 7.267,
+      "vote_count": 5679,
       "imdb_id": "tt4116284",
       "trailer_youtube_key": "rGQUKzSDhrg",
       "events": [
@@ -155943,8 +155988,8 @@
         "Crime"
       ],
       "runtime": 110,
-      "vote_average": 6.752,
-      "vote_count": 481,
+      "vote_average": 6.7,
+      "vote_count": 483,
       "imdb_id": "tt34206385",
       "trailer_youtube_key": "C0NZa01qTRU",
       "events": [
@@ -157694,8 +157739,8 @@
         "Thriller"
       ],
       "runtime": 98,
-      "vote_average": 7.279,
-      "vote_count": 172,
+      "vote_average": 7.282,
+      "vote_count": 174,
       "imdb_id": "tt37971717",
       "trailer_youtube_key": "8PAy3i9uU0A",
       "events": [
@@ -158930,8 +158975,8 @@
         "Thriller"
       ],
       "runtime": 112,
-      "vote_average": 6.545,
-      "vote_count": 89,
+      "vote_average": 6.55,
+      "vote_count": 90,
       "imdb_id": "tt35856037",
       "trailer_youtube_key": "uEcoV-ngH38",
       "events": [
@@ -159310,8 +159355,8 @@
         "History"
       ],
       "runtime": 128,
-      "vote_average": 8.399,
-      "vote_count": 69,
+      "vote_average": 8.4,
+      "vote_count": 70,
       "imdb_id": "tt11995650",
       "trailer_youtube_key": "jq5oCjhQtIc",
       "events": [
@@ -160415,7 +160460,7 @@
       ],
       "runtime": 181,
       "vote_average": 8.246,
-      "vote_count": 29497,
+      "vote_count": 29502,
       "imdb_id": "tt4154796",
       "trailer_youtube_key": "L2NAh3CIdig",
       "events": [
@@ -162909,8 +162954,8 @@
         "Crime"
       ],
       "runtime": 101,
-      "vote_average": 6.574,
-      "vote_count": 615,
+      "vote_average": 6.575,
+      "vote_count": 617,
       "imdb_id": "tt6933238",
       "trailer_youtube_key": "B3tR6qQjbgI",
       "events": [
@@ -163459,7 +163504,7 @@
         "Thriller"
       ],
       "runtime": 93,
-      "vote_average": 6.035,
+      "vote_average": 6.046,
       "vote_count": 493,
       "imdb_id": "tt21201300",
       "trailer_youtube_key": "slrzCgYIUPM",
@@ -164437,8 +164482,8 @@
         "Action"
       ],
       "runtime": 135,
-      "vote_average": 7.673,
-      "vote_count": 297,
+      "vote_average": 7.667,
+      "vote_count": 300,
       "imdb_id": "tt34384661",
       "trailer_youtube_key": "Pu0pH5BuCPM",
       "events": [
@@ -165765,7 +165810,7 @@
       ],
       "runtime": 134,
       "vote_average": 8.322,
-      "vote_count": 9489,
+      "vote_count": 9490,
       "imdb_id": "tt0119698",
       "trailer_youtube_key": "I1dHzoRl0sQ",
       "events": [
@@ -166993,8 +167038,8 @@
         "Crime"
       ],
       "runtime": 106,
-      "vote_average": 7.0,
-      "vote_count": 35,
+      "vote_average": 7.026,
+      "vote_count": 38,
       "imdb_id": "tt14129116",
       "trailer_youtube_key": "2AMYg6UmmjM",
       "events": [
@@ -167646,7 +167691,7 @@
         "Drama"
       ],
       "runtime": 145,
-      "vote_average": 7.188,
+      "vote_average": 7.2,
       "vote_count": 64,
       "imdb_id": "tt36107185",
       "trailer_youtube_key": "5yY6V9MbEoE",
@@ -167834,7 +167879,7 @@
       ],
       "runtime": 100,
       "vote_average": 8.042,
-      "vote_count": 59,
+      "vote_count": 60,
       "imdb_id": "tt39094466",
       "trailer_youtube_key": "DeIUm7m_4q4",
       "events": [
@@ -168257,7 +168302,7 @@
         "Drama"
       ],
       "runtime": 167,
-      "vote_average": 7.216,
+      "vote_average": 7.2,
       "vote_count": 97,
       "imdb_id": "tt37803364",
       "trailer_youtube_key": "zd3qXH9qN70",
@@ -169449,7 +169494,7 @@
         "Drama"
       ],
       "runtime": 124,
-      "vote_average": 7.308,
+      "vote_average": 7.3,
       "vote_count": 13,
       "imdb_id": "tt41592057",
       "trailer_youtube_key": null,
@@ -170133,7 +170178,7 @@
       "genres": [
         "Romance",
         "Mystery",
-        "Thriller"
+        "Horror"
       ],
       "runtime": null,
       "vote_average": 0,
@@ -170501,8 +170546,8 @@
         "Thriller"
       ],
       "runtime": 117,
-      "vote_average": 6.976,
-      "vote_count": 778,
+      "vote_average": 6.972,
+      "vote_count": 780,
       "imdb_id": "tt32261958",
       "trailer_youtube_key": "xdPMKhjMSFs",
       "events": [
@@ -172017,7 +172062,7 @@
         "Drama"
       ],
       "runtime": 197,
-      "vote_average": 7.845,
+      "vote_average": 7.8,
       "vote_count": 84,
       "imdb_id": "tt36834996",
       "trailer_youtube_key": "2AxtdPvDojA",
@@ -172720,7 +172765,7 @@
         "Romance"
       ],
       "runtime": 132,
-      "vote_average": 6.908,
+      "vote_average": 6.9,
       "vote_count": 2974,
       "imdb_id": "tt16426418",
       "trailer_youtube_key": "-2N3hmRmwHQ",
@@ -173250,7 +173295,7 @@
       ],
       "runtime": 170,
       "vote_average": 7.707,
-      "vote_count": 8565,
+      "vote_count": 8566,
       "imdb_id": "tt10366206",
       "trailer_youtube_key": "yjRHZEUamCc",
       "events": [
@@ -173414,12 +173459,10 @@
       "primary_release_date": "2024-07-04",
       "poster_path": "/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
       "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
+        "Horror"
       ],
       "runtime": 103,
-      "vote_average": 6.251,
+      "vote_average": 6.3,
       "vote_count": 1711,
       "imdb_id": "tt22048412",
       "trailer_youtube_key": "qGxKjwAnn5I",
@@ -174639,8 +174682,8 @@
         "Horror"
       ],
       "runtime": null,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 3.0,
+      "vote_count": 1,
       "imdb_id": "tt21917736",
       "trailer_youtube_key": null,
       "events": [
@@ -175111,7 +175154,7 @@
       "original_title": "അവറാച്ചൻ & Sons",
       "original_language": "ml",
       "primary_release_date": "2026-10-02",
-      "poster_path": "/wRKg0WoPV0D3bCl1B5jJtcRdU1Z.jpg",
+      "poster_path": "/xFCMObAyeWE7iWFH30XNiOjcWsv.jpg",
       "genres": [
         "Drama"
       ],
@@ -175524,8 +175567,8 @@
         "Drama"
       ],
       "runtime": 129,
-      "vote_average": 7.495,
-      "vote_count": 539,
+      "vote_average": 7.496,
+      "vote_count": 540,
       "imdb_id": "tt31450459",
       "trailer_youtube_key": "job8V254NAE",
       "events": [
@@ -175604,8 +175647,8 @@
         "Drama"
       ],
       "runtime": 112,
-      "vote_average": 7.9,
-      "vote_count": 124,
+      "vote_average": 7.928,
+      "vote_count": 125,
       "imdb_id": "tt36429458",
       "trailer_youtube_key": "zrOtmDQawas",
       "events": [
@@ -175663,7 +175706,7 @@
       ],
       "runtime": 114,
       "vote_average": 7.76,
-      "vote_count": 13991,
+      "vote_count": 13995,
       "imdb_id": "tt0246578",
       "trailer_youtube_key": "iVdehGAy4zA",
       "events": [
@@ -177171,8 +177214,8 @@
         "Comedy"
       ],
       "runtime": 99,
-      "vote_average": 8.7,
-      "vote_count": 5,
+      "vote_average": 8.083,
+      "vote_count": 6,
       "imdb_id": "tt33184695",
       "trailer_youtube_key": "o_pIiP1A0RY",
       "events": [
@@ -177205,8 +177248,8 @@
         "Documentary"
       ],
       "runtime": 105,
-      "vote_average": 7.4,
-      "vote_count": 38,
+      "vote_average": 7.385,
+      "vote_count": 39,
       "imdb_id": "tt39453404",
       "trailer_youtube_key": "7fDrlNje1iU",
       "events": [
@@ -177710,8 +177753,8 @@
         "Horror"
       ],
       "runtime": 95,
-      "vote_average": 5.214,
-      "vote_count": 7,
+      "vote_average": 5.25,
+      "vote_count": 6,
       "imdb_id": "tt42643242",
       "trailer_youtube_key": "q5DIxirBMx4",
       "events": [
@@ -177830,7 +177873,7 @@
       ],
       "runtime": 76,
       "vote_average": 7.86,
-      "vote_count": 10967,
+      "vote_count": 10968,
       "imdb_id": "tt0107688",
       "trailer_youtube_key": "IoYahD_xNR0",
       "events": [
@@ -178192,7 +178235,7 @@
       ],
       "runtime": 136,
       "vote_average": 6.623,
-      "vote_count": 1461,
+      "vote_count": 1462,
       "imdb_id": "tt32897959",
       "trailer_youtube_key": "HWFdeoeBNV0",
       "events": [
@@ -178885,14 +178928,14 @@
       "primary_release_date": "2026-12-11",
       "poster_path": "/gPo96q7vKzoCiZlLH4T78FYStk0.jpg",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
       "runtime": 118,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt36770512",
-      "trailer_youtube_key": "fdkwGvMB5zQ",
+      "trailer_youtube_key": "6Z-78xNh2KI",
       "events": [
         {
           "date": "2026-10-03",
@@ -179874,7 +179917,7 @@
         "Drama"
       ],
       "runtime": 121,
-      "vote_average": 7.375,
+      "vote_average": 7.4,
       "vote_count": 8,
       "imdb_id": "tt27541205",
       "trailer_youtube_key": "UVyH8QYENxI",
@@ -180295,7 +180338,7 @@
       "primary_release_date": "1984-01-01",
       "poster_path": "/hEBN0yYrtdQBsg3icQOILGZ12zB.jpg",
       "genres": [],
-      "runtime": 93,
+      "runtime": 105,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -180694,6 +180737,33 @@
       "vote_count": 0,
       "imdb_id": null,
       "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-10-03",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1841873,
+      "title": "The Unfortunate Side Effects of Drinking with a Crippling Want",
+      "original_title": "The Unfortunate Side Effects of Drinking with a Crippling Want",
+      "original_language": "en",
+      "primary_release_date": "2026-10-03",
+      "poster_path": "/eet06R43a1ayTGgX2Uv9IxzlynT.jpg",
+      "genres": [
+        "Romance"
+      ],
+      "runtime": 10,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt51396869",
+      "trailer_youtube_key": "11vDxnscmc0",
       "events": [
         {
           "date": "2026-10-03",
@@ -181346,7 +181416,7 @@
         "War"
       ],
       "runtime": 127,
-      "vote_average": 7.42,
+      "vote_average": 7.4,
       "vote_count": 25,
       "imdb_id": "tt39328391",
       "trailer_youtube_key": "T1SAZTIZnrQ",
@@ -181647,7 +181717,7 @@
       "runtime": null,
       "vote_average": 10.0,
       "vote_count": 2,
-      "imdb_id": "tt48357838",
+      "imdb_id": "",
       "trailer_youtube_key": "0I8VJ2t51Oc",
       "events": [
         {
@@ -181658,8 +181728,8 @@
           "certification": "NR"
         }
       ],
-      "imdb_rating": 9.2,
-      "imdb_votes": 54
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1665779,
@@ -181826,8 +181896,8 @@
         "Drama"
       ],
       "runtime": 109,
-      "vote_average": 6.7,
-      "vote_count": 251,
+      "vote_average": 6.714,
+      "vote_count": 252,
       "imdb_id": "tt34384900",
       "trailer_youtube_key": "HzGx48E64Xg",
       "events": [
@@ -182302,8 +182372,8 @@
         "Thriller"
       ],
       "runtime": 113,
-      "vote_average": 6.961,
-      "vote_count": 155,
+      "vote_average": 7.0,
+      "vote_count": 159,
       "imdb_id": "tt37510326",
       "trailer_youtube_key": "R8ANzYpaZaY",
       "events": [
@@ -182463,8 +182533,8 @@
         "Comedy"
       ],
       "runtime": 105,
-      "vote_average": 7.432,
-      "vote_count": 59,
+      "vote_average": 7.5,
+      "vote_count": 63,
       "imdb_id": "tt29611136",
       "trailer_youtube_key": "kA9NfV4pM_Q",
       "events": [
@@ -182671,7 +182741,7 @@
       ],
       "runtime": 144,
       "vote_average": 7.581,
-      "vote_count": 12265,
+      "vote_count": 12268,
       "imdb_id": "tt0381061",
       "trailer_youtube_key": "p7D4U5YsZlM",
       "events": [
@@ -182926,8 +182996,8 @@
         "Adventure"
       ],
       "runtime": 127,
-      "vote_average": 7.469,
-      "vote_count": 680,
+      "vote_average": 7.467,
+      "vote_count": 683,
       "imdb_id": "tt28498219",
       "trailer_youtube_key": "7xfqITrMDcI",
       "events": [
@@ -183105,8 +183175,8 @@
         "Horror"
       ],
       "runtime": 99,
-      "vote_average": 6.4,
-      "vote_count": 1226,
+      "vote_average": 6.369,
+      "vote_count": 1227,
       "imdb_id": "tt3427252",
       "trailer_youtube_key": "p8BDtwMYFa4",
       "events": [
@@ -183502,7 +183572,7 @@
         "Drama"
       ],
       "runtime": 155,
-      "vote_average": 6.519,
+      "vote_average": 6.5,
       "vote_count": 81,
       "imdb_id": "tt41593304",
       "trailer_youtube_key": null,
@@ -183595,8 +183665,8 @@
         "Comedy"
       ],
       "runtime": 111,
-      "vote_average": 6.165,
-      "vote_count": 167,
+      "vote_average": 6.2,
+      "vote_count": 168,
       "imdb_id": "tt28088049",
       "trailer_youtube_key": "R-9dlnkY448",
       "events": [
@@ -184391,8 +184461,8 @@
         "Drama"
       ],
       "runtime": 146,
-      "vote_average": 7.563,
-      "vote_count": 8,
+      "vote_average": 7.833,
+      "vote_count": 9,
       "imdb_id": "tt33402927",
       "trailer_youtube_key": null,
       "events": [
@@ -185290,7 +185360,7 @@
         "Music"
       ],
       "runtime": 120,
-      "vote_average": 7.556,
+      "vote_average": 7.6,
       "vote_count": 9,
       "imdb_id": "tt39384300",
       "trailer_youtube_key": "jx0RiYbSuuc",
@@ -187761,8 +187831,8 @@
         "Crime"
       ],
       "runtime": 106,
-      "vote_average": 6.809,
-      "vote_count": 782,
+      "vote_average": 6.81,
+      "vote_count": 783,
       "imdb_id": "tt31049299",
       "trailer_youtube_key": "ZkN2M4ODdys",
       "events": [
@@ -188844,8 +188914,8 @@
         "Horror"
       ],
       "runtime": 93,
-      "vote_average": 6.541,
-      "vote_count": 605,
+      "vote_average": 6.535,
+      "vote_count": 608,
       "imdb_id": "tt36586020",
       "trailer_youtube_key": "-mnTITqqiT0",
       "events": [
@@ -188880,8 +188950,8 @@
         "War"
       ],
       "runtime": 118,
-      "vote_average": 7.8,
-      "vote_count": 11944,
+      "vote_average": 7.77,
+      "vote_count": 11945,
       "imdb_id": "tt0457430",
       "trailer_youtube_key": "OBGKGm3RYos",
       "events": [
@@ -189283,7 +189353,7 @@
         "Thriller"
       ],
       "runtime": 99,
-      "vote_average": 5.634,
+      "vote_average": 5.6,
       "vote_count": 41,
       "imdb_id": "tt33214716",
       "trailer_youtube_key": "LNmIdALXoKo",
@@ -190661,6 +190731,31 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-10-10",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1842831,
+      "title": "Music Ruined My Life",
+      "original_title": "Music Ruined My Life",
+      "original_language": "en",
+      "primary_release_date": "",
+      "poster_path": null,
+      "genres": [],
+      "runtime": 78,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt49559516",
       "trailer_youtube_key": null,
       "events": [
         {
@@ -194852,6 +194947,34 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1710578,
+      "title": "Nonverbal",
+      "original_title": "Sözsüz",
+      "original_language": "tr",
+      "primary_release_date": "2026-09-26",
+      "poster_path": "/9GCNN4un1X4PG0L70SM04SOC0MX.jpg",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 10,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-10-13",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1793132,
       "title": "Repo! This Movie: The Anatomy of a Cult",
       "original_title": "Repo! This Movie: The Anatomy of a Cult",
@@ -196202,7 +196325,7 @@
       ],
       "runtime": 122,
       "vote_average": 7.536,
-      "vote_count": 7042,
+      "vote_count": 7043,
       "imdb_id": "tt0139654",
       "trailer_youtube_key": "VQ-SCoyUwfg",
       "events": [
@@ -198930,7 +199053,7 @@
       ],
       "runtime": 104,
       "vote_average": 7.978,
-      "vote_count": 1865,
+      "vote_count": 1866,
       "imdb_id": "tt8864596",
       "trailer_youtube_key": "jaVcDaozGgc",
       "events": [
@@ -199890,7 +200013,7 @@
       ],
       "runtime": 80,
       "vote_average": 6.1,
-      "vote_count": 64,
+      "vote_count": 66,
       "imdb_id": "tt32329539",
       "trailer_youtube_key": "IIoEnagIMpI",
       "events": [
@@ -202533,8 +202656,8 @@
         "Fantasy"
       ],
       "runtime": 120,
-      "vote_average": 6.233,
-      "vote_count": 262,
+      "vote_average": 6.228,
+      "vote_count": 263,
       "imdb_id": "tt27419420",
       "trailer_youtube_key": "U6sbm1OaJb8",
       "events": [
@@ -203459,8 +203582,8 @@
         "Drama"
       ],
       "runtime": 97,
-      "vote_average": 7.517,
-      "vote_count": 88,
+      "vote_average": 7.511,
+      "vote_count": 89,
       "imdb_id": "tt37027309",
       "trailer_youtube_key": "DgZQwmjdcp8",
       "events": [
@@ -203783,12 +203906,26 @@
       "vote_average": 6.6,
       "vote_count": 150,
       "imdb_id": "tt28535715",
-      "trailer_youtube_key": "Dw-5ZGapGTQ",
+      "trailer_youtube_key": "1dyCLoB0-nA",
       "events": [
         {
           "date": "2026-10-16",
           "types": [
             3
+          ],
+          "certification": "PG-13"
+        },
+        {
+          "date": "2026-12-01",
+          "types": [
+            4
+          ],
+          "certification": "PG-13"
+        },
+        {
+          "date": "2027-01-12",
+          "types": [
+            5
           ],
           "certification": "PG-13"
         }
@@ -203954,7 +204091,7 @@
         "Drama"
       ],
       "runtime": 128,
-      "vote_average": 7.047,
+      "vote_average": 7.0,
       "vote_count": 53,
       "imdb_id": "tt32888226",
       "trailer_youtube_key": "N_pQLLsSOWk",
@@ -206997,7 +207134,7 @@
       ],
       "runtime": 97,
       "vote_average": 6.989,
-      "vote_count": 2833,
+      "vote_count": 2834,
       "imdb_id": "tt26584495",
       "trailer_youtube_key": "Qr_kX0D3DNA",
       "events": [
@@ -208155,8 +208292,8 @@
         "Thriller"
       ],
       "runtime": 103,
-      "vote_average": 6.101,
-      "vote_count": 1106,
+      "vote_average": 6.104,
+      "vote_count": 1107,
       "imdb_id": "tt4216984",
       "trailer_youtube_key": "kAw4PH2IQgo",
       "events": [
@@ -208437,8 +208574,8 @@
         "Drama"
       ],
       "runtime": 156,
-      "vote_average": 7.3,
-      "vote_count": 233,
+      "vote_average": 7.344,
+      "vote_count": 234,
       "imdb_id": "tt2395469",
       "trailer_youtube_key": "JfbxcD6biOk",
       "events": [
@@ -208675,7 +208812,7 @@
       ],
       "runtime": 103,
       "vote_average": 6.733,
-      "vote_count": 3323,
+      "vote_count": 3324,
       "imdb_id": "tt26047818",
       "trailer_youtube_key": "biOxRfgF8Rs",
       "events": [
@@ -209348,8 +209485,8 @@
         "Fantasy"
       ],
       "runtime": 117,
-      "vote_average": 7.756,
-      "vote_count": 221,
+      "vote_average": 7.752,
+      "vote_count": 222,
       "imdb_id": "tt2457282",
       "trailer_youtube_key": "O36OsLLomqs",
       "events": [
@@ -211227,7 +211364,7 @@
         "Romance"
       ],
       "runtime": 93,
-      "vote_average": 5.813,
+      "vote_average": 5.8,
       "vote_count": 8,
       "imdb_id": "tt34427439",
       "trailer_youtube_key": "AOHqEjTnzbI",
@@ -212329,7 +212466,7 @@
         "Thriller"
       ],
       "runtime": 157,
-      "vote_average": 6.375,
+      "vote_average": 6.4,
       "vote_count": 4,
       "imdb_id": "tt38984184",
       "trailer_youtube_key": "eyIkfBMr-mI",
@@ -213453,8 +213590,8 @@
         "Crime"
       ],
       "runtime": 99,
-      "vote_average": 7.9,
-      "vote_count": 7,
+      "vote_average": 7.438,
+      "vote_count": 8,
       "imdb_id": "tt48484903",
       "trailer_youtube_key": "n7cWYpqt-bo",
       "events": [
@@ -213562,7 +213699,7 @@
         "Fantasy"
       ],
       "runtime": 106,
-      "vote_average": 5.78,
+      "vote_average": 5.8,
       "vote_count": 59,
       "imdb_id": "tt36103784",
       "trailer_youtube_key": "ru-fkVO4eTs",
@@ -214482,7 +214619,7 @@
         "Fantasy"
       ],
       "runtime": 127,
-      "vote_average": 6.027,
+      "vote_average": 6.0,
       "vote_count": 722,
       "imdb_id": "tt30851137",
       "trailer_youtube_key": "-oLJmEFK14k",
@@ -214984,8 +215121,8 @@
         "Action"
       ],
       "runtime": 137,
-      "vote_average": 6.2,
-      "vote_count": 6,
+      "vote_average": 6.357,
+      "vote_count": 7,
       "imdb_id": "tt31806773",
       "trailer_youtube_key": null,
       "events": [
@@ -215120,8 +215257,8 @@
         "Fantasy"
       ],
       "runtime": 132,
-      "vote_average": 8.5,
-      "vote_count": 322,
+      "vote_average": 8.457,
+      "vote_count": 323,
       "imdb_id": "tt2056785",
       "trailer_youtube_key": "bJQGtSeLPII",
       "events": [
@@ -218903,8 +219040,8 @@
         "Comedy"
       ],
       "runtime": 108,
-      "vote_average": 7.029,
-      "vote_count": 34,
+      "vote_average": 7.257,
+      "vote_count": 35,
       "imdb_id": "tt2321555",
       "trailer_youtube_key": "tkZpcypT8Z4",
       "events": [
@@ -219001,8 +219138,8 @@
         "Comedy"
       ],
       "runtime": 132,
-      "vote_average": 6.5,
-      "vote_count": 12,
+      "vote_average": 6.462,
+      "vote_count": 13,
       "imdb_id": "tt43741215",
       "trailer_youtube_key": "kLFZrwE4b7M",
       "events": [
@@ -220668,8 +220805,8 @@
         "Comedy"
       ],
       "runtime": 95,
-      "vote_average": 6.8,
-      "vote_count": 12,
+      "vote_average": 6.769,
+      "vote_count": 13,
       "imdb_id": "tt28784376",
       "trailer_youtube_key": "usXu0Zf5-Tg",
       "events": [
@@ -220832,7 +220969,7 @@
         "Adventure"
       ],
       "runtime": 195,
-      "vote_average": 7.349,
+      "vote_average": 7.3,
       "vote_count": 73,
       "imdb_id": "tt27988879",
       "trailer_youtube_key": "AYkPRN874m8",
@@ -223414,7 +223551,7 @@
         "Comedy"
       ],
       "runtime": 107,
-      "vote_average": 6.051,
+      "vote_average": 6.1,
       "vote_count": 59,
       "imdb_id": "tt38504402",
       "trailer_youtube_key": "XjUt3Fv_f-Y",
@@ -223585,8 +223722,8 @@
         "Horror"
       ],
       "runtime": 96,
-      "vote_average": 6.172,
-      "vote_count": 261,
+      "vote_average": 6.168,
+      "vote_count": 262,
       "imdb_id": "tt37522541",
       "trailer_youtube_key": "BIEzwpyawtw",
       "events": [
@@ -223809,8 +223946,8 @@
         "Crime"
       ],
       "runtime": 122,
-      "vote_average": 6.4,
-      "vote_count": 127,
+      "vote_average": 6.358,
+      "vote_count": 128,
       "imdb_id": "tt38793125",
       "trailer_youtube_key": "8hVLhaK619k",
       "events": [
@@ -225874,8 +226011,8 @@
         "Thriller"
       ],
       "runtime": 99,
-      "vote_average": 6.586,
-      "vote_count": 256,
+      "vote_average": 6.601,
+      "vote_count": 263,
       "imdb_id": "tt13611778",
       "trailer_youtube_key": "aHrMFtt40_Q",
       "events": [
@@ -226518,8 +226655,8 @@
         "Mystery"
       ],
       "runtime": 30,
-      "vote_average": 6.638,
-      "vote_count": 149,
+      "vote_average": 6.633,
+      "vote_count": 150,
       "imdb_id": "tt50389959",
       "trailer_youtube_key": null,
       "events": [
@@ -228899,6 +229036,35 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1842502,
+      "title": "The Shortcut: Victim",
+      "original_title": "Snarveien: Offer",
+      "original_language": "no",
+      "primary_release_date": "2026-10-31",
+      "poster_path": "/z5RoWAOaW1pzBfAwRyIl4A8G40.jpg",
+      "genres": [
+        "Horror",
+        "Animation",
+        "Thriller"
+      ],
+      "runtime": 23,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt50648606",
+      "trailer_youtube_key": "KYFIPnzpVIc",
+      "events": [
+        {
+          "date": "2026-10-31",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1817735,
       "title": "The Straitjacket Escape",
       "original_title": "The Straitjacket Escape",
@@ -229940,12 +230106,11 @@
       "poster_path": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
       "genres": [
         "Fantasy",
-        "Drama",
-        "Horror"
+        "Comedy"
       ],
       "runtime": 115,
-      "vote_average": 7.529,
-      "vote_count": 174,
+      "vote_average": 7.489,
+      "vote_count": 180,
       "imdb_id": "tt38773219",
       "trailer_youtube_key": "D-n-lqKVr78",
       "events": [
@@ -230359,7 +230524,7 @@
       ],
       "runtime": 124,
       "vote_average": 6.702,
-      "vote_count": 22140,
+      "vote_count": 22141,
       "imdb_id": "tt0369610",
       "trailer_youtube_key": "aJJrkyHas78",
       "events": [
@@ -231418,7 +231583,7 @@
       ],
       "runtime": 132,
       "vote_average": 7.898,
-      "vote_count": 16209,
+      "vote_count": 16211,
       "imdb_id": "tt0434409",
       "trailer_youtube_key": "krWn5ta9RG4",
       "events": [
@@ -232940,8 +233105,8 @@
         "Romance"
       ],
       "runtime": 159,
-      "vote_average": 7.322,
-      "vote_count": 245,
+      "vote_average": 7.313,
+      "vote_count": 246,
       "imdb_id": "tt1839596",
       "trailer_youtube_key": null,
       "events": [
@@ -234925,6 +235090,33 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1841849,
+      "title": "Before We Break: Playing Dirty",
+      "original_title": "Before We Break: Playing Dirty",
+      "original_language": "en",
+      "primary_release_date": "2026-11-06",
+      "poster_path": "/81GTK86DLy11vrz55czYODCXI9E.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 80,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-06",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1821566,
       "title": "Bigg Homies",
       "original_title": "Bigg Homies",
@@ -235184,7 +235376,7 @@
         "War"
       ],
       "runtime": 160,
-      "vote_average": 7.818,
+      "vote_average": 7.8,
       "vote_count": 299,
       "imdb_id": "tt28553375",
       "trailer_youtube_key": "dKUArYoZ_0U",
@@ -235272,8 +235464,8 @@
         "Music"
       ],
       "runtime": 129,
-      "vote_average": 8.167,
-      "vote_count": 6,
+      "vote_average": 8.429,
+      "vote_count": 7,
       "imdb_id": "tt10098420",
       "trailer_youtube_key": "rXaR4nXRvOY",
       "events": [
@@ -236032,8 +236224,8 @@
         "Drama"
       ],
       "runtime": 125,
-      "vote_average": 8.049,
-      "vote_count": 894,
+      "vote_average": 8.051,
+      "vote_count": 895,
       "imdb_id": "tt0101640",
       "trailer_youtube_key": "tLYJzEtmavg",
       "events": [
@@ -237831,7 +238023,7 @@
       ],
       "runtime": 119,
       "vote_average": 7.804,
-      "vote_count": 9133,
+      "vote_count": 9134,
       "imdb_id": "tt0075148",
       "trailer_youtube_key": "dmd9tEt9F30",
       "events": [
@@ -238344,8 +238536,8 @@
         "Drama"
       ],
       "runtime": 102,
-      "vote_average": 6.667,
-      "vote_count": 3,
+      "vote_average": 6.5,
+      "vote_count": 4,
       "imdb_id": "tt26751523",
       "trailer_youtube_key": "BxP4wB8qIAU",
       "events": [
@@ -238670,6 +238862,38 @@
       "events": [
         {
           "date": "2026-11-08",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1842010,
+      "title": "Dharamsala",
+      "original_title": "Dharamsala",
+      "original_language": "en",
+      "primary_release_date": "2026-11-08",
+      "poster_path": "/2DV23a3xC5Pb3YVErtlUtAyFw9h.jpg",
+      "genres": [],
+      "runtime": 95,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-08",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        },
+        {
+          "date": "2026-11-14",
           "types": [
             1
           ],
@@ -239458,8 +239682,8 @@
         "Fantasy"
       ],
       "runtime": 107,
-      "vote_average": 6.98,
-      "vote_count": 74,
+      "vote_average": 7.167,
+      "vote_count": 81,
       "imdb_id": "tt14413964",
       "trailer_youtube_key": "tNV4i3BqUGY",
       "events": [
@@ -240116,7 +240340,7 @@
         "Drama"
       ],
       "runtime": 121,
-      "vote_average": 6.551,
+      "vote_average": 6.6,
       "vote_count": 89,
       "imdb_id": "tt39453578",
       "trailer_youtube_key": null,
@@ -240897,37 +241121,6 @@
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt33382810",
-      "trailer_youtube_key": null,
-      "events": [
-        {
-          "date": "2026-11-10",
-          "types": [
-            4
-          ],
-          "certification": "NR"
-        }
-      ],
-      "imdb_rating": null,
-      "imdb_votes": 0
-    },
-    {
-      "tmdb_id": 1822416,
-      "title": "The Place Between Life and Death",
-      "original_title": "The Place Between Life and Death",
-      "original_language": "en",
-      "primary_release_date": "2026-11-10",
-      "poster_path": "/2Rx2HL8cILoj6TJD5LqEeUzzIvr.jpg",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Science Fiction",
-        "Animation",
-        "Fantasy"
-      ],
-      "runtime": 6,
-      "vote_average": 10.0,
-      "vote_count": 1,
-      "imdb_id": null,
       "trailer_youtube_key": null,
       "events": [
         {
@@ -241892,7 +242085,7 @@
         "Drama"
       ],
       "runtime": 103,
-      "vote_average": 6.946,
+      "vote_average": 6.9,
       "vote_count": 28,
       "imdb_id": "tt38420997",
       "trailer_youtube_key": "lXh2rNl2wdQ",
@@ -242220,7 +242413,7 @@
         "Comedy"
       ],
       "runtime": 107,
-      "vote_average": 6.458,
+      "vote_average": 6.5,
       "vote_count": 71,
       "imdb_id": "tt37675123",
       "trailer_youtube_key": "P8G5Y25W3eA",
@@ -242523,11 +242716,12 @@
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy"
+        "Fantasy",
+        "Comedy"
       ],
       "runtime": 103,
-      "vote_average": 8.2,
-      "vote_count": 4,
+      "vote_average": 7.6,
+      "vote_count": 8,
       "imdb_id": "tt38077943",
       "trailer_youtube_key": "9ke5KSOUl-U",
       "events": [
@@ -242730,7 +242924,7 @@
       ],
       "runtime": 140,
       "vote_average": 6.9,
-      "vote_count": 78,
+      "vote_count": 79,
       "imdb_id": "tt39370926",
       "trailer_youtube_key": "o0d1IA85D9o",
       "events": [
@@ -242945,8 +243139,8 @@
         "Family"
       ],
       "runtime": 33,
-      "vote_average": 7.855,
-      "vote_count": 31,
+      "vote_average": 7.924,
+      "vote_count": 33,
       "imdb_id": "tt47791876",
       "trailer_youtube_key": "xUQh-Yj__bA",
       "events": [
@@ -243970,7 +244164,7 @@
       ],
       "runtime": 155,
       "vote_average": 7.786,
-      "vote_count": 16028,
+      "vote_count": 16034,
       "imdb_id": "tt1160419",
       "trailer_youtube_key": "w0HgHet0sxg",
       "events": [
@@ -243997,8 +244191,8 @@
         "Adventure"
       ],
       "runtime": 167,
-      "vote_average": 8.1,
-      "vote_count": 9045,
+      "vote_average": 8.142,
+      "vote_count": 9048,
       "imdb_id": "tt15239678",
       "trailer_youtube_key": "U2Qp5pL3ovA",
       "events": [
@@ -244086,8 +244280,8 @@
         "Mystery"
       ],
       "runtime": 114,
-      "vote_average": 6.199,
-      "vote_count": 123,
+      "vote_average": 6.187,
+      "vote_count": 126,
       "imdb_id": "tt38213251",
       "trailer_youtube_key": "ziIz59enN1c",
       "events": [
@@ -244116,7 +244310,7 @@
       ],
       "runtime": 122,
       "vote_average": 6.5,
-      "vote_count": 61,
+      "vote_count": 63,
       "imdb_id": "tt35866986",
       "trailer_youtube_key": "MVvWKh336m4",
       "events": [
@@ -244783,7 +244977,7 @@
         "Crime"
       ],
       "runtime": 83,
-      "vote_average": 5.5,
+      "vote_average": 5.3,
       "vote_count": 10,
       "imdb_id": "tt50969289",
       "trailer_youtube_key": null,
@@ -245037,7 +245231,7 @@
       ],
       "runtime": 97,
       "vote_average": 6.298,
-      "vote_count": 4210,
+      "vote_count": 4211,
       "imdb_id": "tt1985949",
       "trailer_youtube_key": "Hksyh33N5dg",
       "events": [
@@ -246660,8 +246854,8 @@
         "Documentary"
       ],
       "runtime": 115,
-      "vote_average": 7.0,
-      "vote_count": 7,
+      "vote_average": 6.875,
+      "vote_count": 8,
       "imdb_id": "tt48434154",
       "trailer_youtube_key": "bkttnVxwp70",
       "events": [
@@ -247321,6 +247515,31 @@
       ],
       "imdb_rating": 6.4,
       "imdb_votes": 155
+    },
+    {
+      "tmdb_id": 1842996,
+      "title": "Christmas at the Campground",
+      "original_title": "Christmas at the Campground",
+      "original_language": "en",
+      "primary_release_date": "2026-11-15",
+      "poster_path": "/4OqUVHntJ0ftDiJ16TPEXzTB0of.jpg",
+      "genres": [],
+      "runtime": 60,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": "STiKs_HvJHo",
+      "events": [
+        {
+          "date": "2026-11-15",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1822995,
@@ -248464,6 +248683,56 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1457866,
+      "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "original_title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "original_language": "en",
+      "primary_release_date": "2026-11-24",
+      "poster_path": "/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 141,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt36408401",
+      "trailer_youtube_key": "fJH-wfSXnWg",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "types": [
+            1
+          ],
+          "certification": "NR"
+        },
+        {
+          "date": "2026-11-25",
+          "types": [
+            2
+          ],
+          "certification": "R"
+        },
+        {
+          "date": "2026-12-11",
+          "types": [
+            2
+          ],
+          "certification": "R"
+        },
+        {
+          "date": "2026-12-23",
+          "types": [
+            4
+          ],
+          "certification": "R"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1300968,
       "title": "The Hunger Games: Sunrise on the Reaping",
       "original_title": "The Hunger Games: Sunrise on the Reaping",
@@ -248476,8 +248745,8 @@
         "Adventure"
       ],
       "runtime": 159,
-      "vote_average": 7.819,
-      "vote_count": 288,
+      "vote_average": 7.821,
+      "vote_count": 310,
       "imdb_id": "tt32558705",
       "trailer_youtube_key": "Dr060OLTodE",
       "events": [
@@ -249112,6 +249381,34 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1842508,
+      "title": "The Last Fool",
+      "original_title": "The Last Fool",
+      "original_language": "en",
+      "primary_release_date": "2025-12-10",
+      "poster_path": "/4WquIS1aWzGSU5tmsrnSkQNtbTr.jpg",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 20,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt17525998",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-17",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1129188,
       "title": "The Optimist",
       "original_title": "The Optimist",
@@ -249242,6 +249539,33 @@
         "Comedy"
       ],
       "runtime": 7,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-18",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1841860,
+      "title": "Before We Break: Two Against One",
+      "original_title": "Before We Break: Two Against One",
+      "original_language": "en",
+      "primary_release_date": "2026-11-18",
+      "poster_path": "/2NPspjYh1PvdiAM6xqGFrGuGDSv.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 85,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": null,
@@ -249540,8 +249864,8 @@
         "Comedy"
       ],
       "runtime": 109,
-      "vote_average": 6.91,
-      "vote_count": 117,
+      "vote_average": 6.9,
+      "vote_count": 120,
       "imdb_id": "tt6611324",
       "trailer_youtube_key": "mFvtVPMa5ak",
       "events": [
@@ -249555,6 +249879,31 @@
       ],
       "imdb_rating": 6.2,
       "imdb_votes": 7136
+    },
+    {
+      "tmdb_id": 1831298,
+      "title": "I think I'm still missing something",
+      "original_title": "I think I'm still missing something",
+      "original_language": "en",
+      "primary_release_date": "2026-11-18",
+      "poster_path": "/h3ZatsAAoDKLQOOA9tOxVEh3urS.jpg",
+      "genres": [],
+      "runtime": 6,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-18",
+          "types": [
+            3
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1822147,
@@ -249677,9 +250026,9 @@
         "History",
         "Comedy"
       ],
-      "runtime": 112,
-      "vote_average": 6.7,
-      "vote_count": 58,
+      "runtime": 110,
+      "vote_average": 6.6,
+      "vote_count": 60,
       "imdb_id": "tt24818230",
       "trailer_youtube_key": "xzh7HzLXXpk",
       "events": [
@@ -250210,8 +250559,8 @@
         "Drama"
       ],
       "runtime": 122,
-      "vote_average": 7.9,
-      "vote_count": 11,
+      "vote_average": 7.538,
+      "vote_count": 13,
       "imdb_id": "tt50016818",
       "trailer_youtube_key": null,
       "events": [
@@ -250406,15 +250755,15 @@
       "original_title": "ஓ.ம்: ஆபரேஷன் மோல்",
       "original_language": "ta",
       "primary_release_date": "2026-11-19",
-      "poster_path": "/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
+      "poster_path": "/gWWedXJXLrEaKCTrC4nMPPumDSb.jpg",
       "genres": [
         "Crime",
         "Action",
         "Thriller"
       ],
       "runtime": 178,
-      "vote_average": 8.3,
-      "vote_count": 3,
+      "vote_average": 7.8,
+      "vote_count": 5,
       "imdb_id": "tt34515768",
       "trailer_youtube_key": null,
       "events": [
@@ -250795,8 +251144,8 @@
         "Crime"
       ],
       "runtime": 91,
-      "vote_average": 6.6,
-      "vote_count": 10,
+      "vote_average": 6.458,
+      "vote_count": 12,
       "imdb_id": "tt38258118",
       "trailer_youtube_key": "JQsr_JLAiq0",
       "events": [
@@ -251439,7 +251788,7 @@
       ],
       "runtime": 108,
       "vote_average": 7.5,
-      "vote_count": 32,
+      "vote_count": 35,
       "imdb_id": "tt18351090",
       "trailer_youtube_key": "50v6k3LUcxU",
       "events": [
@@ -251887,6 +252236,35 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1674312,
+      "title": "Too Cheap",
+      "original_title": "Demasiado Barato",
+      "original_language": "es",
+      "primary_release_date": "2026-04-11",
+      "poster_path": "/vmpWrt0n4Dvzf8KXTmaFbkGEb7.jpg",
+      "genres": [
+        "Science Fiction",
+        "Mystery",
+        "Comedy"
+      ],
+      "runtime": 11,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt41869493",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-20",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1359254,
       "title": "Transplant",
       "original_title": "Transplant",
@@ -251985,6 +252363,31 @@
           "date": "2026-11-20",
           "types": [
             1
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1843036,
+      "title": "We Were Never Meant to Stand Alone",
+      "original_title": "We Were Never Meant to Stand Alone",
+      "original_language": "en",
+      "primary_release_date": "",
+      "poster_path": null,
+      "genres": [],
+      "runtime": 5,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-20",
+          "types": [
+            3
           ],
           "certification": "NR"
         }
@@ -252167,8 +252570,8 @@
         "Science Fiction"
       ],
       "runtime": 119,
-      "vote_average": 7.153,
-      "vote_count": 5088,
+      "vote_average": 7.2,
+      "vote_count": 5089,
       "imdb_id": "tt18412256",
       "trailer_youtube_key": "x0XDEhP4MQs",
       "events": [
@@ -253172,7 +253575,7 @@
       ],
       "runtime": 136,
       "vote_average": 7.855,
-      "vote_count": 11608,
+      "vote_count": 11611,
       "imdb_id": "tt0268978",
       "trailer_youtube_key": "WFJgUm7iOKw",
       "events": [
@@ -253307,8 +253710,8 @@
       "title": "Impossible Burger",
       "original_title": "Impossible Burger",
       "original_language": "en",
-      "primary_release_date": "",
-      "poster_path": null,
+      "primary_release_date": "2026-11-22",
+      "poster_path": "/8orSr9RNbmJUbtIGOas1G2QxAxn.jpg",
       "genres": [
         "Comedy"
       ],
@@ -253743,6 +254146,31 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1842433,
+      "title": "AMY",
+      "original_title": "AMY",
+      "original_language": "en",
+      "primary_release_date": "2026-11-23",
+      "poster_path": "/lyZHafTIU9YY9kn986nJQJ0b0EB.jpg",
+      "genres": [],
+      "runtime": 6,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt0788621",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-23",
+          "types": [
+            3
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": 7.2,
+      "imdb_votes": 36
+    },
+    {
       "tmdb_id": 1839306,
       "title": "Calling Card",
       "original_title": "Calling Card",
@@ -253776,13 +254204,13 @@
       "original_title": "Chiara",
       "original_language": "it",
       "primary_release_date": "2026-11-23",
-      "poster_path": "/9RBmF9jjnnB33m2znLfYaAM6Qwc.jpg",
+      "poster_path": "/5IXa5EEvPgwwbkw3E84ZdkuGUWs.jpg",
       "genres": [
         "Documentary"
       ],
       "runtime": null,
-      "vote_average": 7.0,
-      "vote_count": 3,
+      "vote_average": 5.6,
+      "vote_count": 5,
       "imdb_id": "tt51547822",
       "trailer_youtube_key": "j51cSe8IoxU",
       "events": [
@@ -253809,8 +254237,8 @@
         "Comedy"
       ],
       "runtime": 110,
-      "vote_average": 5.633,
-      "vote_count": 15,
+      "vote_average": 6.3,
+      "vote_count": 28,
       "imdb_id": "tt39316936",
       "trailer_youtube_key": "nOyT9RkGRn4",
       "events": [
@@ -254174,7 +254602,7 @@
       "original_title": "Rob Lowe: The Outsider",
       "original_language": "en",
       "primary_release_date": "2026-11-24",
-      "poster_path": "/47xmeKxYTiKGQIwrKaPn6PSUIq5.jpg",
+      "poster_path": "/dydflxYhZ0UCS5gaz8iCKFcEAvE.jpg",
       "genres": [
         "Documentary"
       ],
@@ -254343,8 +254771,7 @@
       "poster_path": "/yzvKrIFvHQwUuibOoHX9xSx0JQ3.jpg",
       "genres": [
         "Horror",
-        "Thriller",
-        "Fantasy"
+        "Thriller"
       ],
       "runtime": 97,
       "vote_average": 5.0,
@@ -254493,8 +254920,8 @@
         "Romance"
       ],
       "runtime": 105,
-      "vote_average": 8.0,
-      "vote_count": 4,
+      "vote_average": 7.6,
+      "vote_count": 5,
       "imdb_id": "tt34966140",
       "trailer_youtube_key": "9CKu3WoMYCg",
       "events": [
@@ -254708,49 +255135,6 @@
             1
           ],
           "certification": "NR"
-        }
-      ],
-      "imdb_rating": null,
-      "imdb_votes": 0
-    },
-    {
-      "tmdb_id": 1457866,
-      "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "original_title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "original_language": "en",
-      "primary_release_date": "2026-11-24",
-      "poster_path": "/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "runtime": 141,
-      "vote_average": 0,
-      "vote_count": 0,
-      "imdb_id": "tt36408401",
-      "trailer_youtube_key": "fJH-wfSXnWg",
-      "events": [
-        {
-          "date": "2026-11-25",
-          "types": [
-            2
-          ],
-          "certification": "R"
-        },
-        {
-          "date": "2026-12-11",
-          "types": [
-            2
-          ],
-          "certification": "R"
-        },
-        {
-          "date": "2026-12-23",
-          "types": [
-            4
-          ],
-          "certification": "R"
         }
       ],
       "imdb_rating": null,
@@ -255384,6 +255768,34 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1517994,
+      "title": "The Fence",
+      "original_title": "The Fence",
+      "original_language": "en",
+      "primary_release_date": "2026-11-27",
+      "poster_path": "/sNUbNpGlUjGw9vfIHPwPZK5eHZc.jpg",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 8,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt37707972",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-27",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1092936,
       "title": "The Holy Boy",
       "original_title": "La valle dei sorrisi",
@@ -255656,6 +256068,33 @@
           "date": "2026-11-28",
           "types": [
             6
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
+      "tmdb_id": 1841922,
+      "title": "Before We Break: One Last Shot",
+      "original_title": "Before We Break: One Last Shot",
+      "original_language": "en",
+      "primary_release_date": "2026-11-28",
+      "poster_path": "/hfpPbS7rpXIfr8S2H5OJFejyN9i.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 80,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-11-28",
+          "types": [
+            4
           ],
           "certification": "NR"
         }
@@ -256676,7 +257115,7 @@
       ],
       "runtime": 140,
       "vote_average": 8.344,
-      "vote_count": 9589,
+      "vote_count": 9590,
       "imdb_id": "tt9362722",
       "trailer_youtube_key": "yFrxzaBLDQM",
       "events": [
@@ -257426,7 +257865,7 @@
         "History"
       ],
       "runtime": 159,
-      "vote_average": 7.862,
+      "vote_average": 7.9,
       "vote_count": 261,
       "imdb_id": "tt35856133",
       "trailer_youtube_key": "J6MRNchmZkY",
@@ -257484,7 +257923,7 @@
         "Comedy",
         "Family"
       ],
-      "runtime": 90,
+      "runtime": null,
       "vote_average": 0,
       "vote_count": 0,
       "imdb_id": "tt48503221",
@@ -257789,8 +258228,8 @@
         "Drama"
       ],
       "runtime": 120,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 5.0,
+      "vote_count": 1,
       "imdb_id": "tt9219630",
       "trailer_youtube_key": "8N9e-skJ3hw",
       "events": [
@@ -257902,7 +258341,7 @@
       ],
       "runtime": 151,
       "vote_average": 8.16,
-      "vote_count": 16980,
+      "vote_count": 16982,
       "imdb_id": "tt0407887",
       "trailer_youtube_key": "r-MiSNsCdQ4",
       "events": [
@@ -258817,8 +259256,8 @@
         "Thriller"
       ],
       "runtime": 107,
-      "vote_average": 7.686,
-      "vote_count": 2059,
+      "vote_average": 7.7,
+      "vote_count": 2061,
       "imdb_id": "tt32357218",
       "trailer_youtube_key": "auHiLFjaIc0",
       "events": [
@@ -259257,8 +259696,8 @@
         "Mystery"
       ],
       "runtime": 101,
-      "vote_average": 6.523,
-      "vote_count": 3057,
+      "vote_average": 6.522,
+      "vote_count": 3059,
       "imdb_id": "tt23468450",
       "trailer_youtube_key": "FXOtkvx25gI",
       "events": [
@@ -259629,6 +260068,33 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1820399,
+      "title": "Sindure Jatra",
+      "original_title": "सिन्दुरे जात्रा",
+      "original_language": "ne",
+      "primary_release_date": "2026-12-04",
+      "poster_path": "/uUfC1zguhyCkMoktUsmzys3WnuS.jpg",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-12-11",
+          "types": [
+            2
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1433601,
       "title": "Straight Circle",
       "original_title": "Straight Circle",
@@ -259713,6 +260179,33 @@
       ],
       "imdb_rating": 6.8,
       "imdb_votes": 303
+    },
+    {
+      "tmdb_id": 1842604,
+      "title": "the eternal sunshine diaries: making of the tour",
+      "original_title": "the eternal sunshine diaries: making of the tour",
+      "original_language": "en",
+      "primary_release_date": "2026-12-11",
+      "poster_path": "/1axfahrNnrMKjDRzhPFPFwPlorv.jpg",
+      "genres": [
+        "Documentary"
+      ],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": null,
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-12-11",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
     },
     {
       "tmdb_id": 1581,
@@ -260140,6 +260633,33 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1841136,
+      "title": "the eternal sunshine tour",
+      "original_title": "the eternal sunshine tour",
+      "original_language": "en",
+      "primary_release_date": "2026-12-12",
+      "poster_path": "/snc1ZpcrS1ZENVNiAbpbWA2HbTN.jpg",
+      "genres": [
+        "Music"
+      ],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt42694116",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-12-12",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 1800399,
       "title": "The Voice Still Carries: The Aimee Mann Story",
       "original_title": "La vita e il trionfo di Aimee Mann",
@@ -260273,8 +260793,8 @@
         "Action"
       ],
       "runtime": 115,
-      "vote_average": 6.926,
-      "vote_count": 4185,
+      "vote_average": 6.9,
+      "vote_count": 4186,
       "imdb_id": "tt10676052",
       "trailer_youtube_key": "LJa5wv93YGM",
       "events": [
@@ -260612,7 +261132,7 @@
       "original_title": "Campioni",
       "original_language": "it",
       "primary_release_date": "2026-12-15",
-      "poster_path": null,
+      "poster_path": "/yeejjq0swfwzg87k5cdh44TRdSk.jpg",
       "genres": [
         "Comedy",
         "Drama"
@@ -260861,7 +261381,7 @@
       "original_title": "Dune: Part Three",
       "original_language": "en",
       "primary_release_date": "2026-12-15",
-      "poster_path": "/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
+      "poster_path": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
       "genres": [
         "Science Fiction",
         "Adventure"
@@ -261218,6 +261738,35 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1770388,
+      "title": "Love on the Christmas List",
+      "original_title": "Love on the Christmas List",
+      "original_language": "en",
+      "primary_release_date": "2026-11-01",
+      "poster_path": "/dvf2rRn1ga8aD76xSr3fYlj3pKz.jpg",
+      "genres": [
+        "Romance",
+        "Family",
+        "TV Movie"
+      ],
+      "runtime": 90,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt40646612",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2026-12-19",
+          "types": [
+            6
+          ],
+          "certification": "PG"
+        }
+      ],
+      "imdb_rating": 6.7,
+      "imdb_votes": 23
+    },
+    {
       "tmdb_id": 1799527,
       "title": "Love on the Christmas List",
       "original_title": "Love on the Christmas List",
@@ -261245,35 +261794,6 @@
       ],
       "imdb_rating": null,
       "imdb_votes": 0
-    },
-    {
-      "tmdb_id": 1770388,
-      "title": "My Kind of Christmas",
-      "original_title": "My Kind of Christmas",
-      "original_language": "en",
-      "primary_release_date": "2026-11-01",
-      "poster_path": "/dvf2rRn1ga8aD76xSr3fYlj3pKz.jpg",
-      "genres": [
-        "Romance",
-        "Family",
-        "TV Movie"
-      ],
-      "runtime": 90,
-      "vote_average": 5.0,
-      "vote_count": 2,
-      "imdb_id": "tt40646612",
-      "trailer_youtube_key": null,
-      "events": [
-        {
-          "date": "2026-12-19",
-          "types": [
-            6
-          ],
-          "certification": "PG"
-        }
-      ],
-      "imdb_rating": 6.7,
-      "imdb_votes": 23
     },
     {
       "tmdb_id": 1791771,
@@ -262347,7 +262867,7 @@
         "Romance"
       ],
       "runtime": 108,
-      "vote_average": 6.235,
+      "vote_average": 6.256,
       "vote_count": 234,
       "imdb_id": "tt20768712",
       "trailer_youtube_key": "i9k213d5FU0",
@@ -263853,7 +264373,7 @@
       "original_title": "La Fille Dans Les Nuages",
       "original_language": "fr",
       "primary_release_date": "2026-07-22",
-      "poster_path": "/3v3dJuUwBqTYtNCBlESFCRo9gEW.jpg",
+      "poster_path": "/5cyVbwgVNFzCEfqxQ0ZikyUTCUR.jpg",
       "genres": [
         "Animation",
         "Adventure",
@@ -264256,8 +264776,8 @@
         "Thriller"
       ],
       "runtime": 81,
-      "vote_average": 7.8,
-      "vote_count": 21,
+      "vote_average": 7.682,
+      "vote_count": 22,
       "imdb_id": "tt37664358",
       "trailer_youtube_key": "XT0Dd_ZUj9g",
       "events": [
@@ -265105,7 +265625,7 @@
       "original_title": "魔法使いの夜",
       "original_language": "ja",
       "primary_release_date": "2026-11-20",
-      "poster_path": "/xKpYIt7T6nJ8oqzV52yLtZdC0YB.jpg",
+      "poster_path": "/iJtcWNvcTPgfzJP1k0U7fbQ1HDZ.jpg",
       "genres": [
         "Animation",
         "Fantasy",
@@ -265437,7 +265957,7 @@
       "original_title": "Ice Age: Boiling Point",
       "original_language": "en",
       "primary_release_date": "2027-01-28",
-      "poster_path": "/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+      "poster_path": "/h90ZGL00jrbCIwRoQJ86xN8Wdov.jpg",
       "genres": [
         "Adventure",
         "Animation",
@@ -265669,7 +266189,7 @@
       "original_title": "Cassi",
       "original_language": "en",
       "primary_release_date": "2027-02-12",
-      "poster_path": null,
+      "poster_path": "/zuAP8KJg3a5iQXK2bPtnzpyRlPM.jpg",
       "genres": [
         "Romance",
         "Thriller"
@@ -266234,6 +266754,33 @@
       "imdb_votes": 0
     },
     {
+      "tmdb_id": 1481160,
+      "title": "Fight for '84",
+      "original_title": "Fight for '84",
+      "original_language": "en",
+      "primary_release_date": "",
+      "poster_path": null,
+      "genres": [
+        "Drama"
+      ],
+      "runtime": null,
+      "vote_average": 0,
+      "vote_count": 0,
+      "imdb_id": "tt36958269",
+      "trailer_youtube_key": null,
+      "events": [
+        {
+          "date": "2027-02-19",
+          "types": [
+            4
+          ],
+          "certification": "NR"
+        }
+      ],
+      "imdb_rating": null,
+      "imdb_votes": 0
+    },
+    {
       "tmdb_id": 11,
       "title": "Star Wars",
       "original_title": "Star Wars",
@@ -266247,7 +266794,7 @@
       ],
       "runtime": 121,
       "vote_average": 8.206,
-      "vote_count": 23217,
+      "vote_count": 23221,
       "imdb_id": "tt0076759",
       "trailer_youtube_key": "i-vsILeJ8_8",
       "events": [

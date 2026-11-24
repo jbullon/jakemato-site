@@ -89,8 +89,7 @@
       "posterShape": "poster",
       "genres": [
         "Horror",
-        "Thriller",
-        "Fantasy"
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 24, 2026 • Limited theatrical • NR • IMDb 5.9",
@@ -222,7 +221,7 @@
       "id": "tt47597255",
       "type": "movie",
       "name": "Rob Lowe: The Outsider",
-      "poster": "https://image.tmdb.org/t/p/w185/47xmeKxYTiKGQIwrKaPn6PSUIq5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/dydflxYhZ0UCS5gaz8iCKFcEAvE.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -277,7 +276,7 @@
       "id": "tt35410859",
       "type": "movie",
       "name": "Fjord",
-      "poster": "https://image.tmdb.org/t/p/w185/bD6ynFDUP3PZvdIBjPi9VGhyi5a.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/3PPPIeSdeivjUn3O9RahGiaJ9b8.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -400,7 +399,7 @@
       "id": "tt34902686",
       "type": "movie",
       "name": "The Symphony of Dance",
-      "poster": "https://image.tmdb.org/t/p/w185/2hbDryKjroP8C5EnPgASf3gsY2D.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5FkdTRRHqTgaySPgQDwVlqx4c6J.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -453,7 +452,7 @@
       "id": "tt51547822",
       "type": "movie",
       "name": "Chiara Ferragni: Front Facing",
-      "poster": "https://image.tmdb.org/t/p/w185/9RBmF9jjnnB33m2znLfYaAM6Qwc.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5IXa5EEvPgwwbkw3E84ZdkuGUWs.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -466,6 +465,17 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt0788621",
+      "type": "movie",
+      "name": "AMY",
+      "poster": "https://image.tmdb.org/t/p/w185/lyZHafTIU9YY9kn986nJQJ0b0EB.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 23, 2026 • Theatrical • NR • IMDb 7.2",
+      "imdbRating": "7.2"
     },
     {
       "id": "tt30253335",
@@ -566,6 +576,18 @@
       "releaseInfo": "2026",
       "description": "US release: November 22, 2026 • Theatrical • NR • IMDb 7.1",
       "imdbRating": "7.1"
+    },
+    {
+      "id": "tt51965668",
+      "type": "movie",
+      "name": "Impossible Burger",
+      "poster": "https://image.tmdb.org/t/p/w185/8orSr9RNbmJUbtIGOas1G2QxAxn.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 22, 2026 • Digital • NR"
     },
     {
       "id": "tt44111551",
@@ -1248,6 +1270,20 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt41869493",
+      "type": "movie",
+      "name": "Too Cheap",
+      "poster": "https://image.tmdb.org/t/p/w185/vmpWrt0n4Dvzf8KXTmaFbkGEb7.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Science Fiction",
+        "Mystery",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Digital • NR"
     },
     {
       "id": "tt33095251",
@@ -2070,7 +2106,7 @@
       "id": "tt34515768",
       "type": "movie",
       "name": "O.M: Operation Mole",
-      "poster": "https://image.tmdb.org/t/p/w185/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/gWWedXJXLrEaKCTrC4nMPPumDSb.jpg",
       "posterShape": "poster",
       "genres": [
         "Crime",
@@ -2554,6 +2590,19 @@
       ]
     },
     {
+      "id": "tt17525998",
+      "type": "movie",
+      "name": "The Last Fool",
+      "poster": "https://image.tmdb.org/t/p/w185/4WquIS1aWzGSU5tmsrnSkQNtbTr.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 17, 2026 • Digital • NR"
+    },
+    {
       "id": "tt39397627",
       "type": "movie",
       "name": "The Grim Rapper",
@@ -2900,6 +2949,26 @@
       "description": "US release: November 16, 2026 • Limited theatrical • NR"
     },
     {
+      "id": "tt36408401",
+      "type": "movie",
+      "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "poster": "https://image.tmdb.org/t/p/w185/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 16, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "fJH-wfSXnWg",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt21188986",
       "type": "movie",
       "name": "The Dreamed Adventure",
@@ -3131,7 +3200,7 @@
       "imdbRating": "7.6",
       "trailers": [
         {
-          "source": "-CDgxJgiQY4",
+          "source": "t-yPlxz2i3Y",
           "type": "Trailer"
         }
       ]
@@ -3308,15 +3377,15 @@
       "poster": "https://image.tmdb.org/t/p/w185/gPo96q7vKzoCiZlLH4T78FYStk0.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 15, 2026 • Premiere • NR • IMDb 6.3",
       "imdbRating": "6.3",
       "trailers": [
         {
-          "source": "fdkwGvMB5zQ",
+          "source": "6Z-78xNh2KI",
           "type": "Trailer"
         }
       ]
@@ -4637,8 +4706,7 @@
       "posterShape": "poster",
       "genres": [
         "Fantasy",
-        "Drama",
-        "Horror"
+        "Comedy"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 13, 2026 • Theatrical • PG-13 • IMDb 7.2",
@@ -5367,7 +5435,8 @@
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy"
+        "Fantasy",
+        "Comedy"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 12, 2026 • Premiere • NR",
@@ -11498,6 +11567,26 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 31, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt50648606",
+      "type": "movie",
+      "name": "The Shortcut: Victim",
+      "poster": "https://image.tmdb.org/t/p/w185/z5RoWAOaW1pzBfAwRyIl4A8G40.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Animation",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: October 31, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "KYFIPnzpVIc",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt50007892",

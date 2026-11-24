@@ -110,7 +110,8 @@
         "Adventure",
         "Animation",
         "Family",
-        "Fantasy"
+        "Fantasy",
+        "Comedy"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 25, 2026 • Theatrical • PG",
@@ -945,6 +946,25 @@
       ]
     },
     {
+      "id": "tt28535715",
+      "type": "movie",
+      "name": "Whalefall",
+      "poster": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 1, 2026 • Digital • PG-13 • IMDb 6.6",
+      "imdbRating": "6.6",
+      "trailers": [
+        {
+          "source": "1dyCLoB0-nA",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt43607699",
       "type": "movie",
       "name": "A Dot in the Ocean",
@@ -1523,26 +1543,6 @@
       "trailers": [
         {
           "source": "P3uI5sLosKU",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt35638092",
-      "type": "movie",
-      "name": "Tender Loving Care",
-      "poster": "https://image.tmdb.org/t/p/w185/ritUkpIiQU1IofeQdG4RFMrSu9J.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: December 4, 2026 • Theatrical • R • IMDb 7.6",
-      "imdbRating": "7.6",
-      "trailers": [
-        {
-          "source": "-CDgxJgiQY4",
           "type": "Trailer"
         }
       ]
@@ -2132,8 +2132,7 @@
       "posterShape": "poster",
       "genres": [
         "Horror",
-        "Thriller",
-        "Fantasy"
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 10, 2026 • Digital • NR • IMDb 5.9",
@@ -2189,15 +2188,15 @@
       "poster": "https://image.tmdb.org/t/p/w185/gPo96q7vKzoCiZlLH4T78FYStk0.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 11, 2026 • Limited theatrical • R • IMDb 6.3",
       "imdbRating": "6.3",
       "trailers": [
         {
-          "source": "fdkwGvMB5zQ",
+          "source": "6Z-78xNh2KI",
           "type": "Trailer"
         }
       ]
@@ -2420,6 +2419,26 @@
       ]
     },
     {
+      "id": "tt35638092",
+      "type": "movie",
+      "name": "Tender Loving Care",
+      "poster": "https://image.tmdb.org/t/p/w185/ritUkpIiQU1IofeQdG4RFMrSu9J.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 11, 2026 • Limited theatrical • R • IMDb 7.6",
+      "imdbRating": "7.6",
+      "trailers": [
+        {
+          "source": "t-yPlxz2i3Y",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt34718200",
       "type": "movie",
       "name": "The Debut",
@@ -2598,6 +2617,26 @@
       ]
     },
     {
+      "id": "tt40047746",
+      "type": "movie",
+      "name": "Namaslay",
+      "poster": "https://image.tmdb.org/t/p/w185/mVSp6B2w60LSRbRSEVVoPOT5v7l.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 15, 2026 • Digital • NR • IMDb 8.1",
+      "imdbRating": "8.1",
+      "trailers": [
+        {
+          "source": "f8N0ZWgUoIE",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt21270966",
       "type": "movie",
       "name": "Scrambled",
@@ -2739,7 +2778,7 @@
       "id": "tt31378509",
       "type": "movie",
       "name": "Dune: Part Three",
-      "poster": "https://image.tmdb.org/t/p/w185/gknAq4pAuToh1Aq5CJfVkGQkExT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
       "posterShape": "poster",
       "genres": [
         "Science Fiction",
@@ -3326,7 +3365,7 @@
       "id": "tt20259240",
       "type": "movie",
       "name": "Cloud Girl",
-      "poster": "https://image.tmdb.org/t/p/w185/3v3dJuUwBqTYtNCBlESFCRo9gEW.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/5cyVbwgVNFzCEfqxQ0ZikyUTCUR.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -3724,7 +3763,7 @@
       "id": "tt31970593",
       "type": "movie",
       "name": "Witch on the Holy Night",
-      "poster": "https://image.tmdb.org/t/p/w185/xKpYIt7T6nJ8oqzV52yLtZdC0YB.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/iJtcWNvcTPgfzJP1k0U7fbQ1HDZ.jpg",
       "posterShape": "poster",
       "genres": [
         "Animation",
@@ -3763,7 +3802,7 @@
       "id": "tt34512981",
       "type": "movie",
       "name": "Ice Age: Boiling Point",
-      "poster": "https://image.tmdb.org/t/p/w185/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/h90ZGL00jrbCIwRoQJ86xN8Wdov.jpg",
       "posterShape": "poster",
       "genres": [
         "Adventure",
@@ -3808,7 +3847,7 @@
       "genres": [
         "Romance",
         "Mystery",
-        "Thriller"
+        "Horror"
       ],
       "releaseInfo": "2027",
       "description": "US release: February 5, 2027 • Theatrical • NR",
