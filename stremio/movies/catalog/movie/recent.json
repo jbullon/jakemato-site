@@ -1,10 +1,23 @@
 {
   "metas": [
     {
+      "id": "tt40619892",
+      "type": "movie",
+      "name": "Troupe!",
+      "poster": "https://image.tmdb.org/t/p/w185/ufttdaoe4FNERoBUMmglztL0Ug.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 25, 2026 • Digital • NR"
+    },
+    {
       "id": "tt39461889",
       "type": "movie",
       "name": "The Slightest Touch",
-      "poster": "https://image.tmdb.org/t/p/w185/9o1Y6bwmPaKcljx2edkllyGm8nM.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/dKdzTcCrILy0cCrjUSRiLQeaWLJ.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -26,9 +39,9 @@
       "poster": "https://image.tmdb.org/t/p/w185/zbT4sxoCEeFWlQG4SC5X9Q8v6PC.jpg",
       "posterShape": "poster",
       "genres": [
+        "War",
         "History",
-        "Drama",
-        "War"
+        "Drama"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 25, 2026 • Digital • R • IMDb 6.6",
@@ -499,7 +512,7 @@
       "id": "tt35410859",
       "type": "movie",
       "name": "Fjord",
-      "poster": "https://image.tmdb.org/t/p/w185/rIhqYAVPmMQaTCiBJI5o21KDFM2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/3PPPIeSdeivjUn3O9RahGiaJ9b8.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -652,6 +665,18 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt34380014",
+      "type": "movie",
+      "name": "Lottie",
+      "poster": "https://image.tmdb.org/t/p/w185/onT46Azh6NE9wo3DlEkczzW8Azo.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 23, 2026 • Digital • NR"
     },
     {
       "id": "tt42832410",
@@ -1003,7 +1028,7 @@
       "id": "tt35432768",
       "type": "movie",
       "name": "Test",
-      "poster": "https://image.tmdb.org/t/p/w185/oJIHrrxje5mepU5dWF9KyhdNXC2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/31p2KsDhGPHf3ij2zZ4pwBwPywZ.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -1653,6 +1678,16 @@
           "type": "Trailer"
         }
       ]
+    },
+    {
+      "id": "tt38985238",
+      "type": "movie",
+      "name": "Tenacity",
+      "poster": "https://image.tmdb.org/t/p/w185/vSYHcbx5Y8kHO4Q7OLBsfojaSbU.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Theatrical • NR"
     },
     {
       "id": "tt14413964",
@@ -3792,6 +3827,18 @@
       ]
     },
     {
+      "id": "tt52221193",
+      "type": "movie",
+      "name": "Pizza Guy",
+      "poster": "https://image.tmdb.org/t/p/w185/nh9HardZfFKuPFtRoOzXYbgDrNV.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 14, 2026 • Digital • PG-13"
+    },
+    {
       "id": "tt12149798",
       "type": "movie",
       "name": "Petscop",
@@ -5577,7 +5624,7 @@
       "id": "tt39131708",
       "type": "movie",
       "name": "Itllu Arjuna",
-      "poster": "https://image.tmdb.org/t/p/w185/i8WRWBdLhbAI6z3aaQAKuYf5g4T.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/305TOBJYCjuZriRu9FrbRHOprPX.jpg",
       "posterShape": "poster",
       "genres": [
         "Action",
@@ -6255,6 +6302,25 @@
       "trailers": [
         {
           "source": "Qzag2eTJCno",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39398727",
+      "type": "movie",
+      "name": "Crocodile Dose",
+      "poster": "https://image.tmdb.org/t/p/w185/2fLUCNV3UxL3qUwpsVvXjBJ2hQT.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 11, 2026 • Limited theatrical • NR • IMDb 6.8",
+      "imdbRating": "6.8",
+      "trailers": [
+        {
+          "source": "zj0W7B8JmKw",
           "type": "Trailer"
         }
       ]
@@ -7616,7 +7682,7 @@
       "id": "tt39334277",
       "type": "movie",
       "name": "The House on the Moon",
-      "poster": "https://image.tmdb.org/t/p/w185/pEd7PmKERhjtN4Vs2GWJerlJaJH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/k95ifM1BXUAVqqaIfNWb1d9RKSm.jpg",
       "posterShape": "poster",
       "genres": [
         "Fantasy",
@@ -8456,6 +8522,26 @@
       ]
     },
     {
+      "id": "tt50709852",
+      "type": "movie",
+      "name": "Swing",
+      "poster": "https://image.tmdb.org/t/p/w185/hWSAOK2Nkr2iehMbK1mvPplMrLi.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 6, 2026 • Digital • NC-17",
+      "trailers": [
+        {
+          "source": "CG0Gsc52B4c",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt43089752",
       "type": "movie",
       "name": "Summer Holidays",
@@ -8488,7 +8574,7 @@
       "id": "tt42619541",
       "type": "movie",
       "name": "Sour Minnows",
-      "poster": "https://image.tmdb.org/t/p/w185/c2v8H6Q4nEjfqcbE98NDTLtNOlk.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/wp06e9QwCbjj8a8udwI4pWkGl5Z.jpg",
       "posterShape": "poster",
       "genres": [
         "Fantasy",
@@ -9424,7 +9510,7 @@
       "id": "tt38192494",
       "type": "movie",
       "name": "Scene",
-      "poster": "https://image.tmdb.org/t/p/w185/kfc4w3OX8QsFm8f9MPUdmGheNl3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/erQy6X0wg40HEkwO5WWQShUgC0V.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy",
@@ -13482,19 +13568,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 29, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt27666891",
-      "type": "movie",
-      "name": "Mama Bear",
-      "poster": "https://image.tmdb.org/t/p/w185/rQII62F95Jx2SC1OEnOye1z91zK.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 29, 2026 • Digital • NR • IMDb 6.2",
-      "imdbRating": "6.2"
     },
     {
       "id": "tt39298798",

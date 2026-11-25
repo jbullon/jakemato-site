@@ -210,12 +210,12 @@
       "poster": "https://image.tmdb.org/t/p/w185/2jpKQ6xhcxaNXOUDeQpyHNUcWr1.jpg",
       "posterShape": "poster",
       "genres": [
-        "Thriller",
         "Drama",
+        "Thriller",
         "Fantasy"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Premiere • R • IMDb 6.5",
+      "description": "US release: November 27, 2026 • Digital • R • IMDb 6.5",
       "imdbRating": "6.5",
       "trailers": [
         {
@@ -730,8 +730,7 @@
       "posterShape": "poster",
       "genres": [
         "Action",
-        "Comedy",
-        "Fantasy"
+        "Comedy"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 1, 2026 • Premiere • NR",
@@ -2356,6 +2355,25 @@
       ]
     },
     {
+      "id": "tt39398727",
+      "type": "movie",
+      "name": "Crocodile Dose",
+      "poster": "https://image.tmdb.org/t/p/w185/2fLUCNV3UxL3qUwpsVvXjBJ2hQT.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 12, 2026 • Premiere • NR • IMDb 6.8",
+      "imdbRating": "6.8",
+      "trailers": [
+        {
+          "source": "zj0W7B8JmKw",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt38785101",
       "type": "movie",
       "name": "Unmatched",
@@ -2904,7 +2922,7 @@
         "Fantasy"
       ],
       "releaseInfo": "2026",
-      "description": "US release: December 25, 2026 • Theatrical • NR",
+      "description": "US release: December 25, 2026 • Theatrical • PG-13",
       "trailers": [
         {
           "source": "nIw1O3zvOfE",
@@ -3293,6 +3311,26 @@
       "trailers": [
         {
           "source": "zUFqKa2Sa3g",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39368498",
+      "type": "movie",
+      "name": "American Dollhouse",
+      "poster": "https://image.tmdb.org/t/p/w185/4P0vgEMvblUUJJU4zf1Uzfwyj65.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2027",
+      "description": "US release: January 15, 2027 • Theatrical • R • IMDb 6.3",
+      "imdbRating": "6.3",
+      "trailers": [
+        {
+          "source": "z1WqvHQP75k",
           "type": "Trailer"
         }
       ]
