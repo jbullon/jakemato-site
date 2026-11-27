@@ -123,7 +123,13 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 27, 2026 • Digital • NR • IMDb 5.4",
-      "imdbRating": "5.4"
+      "imdbRating": "5.4",
+      "trailers": [
+        {
+          "source": "vsXs3Km6UDw",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt38708063",
@@ -159,6 +165,26 @@
       "trailers": [
         {
           "source": "mdGrH_f4wJw",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt44866108",
+      "type": "movie",
+      "name": "SpongeBob SquarePants: Merry Christmas, Mr. Plankton",
+      "poster": "https://image.tmdb.org/t/p/w185/eChQaIEzlGBOfOtbsrFTeZmWqp1.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 27, 2026 • Digital / TV • NR",
+      "trailers": [
+        {
+          "source": "Vq5tZUUwATI",
           "type": "Trailer"
         }
       ]
@@ -328,7 +354,9 @@
       "name": "Finally",
       "poster": "https://image.tmdb.org/t/p/w185/ahQKkfWgg4mJv9hIZIdC4cXObSA.jpg",
       "posterShape": "poster",
-      "genres": [],
+      "genres": [
+        "Comedy"
+      ],
       "releaseInfo": "2026",
       "description": "US release: November 27, 2026 • Digital • NR"
     },
@@ -428,10 +456,17 @@
       "poster": "https://image.tmdb.org/t/p/w185/sFFyYJwdTQFn3H4UEVTCbIpELMD.jpg",
       "posterShape": "poster",
       "genres": [
-        "Documentary"
+        "Documentary",
+        "History"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Premiere • NR"
+      "description": "US release: November 27, 2026 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "yCwAE2C4fl4",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt35622641",
@@ -450,7 +485,7 @@
       "id": "tt30768979",
       "type": "movie",
       "name": "Aadarsha Kutumbam House No: 47 - AK47",
-      "poster": "https://image.tmdb.org/t/p/w185/1Z0ypXqSRWjnjPRVU6YiHwawsLC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/uOo2T5pZmW4APO6o95yLycvTonU.jpg",
       "posterShape": "poster",
       "genres": [
         "Family",
@@ -873,7 +908,7 @@
       "id": "tt29611136",
       "type": "movie",
       "name": "Wicker",
-      "poster": "https://image.tmdb.org/t/p/w185/5sVi66aTT9X2uMldmIwu9JW3hZ2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
       "posterShape": "poster",
       "genres": [
         "Romance",
@@ -1094,7 +1129,7 @@
       "id": "tt50828463",
       "type": "movie",
       "name": "Nate Bargatze: Good for Nathan",
-      "poster": "https://image.tmdb.org/t/p/w185/fho1KwBlnQZjnup5LYNLxEGkGpn.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/aqm45GsPV9G2tKJJivOaNOPYxIi.jpg",
       "posterShape": "poster",
       "genres": [
         "Comedy"
@@ -1539,6 +1574,25 @@
       "trailers": [
         {
           "source": "QoMDZNV9Qj8",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt39150093",
+      "type": "movie",
+      "name": "Give Me the Ball!",
+      "poster": "https://image.tmdb.org/t/p/w185/3c676NigenwRlT1VmW3do9IU5Hd.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 22, 2026 • Digital / TV • NR • IMDb 8.4",
+      "imdbRating": "8.4",
+      "trailers": [
+        {
+          "source": "NVPD94LeDGY",
           "type": "Trailer"
         }
       ]
@@ -2440,6 +2494,25 @@
       "description": "US release: November 20, 2026 • Premiere • NR"
     },
     {
+      "id": "tt45368439",
+      "type": "movie",
+      "name": "Quest for the Heart",
+      "poster": "https://image.tmdb.org/t/p/w185/7s4ZWIws5WiQecaey6ecB8YVebr.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 20, 2026 • Theatrical • NR",
+      "trailers": [
+        {
+          "source": "Mo9U8aTxPmY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt50709058",
       "type": "movie",
       "name": "Prism",
@@ -2627,21 +2700,6 @@
       ]
     },
     {
-      "id": "tt42025545",
-      "type": "movie",
-      "name": "Letters This Christmas",
-      "poster": "https://image.tmdb.org/t/p/w185/bjyAaHC9ceTmZ61Pgd9xaQmGZZW.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "TV Movie",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 20, 2026 • Theatrical • NR • IMDb 8.1",
-      "imdbRating": "8.1"
-    },
-    {
       "id": "tt32321285",
       "type": "movie",
       "name": "Josephine",
@@ -2698,7 +2756,7 @@
       "id": "tt11995650",
       "type": "movie",
       "name": "I Play Rocky",
-      "poster": "https://image.tmdb.org/t/p/w185/8q8AF8xvV1drhACtEL2Iti5gJ8P.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama",
@@ -3860,10 +3918,30 @@
       ]
     },
     {
+      "id": "tt29870331",
+      "type": "movie",
+      "name": "Appofeniacs",
+      "poster": "https://image.tmdb.org/t/p/w185/6uKZM73i8HnR3wmrGWzxHtjmvYb.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 17, 2026 • Digital • NR • IMDb 5.5",
+      "imdbRating": "5.5",
+      "trailers": [
+        {
+          "source": "txD8Y8Pv1rY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
       "id": "tt14129116",
       "type": "movie",
       "name": "A Talent for Murder",
-      "poster": "https://image.tmdb.org/t/p/w185/eaPfmH83P4yf4gyaWFD4FvvdOcM.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/oKsS2mUf87ClNjrruq8s0aXrDSb.jpg",
       "posterShape": "poster",
       "genres": [
         "Thriller",
@@ -4493,6 +4571,25 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 14, 2026 • Premiere • NR"
+    },
+    {
+      "id": "tt37044690",
+      "type": "movie",
+      "name": "Something Pointless",
+      "poster": "https://image.tmdb.org/t/p/w185/pDfyA0pt0HHB79xXtPx4MHCCUJD.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 14, 2026 • Premiere • NR • IMDb 9.2",
+      "imdbRating": "9.2",
+      "trailers": [
+        {
+          "source": "qV_UHyjoL_8",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt49205458",
@@ -6739,6 +6836,19 @@
       "description": "US release: November 11, 2026 • Theatrical • NR"
     },
     {
+      "id": "tt52103942",
+      "type": "movie",
+      "name": "To the Moon and the Sun",
+      "poster": "https://image.tmdb.org/t/p/w185/kZPcoaiiMma4YGpm8qIJpOsaJJO.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Family",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 11, 2026 • Digital • NR"
+    },
+    {
       "id": "tt50817930",
       "type": "movie",
       "name": "The Unthinkable Daughter",
@@ -7764,6 +7874,16 @@
       ]
     },
     {
+      "id": "tt43615813",
+      "type": "movie",
+      "name": "Angelamerica",
+      "poster": "https://image.tmdb.org/t/p/w185/oThDKnEH2QzvO8uZ2MdDqKurfq6.jpg",
+      "posterShape": "poster",
+      "genres": [],
+      "releaseInfo": "2026",
+      "description": "US release: November 10, 2026 • Theatrical • NR"
+    },
+    {
       "id": "tt39125559",
       "type": "movie",
       "name": "A COLD SEASON",
@@ -8718,7 +8838,7 @@
       "id": "tt0075148",
       "type": "movie",
       "name": "Rocky",
-      "poster": "https://image.tmdb.org/t/p/w185/1mcJmdbRLusxhoSGjFI3pbEboXt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/raayaQ9WTUGolsYHPWc2bGonu58.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -9016,7 +9136,7 @@
       "id": "tt36415529",
       "type": "movie",
       "name": "Behemoth!",
-      "poster": "https://image.tmdb.org/t/p/w185/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/tlP9FKIJV4goEKH5160Hz8Gc32i.jpg",
       "posterShape": "poster",
       "genres": [
         "Music",
@@ -13336,7 +13456,7 @@
       "id": "tt39150038",
       "type": "movie",
       "name": "Who Killed Alex Odeh?",
-      "poster": "https://image.tmdb.org/t/p/w185/gWN2cQ79PXGc0Vyf5KmAeu3zKgY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/3KoMz5GcdjL8d79CWIZ3SLCFvbJ.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary"
@@ -14422,19 +14542,6 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: October 29, 2026 • Premiere • NR"
-    },
-    {
-      "id": "tt27666891",
-      "type": "movie",
-      "name": "Mama Bear",
-      "poster": "https://image.tmdb.org/t/p/w185/zpuf5YRkirIsX4wEChHogrAri5I.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 29, 2026 • Digital • NR • IMDb 6.2",
-      "imdbRating": "6.2"
     },
     {
       "id": "tt39298798",
