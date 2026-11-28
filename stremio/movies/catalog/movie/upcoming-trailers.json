@@ -1,45 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt44866108",
-      "type": "movie",
-      "name": "SpongeBob SquarePants: Merry Christmas, Mr. Plankton",
-      "poster": "https://image.tmdb.org/t/p/w185/eChQaIEzlGBOfOtbsrFTeZmWqp1.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 28, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "Vq5tZUUwATI",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt43675661",
-      "type": "movie",
-      "name": "WWE Survivor Series: WarGames 2026",
-      "poster": "https://image.tmdb.org/t/p/w185/bd0RIvxejjzn3aaromB6MXNDmVP.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 28, 2026 • Digital • PG",
-      "trailers": [
-        {
-          "source": "STZjstREHHU",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
       "id": "tt40475200",
       "type": "movie",
       "name": "Drinking and Driving",
@@ -685,14 +646,15 @@
         "Animation",
         "Science Fiction",
         "Action",
-        "Drama"
+        "Drama",
+        "Music"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 3, 2026 • Limited theatrical • NR • IMDb 7.1",
       "imdbRating": "7.1",
       "trailers": [
         {
-          "source": "7ZPr9rqaRM0",
+          "source": "NlnSu8OTkEk",
           "type": "Trailer"
         }
       ]
@@ -1014,6 +976,26 @@
       "trailers": [
         {
           "source": "54shEK14kfY",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt32321285",
+      "type": "movie",
+      "name": "Josephine",
+      "poster": "https://image.tmdb.org/t/p/w185/6pUSCeInGp4Ut3rqgPNWUrmKBUi.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: December 4, 2026 • Theatrical • R • IMDb 8.0",
+      "imdbRating": "8.0",
+      "trailers": [
+        {
+          "source": "d7NLG3IfowQ",
           "type": "Trailer"
         }
       ]
@@ -2156,9 +2138,8 @@
       "poster": "https://image.tmdb.org/t/p/w185/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
+        "Thriller",
+        "Crime"
       ],
       "releaseInfo": "2026",
       "description": "US release: December 11, 2026 • Limited theatrical • R • IMDb 7.9",
@@ -3828,6 +3809,44 @@
       "trailers": [
         {
           "source": "7zwJY5D4UQ8",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt8992304",
+      "type": "movie",
+      "name": "K-POP: The Debut",
+      "poster": "https://image.tmdb.org/t/p/w185/9MED2GFhwsMJvYKEc9Wt7aB0S2a.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Music",
+        "Comedy"
+      ],
+      "releaseInfo": "2027",
+      "description": "US release: February 26, 2027 • Theatrical • NR",
+      "trailers": [
+        {
+          "source": "_eco9F8FXK0",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt36391995",
+      "type": "movie",
+      "name": "River Warrior",
+      "poster": "https://image.tmdb.org/t/p/w185/axzP5ErFAm5DmauzD2A4EnUyXsN.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Documentary",
+        "Adventure"
+      ],
+      "releaseInfo": "2027",
+      "description": "US release: February 26, 2027 • Premiere • NR",
+      "trailers": [
+        {
+          "source": "_0PJN9YiBJE",
           "type": "Trailer"
         }
       ]

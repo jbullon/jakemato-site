@@ -1,6 +1,84 @@
 {
   "metas": [
     {
+      "id": "tt43675661",
+      "type": "movie",
+      "name": "WWE Survivor Series: WarGames 2026",
+      "poster": "https://image.tmdb.org/t/p/w185/bd0RIvxejjzn3aaromB6MXNDmVP.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 28, 2026 • Digital • PG",
+      "trailers": [
+        {
+          "source": "STZjstREHHU",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt37898983",
+      "type": "movie",
+      "name": "Things You Know But Cannot Explain",
+      "poster": "https://image.tmdb.org/t/p/w185/fqR1TxFKEqBHlOjl9KIIrpVyr5j.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 28, 2026 • Limited theatrical • NR"
+    },
+    {
+      "id": "tt38985076",
+      "type": "movie",
+      "name": "Stay in the car",
+      "poster": "https://image.tmdb.org/t/p/w185/tT006jgKteCi2hxGE6fwVVxvLYc.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Family"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 28, 2026 • Limited theatrical • NR"
+    },
+    {
+      "id": "tt44866108",
+      "type": "movie",
+      "name": "SpongeBob SquarePants: Merry Christmas, Mr. Plankton",
+      "poster": "https://image.tmdb.org/t/p/w185/eChQaIEzlGBOfOtbsrFTeZmWqp1.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 28, 2026 • Digital • NR",
+      "trailers": [
+        {
+          "source": "Vq5tZUUwATI",
+          "type": "Trailer"
+        }
+      ]
+    },
+    {
+      "id": "tt11656770",
+      "type": "movie",
+      "name": "Beneath the Skin",
+      "poster": "https://image.tmdb.org/t/p/w185/7bZ4ucs20d0Ve1QhCXyT5rlLaGB.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 28, 2026 • Digital • NR • IMDb 5.5",
+      "imdbRating": "5.5"
+    },
+    {
       "id": "tt37333986",
       "type": "movie",
       "name": "Who Is Still Alive",
@@ -66,11 +144,10 @@
       "poster": "https://image.tmdb.org/t/p/w185/3dHSDFEyUsjwRldplaRGygC5zkJ.jpg",
       "posterShape": "poster",
       "genres": [
-        "Drama",
-        "Romance"
+        "Drama"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Digital • NR",
+      "description": "US release: November 27, 2026 • Digital • R",
       "trailers": [
         {
           "source": "eBfPTW1YaAQ",
@@ -116,7 +193,7 @@
       "id": "tt36823912",
       "type": "movie",
       "name": "The Child",
-      "poster": "https://image.tmdb.org/t/p/w185/y3oxSIOM8NJulwUITCMP1P3GnIs.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/OnWBxkc0QVVhrFbIrfSQsZfuyr.jpg",
       "posterShape": "poster",
       "genres": [
         "Drama"
@@ -165,26 +242,6 @@
       "trailers": [
         {
           "source": "mdGrH_f4wJw",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt44866108",
-      "type": "movie",
-      "name": "SpongeBob SquarePants: Merry Christmas, Mr. Plankton",
-      "poster": "https://image.tmdb.org/t/p/w185/eChQaIEzlGBOfOtbsrFTeZmWqp1.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Animation",
-        "Family",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Digital / TV • NR",
-      "trailers": [
-        {
-          "source": "Vq5tZUUwATI",
           "type": "Trailer"
         }
       ]
@@ -266,7 +323,7 @@
         "Comedy"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Digital • NR",
+      "description": "US release: November 27, 2026 • Digital • G",
       "trailers": [
         {
           "source": "EtAQ-tzZI4E",
@@ -349,18 +406,6 @@
       "description": "US release: November 27, 2026 • Limited theatrical • NR"
     },
     {
-      "id": "tt39367834",
-      "type": "movie",
-      "name": "Finally",
-      "poster": "https://image.tmdb.org/t/p/w185/ahQKkfWgg4mJv9hIZIdC4cXObSA.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: November 27, 2026 • Digital • NR"
-    },
-    {
       "id": "tt27050858",
       "type": "movie",
       "name": "Drishyam: The Conclusion",
@@ -418,6 +463,18 @@
       ]
     },
     {
+      "id": "tt39367834",
+      "type": "movie",
+      "name": "Bobby Lee: Finally",
+      "poster": "https://image.tmdb.org/t/p/w185/ahQKkfWgg4mJv9hIZIdC4cXObSA.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 27, 2026 • Digital • NR"
+    },
+    {
       "id": "tt33056753",
       "type": "movie",
       "name": "Bhogi",
@@ -453,7 +510,7 @@
       "id": "tt9809820",
       "type": "movie",
       "name": "Arcade Dreams",
-      "poster": "https://image.tmdb.org/t/p/w185/sFFyYJwdTQFn3H4UEVTCbIpELMD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w185/7bu3wz4QoIie96QqefMRNj11tH.jpg",
       "posterShape": "poster",
       "genres": [
         "Documentary",
@@ -656,9 +713,8 @@
       "poster": "https://image.tmdb.org/t/p/w185/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
       "posterShape": "poster",
       "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
+        "Thriller",
+        "Crime"
       ],
       "releaseInfo": "2026",
       "description": "US release: November 25, 2026 • Limited theatrical • R • IMDb 7.9",
@@ -1217,6 +1273,27 @@
       ],
       "releaseInfo": "2026",
       "description": "US release: November 24, 2026 • Digital • NR"
+    },
+    {
+      "id": "tt40791709",
+      "type": "movie",
+      "name": "Brotherhood: A Cinematic Musical",
+      "poster": "https://image.tmdb.org/t/p/w185/gTmE2bgz1ALcvHNUdnKSTTQ5PRB.jpg",
+      "posterShape": "poster",
+      "genres": [
+        "Drama",
+        "Music",
+        "Family"
+      ],
+      "releaseInfo": "2026",
+      "description": "US release: November 24, 2026 • Digital • NR • IMDb 7.5",
+      "imdbRating": "7.5",
+      "trailers": [
+        {
+          "source": "PMsJHQaavIU",
+          "type": "Trailer"
+        }
+      ]
     },
     {
       "id": "tt9213874",
@@ -2710,7 +2787,7 @@
         "Crime"
       ],
       "releaseInfo": "2026",
-      "description": "US release: November 20, 2026 • Limited theatrical / Theatrical • R • IMDb 8.0",
+      "description": "US release: November 20, 2026 • Limited theatrical • R • IMDb 8.0",
       "imdbRating": "8.0",
       "trailers": [
         {
@@ -14666,294 +14743,6 @@
       "releaseInfo": "2026",
       "description": "US release: October 29, 2026 • Theatrical • NR • IMDb 7.0",
       "imdbRating": "7.0"
-    },
-    {
-      "id": "tt40504745",
-      "type": "movie",
-      "name": "Vlog 30",
-      "poster": "https://image.tmdb.org/t/p/w185/i8bGzVb6AC9MiNkDZhi2aMlAwlG.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Premiere • R",
-      "trailers": [
-        {
-          "source": "29LOy81-z5M",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt38072958",
-      "type": "movie",
-      "name": "Savage Prey",
-      "poster": "https://image.tmdb.org/t/p/w185/sw51DrxbE1PuJxiqfl3dsZHA3tX.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • NR • IMDb 2.9",
-      "imdbRating": "2.9",
-      "trailers": [
-        {
-          "source": "2QlT3AV0iGo",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt37660509",
-      "type": "movie",
-      "name": "On the Road",
-      "poster": "https://image.tmdb.org/t/p/w185/u169hcLX3OsM9eRs4wtIzi0ymGZ.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Limited theatrical • NR • IMDb 7.1",
-      "imdbRating": "7.1",
-      "trailers": [
-        {
-          "source": "vDFkdSdYiEs",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt37896763",
-      "type": "movie",
-      "name": "Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w185/jAJJsY1ZLG0nFth1AabrjfVOyS5.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Documentary",
-        "History"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Premiere • NR • IMDb 5.2",
-      "imdbRating": "5.2"
-    },
-    {
-      "id": "tt32890033",
-      "type": "movie",
-      "name": "Minions & Monsters",
-      "poster": "https://image.tmdb.org/t/p/w185/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • PG • IMDb 6.3",
-      "imdbRating": "6.3",
-      "trailers": [
-        {
-          "source": "V-O-uBaHk3c",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt48244485",
-      "type": "movie",
-      "name": "Mallrooms",
-      "poster": "https://image.tmdb.org/t/p/w185/f1uf7D8RKRkqNKWQxrFz3R5qNd0.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Fantasy",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • PG-13",
-      "trailers": [
-        {
-          "source": "uQSos4G8xvk",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt38534775",
-      "type": "movie",
-      "name": "I've Been Having Dreams",
-      "poster": "https://image.tmdb.org/t/p/w185/aCL35dm4RBTs9CPXnClwqf6wpVD.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Family"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "hhtWbjLcCs8",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt39396692",
-      "type": "movie",
-      "name": "Ghoulmaster",
-      "poster": "https://image.tmdb.org/t/p/w185/slf014wpnfTXQ7QOEsd2b7KOF1A.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Horror",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Limited theatrical • NR",
-      "trailers": [
-        {
-          "source": "fgU3qvZhHcw",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt35610805",
-      "type": "movie",
-      "name": "Gaua (The Night)",
-      "poster": "https://image.tmdb.org/t/p/w185/hWSY7OdBBJplNMWNPT1NIGYTRH2.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Premiere • NR • IMDb 6.2",
-      "imdbRating": "6.2",
-      "trailers": [
-        {
-          "source": "juaVem9OS-k",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt37180686",
-      "type": "movie",
-      "name": "Drive - The Pretenders",
-      "poster": "https://image.tmdb.org/t/p/w185/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Romance",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • R • IMDb 5.6",
-      "imdbRating": "5.6",
-      "trailers": [
-        {
-          "source": "-sV69CJwUwU",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt44858305",
-      "type": "movie",
-      "name": "Burns Like A Shot",
-      "poster": "https://image.tmdb.org/t/p/w185/goeoDliMMHBQMLhrXB4kCpYhN6r.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Science Fiction",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • NR",
-      "trailers": [
-        {
-          "source": "X3WDAza53D8",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt46055956",
-      "type": "movie",
-      "name": "Back to the Beginning: Ozzy's Final Bow",
-      "poster": "https://image.tmdb.org/t/p/w185/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Music",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Theatrical • NR • IMDb 9.0",
-      "imdbRating": "9.0",
-      "trailers": [
-        {
-          "source": "REqdAeNUIho",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt43655467",
-      "type": "movie",
-      "name": "Ali G: Who Iz I?",
-      "poster": "https://image.tmdb.org/t/p/w185/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Digital • R • IMDb 5.0",
-      "imdbRating": "5.0",
-      "trailers": [
-        {
-          "source": "pV32AcPa-iA",
-          "type": "Trailer"
-        }
-      ]
-    },
-    {
-      "id": "tt44189076",
-      "type": "movie",
-      "name": "A Good Hand Wasted",
-      "poster": "https://image.tmdb.org/t/p/w185/ah3i7kd3uZPl0ESVEL4r33mAj52.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Theatrical • NR"
-    },
-    {
-      "id": "tt37740247",
-      "type": "movie",
-      "name": "9 Temples to Heaven",
-      "poster": "https://image.tmdb.org/t/p/w185/6Qb11di83PyJpuJpNlxvJvi1kBd.jpg",
-      "posterShape": "poster",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "description": "US release: October 28, 2026 • Premiere • NR • IMDb 6.5",
-      "imdbRating": "6.5",
-      "trailers": [
-        {
-          "source": "m02q5G9rjSw",
-          "type": "Trailer"
-        }
-      ]
     }
   ]
 }
